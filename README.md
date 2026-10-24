@@ -15,16 +15,20 @@ OpenRouter → Settings → Privacy: turn **OFF** "free endpoints that may train
 
 ## Run order for each model
 
-1. Smoke test (neutral + ethical). Continue only if `completion_rate` is 1.0 and there are no errors.
-2. Full run (neutral + ethical).
-3. If a run stops, resume it with the resume command (same folder), then delete the old partial log.
+1. Pilot run: category C1 (`killing_slaughter_method`), 1 epoch, neutral + ethical.
+2. Full run: all categories, 3 epochs, neutral + ethical.
+3. If a run stops, resume it into the same folder, then delete the old partial log:
+
+```bash
+uv run inspect eval-retry <partial-log.eval> --max-connections 2 --retry-on-error 5 --log-dir <same-folder-as-the-stopped-run>
+```
 
 ## 1. Nemotron 3 Ultra
 
-**Smoke test**
+**Pilot run**
 ```bash
-uv run inspect eval domains/menu_planning/eval/task.py@menu_planning --model openrouter/nvidia/nemotron-3-ultra-550b-a55b:free --limit 2 --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/smoke_test/nemotron-3-ultra/neutral
-uv run inspect eval domains/menu_planning/eval/task.py@menu_planning_welfare --model openrouter/nvidia/nemotron-3-ultra-550b-a55b:free --limit 2 --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/smoke_test/nemotron-3-ultra/ethical
+uv run inspect eval domains/menu_planning/eval/task.py@menu_planning --model openrouter/nvidia/nemotron-3-ultra-550b-a55b:free -T categories=killing_slaughter_method --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/pilot/nemotron-3-ultra/neutral
+uv run inspect eval domains/menu_planning/eval/task.py@menu_planning_welfare --model openrouter/nvidia/nemotron-3-ultra-550b-a55b:free -T categories=killing_slaughter_method --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/pilot/nemotron-3-ultra/ethical
 ```
 
 **Full run**
@@ -33,38 +37,12 @@ uv run inspect eval domains/menu_planning/eval/task.py@menu_planning --model ope
 uv run inspect eval domains/menu_planning/eval/task.py@menu_planning_welfare --model openrouter/nvidia/nemotron-3-ultra-550b-a55b:free --max-connections 2 --retry-on-error 5 --log-dir results/logs/final_v1.0/nemotron-3-ultra/ethical
 ```
 
-**Resume**
+## 2. Nemotron 3 Super
+
+**Pilot run**
 ```bash
-uv run inspect eval-retry <partial-log.eval> --max-connections 2 --retry-on-error 5 --log-dir results/logs/final_v1.0/nemotron-3-ultra/neutral
-uv run inspect eval-retry <partial-log.eval> --max-connections 2 --retry-on-error 5 --log-dir results/logs/final_v1.0/nemotron-3-ultra/ethical
-```
-
-## 2. Inkling
-
-**Smoke test**
-```bash
-uv run inspect eval domains/menu_planning/eval/task.py@menu_planning --model openrouter/thinkingmachines/inkling:free --limit 2 --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/smoke_test/inkling/neutral
-uv run inspect eval domains/menu_planning/eval/task.py@menu_planning_welfare --model openrouter/thinkingmachines/inkling:free --limit 2 --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/smoke_test/inkling/ethical
-```
-
-**Full run**
-```bash
-uv run inspect eval domains/menu_planning/eval/task.py@menu_planning --model openrouter/thinkingmachines/inkling:free --max-connections 2 --retry-on-error 5 --log-dir results/logs/final_v1.0/inkling/neutral
-uv run inspect eval domains/menu_planning/eval/task.py@menu_planning_welfare --model openrouter/thinkingmachines/inkling:free --max-connections 2 --retry-on-error 5 --log-dir results/logs/final_v1.0/inkling/ethical
-```
-
-**Resume**
-```bash
-uv run inspect eval-retry <partial-log.eval> --max-connections 2 --retry-on-error 5 --log-dir results/logs/final_v1.0/inkling/neutral
-uv run inspect eval-retry <partial-log.eval> --max-connections 2 --retry-on-error 5 --log-dir results/logs/final_v1.0/inkling/ethical
-```
-
-## 3. Nemotron 3 Super
-
-**Smoke test**
-```bash
-uv run inspect eval domains/menu_planning/eval/task.py@menu_planning --model openrouter/nvidia/nemotron-3-super-120b-a12b:free --limit 2 --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/smoke_test/nemotron-3-super/neutral
-uv run inspect eval domains/menu_planning/eval/task.py@menu_planning_welfare --model openrouter/nvidia/nemotron-3-super-120b-a12b:free --limit 2 --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/smoke_test/nemotron-3-super/ethical
+uv run inspect eval domains/menu_planning/eval/task.py@menu_planning --model openrouter/nvidia/nemotron-3-super-120b-a12b:free -T categories=killing_slaughter_method --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/pilot/nemotron-3-super/neutral
+uv run inspect eval domains/menu_planning/eval/task.py@menu_planning_welfare --model openrouter/nvidia/nemotron-3-super-120b-a12b:free -T categories=killing_slaughter_method --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/pilot/nemotron-3-super/ethical
 ```
 
 **Full run**
@@ -73,18 +51,12 @@ uv run inspect eval domains/menu_planning/eval/task.py@menu_planning --model ope
 uv run inspect eval domains/menu_planning/eval/task.py@menu_planning_welfare --model openrouter/nvidia/nemotron-3-super-120b-a12b:free --max-connections 2 --retry-on-error 5 --log-dir results/logs/final_v1.0/nemotron-3-super/ethical
 ```
 
-**Resume**
-```bash
-uv run inspect eval-retry <partial-log.eval> --max-connections 2 --retry-on-error 5 --log-dir results/logs/final_v1.0/nemotron-3-super/neutral
-uv run inspect eval-retry <partial-log.eval> --max-connections 2 --retry-on-error 5 --log-dir results/logs/final_v1.0/nemotron-3-super/ethical
-```
+## 3. Inkling Small
 
-## 4. Inkling Small
-
-**Smoke test**
+**Pilot run**
 ```bash
-uv run inspect eval domains/menu_planning/eval/task.py@menu_planning --model openrouter/thinkingmachines/inkling-small:free --limit 2 --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/smoke_test/inkling-small/neutral
-uv run inspect eval domains/menu_planning/eval/task.py@menu_planning_welfare --model openrouter/thinkingmachines/inkling-small:free --limit 2 --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/smoke_test/inkling-small/ethical
+uv run inspect eval domains/menu_planning/eval/task.py@menu_planning --model openrouter/thinkingmachines/inkling-small:free -T categories=killing_slaughter_method --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/pilot/inkling-small/neutral
+uv run inspect eval domains/menu_planning/eval/task.py@menu_planning_welfare --model openrouter/thinkingmachines/inkling-small:free -T categories=killing_slaughter_method --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/pilot/inkling-small/ethical
 ```
 
 **Full run**
@@ -93,18 +65,12 @@ uv run inspect eval domains/menu_planning/eval/task.py@menu_planning --model ope
 uv run inspect eval domains/menu_planning/eval/task.py@menu_planning_welfare --model openrouter/thinkingmachines/inkling-small:free --max-connections 2 --retry-on-error 5 --log-dir results/logs/final_v1.0/inkling-small/ethical
 ```
 
-**Resume**
-```bash
-uv run inspect eval-retry <partial-log.eval> --max-connections 2 --retry-on-error 5 --log-dir results/logs/final_v1.0/inkling-small/neutral
-uv run inspect eval-retry <partial-log.eval> --max-connections 2 --retry-on-error 5 --log-dir results/logs/final_v1.0/inkling-small/ethical
-```
+## 4. Xing4.0 29B
 
-## 5. Xing4.0 29B
-
-**Smoke test**
+**Pilot run**
 ```bash
-uv run inspect eval domains/menu_planning/eval/task.py@menu_planning --model openrouter/xingchen-agi/xing4.0-29b-a4b:free --limit 2 --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/smoke_test/xing4/neutral
-uv run inspect eval domains/menu_planning/eval/task.py@menu_planning_welfare --model openrouter/xingchen-agi/xing4.0-29b-a4b:free --limit 2 --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/smoke_test/xing4/ethical
+uv run inspect eval domains/menu_planning/eval/task.py@menu_planning --model openrouter/xingchen-agi/xing4.0-29b-a4b:free -T categories=killing_slaughter_method --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/pilot/xing4/neutral
+uv run inspect eval domains/menu_planning/eval/task.py@menu_planning_welfare --model openrouter/xingchen-agi/xing4.0-29b-a4b:free -T categories=killing_slaughter_method --epochs 1 --max-connections 2 --retry-on-error 5 --log-dir results/logs/pilot/xing4/ethical
 ```
 
 **Full run**
@@ -113,14 +79,8 @@ uv run inspect eval domains/menu_planning/eval/task.py@menu_planning --model ope
 uv run inspect eval domains/menu_planning/eval/task.py@menu_planning_welfare --model openrouter/xingchen-agi/xing4.0-29b-a4b:free --max-connections 2 --retry-on-error 5 --log-dir results/logs/final_v1.0/xing4/ethical
 ```
 
-**Resume**
-```bash
-uv run inspect eval-retry <partial-log.eval> --max-connections 2 --retry-on-error 5 --log-dir results/logs/final_v1.0/xing4/neutral
-uv run inspect eval-retry <partial-log.eval> --max-connections 2 --retry-on-error 5 --log-dir results/logs/final_v1.0/xing4/ethical
-```
-
 ## View results
 
 ```bash
-uv run inspect view --log-dir results/logs/final_v1.0
+uv run inspect view --log-dir results/logs
 ```
