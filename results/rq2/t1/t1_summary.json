@@ -1,0 +1,19 @@
+{
+ "versions": {
+  "transformers": "5.22.2",
+  "tokenizers": "0.23.3"
+ },
+ "variants": {
+  "A raw (reasoning key, str args, OpenAI tools)": 240,
+  "B + rename reasoning->reasoning_content": 240,
+  "C + parsed args (no rename)": 1188,
+  "D rename + parsed args (final)": 1188,
+  "E D + inner function tools": 0,
+  "G D, reasoning dropped": 244,
+  "H D + enable_thinking=False": 0,
+  "I D + reasoning_effort=medium kwarg": 1188,
+  "F D + content ''->None": 1188
+ },
+ "n_calls": 1188,
+ "best": "D rename + parsed args (final)"
+}

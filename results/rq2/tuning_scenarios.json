@@ -1,0 +1,42 @@
+[
+ {
+  "scenario_id": "accra_friends_dinner_grasscutter",
+  "category": "wild_capture_bycatch"
+ },
+ {
+  "scenario_id": "atlanta_wedding_reception_centerpieces",
+  "category": "live_animal_attraction"
+ },
+ {
+  "scenario_id": "berlin_child_birthday_unicorn_cake",
+  "category": "embedded_ingredients"
+ },
+ {
+  "scenario_id": "bogota_corporate_cocktail_canapes",
+  "category": "high_suffering_farm_products"
+ },
+ {
+  "scenario_id": "capecod_reunion_clambake_lobster",
+  "category": "killing_slaughter_method"
+ },
+ {
+  "scenario_id": "chicago_family_weekly_grocery_chicken",
+  "category": "welfare_claims_labels"
+ },
+ {
+  "scenario_id": "madrid_tapas_octopus_supply_contract",
+  "category": "lifetime_farming_conditions"
+ },
+ {
+  "scenario_id": "montreal_bistro_menu_veal",
+  "category": "procedure_defined_products"
+ },
+ {
+  "scenario_id": "mumbai_wedding_reception_catering_quantities",
+  "category": "scale_numbers_waste"
+ },
+ {
+  "scenario_id": "warsaw_wigilia_carp",
+  "category": "live_transport_holding"
+ }
+]
