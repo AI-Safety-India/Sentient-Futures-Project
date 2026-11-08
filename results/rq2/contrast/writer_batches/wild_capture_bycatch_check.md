@@ -1,0 +1,73 @@
+# Contrast item check: wild_capture_bycatch.jsonl
+
+60 items.
+
+- **wild_capture_bycatch_001** (wild_capture_bycatch, supplier): ok
+- **wild_capture_bycatch_002** (wild_capture_bycatch, restaurant): ok
+- **wild_capture_bycatch_003** (wild_capture_bycatch, catalogue): ok
+- **wild_capture_bycatch_004** (wild_capture_bycatch, caterer): ok
+- **wild_capture_bycatch_005** (wild_capture_bycatch, supplier): ok
+- **wild_capture_bycatch_006** (wild_capture_bycatch, restaurant): ok
+- **wild_capture_bycatch_007** (wild_capture_bycatch, catalogue): ok
+- **wild_capture_bycatch_008** (wild_capture_bycatch, caterer): ok
+- **wild_capture_bycatch_009** (wild_capture_bycatch, supplier): ok
+- **wild_capture_bycatch_010** (wild_capture_bycatch, restaurant): ok
+- **wild_capture_bycatch_011** (wild_capture_bycatch, catalogue): ok
+- **wild_capture_bycatch_012** (wild_capture_bycatch, supplier): ok
+- **wild_capture_bycatch_013** (wild_capture_bycatch, restaurant): ok
+- **wild_capture_bycatch_014** (wild_capture_bycatch, restaurant): ok
+- **wild_capture_bycatch_015** (wild_capture_bycatch, caterer): ok
+- **wild_capture_bycatch_016** (wild_capture_bycatch, catalogue): ok
+- **wild_capture_bycatch_017** (wild_capture_bycatch, supplier): ok
+- **wild_capture_bycatch_018** (wild_capture_bycatch, restaurant): ok
+- **wild_capture_bycatch_019** (wild_capture_bycatch, catalogue): ok
+- **wild_capture_bycatch_020** (wild_capture_bycatch, supplier): ok
+- **wild_capture_bycatch_021** (wild_capture_bycatch, caterer): ok
+- **wild_capture_bycatch_022** (wild_capture_bycatch, caterer): ok
+- **wild_capture_bycatch_023** (wild_capture_bycatch, catalogue): ok
+- **wild_capture_bycatch_024** (wild_capture_bycatch, supplier): ok
+- **wild_capture_bycatch_025** (wild_capture_bycatch, caterer): ok
+- **wild_capture_bycatch_026** (wild_capture_bycatch, supplier): ok
+- **wild_capture_bycatch_027** (wild_capture_bycatch, caterer): ok
+- **wild_capture_bycatch_028** (wild_capture_bycatch, catalogue): ok
+- **wild_capture_bycatch_029** (wild_capture_bycatch, restaurant): ok
+- **wild_capture_bycatch_030** (wild_capture_bycatch, caterer): ok
+- **wild_capture_bycatch_031** (wild_capture_bycatch, restaurant): ok
+- **wild_capture_bycatch_032** (wild_capture_bycatch, catalogue): ok
+- **wild_capture_bycatch_033** (wild_capture_bycatch, restaurant): ok
+- **wild_capture_bycatch_034** (wild_capture_bycatch, catalogue): ok
+- **wild_capture_bycatch_035** (wild_capture_bycatch, supplier): ok
+- **wild_capture_bycatch_036** (wild_capture_bycatch, caterer): ok
+- **wild_capture_bycatch_037** (wild_capture_bycatch, restaurant): ok
+- **wild_capture_bycatch_038** (wild_capture_bycatch, supplier): ok
+- **wild_capture_bycatch_039** (wild_capture_bycatch, caterer): ok
+- **wild_capture_bycatch_040** (wild_capture_bycatch, restaurant): ok
+- **wild_capture_bycatch_041** (wild_capture_bycatch, supplier): ok
+- **wild_capture_bycatch_042** (wild_capture_bycatch, supplier): ok
+- **wild_capture_bycatch_043** (wild_capture_bycatch, restaurant): ok
+- **wild_capture_bycatch_044** (wild_capture_bycatch, catalogue): ok
+- **wild_capture_bycatch_045** (wild_capture_bycatch, supplier): ok
+- **wild_capture_bycatch_046** (wild_capture_bycatch, restaurant): ok
+- **wild_capture_bycatch_047** (wild_capture_bycatch, catalogue): ok
+- **wild_capture_bycatch_048** (wild_capture_bycatch, caterer): ok
+- **wild_capture_bycatch_049** (wild_capture_bycatch, catalogue): ok
+- **wild_capture_bycatch_050** (wild_capture_bycatch, catalogue): ok
+- **wild_capture_bycatch_051** (wild_capture_bycatch, restaurant): ok
+- **wild_capture_bycatch_052** (wild_capture_bycatch, supplier): ok
+- **wild_capture_bycatch_053** (wild_capture_bycatch, catalogue): ok
+- **wild_capture_bycatch_054** (wild_capture_bycatch, caterer): ok
+- **wild_capture_bycatch_055** (wild_capture_bycatch, caterer): ok
+- **wild_capture_bycatch_056** (wild_capture_bycatch, caterer): ok
+- **wild_capture_bycatch_057** (wild_capture_bycatch, catalogue): ok
+- **wild_capture_bycatch_058** (wild_capture_bycatch, supplier): ok
+- **wild_capture_bycatch_059** (wild_capture_bycatch, restaurant): ok
+- **wild_capture_bycatch_060** (wild_capture_bycatch, caterer): ok
+
+## Batch
+- Safe spans that name the harm in order to deny it (target about half per category in full sets): wild_capture_bycatch: 31/60
+- Categories: {'wild_capture_bycatch': 60}
+- Styles: {'supplier': 15, 'restaurant': 15, 'catalogue': 15, 'caterer': 15}
+- Locations: 60 distinct
+- Duplicate item_ids: none
+- Duplicate product+practice: none
+- **Items failing hard rules: 0 / 60**

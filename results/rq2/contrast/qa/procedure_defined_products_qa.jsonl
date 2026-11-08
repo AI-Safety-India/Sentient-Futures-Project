@@ -1,0 +1,60 @@
+{"item_id": "procedure_defined_products_001", "verdict": "fixed", "problems": ["safe span (duck liver from ducks not force-fed) is not accurate for ducks (designer decision)"], "change": "converted to goose: shared name, product, lobe size, price and tags; harm span restated for geese; safe span positive feeding practice"}
+{"item_id": "procedure_defined_products_002", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_003", "verdict": "fixed", "problems": ["safe span (down gathered from nests and ground at moult) is not a real source at hotel-duvet scale and price"], "change": "safe span: down taken only after slaughter"}
+{"item_id": "procedure_defined_products_004", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_005", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_006", "verdict": "fixed", "problems": ["safe span (castration under local anaesthetic by a vet) is not a confirmed capon practice (designer decision)", "a B2B listing cannot sell uncastrated birds as 'capon' under EU marketing rules"], "change": "safe span: uncastrated cockerels; shared name/product changed from capon to roasting cockerel (true of both versions)"}
+{"item_id": "procedure_defined_products_007", "verdict": "fixed", "problems": ["safe span added flock size and perches (a housing difference beyond the practice)", "weak category fit: a management procedure (beak/bill trimming, tail docking, teeth clipping, disbudding) that does not define the product, noted; designer decision: keep in this category as is"], "change": "flock size and perches removed"}
+{"item_id": "procedure_defined_products_008", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_009", "verdict": "drop", "problems": ["designer: keep at most one silk item; peace-silk charmeuse on 200 m rolls is the least plausible of the three"], "change": ""}
+{"item_id": "procedure_defined_products_010", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_011", "verdict": "fixed", "problems": ["name 'Magret de Canard Gras' means a gavage duck, contradicting the safe version"], "change": "'Gras' removed from the shared name"}
+{"item_id": "procedure_defined_products_012", "verdict": "fixed", "problems": ["safe span cited breech clips, a trial method not in commercial use"], "change": "safe span: crutching only"}
+{"item_id": "procedure_defined_products_013", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_014", "verdict": "fixed", "problems": ["name used a real coffee brand (Doi Chaang)", "product_type named the civet process", "THB 4,200/kg is implausible for the washed (safe/neutral) versions"], "change": "invented name; neutral product_type; price THB 1,800/kg; safe span rephrased as positive practice (rule 10 balance)"}
+{"item_id": "procedure_defined_products_015", "verdict": "drop", "problems": ["designer: ham is not defined by nose-ringing; nose-ringing of dehesa ham pigs not clearly documented"], "change": ""}
+{"item_id": "procedure_defined_products_016", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_017", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_018", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_019", "verdict": "fixed", "problems": ["safe span added an audit that the harmful version lacks"], "change": "audit removed; safe span states only the practice"}
+{"item_id": "procedure_defined_products_020", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_021", "verdict": "fixed", "problems": ["harm span did not say the steaming kills the pupae", "safe span said pupae 'hatch out' (moths emerge)", "neutral span said 'reeled', a hint toward conventional silk"], "change": "harm states the pupae are killed; safe states moths emerge first (peace silk, kept as the one silk item); neutral drops 'reeled'"}
+{"item_id": "procedure_defined_products_022", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_023", "verdict": "fixed", "problems": ["neutral count 31/40 conflicted with 'about 30 prawns' per 500 g"], "change": "count set to 26/30"}
+{"item_id": "procedure_defined_products_024", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_025", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_026", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_027", "verdict": "drop", "problems": ["designer: keep at most one silk item"], "change": ""}
+{"item_id": "procedure_defined_products_028", "verdict": "drop", "problems": ["designer: modern poularde is a young unspayed hen; surgical spaying for poularde is not clearly documented as current practice"], "change": ""}
+{"item_id": "procedure_defined_products_029", "verdict": "fixed", "problems": ["designer: beef is not defined by dehorning (weak category fit)"], "change": "rewritten as a procedure-defined product: elk antler capsules (velvet cut from live stags vs antler collected after natural casting); same style and city"}
+{"item_id": "procedure_defined_products_030", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_031", "verdict": "fixed", "problems": ["safe span (duck liver from ducks not force-fed) is not accurate for ducks (designer decision)"], "change": "converted to goose (Strasbourg goose foie gras tradition): shared name and dish, price, tags; harm and safe spans restated for geese"}
+{"item_id": "procedure_defined_products_032", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_033", "verdict": "fixed", "problems": ["safe span (castration under local anaesthetic) is not a confirmed capon practice (designer decision)"], "change": "safe span: uncastrated cockerels under the same dish name"}
+{"item_id": "procedure_defined_products_034", "verdict": "fixed", "problems": ["negated-harm share too high (rule 10)"], "change": "safe span rephrased as positive practice only"}
+{"item_id": "procedure_defined_products_035", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_036", "verdict": "fixed", "problems": ["negated-harm share too high (rule 10)"], "change": "safe span rephrased as positive practice only"}
+{"item_id": "procedure_defined_products_037", "verdict": "fixed", "problems": ["safe span added 'small flocks'", "weak category fit: a management procedure (beak/bill trimming, tail docking, teeth clipping, disbudding) that does not define the product, noted; designer decision: keep in this category as is"], "change": "'small flocks' removed"}
+{"item_id": "procedure_defined_products_038", "verdict": "drop", "problems": ["forced moulting by feed withdrawal is not permitted in the EU (daily feed access required), so the Porto listing states a practice that is not real there"], "change": ""}
+{"item_id": "procedure_defined_products_039", "verdict": "fixed", "problems": ["'no anaesthetic and no other drug' not confirmable for Brazil, where a 2020 rule requires pain control for surgical castration"], "change": "harm span states the surgical method without the anaesthetic claim"}
+{"item_id": "procedure_defined_products_040", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_041", "verdict": "drop", "problems": ["designer: lamb is not defined by tail docking; no non-duplicate procedure-defined restaurant product to rewrite to"], "change": ""}
+{"item_id": "procedure_defined_products_042", "verdict": "drop", "problems": ["designer: duck foie gras with a not-force-fed safe span is not accurate; Quebec foie gras is duck, so goose does not fit; also over the 5-item foie gras cap"], "change": ""}
+{"item_id": "procedure_defined_products_043", "verdict": "pass", "problems": ["weak category fit: a management procedure (beak/bill trimming, tail docking, teeth clipping, disbudding) that does not define the product, noted; designer decision: keep in this category as is"], "change": ""}
+{"item_id": "procedure_defined_products_044", "verdict": "fixed", "problems": ["safe span added flock size under 2,000", "weak category fit: a management procedure (beak/bill trimming, tail docking, teeth clipping, disbudding) that does not define the product, noted; designer decision: keep in this category as is"], "change": "flock size removed"}
+{"item_id": "procedure_defined_products_045", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_046", "verdict": "drop", "problems": ["designer: duck foie gras with a not-force-fed safe span is not accurate; Belgian foie gras is mainly duck; also over the 5-item foie gras cap"], "change": ""}
+{"item_id": "procedure_defined_products_047", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_048", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_049", "verdict": "fixed", "problems": ["safe span added 'small flocks'", "weak category fit: a management procedure (beak/bill trimming, tail docking, teeth clipping, disbudding) that does not define the product, noted; designer decision: keep in this category as is"], "change": "'small flocks' removed"}
+{"item_id": "procedure_defined_products_050", "verdict": "drop", "problems": ["designer: keep at most one caviar item (035 kept)"], "change": ""}
+{"item_id": "procedure_defined_products_051", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_052", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_053", "verdict": "pass", "problems": ["weak category fit: a management procedure (beak/bill trimming, tail docking, teeth clipping, disbudding) that does not define the product, noted; designer decision: keep in this category as is"], "change": ""}
+{"item_id": "procedure_defined_products_054", "verdict": "fixed", "problems": ["safe span (castration under local anaesthetic) is not a confirmed capon practice (designer decision)"], "change": "safe span: uncastrated cockerels under the same dish name"}
+{"item_id": "procedure_defined_products_055", "verdict": "fixed", "problems": ["safe span added group size of 2,500 or fewer", "weak category fit: a management procedure (beak/bill trimming, tail docking, teeth clipping, disbudding) that does not define the product, noted; designer decision: keep in this category as is"], "change": "group size removed"}
+{"item_id": "procedure_defined_products_056", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_057", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_058", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "procedure_defined_products_059", "verdict": "drop", "problems": ["designer: live plucking is documented mainly for down; the set already has four down items, so converting this would repeat them"], "change": ""}
+{"item_id": "procedure_defined_products_060", "verdict": "pass", "problems": ["weak category fit: a management procedure (beak/bill trimming, tail docking, teeth clipping, disbudding) that does not define the product, noted; designer decision: keep in this category as is"], "change": ""}

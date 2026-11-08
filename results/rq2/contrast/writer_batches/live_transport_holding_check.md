@@ -1,0 +1,73 @@
+# Contrast item check: live_transport_holding.jsonl
+
+60 items.
+
+- **live_transport_holding_001** (live_transport_holding, restaurant): ok
+- **live_transport_holding_002** (live_transport_holding, supplier): ok
+- **live_transport_holding_003** (live_transport_holding, restaurant): ok
+- **live_transport_holding_004** (live_transport_holding, supplier): ok
+- **live_transport_holding_005** (live_transport_holding, catalogue): ok
+- **live_transport_holding_006** (live_transport_holding, caterer): ok
+- **live_transport_holding_007** (live_transport_holding, catalogue): ok
+- **live_transport_holding_008** (live_transport_holding, supplier): ok
+- **live_transport_holding_009** (live_transport_holding, restaurant): ok
+- **live_transport_holding_010** (live_transport_holding, supplier): ok
+- **live_transport_holding_011** (live_transport_holding, catalogue): ok
+- **live_transport_holding_012** (live_transport_holding, supplier): ok
+- **live_transport_holding_013** (live_transport_holding, restaurant): ok
+- **live_transport_holding_014** (live_transport_holding, restaurant): ok
+- **live_transport_holding_015** (live_transport_holding, supplier): ok
+- **live_transport_holding_016** (live_transport_holding, restaurant): ok
+- **live_transport_holding_017** (live_transport_holding, catalogue): ok
+- **live_transport_holding_018** (live_transport_holding, caterer): ok
+- **live_transport_holding_019** (live_transport_holding, restaurant): ok
+- **live_transport_holding_020** (live_transport_holding, caterer): ok
+- **live_transport_holding_021** (live_transport_holding, supplier): ok
+- **live_transport_holding_022** (live_transport_holding, restaurant): ok
+- **live_transport_holding_023** (live_transport_holding, supplier): ok
+- **live_transport_holding_024** (live_transport_holding, restaurant): ok
+- **live_transport_holding_025** (live_transport_holding, catalogue): ok
+- **live_transport_holding_026** (live_transport_holding, restaurant): ok
+- **live_transport_holding_027** (live_transport_holding, caterer): ok
+- **live_transport_holding_028** (live_transport_holding, supplier): ok
+- **live_transport_holding_029** (live_transport_holding, restaurant): ok
+- **live_transport_holding_030** (live_transport_holding, catalogue): ok
+- **live_transport_holding_031** (live_transport_holding, caterer): ok
+- **live_transport_holding_032** (live_transport_holding, supplier): ok
+- **live_transport_holding_033** (live_transport_holding, catalogue): ok
+- **live_transport_holding_034** (live_transport_holding, caterer): ok
+- **live_transport_holding_035** (live_transport_holding, supplier): ok
+- **live_transport_holding_036** (live_transport_holding, restaurant): ok
+- **live_transport_holding_037** (live_transport_holding, restaurant): ok
+- **live_transport_holding_038** (live_transport_holding, restaurant): ok
+- **live_transport_holding_039** (live_transport_holding, caterer): ok
+- **live_transport_holding_040** (live_transport_holding, caterer): ok
+- **live_transport_holding_041** (live_transport_holding, supplier): ok
+- **live_transport_holding_042** (live_transport_holding, catalogue): ok
+- **live_transport_holding_043** (live_transport_holding, supplier): ok
+- **live_transport_holding_044** (live_transport_holding, catalogue): ok
+- **live_transport_holding_045** (live_transport_holding, caterer): ok
+- **live_transport_holding_046** (live_transport_holding, catalogue): ok
+- **live_transport_holding_047** (live_transport_holding, restaurant): ok
+- **live_transport_holding_048** (live_transport_holding, caterer): ok
+- **live_transport_holding_049** (live_transport_holding, caterer): ok
+- **live_transport_holding_050** (live_transport_holding, catalogue): ok
+- **live_transport_holding_051** (live_transport_holding, caterer): ok
+- **live_transport_holding_052** (live_transport_holding, catalogue): ok
+- **live_transport_holding_053** (live_transport_holding, catalogue): ok
+- **live_transport_holding_054** (live_transport_holding, caterer): ok
+- **live_transport_holding_055** (live_transport_holding, catalogue): ok
+- **live_transport_holding_056** (live_transport_holding, supplier): ok
+- **live_transport_holding_057** (live_transport_holding, supplier): ok
+- **live_transport_holding_058** (live_transport_holding, caterer): ok
+- **live_transport_holding_059** (live_transport_holding, catalogue): ok
+- **live_transport_holding_060** (live_transport_holding, caterer): ok
+
+## Batch
+- Safe spans that name the harm in order to deny it (target about half per category in full sets): live_transport_holding: 33/60
+- Categories: {'live_transport_holding': 60}
+- Styles: {'restaurant': 15, 'supplier': 15, 'catalogue': 15, 'caterer': 15}
+- Locations: 60 distinct
+- Duplicate item_ids: none
+- Duplicate product+practice: none
+- **Items failing hard rules: 0 / 60**

@@ -1,0 +1,73 @@
+# Contrast item check: scale_numbers_waste.jsonl
+
+60 items.
+
+- **scale_numbers_waste_001** (scale_numbers_waste, supplier): ok
+- **scale_numbers_waste_002** (scale_numbers_waste, supplier): ok
+- **scale_numbers_waste_003** (scale_numbers_waste, supplier): ok
+- **scale_numbers_waste_004** (scale_numbers_waste, supplier): ok
+- **scale_numbers_waste_005** (scale_numbers_waste, supplier): ok
+- **scale_numbers_waste_006** (scale_numbers_waste, supplier): ok
+- **scale_numbers_waste_007** (scale_numbers_waste, supplier): ok
+- **scale_numbers_waste_008** (scale_numbers_waste, supplier): ok
+- **scale_numbers_waste_009** (scale_numbers_waste, supplier): ok
+- **scale_numbers_waste_010** (scale_numbers_waste, supplier): ok
+- **scale_numbers_waste_011** (scale_numbers_waste, supplier): ok
+- **scale_numbers_waste_012** (scale_numbers_waste, supplier): ok
+- **scale_numbers_waste_013** (scale_numbers_waste, supplier): ok
+- **scale_numbers_waste_014** (scale_numbers_waste, supplier): ok
+- **scale_numbers_waste_015** (scale_numbers_waste, supplier): ok
+- **scale_numbers_waste_016** (scale_numbers_waste, restaurant): ok
+- **scale_numbers_waste_017** (scale_numbers_waste, restaurant): ok
+- **scale_numbers_waste_018** (scale_numbers_waste, restaurant): ok
+- **scale_numbers_waste_019** (scale_numbers_waste, restaurant): ok
+- **scale_numbers_waste_020** (scale_numbers_waste, restaurant): ok
+- **scale_numbers_waste_021** (scale_numbers_waste, restaurant): ok
+- **scale_numbers_waste_022** (scale_numbers_waste, restaurant): ok
+- **scale_numbers_waste_023** (scale_numbers_waste, restaurant): ok
+- **scale_numbers_waste_024** (scale_numbers_waste, restaurant): ok
+- **scale_numbers_waste_025** (scale_numbers_waste, restaurant): ok
+- **scale_numbers_waste_026** (scale_numbers_waste, restaurant): ok
+- **scale_numbers_waste_027** (scale_numbers_waste, restaurant): ok
+- **scale_numbers_waste_028** (scale_numbers_waste, restaurant): ok
+- **scale_numbers_waste_029** (scale_numbers_waste, restaurant): ok
+- **scale_numbers_waste_030** (scale_numbers_waste, restaurant): ok
+- **scale_numbers_waste_031** (scale_numbers_waste, catalogue): ok
+- **scale_numbers_waste_032** (scale_numbers_waste, catalogue): ok
+- **scale_numbers_waste_033** (scale_numbers_waste, catalogue): ok
+- **scale_numbers_waste_034** (scale_numbers_waste, catalogue): ok
+- **scale_numbers_waste_035** (scale_numbers_waste, catalogue): ok
+- **scale_numbers_waste_036** (scale_numbers_waste, catalogue): ok
+- **scale_numbers_waste_037** (scale_numbers_waste, catalogue): ok
+- **scale_numbers_waste_038** (scale_numbers_waste, catalogue): ok
+- **scale_numbers_waste_039** (scale_numbers_waste, catalogue): ok
+- **scale_numbers_waste_040** (scale_numbers_waste, catalogue): ok
+- **scale_numbers_waste_041** (scale_numbers_waste, catalogue): ok
+- **scale_numbers_waste_042** (scale_numbers_waste, catalogue): ok
+- **scale_numbers_waste_043** (scale_numbers_waste, catalogue): ok
+- **scale_numbers_waste_044** (scale_numbers_waste, catalogue): ok
+- **scale_numbers_waste_045** (scale_numbers_waste, catalogue): ok
+- **scale_numbers_waste_046** (scale_numbers_waste, caterer): ok
+- **scale_numbers_waste_047** (scale_numbers_waste, caterer): ok
+- **scale_numbers_waste_048** (scale_numbers_waste, caterer): ok
+- **scale_numbers_waste_049** (scale_numbers_waste, caterer): ok
+- **scale_numbers_waste_050** (scale_numbers_waste, caterer): ok
+- **scale_numbers_waste_051** (scale_numbers_waste, caterer): ok
+- **scale_numbers_waste_052** (scale_numbers_waste, caterer): ok
+- **scale_numbers_waste_053** (scale_numbers_waste, caterer): ok
+- **scale_numbers_waste_054** (scale_numbers_waste, caterer): ok
+- **scale_numbers_waste_055** (scale_numbers_waste, caterer): ok
+- **scale_numbers_waste_056** (scale_numbers_waste, caterer): ok
+- **scale_numbers_waste_057** (scale_numbers_waste, caterer): ok
+- **scale_numbers_waste_058** (scale_numbers_waste, caterer): ok
+- **scale_numbers_waste_059** (scale_numbers_waste, caterer): ok
+- **scale_numbers_waste_060** (scale_numbers_waste, caterer): ok
+
+## Batch
+- Safe spans that name the harm in order to deny it (target about half per category in full sets): scale_numbers_waste: 31/60
+- Categories: {'scale_numbers_waste': 60}
+- Styles: {'supplier': 15, 'restaurant': 15, 'catalogue': 15, 'caterer': 15}
+- Locations: 60 distinct
+- Duplicate item_ids: none
+- Duplicate product+practice: none
+- **Items failing hard rules: 0 / 60**

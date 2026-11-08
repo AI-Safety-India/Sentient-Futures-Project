@@ -1,0 +1,73 @@
+# Contrast item check: killing_slaughter_method.jsonl
+
+60 items.
+
+- **killing_slaughter_method_001** (killing_slaughter_method, supplier): ok
+- **killing_slaughter_method_002** (killing_slaughter_method, restaurant): ok
+- **killing_slaughter_method_003** (killing_slaughter_method, catalogue): ok
+- **killing_slaughter_method_004** (killing_slaughter_method, caterer): ok
+- **killing_slaughter_method_005** (killing_slaughter_method, supplier): ok
+- **killing_slaughter_method_006** (killing_slaughter_method, restaurant): ok
+- **killing_slaughter_method_007** (killing_slaughter_method, catalogue): ok
+- **killing_slaughter_method_008** (killing_slaughter_method, caterer): ok
+- **killing_slaughter_method_009** (killing_slaughter_method, supplier): ok
+- **killing_slaughter_method_010** (killing_slaughter_method, restaurant): ok
+- **killing_slaughter_method_011** (killing_slaughter_method, catalogue): ok
+- **killing_slaughter_method_012** (killing_slaughter_method, caterer): ok
+- **killing_slaughter_method_013** (killing_slaughter_method, supplier): ok
+- **killing_slaughter_method_014** (killing_slaughter_method, restaurant): ok
+- **killing_slaughter_method_015** (killing_slaughter_method, catalogue): ok
+- **killing_slaughter_method_016** (killing_slaughter_method, caterer): ok
+- **killing_slaughter_method_017** (killing_slaughter_method, supplier): ok
+- **killing_slaughter_method_018** (killing_slaughter_method, restaurant): ok
+- **killing_slaughter_method_019** (killing_slaughter_method, catalogue): ok
+- **killing_slaughter_method_020** (killing_slaughter_method, caterer): ok
+- **killing_slaughter_method_021** (killing_slaughter_method, supplier): ok
+- **killing_slaughter_method_022** (killing_slaughter_method, restaurant): ok
+- **killing_slaughter_method_023** (killing_slaughter_method, catalogue): ok
+- **killing_slaughter_method_024** (killing_slaughter_method, caterer): ok
+- **killing_slaughter_method_025** (killing_slaughter_method, supplier): ok
+- **killing_slaughter_method_026** (killing_slaughter_method, restaurant): ok
+- **killing_slaughter_method_027** (killing_slaughter_method, catalogue): ok
+- **killing_slaughter_method_028** (killing_slaughter_method, caterer): ok
+- **killing_slaughter_method_029** (killing_slaughter_method, supplier): ok
+- **killing_slaughter_method_030** (killing_slaughter_method, restaurant): ok
+- **killing_slaughter_method_031** (killing_slaughter_method, catalogue): ok
+- **killing_slaughter_method_032** (killing_slaughter_method, caterer): ok
+- **killing_slaughter_method_033** (killing_slaughter_method, supplier): ok
+- **killing_slaughter_method_034** (killing_slaughter_method, restaurant): ok
+- **killing_slaughter_method_035** (killing_slaughter_method, catalogue): ok
+- **killing_slaughter_method_036** (killing_slaughter_method, caterer): ok
+- **killing_slaughter_method_037** (killing_slaughter_method, supplier): ok
+- **killing_slaughter_method_038** (killing_slaughter_method, restaurant): ok
+- **killing_slaughter_method_039** (killing_slaughter_method, catalogue): ok
+- **killing_slaughter_method_040** (killing_slaughter_method, caterer): ok
+- **killing_slaughter_method_041** (killing_slaughter_method, supplier): ok
+- **killing_slaughter_method_042** (killing_slaughter_method, restaurant): ok
+- **killing_slaughter_method_043** (killing_slaughter_method, catalogue): ok
+- **killing_slaughter_method_044** (killing_slaughter_method, caterer): ok
+- **killing_slaughter_method_045** (killing_slaughter_method, supplier): ok
+- **killing_slaughter_method_046** (killing_slaughter_method, restaurant): ok
+- **killing_slaughter_method_047** (killing_slaughter_method, catalogue): ok
+- **killing_slaughter_method_048** (killing_slaughter_method, caterer): ok
+- **killing_slaughter_method_049** (killing_slaughter_method, supplier): ok
+- **killing_slaughter_method_050** (killing_slaughter_method, restaurant): ok
+- **killing_slaughter_method_051** (killing_slaughter_method, catalogue): ok
+- **killing_slaughter_method_052** (killing_slaughter_method, caterer): ok
+- **killing_slaughter_method_053** (killing_slaughter_method, supplier): ok
+- **killing_slaughter_method_054** (killing_slaughter_method, restaurant): ok
+- **killing_slaughter_method_055** (killing_slaughter_method, catalogue): ok
+- **killing_slaughter_method_056** (killing_slaughter_method, caterer): ok
+- **killing_slaughter_method_057** (killing_slaughter_method, supplier): ok
+- **killing_slaughter_method_058** (killing_slaughter_method, restaurant): ok
+- **killing_slaughter_method_059** (killing_slaughter_method, catalogue): ok
+- **killing_slaughter_method_060** (killing_slaughter_method, caterer): ok
+
+## Batch
+- Safe spans that name the harm in order to deny it (target about half per category in full sets): killing_slaughter_method: 30/60
+- Categories: {'killing_slaughter_method': 60}
+- Styles: {'supplier': 15, 'restaurant': 15, 'catalogue': 15, 'caterer': 15}
+- Locations: 60 distinct
+- Duplicate item_ids: none
+- Duplicate product+practice: none
+- **Items failing hard rules: 0 / 60**

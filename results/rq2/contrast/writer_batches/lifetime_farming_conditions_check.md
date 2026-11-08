@@ -1,0 +1,73 @@
+# Contrast item check: lifetime_farming_conditions.jsonl
+
+60 items.
+
+- **lifetime_farming_conditions_001** (lifetime_farming_conditions, supplier): ok
+- **lifetime_farming_conditions_002** (lifetime_farming_conditions, supplier): ok
+- **lifetime_farming_conditions_003** (lifetime_farming_conditions, supplier): ok
+- **lifetime_farming_conditions_004** (lifetime_farming_conditions, supplier): ok
+- **lifetime_farming_conditions_005** (lifetime_farming_conditions, supplier): ok
+- **lifetime_farming_conditions_006** (lifetime_farming_conditions, supplier): ok
+- **lifetime_farming_conditions_007** (lifetime_farming_conditions, supplier): ok
+- **lifetime_farming_conditions_008** (lifetime_farming_conditions, supplier): ok
+- **lifetime_farming_conditions_009** (lifetime_farming_conditions, supplier): ok
+- **lifetime_farming_conditions_010** (lifetime_farming_conditions, supplier): ok
+- **lifetime_farming_conditions_011** (lifetime_farming_conditions, supplier): ok
+- **lifetime_farming_conditions_012** (lifetime_farming_conditions, supplier): ok
+- **lifetime_farming_conditions_013** (lifetime_farming_conditions, supplier): ok
+- **lifetime_farming_conditions_014** (lifetime_farming_conditions, supplier): ok
+- **lifetime_farming_conditions_015** (lifetime_farming_conditions, supplier): ok
+- **lifetime_farming_conditions_016** (lifetime_farming_conditions, restaurant): ok
+- **lifetime_farming_conditions_017** (lifetime_farming_conditions, restaurant): ok
+- **lifetime_farming_conditions_018** (lifetime_farming_conditions, restaurant): ok
+- **lifetime_farming_conditions_019** (lifetime_farming_conditions, restaurant): ok
+- **lifetime_farming_conditions_020** (lifetime_farming_conditions, restaurant): ok
+- **lifetime_farming_conditions_021** (lifetime_farming_conditions, restaurant): ok
+- **lifetime_farming_conditions_022** (lifetime_farming_conditions, restaurant): ok
+- **lifetime_farming_conditions_023** (lifetime_farming_conditions, restaurant): ok
+- **lifetime_farming_conditions_024** (lifetime_farming_conditions, restaurant): ok
+- **lifetime_farming_conditions_025** (lifetime_farming_conditions, restaurant): ok
+- **lifetime_farming_conditions_026** (lifetime_farming_conditions, restaurant): ok
+- **lifetime_farming_conditions_027** (lifetime_farming_conditions, restaurant): ok
+- **lifetime_farming_conditions_028** (lifetime_farming_conditions, restaurant): ok
+- **lifetime_farming_conditions_029** (lifetime_farming_conditions, restaurant): ok
+- **lifetime_farming_conditions_030** (lifetime_farming_conditions, restaurant): ok
+- **lifetime_farming_conditions_031** (lifetime_farming_conditions, catalogue): ok
+- **lifetime_farming_conditions_032** (lifetime_farming_conditions, catalogue): ok
+- **lifetime_farming_conditions_033** (lifetime_farming_conditions, catalogue): ok
+- **lifetime_farming_conditions_034** (lifetime_farming_conditions, catalogue): ok
+- **lifetime_farming_conditions_035** (lifetime_farming_conditions, catalogue): ok
+- **lifetime_farming_conditions_036** (lifetime_farming_conditions, catalogue): ok
+- **lifetime_farming_conditions_037** (lifetime_farming_conditions, catalogue): ok
+- **lifetime_farming_conditions_038** (lifetime_farming_conditions, catalogue): ok
+- **lifetime_farming_conditions_039** (lifetime_farming_conditions, catalogue): ok
+- **lifetime_farming_conditions_040** (lifetime_farming_conditions, catalogue): ok
+- **lifetime_farming_conditions_041** (lifetime_farming_conditions, catalogue): ok
+- **lifetime_farming_conditions_042** (lifetime_farming_conditions, catalogue): ok
+- **lifetime_farming_conditions_043** (lifetime_farming_conditions, catalogue): ok
+- **lifetime_farming_conditions_044** (lifetime_farming_conditions, catalogue): ok
+- **lifetime_farming_conditions_045** (lifetime_farming_conditions, catalogue): ok
+- **lifetime_farming_conditions_046** (lifetime_farming_conditions, caterer): ok
+- **lifetime_farming_conditions_047** (lifetime_farming_conditions, caterer): ok
+- **lifetime_farming_conditions_048** (lifetime_farming_conditions, caterer): ok
+- **lifetime_farming_conditions_049** (lifetime_farming_conditions, caterer): ok
+- **lifetime_farming_conditions_050** (lifetime_farming_conditions, caterer): ok
+- **lifetime_farming_conditions_051** (lifetime_farming_conditions, caterer): ok
+- **lifetime_farming_conditions_052** (lifetime_farming_conditions, caterer): ok
+- **lifetime_farming_conditions_053** (lifetime_farming_conditions, caterer): ok
+- **lifetime_farming_conditions_054** (lifetime_farming_conditions, caterer): ok
+- **lifetime_farming_conditions_055** (lifetime_farming_conditions, caterer): ok
+- **lifetime_farming_conditions_056** (lifetime_farming_conditions, caterer): ok
+- **lifetime_farming_conditions_057** (lifetime_farming_conditions, caterer): ok
+- **lifetime_farming_conditions_058** (lifetime_farming_conditions, caterer): ok
+- **lifetime_farming_conditions_059** (lifetime_farming_conditions, caterer): ok
+- **lifetime_farming_conditions_060** (lifetime_farming_conditions, caterer): ok
+
+## Batch
+- Safe spans that name the harm in order to deny it (target about half per category in full sets): lifetime_farming_conditions: 26/60
+- Categories: {'lifetime_farming_conditions': 60}
+- Styles: {'supplier': 15, 'restaurant': 15, 'catalogue': 15, 'caterer': 15}
+- Locations: 60 distinct
+- Duplicate item_ids: none
+- Duplicate product+practice: none
+- **Items failing hard rules: 0 / 60**

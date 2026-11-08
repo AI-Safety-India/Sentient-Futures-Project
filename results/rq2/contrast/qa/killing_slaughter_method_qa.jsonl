@@ -1,0 +1,60 @@
+{"item_id": "killing_slaughter_method_001", "verdict": "fixed", "problems": ["clusters described as 1-1.4 kg each (that is whole-crab weight); price too low for cooked Dungeness"], "change": "shared text: weights refer to whole crabs, duplicate 'split' wording removed; price 14.8 -> 31.5"}
+{"item_id": "killing_slaughter_method_002", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_003", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_004", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_005", "verdict": "fixed", "problems": ["WA rock lobster are landed live and tailed at processors, not frozen on the boat"], "change": "all three spans: 'on the boat' -> 'at the plant in Geraldton'"}
+{"item_id": "killing_slaughter_method_006", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_007", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_008", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_009", "verdict": "fixed", "problems": ["harm wording duplicates 006/051 template", "electric-stun safe span repeated across ~13 crustacean items"], "change": "harm reworded; safe switched to spiking both nerve centres (documented crab kill method)"}
+{"item_id": "killing_slaughter_method_010", "verdict": "fixed", "problems": ["'drowned in fresh water for 30 minutes' not confirmable (freshwater death in crabs takes much longer)", "neutral 'rinsed under cold water for 30 minutes' implausible"], "change": "harm: left in fresh water until it drowns, no duration; neutral: scrubbed under cold water"}
+{"item_id": "killing_slaughter_method_011", "verdict": "fixed", "problems": ["neutral span carries treatment info (claws bound)", "implausible: curry-cut crab is cut raw, not boiled before sale"], "change": "harm now live cutting with a cleaver; neutral drops binding; safe spikes nerve centres before cutting"}
+{"item_id": "killing_slaughter_method_012", "verdict": "fixed", "problems": ["farmed shrimp sorted 'on the pier' inconsistent with pond harvest", "neutral 'packed in ice' could read as the ice-slurry kill"], "change": "all spans: pier -> pond; neutral packing changed to insulated boxes"}
+{"item_id": "killing_slaughter_method_013", "verdict": "fixed", "problems": ["harm not confirmable: Mekong pangasius are carried to the plant and killed there, not left to die on the pond bank"], "change": "harm now unstunned gill cut at the plant; safe in-water electric stun before the gill cut; shared text adjusted"}
+{"item_id": "killing_slaughter_method_014", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_015", "verdict": "fixed", "problems": ["'20 minutes until they die' not confirmable", "price too low for two whole bream in 2026 TRY"], "change": "duration removed from harm; price 215 -> 420 TRY (shared text and free-shipping threshold updated)"}
+{"item_id": "killing_slaughter_method_016", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_017", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_018", "verdict": "fixed", "problems": ["food trout come from farms, not a 'hatchery'"], "change": "spans: hatchery -> farm in Hagerman / processing plant"}
+{"item_id": "killing_slaughter_method_019", "verdict": "fixed", "problems": ["near-identical wording to 014 (dry baskets, asphyxiate, blow to head)"], "change": "harm and safe reworded to canoe landing; neutral adjusted"}
+{"item_id": "killing_slaughter_method_020", "verdict": "drop", "problems": ["harm not confirmable: US catfish are hauled live to plants and stunned there; pond ice-water kill is not a documented norm", "near-duplicate of other ice-water fish items"], "change": ""}
+{"item_id": "killing_slaughter_method_021", "verdict": "fixed", "problems": ["price too low for lamb in TRY in 2026"], "change": "price 395 -> 690"}
+{"item_id": "killing_slaughter_method_022", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_023", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_024", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_025", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_026", "verdict": "fixed", "problems": ["weak contrast as written (both are stuns); hammer wording vague", "price low for ARS in 2026"], "change": "harm states sledgehammer blows by hand, sometimes more than one; safe states a single captive-bolt shot with reflex check; price 24500 -> 52000"}
+{"item_id": "killing_slaughter_method_027", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_028", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_029", "verdict": "fixed", "problems": ["harm of high-concentration CO2 not visible to an ordinary reader"], "change": "harm adds that pigs are conscious when they start breathing the gas"}
+{"item_id": "killing_slaughter_method_030", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_031", "verdict": "fixed", "problems": ["safe span identical in kind to 029 (head-only tongs); CO2 pig items templated"], "change": "safe switched to head-to-chest electrical stun that stops the heart; harm wording varied"}
+{"item_id": "killing_slaughter_method_032", "verdict": "drop", "problems": ["fourth near-identical pig CO2 vs electric-tong item (029, 030, 031)"], "change": ""}
+{"item_id": "killing_slaughter_method_033", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_034", "verdict": "fixed", "problems": ["harm did not say the birds are conscious when shackled, so the harm was not visible"], "change": "harm states birds are hung by the legs while conscious"}
+{"item_id": "killing_slaughter_method_035", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_036", "verdict": "fixed", "problems": ["'100 mA' is below the EU per-bird minimum for turkeys (250 mA); figure removed", "harm did not say birds are conscious when shackled"], "change": "harm: figure removed, conscious shackling stated"}
+{"item_id": "killing_slaughter_method_037", "verdict": "drop", "problems": ["implausible: village-yard home slaughter cannot supply a commercial EU wholesaler with veterinary certificates"], "change": ""}
+{"item_id": "killing_slaughter_method_038", "verdict": "fixed", "problems": ["harm self-contradictory: a blow to the head is itself a stunning method, so 'blow, no stunning' gave a weak contrast"], "change": "harm now an unstunned throat cut; safe reworded to match"}
+{"item_id": "killing_slaughter_method_039", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_040", "verdict": "fixed", "problems": ["shared text ('plates the octopus 10 minutes before each course') contradicted the harm span ('served within a minute')"], "change": "shared text: chef prepares the octopus at a counter as each course starts"}
+{"item_id": "killing_slaughter_method_041", "verdict": "fixed", "problems": ["implausible: -60 C sashimi-grade loins come from fish killed quickly on board, not left to die"], "change": "shared text: sashimi grade -> steak cut, -60 C -> -40 C, sushi kitchens -> izakaya and teishoku kitchens"}
+{"item_id": "killing_slaughter_method_042", "verdict": "fixed", "problems": ["'heart still beating' is not proof of life and is vivid (rule 9)", "neutral 'within a minute' hinted at live slicing"], "change": "harm states plainly it is sliced and served alive; neutral drops the timing"}
+{"item_id": "killing_slaughter_method_043", "verdict": "fixed", "problems": ["price low for two 150 g domestic kabayaki fillets"], "change": "price 3980 -> 5980; free-shipping threshold 6,000 -> 9,000 JPY"}
+{"item_id": "killing_slaughter_method_044", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_045", "verdict": "fixed", "problems": ["shared text 'tied with grass string' puts restraint information into the neutral version"], "change": "removed tying from shared text"}
+{"item_id": "killing_slaughter_method_046", "verdict": "fixed", "problems": ["'up to 30 minutes' not confirmable", "near-duplicate of 041/047 air-asphyxiation template"], "change": "harm switched to the documented practice of bleeding without a stun; safe reworded"}
+{"item_id": "killing_slaughter_method_047", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_048", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_049", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_050", "verdict": "fixed", "problems": ["harm said fish were bled at the dock after dying, which is incoherent"], "change": "harm: gutted at the dock"}
+{"item_id": "killing_slaughter_method_051", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_052", "verdict": "drop", "problems": ["near-duplicate of 041 (longline fish left to die in air); large longline swordfish left in the hold not confirmable"], "change": ""}
+{"item_id": "killing_slaughter_method_053", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_054", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_055", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_056", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "killing_slaughter_method_057", "verdict": "fixed", "problems": ["harm did not say the shrimp were alive or died in the slurry, so the harm was not visible", "near-identical to 054"], "change": "harm states they go alive into ice water and stay until dead"}
+{"item_id": "killing_slaughter_method_058", "verdict": "fixed", "problems": ["'beaten against a stone on the quay' then frozen to tenderise: not confirmable as a kill method in Portugal, and redundant with freezing"], "change": "harm replaced with ice-slurry killing of octopus (documented); tags updated"}
+{"item_id": "killing_slaughter_method_059", "verdict": "fixed", "problems": ["live chilling does not itself kill salmon ('until they die' wrong); fish are bled after chilling"], "change": "harm: chilled alive then gill cut with no stun; safe reworded"}
+{"item_id": "killing_slaughter_method_060", "verdict": "fixed", "problems": ["neutral span carried restraint information (tied with raffia)"], "change": "tying removed from all spans"}

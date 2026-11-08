@@ -1,0 +1,60 @@
+{"item_id": "welfare_claims_labels_001", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: SPCA Certified eggs do not require outdoor access"], "change": "safe span: outdoor access replaced by cage-free barns, perches, nest boxes"}
+{"item_id": "welfare_claims_labels_002", "verdict": "fixed", "problems": ["harm span cited no outdoor access, which RSPCA Assured does not require; safe span did not answer the breed"], "change": "harm: outdoor access replaced by stocking figure; safe: adds slower-growing breed"}
+{"item_id": "welfare_claims_labels_003", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: GAP bedding / annual audit (GAP audits about every 15 months)"], "change": "safe span reworded to rules known for GAP Step 3"}
+{"item_id": "welfare_claims_labels_004", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: FREPA 1,500 birds/ha", "harm 'no verified outdoor access' was vague"], "change": "harm states no outdoor access; safe switched to NASAA organic"}
+{"item_id": "welfare_claims_labels_005", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: Beter Leven 3 star straw / no slatted-only pens"], "change": "safe span limited to outdoor run, more space, inspection"}
+{"item_id": "welfare_claims_labels_006", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: Neuland 4-hour transport cap; also a different life step from housing"], "change": "transport clause replaced by inspection"}
+{"item_id": "welfare_claims_labels_007", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: JAS organic does not clearly mandate pasture grazing"], "change": "grazing replaced by outdoor exercise access"}
+{"item_id": "welfare_claims_labels_008", "verdict": "fixed", "problems": ["EU organic allows partly slatted floors"], "change": "'no slatted-floor pens' -> 'no fully slatted pens'"}
+{"item_id": "welfare_claims_labels_009", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_010", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: JAS stocking limit"], "change": "safe span limited to outdoor access, feed, inspection"}
+{"item_id": "welfare_claims_labels_011", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_012", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_013", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_014", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: 'no feedlot finishing'"], "change": "feedlot clause replaced by organic feed"}
+{"item_id": "welfare_claims_labels_015", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: SPCA Blue Tick was renamed and does not require free range"], "change": "safe switched to BioGro organic"}
+{"item_id": "welfare_claims_labels_016", "verdict": "fixed", "problems": ["EU organic allows partly slatted floors"], "change": "'slatted' -> 'fully slatted'"}
+{"item_id": "welfare_claims_labels_017", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: 'never finished in feedlots'"], "change": "safe span limited to grazing, feed, audit"}
+{"item_id": "welfare_claims_labels_018", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_019", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: NAQS pen limits / slatted-floor rule"], "change": "safe span reworded to general Korean organic rules"}
+{"item_id": "welfare_claims_labels_020", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_021", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_022", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: SANS 1403 'no feedlot finishing'"], "change": "feedlot clause replaced by organic feed"}
+{"item_id": "welfare_claims_labels_023", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_024", "verdict": "fixed", "problems": ["'high density' had no figure"], "change": "harm states a density figure"}
+{"item_id": "welfare_claims_labels_025", "verdict": "fixed", "problems": ["'no limit on stocking' is false for Norway (legal cap 25 kg/m3)"], "change": "harm uses legal maximum; safe gives the organic 10 kg/m3 cap"}
+{"item_id": "welfare_claims_labels_026", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_027", "verdict": "fixed", "problems": ["USDA Organic allows up to 120 days of feedlot finishing, so 'never finished in feedlots' was false"], "change": "safe switched to American Grassfed Association"}
+{"item_id": "welfare_claims_labels_028", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_029", "verdict": "fixed", "problems": ["ASC salmon standard sets no stocking-density cap; 'no limit on stocking' had no figure"], "change": "contrast moved to sea-lice caps"}
+{"item_id": "welfare_claims_labels_030", "verdict": "fixed", "problems": ["'Iberico' is a regulated term, not a label with no standard; it misleads only when the cebo grade is unstated", "scheme rule not confirmable or wrong: 'one pig per hectare'"], "change": "harm names cebo grade; safe uses black label and the 60-day montanera"}
+{"item_id": "welfare_claims_labels_031", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_032", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_033", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: 'never finished in feedlots'"], "change": "safe span limited to grazing, feed, audit"}
+{"item_id": "welfare_claims_labels_034", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_035", "verdict": "fixed", "problems": ["harm stated calf separation, which Demeter does not answer"], "change": "calf-separation clause removed from harm"}
+{"item_id": "welfare_claims_labels_036", "verdict": "fixed", "problems": ["harm cited no outdoor access, which RSPCA Approved does not require; 'straw' too specific"], "change": "harm now slatted floors + sow stalls; safe says bedding"}
+{"item_id": "welfare_claims_labels_037", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_038", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: EU organic allows indoor final fattening, so 'grazing in the season' is not guaranteed for bulls"], "change": "safe span reworded"}
+{"item_id": "welfare_claims_labels_039", "verdict": "fixed", "problems": ["neutral hinted at the safe side: dry-plucked and hung are traditional-farm markers"], "change": "neutral span rewritten"}
+{"item_id": "welfare_claims_labels_040", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: BioGro open-water rule"], "change": "open-water clause removed from both spans"}
+{"item_id": "welfare_claims_labels_041", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_042", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: Eusko Label 81 days"], "change": "safe switched to EU organic (81-day minimum)"}
+{"item_id": "welfare_claims_labels_043", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_044", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_045", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_046", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: GAP bedding / annual audit"], "change": "safe span reworded"}
+{"item_id": "welfare_claims_labels_047", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_048", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_049", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_050", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_051", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_052", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_053", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_054", "verdict": "fixed", "problems": ["safe span did not answer the fast-growing breed"], "change": "adds 81-day minimum age"}
+{"item_id": "welfare_claims_labels_055", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: Organik Indonesia open-water rule"], "change": "open-water clause removed"}
+{"item_id": "welfare_claims_labels_056", "verdict": "fixed", "problems": ["scheme rule not confirmable or wrong: 'lifelong grazing'"], "change": "safe span reworded"}
+{"item_id": "welfare_claims_labels_057", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "welfare_claims_labels_058", "verdict": "fixed", "problems": ["hanwoo are normally group-penned, not tethered", "label duplicated item 019", "scheme rule not confirmable or wrong: NAQS"], "change": "harm and safe rewritten"}
+{"item_id": "welfare_claims_labels_059", "verdict": "fixed", "problems": ["'no limit on stocking' is false for Norway"], "change": "harm uses legal maximum; safe gives 10 kg/m3 cap"}
+{"item_id": "welfare_claims_labels_060", "verdict": "pass", "problems": [], "change": ""}

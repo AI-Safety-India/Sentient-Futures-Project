@@ -1,0 +1,73 @@
+# Contrast item check: high_suffering_farm_products.jsonl
+
+60 items.
+
+- **high_suffering_farm_products_001** (high_suffering_farm_products, supplier): ok
+- **high_suffering_farm_products_002** (high_suffering_farm_products, restaurant): ok
+- **high_suffering_farm_products_003** (high_suffering_farm_products, catalogue): ok
+- **high_suffering_farm_products_004** (high_suffering_farm_products, caterer): ok
+- **high_suffering_farm_products_005** (high_suffering_farm_products, supplier): ok
+- **high_suffering_farm_products_006** (high_suffering_farm_products, restaurant): ok
+- **high_suffering_farm_products_007** (high_suffering_farm_products, catalogue): ok
+- **high_suffering_farm_products_008** (high_suffering_farm_products, caterer): ok
+- **high_suffering_farm_products_009** (high_suffering_farm_products, supplier): ok
+- **high_suffering_farm_products_010** (high_suffering_farm_products, restaurant): ok
+- **high_suffering_farm_products_011** (high_suffering_farm_products, supplier): ok
+- **high_suffering_farm_products_012** (high_suffering_farm_products, catalogue): ok
+- **high_suffering_farm_products_013** (high_suffering_farm_products, restaurant): ok
+- **high_suffering_farm_products_014** (high_suffering_farm_products, caterer): ok
+- **high_suffering_farm_products_015** (high_suffering_farm_products, restaurant): ok
+- **high_suffering_farm_products_016** (high_suffering_farm_products, catalogue): ok
+- **high_suffering_farm_products_017** (high_suffering_farm_products, supplier): ok
+- **high_suffering_farm_products_018** (high_suffering_farm_products, caterer): ok
+- **high_suffering_farm_products_019** (high_suffering_farm_products, restaurant): ok
+- **high_suffering_farm_products_020** (high_suffering_farm_products, restaurant): ok
+- **high_suffering_farm_products_021** (high_suffering_farm_products, caterer): ok
+- **high_suffering_farm_products_022** (high_suffering_farm_products, supplier): ok
+- **high_suffering_farm_products_023** (high_suffering_farm_products, restaurant): ok
+- **high_suffering_farm_products_024** (high_suffering_farm_products, caterer): ok
+- **high_suffering_farm_products_025** (high_suffering_farm_products, catalogue): ok
+- **high_suffering_farm_products_026** (high_suffering_farm_products, catalogue): ok
+- **high_suffering_farm_products_027** (high_suffering_farm_products, supplier): ok
+- **high_suffering_farm_products_028** (high_suffering_farm_products, restaurant): ok
+- **high_suffering_farm_products_029** (high_suffering_farm_products, supplier): ok
+- **high_suffering_farm_products_030** (high_suffering_farm_products, catalogue): ok
+- **high_suffering_farm_products_031** (high_suffering_farm_products, catalogue): ok
+- **high_suffering_farm_products_032** (high_suffering_farm_products, supplier): ok
+- **high_suffering_farm_products_033** (high_suffering_farm_products, caterer): ok
+- **high_suffering_farm_products_034** (high_suffering_farm_products, supplier): ok
+- **high_suffering_farm_products_035** (high_suffering_farm_products, catalogue): ok
+- **high_suffering_farm_products_036** (high_suffering_farm_products, restaurant): ok
+- **high_suffering_farm_products_037** (high_suffering_farm_products, caterer): ok
+- **high_suffering_farm_products_038** (high_suffering_farm_products, restaurant): ok
+- **high_suffering_farm_products_039** (high_suffering_farm_products, catalogue): ok
+- **high_suffering_farm_products_040** (high_suffering_farm_products, supplier): ok
+- **high_suffering_farm_products_041** (high_suffering_farm_products, catalogue): ok
+- **high_suffering_farm_products_042** (high_suffering_farm_products, catalogue): ok
+- **high_suffering_farm_products_043** (high_suffering_farm_products, supplier): ok
+- **high_suffering_farm_products_044** (high_suffering_farm_products, restaurant): ok
+- **high_suffering_farm_products_045** (high_suffering_farm_products, caterer): ok
+- **high_suffering_farm_products_046** (high_suffering_farm_products, restaurant): ok
+- **high_suffering_farm_products_047** (high_suffering_farm_products, caterer): ok
+- **high_suffering_farm_products_048** (high_suffering_farm_products, supplier): ok
+- **high_suffering_farm_products_049** (high_suffering_farm_products, restaurant): ok
+- **high_suffering_farm_products_050** (high_suffering_farm_products, catalogue): ok
+- **high_suffering_farm_products_051** (high_suffering_farm_products, caterer): ok
+- **high_suffering_farm_products_052** (high_suffering_farm_products, catalogue): ok
+- **high_suffering_farm_products_053** (high_suffering_farm_products, supplier): ok
+- **high_suffering_farm_products_054** (high_suffering_farm_products, catalogue): ok
+- **high_suffering_farm_products_055** (high_suffering_farm_products, caterer): ok
+- **high_suffering_farm_products_056** (high_suffering_farm_products, supplier): ok
+- **high_suffering_farm_products_057** (high_suffering_farm_products, restaurant): ok
+- **high_suffering_farm_products_058** (high_suffering_farm_products, caterer): ok
+- **high_suffering_farm_products_059** (high_suffering_farm_products, caterer): ok
+- **high_suffering_farm_products_060** (high_suffering_farm_products, caterer): ok
+
+## Batch
+- Safe spans that name the harm in order to deny it (target about half per category in full sets): high_suffering_farm_products: 30/60
+- Categories: {'high_suffering_farm_products': 60}
+- Styles: {'supplier': 15, 'restaurant': 15, 'catalogue': 15, 'caterer': 15}
+- Locations: 60 distinct
+- Duplicate item_ids: none
+- Duplicate product+practice: none
+- **Items failing hard rules: 0 / 60**

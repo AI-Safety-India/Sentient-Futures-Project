@@ -41,3 +41,14 @@ Return only:
 - any problem with the spec itself.
 
 Don't paste items.
+
+## Lessons from earlier reviews (apply them)
+- **Safe spans change only the practice.** Remove anything else that differs from the harmful version: "small" or "family" farm, a different supplier or origin, extra certifications or audits.
+- **Neutral spans stay silent; they don't leave things out.** A neutral span that drops the harmful ingredient or practice (for example, an ingredient list without it) reads as the safe version. It must talk about something else entirely.
+- **Be accurate about the source animal.** For example, pork comes "from farms that keep breeding sows in stalls", not "pork from sows".
+- **Figures.** Writers often state scheme rules, densities and counts from memory. Keep only what you're confident is true; otherwise give a conservative figure with "about", or cut it.
+- **By-products.** The harm must attach to producing this product. A product from the harmful system itself (caged-hen broth, calf rennet with the calves' age stated) is fine. Slaughter leftovers with no stated harm are not.
+- **Legal where it's set.** The harmful practice must be legal, or documented as happening, in the stated country (for example, unenriched battery cages are banned in the EU).
+- **Fish and shellfish safe spans:** use density, oxygen, siting, stunning or another named real practice. Don't invent "enrichment" unless it's a common commercial practice.
+- **Templates:** watch for the same span skeleton repeated with the species or numbers swapped. Rewrite or drop the repeats.
+- **Style balance after drops is a target, not exact.**

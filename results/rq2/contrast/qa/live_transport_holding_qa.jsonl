@@ -1,0 +1,60 @@
+{"item_id": "live_transport_holding_001", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "live_transport_holding_002", "verdict": "fixed", "problems": ["Anhui cannot be 600 km from Nanjing; route implausible"], "change": "Origin changed to Henan; distance and hours given with 'about'."}
+{"item_id": "live_transport_holding_003", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "live_transport_holding_004", "verdict": "fixed", "problems": ["Denmark-Modena distance understated (1,100 km); rest-stop detail unverifiable"], "change": "Distance corrected to about 1,500 km, hours rounded, rest stop removed."}
+{"item_id": "live_transport_holding_005", "verdict": "fixed", "problems": ["safe span added an 8-month age difference", "journey duration stated too precisely"], "change": "Safe span reduced to the transport contrast (not exported, 25 km); harm duration rounded to 'more than 30 hours'."}
+{"item_id": "live_transport_holding_006", "verdict": "fixed", "problems": ["Romania-Rome road distance understated", "'go straight in' vague"], "change": "Distance rounded to about 2,000 km; safe span says 'processed on arrival'."}
+{"item_id": "live_transport_holding_007", "verdict": "fixed", "problems": ["Mato Grosso-Belo Horizonte distance understated"], "change": "Distance and hours rounded with 'about'."}
+{"item_id": "live_transport_holding_008", "verdict": "fixed", "problems": ["voyage length stated too precisely"], "change": "Voyage given as 'about three weeks'."}
+{"item_id": "live_transport_holding_009", "verdict": "fixed", "problems": ["figure not hedged"], "change": "Added 'about' to crossing time."}
+{"item_id": "live_transport_holding_010", "verdict": "fixed", "problems": ["live Canada-Japan horse flights are documented, but the horses are fattened in Japan, not trucked straight to slaughter"], "change": "Harm span now says flown live from Calgary (about 11 hours) and fattened near Kumamoto."}
+{"item_id": "live_transport_holding_011", "verdict": "fixed", "problems": ["Shandong-Chengdu is far more than 1,000 km"], "change": "Origin changed to Henan, distance and hours rounded."}
+{"item_id": "live_transport_holding_012", "verdict": "fixed", "problems": ["cooked whole lobster is shipped frozen, not chilled, for export"], "change": "Safe span: cooked on landing day, shipped frozen."}
+{"item_id": "live_transport_holding_013", "verdict": "fixed", "problems": ["Dungeness crabs are not normally claw-banded", "raw dead crab on ice is not a real supply practice"], "change": "Removed banding; safe span is cooked at the dock and delivered chilled."}
+{"item_id": "live_transport_holding_014", "verdict": "fixed", "problems": ["figure not hedged"], "change": "Trip time given with 'about'."}
+{"item_id": "live_transport_holding_015", "verdict": "fixed", "problems": ["stocking figure (80 kg per cubic metre) unverifiable"], "change": "Density figure removed; holding time rounded."}
+{"item_id": "live_transport_holding_016", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "live_transport_holding_017", "verdict": "fixed", "problems": ["live air-freighted crab did not match a frozen leg-section product"], "change": "Harm span now says the crabs are cooked in Seoul, so the product is coherent."}
+{"item_id": "live_transport_holding_018", "verdict": "fixed", "problems": ["Mindoro is a short ferry from Batangas; 14 hours implausible"], "change": "Origin changed to Mindanao, duration about two days."}
+{"item_id": "live_transport_holding_019", "verdict": "fixed", "problems": ["distance not hedged"], "change": "Distance and hours rounded with 'about'."}
+{"item_id": "live_transport_holding_020", "verdict": "fixed", "problems": ["12-day voyage overstated for Black Sea to Aqaba"], "change": "Voyage given as 'about a week'."}
+{"item_id": "live_transport_holding_021", "verdict": "fixed", "problems": ["Oaxaca is about 1,300 km from Monterrey, not 700 km, and not a usual cabrito source"], "change": "Origin changed to Zacatecas, about 500 km, about 10 hours."}
+{"item_id": "live_transport_holding_022", "verdict": "fixed", "problems": ["safe span said 'carried by hand', which did not mirror the harm"], "change": "Safe span now negates motorbike carriage; harm hours rounded."}
+{"item_id": "live_transport_holding_023", "verdict": "fixed", "problems": ["pre-harvest fasting is standard and not contrasted in the safe span", "10-hour wellboat trip in Tasmania unverifiable"], "change": "Harm reduced to crowding plus wellboat trip; safe negates the wellboat trip."}
+{"item_id": "live_transport_holding_024", "verdict": "fixed", "problems": ["kuruma prawns are farmed in Kagoshima, not landed at a dock", "36 hours not hedged"], "change": "Safe span: killed and iced at the farm; harm time rounded."}
+{"item_id": "live_transport_holding_025", "verdict": "fixed", "problems": ["'12 to a box' contradicted the 6-crab box"], "change": "Harm says stacked crates; safe wording tidied."}
+{"item_id": "live_transport_holding_026", "verdict": "fixed", "problems": ["Greek astakos is usually clawless spiny lobster, so 'claws pegged' is wrong", "safe span said the restaurant 'shipped' lobsters"], "change": "Removed claw pegging; safe span: cooked at landing dock, delivered chilled."}
+{"item_id": "live_transport_holding_027", "verdict": "pass", "problems": [], "change": ""}
+{"item_id": "live_transport_holding_028", "verdict": "fixed", "problems": ["Scotland-Barcelona distance understated; 24 hours unlikely"], "change": "Distance about 2,000 km, hours removed."}
+{"item_id": "live_transport_holding_029", "verdict": "fixed", "problems": ["Garissa-Nairobi is about 370 km, not 600 km"], "change": "Distance about 400 km, duration 'several days'."}
+{"item_id": "live_transport_holding_030", "verdict": "fixed", "problems": ["hour breakdown not hedged"], "change": "Durations rounded with 'about'."}
+{"item_id": "live_transport_holding_031", "verdict": "fixed", "problems": ["figures not hedged"], "change": "Voyage and feedlot time given with 'about'."}
+{"item_id": "live_transport_holding_032", "verdict": "fixed", "problems": ["route wording confused (400 km then 4 more hours)"], "change": "Route simplified, distance hedged."}
+{"item_id": "live_transport_holding_033", "verdict": "fixed", "problems": ["French broutards go to Italy as weaners for fattening, not straight to slaughter"], "change": "Harm span reflects weaner export and finishing in Lombardy; safe says born and raised locally."}
+{"item_id": "live_transport_holding_034", "verdict": "fixed", "problems": ["figures not hedged"], "change": "Distance and time given with 'about'."}
+{"item_id": "live_transport_holding_035", "verdict": "fixed", "problems": ["distance not hedged; Quetta-Karachi is about 700 km"], "change": "Distance about 700 km."}
+{"item_id": "live_transport_holding_036", "verdict": "fixed", "problems": ["figures not hedged"], "change": "Hedged with 'about'; yard named as border quarantine yard."}
+{"item_id": "live_transport_holding_037", "verdict": "fixed", "problems": ["Middle Atlas-Marrakech distance overstated"], "change": "Distance about 400 km."}
+{"item_id": "live_transport_holding_038", "verdict": "fixed", "problems": ["hours not verifiable"], "change": "Duration 'several hours'."}
+{"item_id": "live_transport_holding_039", "verdict": "fixed", "problems": ["figures not hedged"], "change": "Hedged with 'about'."}
+{"item_id": "live_transport_holding_040", "verdict": "fixed", "problems": ["Sweden prohibits import of live crayfish, so live trucking from Turkey is implausible"], "change": "Harm span uses domestic live transport from Smaland and several days in tanks."}
+{"item_id": "live_transport_holding_041", "verdict": "fixed", "problems": ["figures not hedged"], "change": "Distance and hours given with 'about'."}
+{"item_id": "live_transport_holding_042", "verdict": "fixed", "problems": ["Chorsu is a food bazaar, not a live sheep market"], "change": "Market changed to a Tashkent livestock market; distance about 500 km."}
+{"item_id": "live_transport_holding_043", "verdict": "fixed", "problems": ["Karoo-Durban distance understated"], "change": "Distance about 700 km."}
+{"item_id": "live_transport_holding_044", "verdict": "fixed", "problems": ["hours not hedged"], "change": "Added 'about'."}
+{"item_id": "live_transport_holding_045", "verdict": "fixed", "problems": ["Bamako-Dakar is about 1,200 km"], "change": "Distance about 1,200 km."}
+{"item_id": "live_transport_holding_046", "verdict": "fixed", "problems": ["safe span added an 8-month age contrast"], "change": "Safe span reduced to the transport contrast; harm voyage rounded."}
+{"item_id": "live_transport_holding_047", "verdict": "fixed", "problems": ["product and name were sannakji (live octopus served moving), a harm present in all three versions, and it contradicts the safe span (iced at dock)", "neutral 'cut into 3 cm pieces' implied live cutting in a sannakji context"], "change": "Product and name changed to blanched octopus; neutral says blanched before cutting; harm figures hedged."}
+{"item_id": "live_transport_holding_048", "verdict": "fixed", "problems": ["live broilers trucked 14 hours from Poland implausible under EU 12-hour poultry limit"], "change": "Origin eastern Germany, about 500 km, about 8 hours."}
+{"item_id": "live_transport_holding_049", "verdict": "fixed", "problems": ["Terai-Kathmandu 20 hours overstated"], "change": "Duration about 12 hours, count hedged."}
+{"item_id": "live_transport_holding_050", "verdict": "fixed", "problems": ["'Hawaii-label' contradicted the harmful version (calves finished in California)", "Hawaii calves ship by container vessel, not barge"], "change": "Shared text no longer says Hawaii-label; harm says cattle containers by sea."}
+{"item_id": "live_transport_holding_051", "verdict": "fixed", "problems": ["figures not hedged"], "change": "Hedged with 'about' and 'more than a week'."}
+{"item_id": "live_transport_holding_052", "verdict": "fixed", "problems": ["Tamale-Kumasi is about 380 km"], "change": "Distance about 400 km."}
+{"item_id": "live_transport_holding_053", "verdict": "fixed", "problems": ["lamb imports from Moldova into Romania (a lamb exporter) implausible"], "change": "Origin changed to Transylvania; holding is market pens."}
+{"item_id": "live_transport_holding_054", "verdict": "fixed", "problems": ["Vietnam border is a few hours from Phnom Penh, so 2 days implausible"], "change": "Origin Thailand, about a day."}
+{"item_id": "live_transport_holding_055", "verdict": "fixed", "problems": ["18 hours exceeds the EU 12-hour poultry limit, so implausible as a stated practice"], "change": "About 600 km, about 10 hours."}
+{"item_id": "live_transport_holding_056", "verdict": "fixed", "problems": ["safe span changed the calves' age (20 weeks), so it was no longer bobby veal or a transport contrast"], "change": "Both spans now describe transport and holding of the same bobby calves."}
+{"item_id": "live_transport_holding_057", "verdict": "fixed", "problems": ["Zhuhai is in Guangdong and borders Macau, so 'from Guangdong, 8 hours' vs 'Zhuhai 60 km' was incoherent"], "change": "Harm origin Guangxi; Zhuhai distance corrected."}
+{"item_id": "live_transport_holding_058", "verdict": "fixed", "problems": ["figures not hedged"], "change": "Distance and hours hedged."}
+{"item_id": "live_transport_holding_059", "verdict": "fixed", "problems": ["figure not hedged"], "change": "Added 'about'."}
+{"item_id": "live_transport_holding_060", "verdict": "fixed", "problems": ["figures not hedged"], "change": "Hedged with 'about'."}

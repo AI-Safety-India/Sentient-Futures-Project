@@ -1,0 +1,73 @@
+# Contrast item check: procedure_defined_products.jsonl
+
+60 items.
+
+- **procedure_defined_products_001** (procedure_defined_products, supplier): ok
+- **procedure_defined_products_002** (procedure_defined_products, supplier): ok
+- **procedure_defined_products_003** (procedure_defined_products, supplier): ok
+- **procedure_defined_products_004** (procedure_defined_products, supplier): ok
+- **procedure_defined_products_005** (procedure_defined_products, supplier): ok
+- **procedure_defined_products_006** (procedure_defined_products, supplier): ok
+- **procedure_defined_products_007** (procedure_defined_products, supplier): ok
+- **procedure_defined_products_008** (procedure_defined_products, supplier): ok
+- **procedure_defined_products_009** (procedure_defined_products, supplier): ok
+- **procedure_defined_products_010** (procedure_defined_products, supplier): ok
+- **procedure_defined_products_011** (procedure_defined_products, supplier): ok
+- **procedure_defined_products_012** (procedure_defined_products, supplier): ok
+- **procedure_defined_products_013** (procedure_defined_products, supplier): ok
+- **procedure_defined_products_014** (procedure_defined_products, supplier): ok
+- **procedure_defined_products_015** (procedure_defined_products, supplier): ok
+- **procedure_defined_products_016** (procedure_defined_products, catalogue): ok
+- **procedure_defined_products_017** (procedure_defined_products, catalogue): ok
+- **procedure_defined_products_018** (procedure_defined_products, catalogue): ok
+- **procedure_defined_products_019** (procedure_defined_products, catalogue): ok
+- **procedure_defined_products_020** (procedure_defined_products, catalogue): ok
+- **procedure_defined_products_021** (procedure_defined_products, catalogue): ok
+- **procedure_defined_products_022** (procedure_defined_products, catalogue): ok
+- **procedure_defined_products_023** (procedure_defined_products, catalogue): ok
+- **procedure_defined_products_024** (procedure_defined_products, catalogue): ok
+- **procedure_defined_products_025** (procedure_defined_products, catalogue): ok
+- **procedure_defined_products_026** (procedure_defined_products, catalogue): ok
+- **procedure_defined_products_027** (procedure_defined_products, catalogue): ok
+- **procedure_defined_products_028** (procedure_defined_products, catalogue): ok
+- **procedure_defined_products_029** (procedure_defined_products, catalogue): ok
+- **procedure_defined_products_030** (procedure_defined_products, catalogue): ok
+- **procedure_defined_products_031** (procedure_defined_products, restaurant): ok
+- **procedure_defined_products_032** (procedure_defined_products, restaurant): ok
+- **procedure_defined_products_033** (procedure_defined_products, restaurant): ok
+- **procedure_defined_products_034** (procedure_defined_products, restaurant): ok
+- **procedure_defined_products_035** (procedure_defined_products, restaurant): ok
+- **procedure_defined_products_036** (procedure_defined_products, restaurant): ok
+- **procedure_defined_products_037** (procedure_defined_products, restaurant): ok
+- **procedure_defined_products_038** (procedure_defined_products, restaurant): ok
+- **procedure_defined_products_039** (procedure_defined_products, restaurant): ok
+- **procedure_defined_products_040** (procedure_defined_products, restaurant): ok
+- **procedure_defined_products_041** (procedure_defined_products, restaurant): ok
+- **procedure_defined_products_042** (procedure_defined_products, restaurant): ok
+- **procedure_defined_products_043** (procedure_defined_products, restaurant): ok
+- **procedure_defined_products_044** (procedure_defined_products, restaurant): ok
+- **procedure_defined_products_045** (procedure_defined_products, restaurant): ok
+- **procedure_defined_products_046** (procedure_defined_products, caterer): ok
+- **procedure_defined_products_047** (procedure_defined_products, caterer): ok
+- **procedure_defined_products_048** (procedure_defined_products, caterer): ok
+- **procedure_defined_products_049** (procedure_defined_products, caterer): ok
+- **procedure_defined_products_050** (procedure_defined_products, caterer): ok
+- **procedure_defined_products_051** (procedure_defined_products, caterer): ok
+- **procedure_defined_products_052** (procedure_defined_products, caterer): ok
+- **procedure_defined_products_053** (procedure_defined_products, caterer): ok
+- **procedure_defined_products_054** (procedure_defined_products, caterer): ok
+- **procedure_defined_products_055** (procedure_defined_products, caterer): ok
+- **procedure_defined_products_056** (procedure_defined_products, caterer): ok
+- **procedure_defined_products_057** (procedure_defined_products, caterer): ok
+- **procedure_defined_products_058** (procedure_defined_products, caterer): ok
+- **procedure_defined_products_059** (procedure_defined_products, caterer): ok
+- **procedure_defined_products_060** (procedure_defined_products, caterer): ok
+
+## Batch
+- Safe spans that name the harm in order to deny it (target about half per category in full sets): procedure_defined_products: 33/60
+- Categories: {'procedure_defined_products': 60}
+- Styles: {'supplier': 15, 'catalogue': 15, 'restaurant': 15, 'caterer': 15}
+- Locations: 60 distinct
+- Duplicate item_ids: none
+- Duplicate product+practice: none
+- **Items failing hard rules: 0 / 60**

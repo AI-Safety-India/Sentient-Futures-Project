@@ -1,0 +1,73 @@
+# Contrast item check: live_animal_attraction.jsonl
+
+60 items.
+
+- **live_animal_attraction_001** (live_animal_attraction, supplier): ok
+- **live_animal_attraction_002** (live_animal_attraction, restaurant): ok
+- **live_animal_attraction_003** (live_animal_attraction, catalogue): ok
+- **live_animal_attraction_004** (live_animal_attraction, caterer): ok
+- **live_animal_attraction_005** (live_animal_attraction, supplier): ok
+- **live_animal_attraction_006** (live_animal_attraction, restaurant): ok
+- **live_animal_attraction_007** (live_animal_attraction, catalogue): ok
+- **live_animal_attraction_008** (live_animal_attraction, caterer): ok
+- **live_animal_attraction_009** (live_animal_attraction, supplier): ok
+- **live_animal_attraction_010** (live_animal_attraction, restaurant): ok
+- **live_animal_attraction_011** (live_animal_attraction, catalogue): ok
+- **live_animal_attraction_012** (live_animal_attraction, caterer): ok
+- **live_animal_attraction_013** (live_animal_attraction, supplier): ok
+- **live_animal_attraction_014** (live_animal_attraction, restaurant): ok
+- **live_animal_attraction_015** (live_animal_attraction, catalogue): ok
+- **live_animal_attraction_016** (live_animal_attraction, caterer): ok
+- **live_animal_attraction_017** (live_animal_attraction, supplier): ok
+- **live_animal_attraction_018** (live_animal_attraction, restaurant): ok
+- **live_animal_attraction_019** (live_animal_attraction, catalogue): ok
+- **live_animal_attraction_020** (live_animal_attraction, caterer): ok
+- **live_animal_attraction_021** (live_animal_attraction, supplier): ok
+- **live_animal_attraction_022** (live_animal_attraction, restaurant): ok
+- **live_animal_attraction_023** (live_animal_attraction, catalogue): ok
+- **live_animal_attraction_024** (live_animal_attraction, caterer): ok
+- **live_animal_attraction_025** (live_animal_attraction, supplier): ok
+- **live_animal_attraction_026** (live_animal_attraction, restaurant): ok
+- **live_animal_attraction_027** (live_animal_attraction, catalogue): ok
+- **live_animal_attraction_028** (live_animal_attraction, caterer): ok
+- **live_animal_attraction_029** (live_animal_attraction, supplier): ok
+- **live_animal_attraction_030** (live_animal_attraction, restaurant): ok
+- **live_animal_attraction_031** (live_animal_attraction, catalogue): ok
+- **live_animal_attraction_032** (live_animal_attraction, caterer): ok
+- **live_animal_attraction_033** (live_animal_attraction, supplier): ok
+- **live_animal_attraction_034** (live_animal_attraction, restaurant): ok
+- **live_animal_attraction_035** (live_animal_attraction, catalogue): ok
+- **live_animal_attraction_036** (live_animal_attraction, caterer): ok
+- **live_animal_attraction_037** (live_animal_attraction, supplier): ok
+- **live_animal_attraction_038** (live_animal_attraction, restaurant): ok
+- **live_animal_attraction_039** (live_animal_attraction, catalogue): ok
+- **live_animal_attraction_040** (live_animal_attraction, caterer): ok
+- **live_animal_attraction_041** (live_animal_attraction, supplier): ok
+- **live_animal_attraction_042** (live_animal_attraction, restaurant): ok
+- **live_animal_attraction_043** (live_animal_attraction, catalogue): ok
+- **live_animal_attraction_044** (live_animal_attraction, caterer): ok
+- **live_animal_attraction_045** (live_animal_attraction, supplier): ok
+- **live_animal_attraction_046** (live_animal_attraction, restaurant): ok
+- **live_animal_attraction_047** (live_animal_attraction, catalogue): ok
+- **live_animal_attraction_048** (live_animal_attraction, caterer): ok
+- **live_animal_attraction_049** (live_animal_attraction, supplier): ok
+- **live_animal_attraction_050** (live_animal_attraction, restaurant): ok
+- **live_animal_attraction_051** (live_animal_attraction, catalogue): ok
+- **live_animal_attraction_052** (live_animal_attraction, caterer): ok
+- **live_animal_attraction_053** (live_animal_attraction, supplier): ok
+- **live_animal_attraction_054** (live_animal_attraction, restaurant): ok
+- **live_animal_attraction_055** (live_animal_attraction, catalogue): ok
+- **live_animal_attraction_056** (live_animal_attraction, caterer): ok
+- **live_animal_attraction_057** (live_animal_attraction, supplier): ok
+- **live_animal_attraction_058** (live_animal_attraction, restaurant): ok
+- **live_animal_attraction_059** (live_animal_attraction, catalogue): ok
+- **live_animal_attraction_060** (live_animal_attraction, caterer): ok
+
+## Batch
+- Safe spans that name the harm in order to deny it (target about half per category in full sets): live_animal_attraction: 31/60
+- Categories: {'live_animal_attraction': 60}
+- Styles: {'supplier': 15, 'restaurant': 15, 'catalogue': 15, 'caterer': 15}
+- Locations: 60 distinct
+- Duplicate item_ids: none
+- Duplicate product+practice: none
+- **Items failing hard rules: 0 / 60**

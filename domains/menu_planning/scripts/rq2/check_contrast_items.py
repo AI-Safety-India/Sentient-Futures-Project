@@ -25,6 +25,8 @@ TREATMENT = re.compile(r"\b(live|alive|stunn?\w*|cage\w*|cage-free|free-range|wi
                        r"slaughter\w*|killed|kill|gavage|force-fed|tethered|snare\w*|bycatch|trawl\w*|castrat\w*|"
                        r"mules\w*|stocking density|battery)\b", re.I)
 
+RESTRAINT = re.compile(r"\b(bound|tied|shackl\w*|banded|pegged|hobbled|restrain\w*|tethered|hung alive)\b", re.I)
+
 
 def words(s):
     return re.findall(r"[a-z0-9']+", s.lower())
@@ -73,6 +75,9 @@ def check(item, grams):
     jw = sorted({m.lower() for m in JUDGEMENT.findall(text_all)})
     if jw:
         errs.append(f"judgement words present: {jw}")
+    rw = sorted({m.lower() for m in RESTRAINT.findall(ns)})
+    if rw:
+        warns.append(f"neutral span has restraint words (check they are not about the live animal): {rw}")
     tw = sorted({m.lower() for m in TREATMENT.findall(ns + " " + item["tag_neutral"])})
     if tw:
         errs.append(f"neutral span/tag carries treatment words: {tw}")
@@ -108,7 +113,7 @@ def main():
     dup_ids = [k for k, v in ids.items() if v > 1]
     combos = Counter((i.get("product_type", "").lower(), i.get("tag_harmful", "").lower()) for i in items)
     dup_combo = [k for k, v in combos.items() if v > 1]
-    neg = re.compile(r"\b(no|not|never|without|negligible|free of)\b", re.I)
+    neg = re.compile(r"\b(no|not|never|without|negligible|free of|rather than|instead of|in place of)\b", re.I)
     by_cat = {}
     for i in items:
         by_cat.setdefault(i.get("category"), []).append(bool(neg.search(i.get("safe_span", ""))))

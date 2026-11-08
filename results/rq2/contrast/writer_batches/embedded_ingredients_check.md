@@ -1,0 +1,73 @@
+# Contrast item check: embedded_ingredients.jsonl
+
+60 items.
+
+- **embedded_ingredients_001** (embedded_ingredients, restaurant): ok
+- **embedded_ingredients_002** (embedded_ingredients, supplier): ok
+- **embedded_ingredients_003** (embedded_ingredients, caterer): ok
+- **embedded_ingredients_004** (embedded_ingredients, catalogue): ok
+- **embedded_ingredients_005** (embedded_ingredients, restaurant): ok
+- **embedded_ingredients_006** (embedded_ingredients, caterer): ok
+- **embedded_ingredients_007** (embedded_ingredients, catalogue): ok
+- **embedded_ingredients_008** (embedded_ingredients, restaurant): ok
+- **embedded_ingredients_009** (embedded_ingredients, caterer): ok
+- **embedded_ingredients_010** (embedded_ingredients, supplier): ok
+- **embedded_ingredients_011** (embedded_ingredients, restaurant): ok
+- **embedded_ingredients_012** (embedded_ingredients, catalogue): ok
+- **embedded_ingredients_013** (embedded_ingredients, caterer): ok
+- **embedded_ingredients_014** (embedded_ingredients, supplier): ok
+- **embedded_ingredients_015** (embedded_ingredients, caterer): ok
+- **embedded_ingredients_016** (embedded_ingredients, restaurant): ok
+- **embedded_ingredients_017** (embedded_ingredients, supplier): ok
+- **embedded_ingredients_018** (embedded_ingredients, catalogue): ok
+- **embedded_ingredients_019** (embedded_ingredients, caterer): ok
+- **embedded_ingredients_020** (embedded_ingredients, catalogue): ok
+- **embedded_ingredients_021** (embedded_ingredients, restaurant): ok
+- **embedded_ingredients_022** (embedded_ingredients, supplier): ok
+- **embedded_ingredients_023** (embedded_ingredients, catalogue): ok
+- **embedded_ingredients_024** (embedded_ingredients, restaurant): ok
+- **embedded_ingredients_025** (embedded_ingredients, supplier): ok
+- **embedded_ingredients_026** (embedded_ingredients, caterer): ok
+- **embedded_ingredients_027** (embedded_ingredients, catalogue): ok
+- **embedded_ingredients_028** (embedded_ingredients, catalogue): ok
+- **embedded_ingredients_029** (embedded_ingredients, restaurant): ok
+- **embedded_ingredients_030** (embedded_ingredients, catalogue): ok
+- **embedded_ingredients_031** (embedded_ingredients, caterer): ok
+- **embedded_ingredients_032** (embedded_ingredients, supplier): ok
+- **embedded_ingredients_033** (embedded_ingredients, restaurant): ok
+- **embedded_ingredients_034** (embedded_ingredients, supplier): ok
+- **embedded_ingredients_035** (embedded_ingredients, catalogue): ok
+- **embedded_ingredients_036** (embedded_ingredients, caterer): ok
+- **embedded_ingredients_037** (embedded_ingredients, restaurant): ok
+- **embedded_ingredients_038** (embedded_ingredients, supplier): ok
+- **embedded_ingredients_039** (embedded_ingredients, restaurant): ok
+- **embedded_ingredients_040** (embedded_ingredients, caterer): ok
+- **embedded_ingredients_041** (embedded_ingredients, supplier): ok
+- **embedded_ingredients_042** (embedded_ingredients, catalogue): ok
+- **embedded_ingredients_043** (embedded_ingredients, catalogue): ok
+- **embedded_ingredients_044** (embedded_ingredients, restaurant): ok
+- **embedded_ingredients_045** (embedded_ingredients, caterer): ok
+- **embedded_ingredients_046** (embedded_ingredients, supplier): ok
+- **embedded_ingredients_047** (embedded_ingredients, caterer): ok
+- **embedded_ingredients_048** (embedded_ingredients, catalogue): ok
+- **embedded_ingredients_049** (embedded_ingredients, restaurant): ok
+- **embedded_ingredients_050** (embedded_ingredients, catalogue): ok
+- **embedded_ingredients_051** (embedded_ingredients, supplier): ok
+- **embedded_ingredients_052** (embedded_ingredients, catalogue): ok
+- **embedded_ingredients_053** (embedded_ingredients, restaurant): ok
+- **embedded_ingredients_054** (embedded_ingredients, caterer): ok
+- **embedded_ingredients_055** (embedded_ingredients, supplier): ok
+- **embedded_ingredients_056** (embedded_ingredients, supplier): ok
+- **embedded_ingredients_057** (embedded_ingredients, caterer): ok
+- **embedded_ingredients_058** (embedded_ingredients, caterer): ok
+- **embedded_ingredients_059** (embedded_ingredients, supplier): ok
+- **embedded_ingredients_060** (embedded_ingredients, restaurant): ok
+
+## Batch
+- Safe spans that name the harm in order to deny it (target about half per category in full sets): embedded_ingredients: 33/60
+- Categories: {'embedded_ingredients': 60}
+- Styles: {'restaurant': 15, 'supplier': 15, 'caterer': 15, 'catalogue': 15}
+- Locations: 60 distinct
+- Duplicate item_ids: none
+- Duplicate product+practice: none
+- **Items failing hard rules: 0 / 60**

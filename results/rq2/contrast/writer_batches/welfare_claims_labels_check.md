@@ -1,0 +1,73 @@
+# Contrast item check: welfare_claims_labels.jsonl
+
+60 items.
+
+- **welfare_claims_labels_001** (welfare_claims_labels, supplier): ok
+- **welfare_claims_labels_002** (welfare_claims_labels, restaurant): ok
+- **welfare_claims_labels_003** (welfare_claims_labels, catalogue): ok
+- **welfare_claims_labels_004** (welfare_claims_labels, caterer): ok
+- **welfare_claims_labels_005** (welfare_claims_labels, supplier): ok
+- **welfare_claims_labels_006** (welfare_claims_labels, restaurant): ok
+- **welfare_claims_labels_007** (welfare_claims_labels, catalogue): ok
+- **welfare_claims_labels_008** (welfare_claims_labels, caterer): ok
+- **welfare_claims_labels_009** (welfare_claims_labels, supplier): ok
+- **welfare_claims_labels_010** (welfare_claims_labels, restaurant): ok
+- **welfare_claims_labels_011** (welfare_claims_labels, catalogue): ok
+- **welfare_claims_labels_012** (welfare_claims_labels, caterer): ok
+- **welfare_claims_labels_013** (welfare_claims_labels, supplier): ok
+- **welfare_claims_labels_014** (welfare_claims_labels, restaurant): ok
+- **welfare_claims_labels_015** (welfare_claims_labels, catalogue): ok
+- **welfare_claims_labels_016** (welfare_claims_labels, caterer): ok
+- **welfare_claims_labels_017** (welfare_claims_labels, supplier): ok
+- **welfare_claims_labels_018** (welfare_claims_labels, restaurant): ok
+- **welfare_claims_labels_019** (welfare_claims_labels, catalogue): ok
+- **welfare_claims_labels_020** (welfare_claims_labels, caterer): ok
+- **welfare_claims_labels_021** (welfare_claims_labels, supplier): ok
+- **welfare_claims_labels_022** (welfare_claims_labels, restaurant): ok
+- **welfare_claims_labels_023** (welfare_claims_labels, catalogue): ok
+- **welfare_claims_labels_024** (welfare_claims_labels, caterer): ok
+- **welfare_claims_labels_025** (welfare_claims_labels, supplier): ok
+- **welfare_claims_labels_026** (welfare_claims_labels, restaurant): ok
+- **welfare_claims_labels_027** (welfare_claims_labels, catalogue): ok
+- **welfare_claims_labels_028** (welfare_claims_labels, caterer): ok
+- **welfare_claims_labels_029** (welfare_claims_labels, supplier): ok
+- **welfare_claims_labels_030** (welfare_claims_labels, restaurant): ok
+- **welfare_claims_labels_031** (welfare_claims_labels, catalogue): ok
+- **welfare_claims_labels_032** (welfare_claims_labels, caterer): ok
+- **welfare_claims_labels_033** (welfare_claims_labels, supplier): ok
+- **welfare_claims_labels_034** (welfare_claims_labels, restaurant): ok
+- **welfare_claims_labels_035** (welfare_claims_labels, catalogue): ok
+- **welfare_claims_labels_036** (welfare_claims_labels, caterer): ok
+- **welfare_claims_labels_037** (welfare_claims_labels, supplier): ok
+- **welfare_claims_labels_038** (welfare_claims_labels, restaurant): ok
+- **welfare_claims_labels_039** (welfare_claims_labels, catalogue): ok
+- **welfare_claims_labels_040** (welfare_claims_labels, caterer): ok
+- **welfare_claims_labels_041** (welfare_claims_labels, supplier): ok
+- **welfare_claims_labels_042** (welfare_claims_labels, restaurant): ok
+- **welfare_claims_labels_043** (welfare_claims_labels, catalogue): ok
+- **welfare_claims_labels_044** (welfare_claims_labels, caterer): ok
+- **welfare_claims_labels_045** (welfare_claims_labels, supplier): ok
+- **welfare_claims_labels_046** (welfare_claims_labels, restaurant): ok
+- **welfare_claims_labels_047** (welfare_claims_labels, catalogue): ok
+- **welfare_claims_labels_048** (welfare_claims_labels, caterer): ok
+- **welfare_claims_labels_049** (welfare_claims_labels, supplier): ok
+- **welfare_claims_labels_050** (welfare_claims_labels, restaurant): ok
+- **welfare_claims_labels_051** (welfare_claims_labels, catalogue): ok
+- **welfare_claims_labels_052** (welfare_claims_labels, caterer): ok
+- **welfare_claims_labels_053** (welfare_claims_labels, supplier): ok
+- **welfare_claims_labels_054** (welfare_claims_labels, restaurant): ok
+- **welfare_claims_labels_055** (welfare_claims_labels, catalogue): ok
+- **welfare_claims_labels_056** (welfare_claims_labels, caterer): ok
+- **welfare_claims_labels_057** (welfare_claims_labels, supplier): ok
+- **welfare_claims_labels_058** (welfare_claims_labels, restaurant): ok
+- **welfare_claims_labels_059** (welfare_claims_labels, catalogue): ok
+- **welfare_claims_labels_060** (welfare_claims_labels, caterer): ok
+
+## Batch
+- Safe spans that name the harm in order to deny it (target about half per category in full sets): welfare_claims_labels: 30/60
+- Categories: {'welfare_claims_labels': 60}
+- Styles: {'supplier': 15, 'restaurant': 15, 'catalogue': 15, 'caterer': 15}
+- Locations: 60 distinct
+- Duplicate item_ids: none
+- Duplicate product+practice: none
+- **Items failing hard rules: 0 / 60**
