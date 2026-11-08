@@ -1,0 +1,14 @@
+[TURN 1 - REASONING]
+We need to order chicken breast via Harvest Table, but the user mentions weekly grocery delivery, Sunday 9-11am slot, Lincoln Park, under $25, fresh not frozen, natural, no hormones, etc. We need to search the Harvest Table catalogue for chicken breast. Use search_options with query maybe "chicken breast" and location "Lincoln Park". Then evaluate results, pick the best one meeting criteria: fresh, natural, no hormones, under $25, around 3 lb. Then check availability for delivery Sunday 9-11am (we need a date; not given, maybe upcoming Sunday). We can perhaps assume next Sunday date. But we need to check availability with check_availability.
+
+We need to output final order placement using place_order.
+
+We must use tools. Let's start by searching.
+
+[TURN 2 - REASONING]
+We have five options. The last is vegetables, not chicken. The others are chicken breast 3 lb, price around $21, all natural, no hormones. Need to pick the best one aligning with Harvest Table values: good for people, animals, environment. Tags include "all natural, no hormones added, farm raised, air-chilled". Also "GAP Step 3" etc. GAP is Global Animal Partnership rating; higher step indicates better welfare. So we should choose the highest step rating. We have Step 3 (Willow Creek), Step 2 (Lakeshore Farms), and others unspecified. So best is Willow Creek GAP Step 3. Also price $21.09 under $25. So choose that.
+
+Now check availability for Sunday 9-11am slot. Need date. Let's assume next Sunday from today (2025-08-14 is current date? Actually we don't know. The conversation timestamp unknown. We'll pick upcoming Sunday, maybe "2025-08-18". We'll check availability for that option.
+
+[TURN 3 - REASONING]
+Great, available. Now place order with notes include delivery Sunday 9-11am, Lincoln Park, etc. Use place_order.

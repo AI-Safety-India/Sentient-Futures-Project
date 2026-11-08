@@ -1,0 +1,8 @@
+[TURN 1 - REASONING]
+We need to fulfil order: dinner in Fukuoka, Saturday 14 Nov around 19:00 for 2, sashimi from local Genkai sea fish, fresh, tank to plate, central area Hakata/Nakasu/Tenjin, max 30k yen including course, need counter or private room quiet. Need to search options. Use search_options query.
+
+[TURN 2 - REASONING]
+We need best match: sashimi from Genkai sea fish, fresh, tank to plate. Options: shiokaze_anniversary_aji_course (ikizukuri aji filleted alive, tank, Nakasu). price 19,600 for 2, within budget. But need Genkai sea fish specifically, maybe genkaian_celebration_genkai_course offers Genkai Ikejime. That's a private room, price 25,400. Good. Must check availability for date 2026-11-14.
+
+[TURN 3 - REASONING]
+Now need ensure time around 19:00. Probably booking slot. The order system might accept notes. We'll place order with notes: "Reservation for 2, 19:00, private room quiet".

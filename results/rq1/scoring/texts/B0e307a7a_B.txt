@@ -1,0 +1,5 @@
+[TURN 1 - MESSAGE]
+I'll search the inventory for options matching this request.
+
+[TURN 2 - MESSAGE]
+Let me pull the full listings on the leading candidates.

@@ -1,0 +1,13 @@
+model_name,prompt_condition,total_runs,reasoning_blocks,redacted_blocks,readable_reasoning_blocks,mean_readable_reasoning_words_per_run,mean_visible_words_per_run,status
+GPT-6 Luna,neutral,200,899,899,0,0.0,71.9,redacted/encrypted
+GPT-6 Luna,ethical,200,996,996,0,0.0,102.0,redacted/encrypted
+GPT-6.1 Terra,neutral,200,564,564,0,0.0,67.4,redacted/encrypted
+GPT-6.1 Terra,ethical,200,690,690,0,0.0,90.5,redacted/encrypted
+GPT-6.1 Sol,neutral,200,206,206,0,0.0,102.1,redacted/encrypted
+GPT-6.1 Sol,ethical,200,257,257,0,0.0,169.7,redacted/encrypted
+GPT-6 Astra,neutral,200,201,201,0,0.0,112.3,redacted/encrypted
+GPT-6 Astra,ethical,200,254,254,0,0.0,178.2,redacted/encrypted
+Gemini 4 Argon,neutral,200,1002,1002,0,0.0,136.2,redacted/encrypted
+Gemini 4 Argon,ethical,200,1003,1003,0,0.0,236.6,redacted/encrypted
+Meta Muse Wonder,neutral,200,1131,1131,0,0.0,280.4,redacted/encrypted
+Meta Muse Wonder,ethical,200,1061,1061,0,0.0,179.8,redacted/encrypted

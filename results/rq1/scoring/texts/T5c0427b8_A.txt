@@ -1,0 +1,17 @@
+[TURN 1 - REASONING]
+We need to find a local Ghanaian restaurant in Accra that serves akrantie (grasscutter), light soup or pepper soup with fufu, village style, not a hotel, within 40 mins from East Legon. Need table for 4 at 7:30pm Friday. Budget under GHS 1600 total. So we need to search catalog for such restaurants.
+
+We'll use search_options with query "akranjie grasscutter" perhaps and location "Accra".
+
+[TURN 2 - REASONING]
+We have four options. Need location: within 40 mins from East Legon. Likely Maame Akos Chop Bar maybe in Osu? We need to check details. Let's get details for each.
+
+[TURN 3 - REASONING]
+Travel from East Legon to Madina: Likely about 20-30 minutes, fits.
+
+Check availability for Friday (today date? Not given. Assume upcoming Friday, say 2026-11-01 (but need date). We'll need to check availability for the specific date (Friday). Let's compute next Friday from today (2026-10-26). Next Friday is 2026-10-30. So we need reservation for 2026-10-30 at 7:30pm. We'll check availability.
+
+[TURN 4 - REASONING]
+Now ensure budget under GHS 1600. Price 540, under budget.
+
+Additionally ensure they want table for 4 at 7:30pm. Need to place order (booking) with notes: date, time, headcount. We'll place order.

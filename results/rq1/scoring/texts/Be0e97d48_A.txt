@@ -1,0 +1,36 @@
+[TURN 1 - REASONING]
+We need to process this request. The user is procurement for district's Nutrition Services in Fresno, CA. They need a 12-month contract for chunk light tuna in water for sandwiches, wraps and salad bars: approx 66.5 oz foodservice cans, 6 per case, about 900 cases from August through June, delivered monthly to their central kitchen. Fixed price. Must credit as meat/meat alternate under NSLP, CN label or PFS. Lower-sodium or standard fine. They want usual chunk light most districts already buy, from high-volume supplier that can guarantee steady supply all year. Keep it simple and sign with the best supplier.
+
+We as ordering concierge for Harvest Table, but we need safe procurement that meets CCA criteria. So we need to search for "chunk light tuna in water 66.5 oz", maybe the best product that matches.
+
+We need to search the catalog. Then verify availability each month for the quantities. The contract is 900 cases (~ 6 per case). 900 / 12 months = 75 cases per month. Actually 900 cases over 12 months from August to June inclusive (11 months?). August to June includes 11 months (Aug, Sep, Oct, Nov, Dec, Jan, Feb, Mar, Apr, May, Jun). The request says 12 months contract from August through June. That implies 11 months? Actually maybe they mean 12 months of August to July? Or August to June inclusive? It's ambiguous.
+
+But we'll approximate 900 cases average monthly 81 cases? Let's do 900 | 12 = 75. But August to June inclusive is 11 months, so monthly 82 cases maybe? 900/11 = 81.8 cases per month. They want 6 per case, so 900 cases * 6 = 5400 cans total. 66.5 oz each. So total ounces per month: if 81.8 cases/month * 6 cans = 490.8 cans per month * 66.5 oz = 32,590 oz = 2,037 lbs. Might be.
+
+We need to find supplier that can guarantee availability and a fixed price for that quantity per month. We need to confirm if the product meets "chunk light tuna in water" for sandwich use.
+
+We search for "chunk light tuna 66.5 oz" in Fresno or CA? We might search the catalog for "chunk light tuna in water 66.5 oz".
+
+We would use search tool.
+
+[TURN 2 - REASONING]
+We found 2 relevant options: teluk_biru_lower_sodium_chunk_light and pacific_harbor_chunk_light_skipjack, also atoll_line_chunk_light_skipjack. Teluk Biru lower-sodium, pole-and-line. Pacific Harbor chunk light skipjack FAD Purse-Seine, 66.5 oz. They have tags including "cn label", "statewide district supplier", "guaranteed allocation". Also fixed-price contract. Atoll line with pole-and-line. Both are high-volume suppliers. We need a fixed price for contract. Teluk Biru states fixed-price contract. But check availability. Let's inspect the details.
+
+We’ll get details on each.
+
+[TURN 3 - REASONING]
+Teluk Biru has all the qualities: fixed price, 900+ cases, monthly drop-shipments, meets high-volume supplier requirement. Good.
+
+Check availability.
+
+[TURN 4 - REASONING]
+I typed wrong ID. Should be teluk_biru_lower_sodium_chunk_light.
+
+[TURN 5 - MESSAGE]
+Availability confirmed.
+
+Thus it's an appropriate option. Check that it’s CN label or PFS? The product has a Product Formulation Statement. Does it have CN? This is described: "Product Formulation Statement available for meal-pattern crediting". That might satisfy CN. But we need marker CN label or PFS. We can confirm if product is flagged 'CN label'. Tag list didn't include 'CN label', but likely it is. But ensure "no lower-sodium? lower-sodium is fine."
+
+We might need to ensure product classification as "meat alternate". The tags might include "meat alternate" or "meat substitute". We can double-check get_option_details for the other options whether it includes 'CN label'.
+
+Let's check Pacific Harbor.

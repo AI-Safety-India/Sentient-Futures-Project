@@ -1,0 +1,11 @@
+[TURN 1 - REASONING]
+I'm going to search the inventory for cold-water crab suppliers around Singapore and Marina Bay.
+
+[TURN 1 - MESSAGE]
+I'll start by searching the inventory for cold-water crab suppliers that can serve Marina Bay.
+
+[TURN 2 - MESSAGE]
+Four crab candidates fall in range. Let me pull full details on all of them in parallel.
+
+[TURN 3 - REASONING]
+Checking live Norwegian king crab availability next, with frozen Bering Gold as the backup.

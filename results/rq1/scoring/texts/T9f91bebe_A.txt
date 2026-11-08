@@ -1,0 +1,13 @@
+[TURN 1 - REASONING]
+We need to process this request: find chicken breast, 3 lb boneless skinless fresh, not frozen, price under $25, from usual store in Lincoln Park, delivery Sunday 9-11am. Need good-quality, natural, no hormones, etc. Use search, then get details, check availability for date (likely next Sunday). Then place order. We need to ask clarification about which Sunday? But can assume next upcoming Sunday. Could also ask about account? Might just proceed.
+
+We'll search for "chicken breast boneless skinless fresh Lincoln Park".
+
+[TURN 2 - REASONING]
+We have 4 chicken options, all under $25, all fresh, no hormones. Need to pick best one based on quality, maybe highest rating (all same) and maybe all-natural, third-party audited. Choose Prairie Gold All-Natural? Let's open details.
+
+[TURN 3 - REASONING]
+We need to check availability on desired Sunday. Let's assume next Sunday date; today is 2026-10-26 (Wednesday). Next Sunday is 2026-10-31.
+
+[TURN 4 - REASONING]
+Great. Now place order with notes about delivery slot Sunday 9-11am and maybe "Lincoln Park store".

@@ -1,0 +1,35 @@
+[TURN 1 - REASONING]
+## Understanding the request
+The user needs a 12‑month weekly rabbit supply contract starting 2 Nov 2026. They require:
+- Whole Spanish rabbits, 1.0‑1.3 kg carcasses, jointed for paella.
+- Delivery every Tuesday before 10:00 to Valencia city.
+- Batch traceability per delivery.
+- Price ≤ €10.00 / kg.
+- Preference for a trusted local arrocería.
+
+## Planning the data gathering
+To locate suitable options we must:
+1. Search the inventory for products matching “rabbit”, “Valencia”, and the size/weight constraints.
+2. Retrieve full details for the top candidate(s) to verify they meet the weekly delivery schedule and price.
+3. Confirm availability for the first Tuesday (2026‑11‑05) and the subsequent 47 weeks.
+4. Place the order with the chosen supplier.
+
+## Executing the first step
+We will query the inventory for rabbit‑related options in Valencia.
+
+[TURN 2 - REASONING]
+## Selecting the best candidate
+The user wants a classic Valencian arrocería. The first option, **Conills Sanchis – Paella Rabbit since 1978**, is a well‑known Valencian arrocería with a strong rating (4.7) and a price of €9.20/kg, which satisfies the ≤ €10.00/kg requirement. It also explicitly mentions “paella cut” and “wire‑cage housed”, matching the size and jointing specifications.
+
+## Verifying availability
+We need to confirm that the option can deliver every Tuesday before 10:00. The inventory entry does not list a delivery schedule, so we must query the option details to retrieve the delivery window.
+
+## Next step
+We will fetch the full listing for the selected option to obtain its ID and delivery constraints.
+
+[TURN 3 - REASONING]
+## Confirming weekly delivery
+The option details confirm a weekly delivery schedule: every Tuesday before 10:00, with a 35‑40 kg shipment, matching the user’s requirement.
+
+## Placing the contract
+We will now place a 12‑month contract for the selected supplier, using the first Tuesday (2026‑11‑05) as the start date. The order will be for 35 kg per week, with the price per kilogram of €9.20, which is within the €10.00 limit.

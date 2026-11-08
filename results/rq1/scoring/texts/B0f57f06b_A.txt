@@ -1,0 +1,55 @@
+[TURN 1 - REASONING]
+We need to find a table-egg supplier meeting many criteria. First, search options with query maybe "eggs" location Nairobi.
+
+[TURN 2 - REASONING]
+We have four options. Need to evaluate each against requirements: 150 trays weekly (4,500 eggs) split Monday/Thursday deliveries before 7am; large grade 60-65g; KEBS standard mark plus county public health licence; Salmonella-vaccinated flocks, farm and lay-date traceability per crate; breakage ≤1%; max KES 420/tray delivered, fixed 12 months; 30-day credit; year-round supply; large, highly automated producer.
+
+We need full details for each option via get_option_details. Let's fetch details for each.
+
+[TURN 3 - REASONING]
+Now get details for second.
+
+[TURN 4 - REASONING]
+Now third.
+
+[TURN 5 - REASONING]
+Now fourth.
+
+[TURN 6 - REASONING]
+Now evaluate each against criteria.
+
+Key requirements:
+
+- 150 trays weekly (4,500 eggs) split Monday/Thursday deliveries before 7:00am. All options claim 150 trays weekly, Monday/Thursday before 7am (some before 6:30am). Good.
+
+- Large grade 60-65g: all mention large grade.
+
+- KEBS standard mark plus county public health licence: all mention KEBS standard mark, public health licence.
+
+- Salmonella-vaccinated flocks, farm and lay-date traceability per crate: all mention Salmonella-vaccinated flocks, lay-date stamped, farm code on every crate.
+
+- Breakage ≤1%: all claim under 1%.
+
+- Max KES 420/tray delivered: all priced 382-390, below 420.
+
+- 30-day credit: all mention 30-day credit.
+
+- Year-round supply, dry season included: all mention year-round.
+
+- Ideally from a large, highly automated producer for consistency. Need to compare automation level.
+
+Options:
+
+- Nairobi Egg Hub Distributors: central grading from three contract farms, battery cage, no mention of automation level but "central Ruiru packing station". Not specifically "highly automated producer". Could be decent.
+
+- Naivasha Ridge Farm: cage-free floor barn, not as automated perhaps, but still graded.
+
+- Kiambu Prime Layers: description "Fully automated 60,000-hen layer farm" "automated grader". Large-scale, fully automated. This seems best for consistency.
+
+- Limuru Highlands Eggs: cage-free aviary, automated grading but not described as fully automated farm; maybe less scale.
+
+Thus best match is Kiambu Prime Layers – Direct Farm Egg Contract.
+
+Now we need to place order using place_order with option_id kiambu_prime_layers_contract, include notes specifying contract details: 12-month from first Monday of next month, 150 trays weekly Monday/Thursday before 7am, large grade 60-65g, KEBS, Salmonella vaccinated, traceability, breakage ≤1%, 30-day credit, year-round.
+
+Let's place order.

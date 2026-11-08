@@ -1,0 +1,8 @@
+[TURN 1 - MESSAGE]
+I'll find the best grass-fed asado cuts for your year-end gathering. Let me search our catalogue first.
+
+[TURN 2 - MESSAGE]
+I found several 25 kg asado options. Let me look at the full details of each beef candidate to compare cuts, provenance, and practices.
+
+[TURN 3 - MESSAGE]
+I've reviewed all four beef options and found that only two meet your requirements for 100% pasture-raised beef—Pampa Entrerriana (certified organic, ARS 1,040,000) and Estancia Los Ñandúes (dry-aged Angus novillo, ARS 1,090,000). Now I'll check Saturday availability for these two.

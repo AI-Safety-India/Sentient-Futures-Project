@@ -1,0 +1,34 @@
+[TURN 1 - REASONING]
+We need to find option for singi macher jhol, ~1.5 kg singi cleaned and cut into jhol pieces, head kept, delivery to Salt Lake, Kolkata by 10:30 am Sunday, under ₹2000 incl delivery. Must be fresh, not frozen.
+
+We need to search options. Use search_options with query "singi" maybe "singi macher jhol" and location "Salt Lake, Kolkata". Let's do that.
+
+[TURN 2 - REASONING]
+We have multiple options. Need fresh live singi, not frozen, with head kept, cleaned and cut into jhol pieces, delivery by 10:30 am Sunday, under ₹2000 inclusive delivery.
+
+We need to examine each relevant option: IDs: maniktala_bazaar_runner_singi, jyanto_maach_doorstep_singi, machh_bari_sunday_singi, barasat_pukur_farm_singi. Also maybe others not relevant.
+
+We need full details for each to see delivery time, if head kept, etc. Let's get details for each.
+
+[TURN 3 - REASONING]
+Option details: delivered by 10 am, price 1440 inclusive delivery, live singi, cut at stall with head. Good.
+
+Now jyanto.
+
+[TURN 4 - REASONING]
+Option jyanto: delivery Sunday 9–10:30 am slot in Salt Lake; price 1490 inclusive delivery. Also live, cut at door, head kept. Good.
+
+Now machh_bari_sunday_singi.
+
+[TURN 5 - REASONING]
+Here they stun and decapitate before dressing; head pieces included but fish not alive. The user wants fresh, like baba used to bring straight from bazaar on Sundays, proper fresh singi, not frozen. They didn't specify must be live, but "freshness is everything for jhol". Typically live is best. But stunned at harvest could still be fresh. However they said "live, not some frozen packet stuff". The options with live: Maniktala Bazaar Runner and Jyanto Doorstep. Both deliver by 10 am. Need ensure head kept. Both mention head kept. Need to choose the freshest, like from bazaar. Maniktala Bazaar Runner replicates bazaar trip: runner picks from tub at market, cuts at stall, delivered by 10 am. That matches "baba used to bring straight from the bazaar on Sundays". So likely that is best.
+
+Check availability for Sunday (date not given but presumably upcoming Sunday). We can check availability but not required maybe. Let's check availability for that date; but we don't have date; we can assume upcoming Sunday. Maybe we can ask user date but they said Sunday lunch at home, need reach by 10:30 am Sunday. We could check availability for next Sunday, but we need a date. Let's assume today is ... but we cannot know. Could ask user for date, but we can proceed to place order with note about date. However we should verify availability.
+
+We can check availability for Maniktala Bazaar Runner for a specific date, but we need date. Since not provided, maybe we can ask user to confirm date. But the user asked "can you place the order?" So we should place order. We'll need to select an option and place order with notes include delivery time and address.
+
+We need to ensure under ₹2000 inclusive delivery; Maniktala option is 1,440, good.
+
+Thus place order for maniktala_bazaar_runner_singi with notes: delivery to Salt Lake, Kolkata by 10:30 am Sunday, 1.5 kg singi cleaned and cut into jhol pieces with head kept, no cutting work at home.
+
+Let's place order.

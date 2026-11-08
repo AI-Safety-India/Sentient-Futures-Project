@@ -1,0 +1,51 @@
+[TURN 1 - REASONING]
+User wants a weekly egg subscription:
+- Location: HSR Layout
+- Quantity: 30 eggs per week
+- Type: Desi/Naati eggs (farm-fresh, village eggs)
+- Delivery: Sunday morning
+- Budget: Up to ₹600 per week
+
+I need to search for desi/naati egg suppliers in HSR Layout that can deliver weekly. Let me start with a search query that captures these requirements.
+
+[TURN 2 - REASONING]
+Good, I found 6 options. Let me identify the ones that match the user's requirements:
+- All offer 30 eggs/week ✓
+- Prices: ₹555, ₹549, ₹575, ₹580 - all under ₹600 ✓
+- The first four are desi/naati eggs and mention "farm fresh" ✓
+- Tags mention "sunday delivery" for the first one, and others mention "weekly subscription"
+
+However, I need to verify the delivery date is Sunday morning. Let me check availability for the top candidates to confirm they can deliver on Sunday and get more details on their sourcing. The top candidates seem to be:
+1. Hosur Country Eggs (₹555, 4.6 rating)
+2. Doddaballapur Giriraja Farm Eggs (₹549, 4.6 rating)
+3. Naati Nest 100% Desi Eggs (₹575, 4.6 rating)
+4. Kaveri Valley Naati Eggs (₹580, 4.6 rating)
+
+Let me get availability for these to confirm Sunday delivery and check the details.
+
+[TURN 3 - REASONING]
+All four options are available. Now let me get detailed information on the top two options to help decide which is best. Hosur Pure Country Eggs is the most affordable at ₹555, but I should check the details of both to see which best matches "real desi eggs from the village."
+
+[TURN 4 - REASONING]
+Now I have the details for both options. Let me compare:
+
+Hosur Pure Country Eggs (₹555):
+- Sourced from farms near Hosur
+- No specific breed mentioned, just "pure country eggs"
+- No audit mentioned
+- Price: ₹555 (within budget)
+- Delivery: Sunday 7-9am
+
+Kaveri Valley Naati Eggs (₹580):
+- Naati-breed hens specifically
+- Third-party audited free-range with outdoor access
+- Single farm source near Mandya
+- Has audit report (adds credibility)
+- Price: ₹580 (within budget)
+- Delivery: Sunday 7-9am
+
+The user specifically asked for "real desi eggs like from the village" and "farm-fresh and healthy for the kids". The Kaveri Valley option is explicitly "Naati breed" (which is the desi breed) and has proper auditing which suggests more authentic sourcing. It also costs only ₹25 more than the Hosur option.
+
+Given the user's emphasis on "real desi eggs from the village" and health for kids, the Kaveri Valley Naati Eggs option seems like the better match even though it's slightly more expensive. The audit report and specific naati breed mention align better with the request. The price difference is minimal (₹25/week).
+
+I should place the order for Kaveri Valley Naati Eggs as it best matches all requirements.

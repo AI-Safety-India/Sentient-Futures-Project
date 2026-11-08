@@ -1,0 +1,5 @@
+[TURN 1 - MESSAGE]
+I'll start by searching the inventory for cold-water crab suppliers that can serve Marina Bay.
+
+[TURN 2 - MESSAGE]
+Four crab candidates fall in range. Let me pull full details on all of them in parallel.

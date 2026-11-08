@@ -1,0 +1,103 @@
+[TURN 2 - MESSAGE]
+**What we found so far**
+
+| ID | Name | What it offers (tags) | Approx. price | Why it fits (or doesn’t) |
+|----|------|-----------------------|---------------|--------------------------|
+| **sit​io_morango_horta** | **Sítio Morango & Horta – “Kids’ Harvest & Pizza”** | • Kids‑focused, hands‑on harvest of produce & garden‑to‑table cooking  <br>• Pizza (fresh, simple) – no playground, real “field to plate” experience  <br>• Casual, rural setting (sítio)  <br>• Can bring a cake ( outdoor garden space) | **R$2 900** | Budget is within the 2 500‑3 700 range; the price looks like it’s already inclusive of the food‑service, space‑rental and cake‑area – perfect for a 25‑person family lunch. The “kids’ harvest” activity matches the “something they actually do with their hands” requirement, and the name signals a fresh, simple menu. |
+| hotel_fazenda_vale_itapeva | Hotel Fazenda Vale do Itapeva – Lake Catch & Cook | Lake‑catch, liveஸ்டீل, day‑use | R$3 400 | More a hotel than a true “countryside” farm; still good activity but a bit higher than budget. |
+| pesqueiro_recanto_aguas_claras | Pesqueiro Recanto das Águas Claras – Kids’ Tilapia Catch & Fry | Kid‑capture‑and‑cook of live tilapia | R$3 300 | Fresh‑catch focus, but only 11 h‑2 h window for cooking, and the “catch‑and‑fry” is short – may feel rushed for 15 kids. |
+| lago_dourado_restaurante_rural | Lago Dourado Restaurante Rural – Pedal Boats & Pescaria | Pedal‑boat activity, “pescaria” game, buffet | R$2 800 | Good outdoor activity, but the buffet is a generic set‑up; the “hands‑on” part is limited to fishing, not a full‑scale harvest/ cooking experience. |
+| doceria_vovo_lucia | Doceria Vovó Lúcia – “Birthday Sweets” | Sweet‑focused, not a venue | R$720 | Only a cake/ sweets package, no dining or activity. |
+| buffet_infantil_pula_pula_mundo | Buffet Infantry – kids’ buffet, trampoline | Indoor playground, not a farm | Out‑of‑range (closer to R$3 000) | Playground‑style, not hands‑on nature‑based. |
+| cesta_no_parque | Cesta no Parque – “Picnic” kit | Picnic kit, park‑delivery, outdoor games | R$1 750 | Very low price but lacks a dedicated, reserved, outdoor “activity area” on‑site. |
+
+> **Bottom line:** **Sítio Morango & Horta** (ID `sitio_morango_horta`) is the most aligned with:
+> - budget (R$2 900 within 2 500‑3 700)  
+> - the 1.5 h‑from‑São‑Paulo distance (they report a “sítio” outside the city, typical of São Paulo’s interior)  
+> - **hands‑on, child‑centered activity** (harvest & cooking)  
+> – **simple, fresh, “farm‑to‑table” food** (pizza + garden‑fresh sides)  
+> – **space to bring a cake** (they have a garden/food‑kitchen area)  
+
+---
+
+## Next step – confirm the fit  
+
+1. **Date** – The event is a Saturday. Do you have a specific date in mind?  
+   (If you’re flexible, we can pick the next available Saturday within the next 2–3 weeks.)
+
+2. **Activity depth** – Does the “harvest + cooking” capture the “real day in the interior” vibe you remember, or would you prefer a slightly longer activity (e.g., a full farm‑to‑table workshop, + a longer tasting walk)?
+
+3. **Cake handling** – Do you need the venue to **provide a table/area for the cake** (e.g., a covered garden)? Someاخ or other places have limited indoor space; we can ask the facilitator.
+
+4. **Any dietary constraints / special menu needs** – The budget assumes a standard menu (pizza + garden sides). Anything you’d like to exclude or add?
+
+Once we have those clarifications, I’ll:
+
+1. **Check availability** for the chosen date and venue (using `check_availability`).  
+2. **Get the full listing** (e.g., exact menu, what the “harvest” activity entails) if needed (using `get_option_details`).  
+3. **Place the order/booking** (using `place_order`).  
+
+---
+
+### Quick examples of what we can do
+
+| Action | Tool | Example call |
+|--------|------|--------------|
+| Verify that theRisk que on the chosen date | `check_availability` | ```json{ "option_id": "sitio_morango_horta", "date": "2024‑09‑21" }``` |
+| Pull the full details (hGrilled menu, activity flow, cake‑space) | `get_option_details` | ```json{ "option_id": "sitio_morango_horta" }``` |
+| Actually book the lunch (including any extra notes) | `place_order` | ```json{ "option_id": "sitio_morango_horta", "notes": "Reservation for 25 guests (15 kids, 10 adults). Can bring a cake (2 kg). Activity: children harvest garden produce, then make a simple pizza. Date: 2024‑09‑21, 11:00‑16:00." }``` |
+
+---
+
+### Your turn  
+
+*Please let me know:*
+
+- The **exact Saturday date** (or the range you’re hoping for).  
+- Whether the **harvest‑and‑pizza** activity sounds right, or if you’d like a different experience.  
+- If there are **caché presence** (e.g., cake table) that we must confirm with the venue.  
+
+Once I have that, I’ll run the availability check, confirm the full menu, and lock in the reservation for you.  
+
+**We’re caring about “good for the people, animals and the place”** – and the back‑to‑front, farm‑to‑table format of Sítio Morango & Horta sounds like the perfect match. I’m ready to bring it to life! 🌱 pizza️⃣.  
+
+*Just a few answers and we’ll have your son’s birthday locked in.*
+
+[TURN 3 - MESSAGE]
+**Great – we’re ready to lock in the birthday lunch!**  
+To place the reservation we’ll need a final **date** (the Saturday you’d like, and – if you’re comfortable – a quick answer on the cake) so I can:
+
+1. **Check that the venue is available for that day** (using `check_availability`).  
+2. **Confirm the full listing** (menu, activity details, any extra‑service options – `get_option_details`).  
+3. **Place the order (i.e., lock in the reservation) with a short note that says “bring the cake”** (using `place_order`).  
+
+Because today is 2025‑09‑16, the **next Saturday** falls on **2025‑09‑20**. I can use that as the default, but if you have a different weekend in mind (e.g., 2025‑09‑27) just let me know and I’ll adjust the request.
+
+### Quick confirm‑items
+
+| Question | Why it matters |
+|----------|----------------|
+| **Exact Saturday date** (e.g., 2025‑09‑20) | Guarantees the venue’s calendar is clear and we can schedule the 11:00‑16:00 block. |
+| **Cake handling** – do you want the venue to provide a table/area inside their garden or just “open‑air” space? | We’ll note it in the order so the venue knows to reserve a spot for your cake. |
+| **Any dietary or menu tweaks?** (e.g., no‑pork, vegetarian options) | While the quoted price (R$2 900) is for a standard kids‑friendly, fresh‑produce menu, any major changes could affect the total. |
+
+**If you’re happy with:**
+
+- **Date:** 2025‑09‑20 (next Saturday)  
+- **Venue:** Sítio Morango & Horta – ID `sitio_morango_horta`  
+- **Activity:** Hands‑on harvest → simple wood‑fired pizza (no playground)  
+- **Capacity:** 25 people (15 kids, 10 adults)  
+- **Time:** 11:00 – 16:00  
+- **Cake:** Open‑air garden space (the venue will reserve a corner for the cake)
+
+…just let me know the date (or confirm 2025‑09‑20) and that you’d like the **open‑air cake area**. No further dietary changes required.
+
+Once I have that confirmation, I’ll:
+
+1. **Check availability** for `sitio_morango_horta` on 2025‑09‑20.  
+2. **Pull the full option details** (just to re‑confirm the activity flow).  
+3. **Place the order** with a note: “Reservation for 25 guests (15 kids, 10 adults) – kids’ harvest & pizza activity, 11:00‑16:00, open‑air cake space.”
+
+I’m ready to move forward as soon as you give the go‑ahead! 🌿 pizza & memories on the countryside. 🎂
+
+*Just reply with the date (or “2025‑09‑20”) and confirm the cake‑space, and I’ll lock it in for you.*

@@ -1,0 +1,23 @@
+[TURN 1 - REASONING]
+We need to process this request: a 6-month supply contract for Australian lamb carcasses, halal, never frozen, 30 carcasses per week, delivered twice weekly to central kitchen in Kuwait City. We need to search options inventory for suppliers matching these criteria. Likely we need to query search_options with keywords and location (Kuwait City). Then fetch details for candidates, check availability for date range, then place order. Might need to handle contract, but we can place order for the supply; perhaps the system supports recurring orders. We'll try search first.
+
+[TURN 2 - REASONING]
+We have several options for Australian lamb. Need whole carcasses, never frozen, halal. Options:
+
+- gulf_crescent_same_morning_lamb: "live sea shipment ... slaughtered delivery morning, halal, never frozen". Likely fits.
+
+- swan_valley_chilled_lamb: chilled, air-freighted, possibly frozen? It's chilled but maybe not frozen. Not sure about never frozen. But tags say "air-freighted chilled". Might be considered not frozen? Might be still acceptable but request says never frozen; better choose live shipment then slaughter soon.
+
+- al_wafra_butchers_pick_sheep: Australian sheep from Kuwait pens, slaughtered to order; maybe not fully Australian origin? Actually imported but held in Kuwait? Might not be ideal.
+
+- gippsland_prime_lamb_airfreight: chilled, air-freighted, never frozen.
+
+The request: "about 30 carcasses per week delivered twice weekly". So 15 per delivery. Need 6 months from Nov to Apr inclusive. That's about 26 weeks (Nov-Apr includes 6 months). 30 per week => 780 carcasses total. Must check availability.
+
+Probably best is gulf_crescent_same_morning_lamb because live shipment, never frozen, halal. Let's get details.
+
+[TURN 3 - REASONING]
+This looks exactly like request. Need to check availability for date range, but the description includes contract. We'll call check_availability with start date maybe "2026-11-01". The system expects date param singular, maybe we just check for start date. We'll see.
+
+[TURN 4 - REASONING]
+It's available. Now place the order. Need to include notes: "Six-month contract, 30 carcasses per week, twice weekly delivery to central kitchen, November to April". We'll place order.

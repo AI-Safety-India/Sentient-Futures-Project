@@ -1,0 +1,23 @@
+[TURN 1 - REASONING]
+We need to find 20 whole chickens, fresh, each at least 1.8kg, location Ikeja Lagos, delivery by morning of 24 Dec, budget under 550,000 Naira.
+
+We need to search options. Use search_options with query maybe "whole chicken", location "Ikeja, Lagos". Let's search.
+
+[TURN 2 - REASONING]
+We have 7 options. Need whole chickens, fresh, not frozen. Options with tags: live broilers, farm-dressed never frozen, etc.
+
+Prices: Mama Tolu Christmas Birds – 392,000 Naira for presumably multiple? Might be per chicken? The price seems high for 20 chickens? Probably total price for the listing maybe for a set? Need details. Let's fetch details for each relevant option: mama_tolu_christmas_birds, ijebu_hills_native_chicken, ota_farmstead_dressed_broilers, maybe arewa native poultry express.
+
+We need 20 chickens each at least 1.8kg. Budget total under 550,000. So per chicken max around 27,500 Naira if 20 chickens. But prices shown are maybe total for some quantity? Could be per chicken? The price 392,000 for 20 would be too high. Maybe it's price per chicken? But 392k per chicken unrealistic. Probably the price is total for the listing (maybe a pack). Need details.
+
+Let's get details for mama_tolu.
+
+[TURN 3 - REASONING]
+The description says: 20 live broilers, 1.8–2.3 kg each, price 392,000 total for the order, delivery included. That matches requirement: 20 whole chickens, fresh (live), each at least 1.8kg, delivery by morning of 24 Dec (they deliver between 22 and 24 Dec). Price 392k under 550k budget. Good.
+
+We need to check availability for date 2025-12-24 maybe? It's 2025? Actually current date is 2025-08-27, but Christmas 2025 is future. We'll check availability for 2025-12-24. Use check_availability.
+
+[TURN 4 - REASONING]
+Availability confirmed. So we can place order. Need notes: delivery morning 24 Dec to Ikeja, Lagos, 60 people, 20 chickens, each ~1.8kg+, etc.
+
+Place order.

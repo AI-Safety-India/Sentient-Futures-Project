@@ -1,0 +1,34 @@
+[TURN 1 - REASONING]
+## Understanding the request
+The Executive Chef needs a reliable supplier for cold‑water crab for a festive brunch. The order is large (≈240 kg total, 60 kg each Sunday for four Sundays) and must include whole crabs for display plus leg/claw sections for a hot butter‑garlic dish. The user explicitly wants a supplier that is SFA‑licensed, maintains a full cold‑chain, provides origin documentation, and can deliver the stock to the hotel’s loading bay by 12:00 each Saturday.
+
+## Mapping to available tools
+- **search_options** can retrieve a list of crab suppliers that match the required specifications (type, quantity, location, price range, and certification).
+- **get_option_details** will give us the full listing for the most promising supplier(s) so we can verify that they meet the cold‑chain, documentation, and delivery‑by‑12:00 criteria.
+- **check_availability** will confirm that the supplier can deliver on the exact Saturdays (late November) and on the required date format.
+- **place_order** will finalize the order once we have identified the optimal supplier and verified availability.
+
+## Decision
+We will first call **search_options** with the core parameters (type=crab, quantity=240 kg, location=Hong Kong, price range 145‑175 SGD/kg, certification=SFA‑licensed). This will return a shortlist of candidates that we can then inspect in detail.
+
+[TURN 2 - REASONING]
+## Selecting the best candidate
+The search returned several crab suppliers. The user’s priority is:
+- SFA‑licensed and full cold‑chain
+- Origin papers
+- Delivery to the hotel loading bay by 12:00 each Saturday
+- Price between SGD 145‑175/kg
+
+**Nordkapp Fjord Red King Crab** meets all these criteria:
+- SFA‑licensed, full cold‑chain, origin documentation
+- Price 165 SGD/kg (within budget)
+- Tags explicitly mention “whole & leg sections” and “hotel supply”
+
+The other options either lack the required certification, are live crab (which may not suit a chilled display), or are priced outside the budget.
+
+## Next steps
+We need to verify that the supplier can deliver on the exact Saturdays (late November) and on the required date format. We will call **check_availability** for the chosen option.
+
+[TURN 3 - REASONING]
+## Finalizing the order
+The availability check confirms that the supplier can deliver on the first Saturday (2026‑11‑16). The user needs the stock by 12:00 each Saturday for the four Sundays in late November. We will place a single order covering the total required weight (240 kg) and include a note for the provider to ensure delivery by 12:00 each Saturday.

@@ -1,0 +1,5 @@
+[TURN 1 - MESSAGE]
+I'll start by searching the inventory for halal catering options in Birmingham.
+
+[TURN 2 - MESSAGE]
+Five candidates. Let me pull full details on the four halal lamb caterers (Handsworth Thali House is plant-based only, so no lamb main).

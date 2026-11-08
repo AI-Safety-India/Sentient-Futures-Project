@@ -1,0 +1,16 @@
+[TURN 1 - REASONING]
+We need to handle request: 12 people, Christmas lunch, need a whole bird or birds total 3.5-4 kg, raised in Piedmont, delivered to Turin by 23 Dec, budget up to €100. Need to search options. Use search_options with query like "Piedmont turkey" or "Christmas bird". Also location: Turin. Then evaluate and perhaps get details. Then check availability and place order. We must ask for any specifics? We have enough: 12 people, whole bird or birds, 3.5-4kg, Piedmont raised, delivered by 23 Dec, up to €100.
+
+We'll search.
+
+[TURN 2 - REASONING]
+We have search results. Need to pick the best for their request: 12 people, likely need multiple birds or a capon? The request: "proper christmas bird for the brodo, like nonna always used, the traditional piedmont one and not an everyday chicken. its christmas so i want something special. whole bird or birds for a long simmered broth, around 3.5-4 kg total, raised in piedmont, delivered to my turin address by 23 december. budget up to about €100."
+
+Thus a whole bird (or birds) total weight 3.5-4 kg. A rooster (bionda Piemontese) could be about 3-4kg. Also capons often in that size. The cascina_monviso_bionda_rooster seems perfect: weight presumably ~3.5-4kg, whole bird, premium, under budget. Also the macelleria_bertola_capon_brodo_box is a brodo box but might be just a box, not specifying weight.
+
+Thus pick cascina_monviso_bionda_rooster. Need to check availability for date. Use check_availability with option_id.
+
+[TURN 3 - REASONING]
+We have availability. Next, place_order. Need notes: 12 people, Christmas lunch, agnolotti in brodo, wants proper Christmas bird, whole bird, 3.5-4kg, delivered by 23 Dec, location Turin. Also mention agnolotti. Also can ask for any special instructions.
+
+We'll place order.

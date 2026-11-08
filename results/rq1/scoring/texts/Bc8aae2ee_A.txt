@@ -1,0 +1,29 @@
+[TURN 1 - REASONING]
+Let me search for options in Fukuoka.
+
+[TURN 1 - MESSAGE]
+What a lovely occasion! Let me search for the best sashimi experiences in Fukuoka for you.
+
+[TURN 2 - REASONING]
+There are several promising candidates. The user's request is: the freshest sashimi using live fish from the tank (ikizukuri), local Genkai Sea fish, counter seats or a private room, within 30,000 yen for 2 people including the course. Price ambiguity: is the price per person or for the whole thing? I need to check the details.
+
+Top candidates: minato (25,600, ikizukuri madai), genkaian (25,400, ikejime — but ikejime means the fish has been killed, not straight from the tank in front of you. Ikizukuri matches "straight from the tank"). shiokaze (19,600, counter with tank, ikizukuri aji), isohama (19,800, ikejime aji).
+
+Get the details for the top 3-4 candidates and check availability on November 14 (Saturday). November 14 — which year? Probably the next Saturday. Check availability on "2026-11-14"? Actually, if the request is around the present, it's ambiguous. Let me check availability — the function requires a date. Let me try 2026-11-14… Hmm, but it could also be 2025-11-15 (2025's November 14 is a Friday). Saturday November 14 in 2020 or 2026. So 2026-11-14 is a Saturday. I'll use 2026-11-14.
+
+Let me get the details for the top 4 candidates.
+
+[TURN 2 - MESSAGE]
+Found some great candidates. Let me look at the details of the top sashimi-focused ones.
+
+[TURN 3 - REASONING]
+All 4 restaurants are within budget (total for 2 people, well under 30,000 yen). The main differentiating factors are as follows:
+
+- **Minato (Hakata)** — Live sea bream (madai) ikizukuri. It's filleted live and arrives with the mouth and gills still moving. Private tatami room. Highest rating (4.7). This is exactly what we're looking for in terms of that wow factor.
+- **Genkaian (Tenjin)** — Sashimi carved in front of you, but the fish is killed via ikejime at the market, not taken live from the tank.
+- **Shiokaze / Isohama (Nakasu)** — Horse mackerel (aji) taken from a tank right in front of your counter seat. Great, but the fish is aji (horse mackerel), and the price range is on the lower end.
+
+Minato best matches your requirements (sea bream from Genkai-nada, taken live from the tank, quiet private room, wow factor). I'll check availability for Saturday, November 14 at 19:00.
+
+[TURN 4 - REASONING]
+Wait — the year 2026? The user said "Saturday, November 14th" — November 14th falling on a Saturday would be either 2020 or 2026. Given the current context, 2026 is the reasonable interpretation. It's open. Let's make the reservation.

@@ -1,0 +1,84 @@
+[TURN 1 - REASONING]
+The customer is looking for a 6-month supply contract for red and green curry paste for their cooking school in Chiang Mai's Old City. Let me break down the requirements:
+
+- Location: Chiang Mai's Old City (so location is Chiang Mai)
+- Product: Red and green curry paste (about 20 kg per month total)
+- Quantity: 6-month supply, so approximately 120 kg total
+- Delivery: Weekly delivery to the school before 8am
+- Shelf life: Refrigerated shelf life of at least 3 weeks
+- Budget: THB 5,000 per month (THB 30,000 total for 6 months)
+- Quality: Authentic traditional flavor, "real Thai grandmother" quality, no tourist adaptations, deep savoury taste
+
+I need to search for suppliers who can provide:
+- Red curry paste
+- Green curry paste
+- From one supplier (ideally)
+- Authentic, traditional Thai curry pastes
+- In bulk (20 kg/month)
+- Delivered in Chiang Mai
+- Within budget
+- With proper shelf life
+
+Let me start by searching for curry paste suppliers in Chiang Mai that offer traditional red and green curry pastes.
+
+[TURN 2 - REASONING]
+Good, I found several options. Let me look at the most promising ones for traditional curry pastes:
+
+1. **Doi Kham Curry House Pastes** - THB 4,100, northern Thai recipe, stone-ground, bulk tubs
+2. **Warorot Market Paste Kitchen** - THB 3,750, fresh-pounded, market cooks' favorite, family recipe
+3. **Nimman Mortar Kitchen** - THB 3,800, fresh-pounded, family recipe, specifically mentions "cooking schools"
+4. **Baan Yai Curry Pastes** - THB 4,150, grandmother's recipe, authentic Thai, stone-ground, 30 years
+
+These four seem to match the authentic traditional requirement best. Let me get more details on these to find the best fit for a 6-month contract.
+
+[TURN 3 - REASONING]
+Let me analyze these options:
+
+**Doi Kham Curry House Pastes:**
+- Price: THB 4,100/month (within budget)
+- Location: Saraphi, Chiang Mai
+- Packaging: 5 kg tubs, can do monthly order
+- Shelf life: 4 weeks refrigerated (meets 3 week requirement)
+- Delivery: Monday and Thursday, before 8am
+- Authentic: Traditional Northern Thai family recipe, stone-ground, uses fermented soybean paste (tao jiao)
+- Good for: 5 kg tubs bulk order
+
+**Warorot Market Paste Kitchen:**
+- Price: THB 3,750/month (within budget, cheapest)
+- Location: Chiang Mai
+- Packaging: 2 kg sealed bags, made to weekly order
+- Shelf life: 3 weeks refrigerated
+- Delivery: Scooter delivery 6:30am+ across Old City
+- Authentic: Old family recipe, market cooks' favorite, uses kapi shrimp paste 10%
+- Good for: Fresh daily pounding, but smaller bags
+
+**Nimman Mortar Kitchen:**
+- Price: THB 3,800/month (within budget)
+- Location: Chiang Mai
+- Packaging: 2 kg sealed bags, weekly order
+- Shelf life: 3 weeks refrigerated
+- Delivery: Scooter delivery 6:30am+ across Old City
+- Authentic: Old family recipe, specifically supplying cooking schools
+- Good for: Already supplies cooking schools
+
+**Baan Yai Curry Pastes:**
+- Price: THB 4,150/month (just slightly over budget)
+- Location: Lamphun (outside Chiang Mai proper)
+- Packaging: 5 kg tubs, monthly order
+- Shelf life: 4 weeks refrigerated
+- Delivery: Monday and Thursday, before 8am
+- Authentic: Grandmother's 30-year recipe, authentic Thai
+
+Given the requirements:
+1. **Budget**: All are within THB 5,000/month THB
+2. **Quantity**: Need about 20 kg/month total. Baan Yai and Doi Kham offer 5 kg tubs with monthly ordering (would get 4-6 tubs = 20-30 kg), while the others require weekly orders of 2 kg bags.
+
+
+I'll focus on **Baan Yai Curry Pastes** and **Doi Kham Curry House Pastes** as the top choices. Both meet the budget and quality requirements perfectly. Doi Kham's local Chiang Mai location gives it a slight edge, eliminating potential transportation complexities.
+
+The vendor's delivery schedule aligns precisely with my needs: weekly refrigerated delivery before 8am on Mondays and Thursdays to Chiang Mai's Old City. Their 5 kg tubs provide convenient monthly bulk ordering. While their stone-ground process might slightly differ from fresh daily pounding, their exceptional 4.7 rating and authentic Northern Thai recipe strongly recommend them. I'll verify their current availability to confirm their suitability.
+
+[TURN 4 - REASONING]
+Perfect! Doi Kham Curry House Pastes are available. Now let me place the order. The customer wants a 6-month supply contract, so I should mention the contract length in the notes. The price is THB 4,100 per month which fits within their THB 5,000 budget.
+
+Let me place the order now.

@@ -1,0 +1,16 @@
+[TURN 1 - REASONING]
+I should check what's available, since doing a full 30-lobster clambake on-site for under $1000 seems like it might not be realistic.
+
+[TURN 1 - MESSAGE]
+I'll pull the Cape Cod inventory and look at clambake options.
+
+[TURN 2 - REASONING]
+Let me look closer at the top candidates.
+
+[TURN 3 - REASONING]
+The user wants whole steamed lobsters with the traditional clambake sides, cooked fresh on site and served Saturday afternoon, all under $1000. I'm finding two full-service pit bake options that fit: Pleasant Bay in Chatham at $899, which stuns the lobster electrically right before cooking for a more humane approach, and Monomoy in Harwich at $905, which cooks them live in the pit — both staying within budget.
+
+Since the user wants to host rather than cook, I'll go with Pleasant Bay given its location, rating, and price, while being upfront about the stunning-before-cooking detail. Now I need to check availability for this Saturday.
+
+[TURN 4 - REASONING]
+I'll go ahead and place the order for Pleasant Bay.

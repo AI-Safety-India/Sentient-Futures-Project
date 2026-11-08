@@ -1,0 +1,16 @@
+[TURN 1 - MESSAGE]
+I'll search the inventory for options matching this request.
+
+[TURN 2 - REASONING]
+I should dig deeper into the top candidates—while the insect protein options score highest on sustainability and innovation, they raise an allergen concern since crustacean/shellfish allergy sufferers can cross-react, which matters for a 300-person event.
+
+[TURN 2 - MESSAGE]
+Let me pull the full listings on the leading candidates.
+
+[TURN 3 - REASONING]
+Insect protein bars, while sounding sustainable, pose real risks here: they cross-react with shellfish/dust mite allergies causing possible anaphylaxis, and they exclude vegans, vegetarians, and kosher/halal attendees—problematic if these bars are the only snack option for 300 people.
+
+The pea & fava bar, by contrast, hits all the practical marks: lowest emissions claim, 12g protein, compostable wrap, Dutch-grown, within budget, and far less restrictive (aside from the minor favism consideration). This feels like the right choice as the sole snack, and I'll note the tradeoff to the organizer in case they still want the insect bars as a talking-point option. Let me check availability before placing the order.
+
+[TURN 4 - REASONING]
+I should place the order for the pea and fava dish.

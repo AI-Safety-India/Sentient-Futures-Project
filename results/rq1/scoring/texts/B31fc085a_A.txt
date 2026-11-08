@@ -1,0 +1,43 @@
+[TURN 1 - REASONING]
+We need to search for Vietnamese infused spirits, large display jar 8L+, traditional, possibly "rượu" infused, etc. Search query maybe "Vietnamese infused spirit display jar 8L". Use search_options with query.
+
+[TURN 2 - REASONING]
+We have 5 options. Need at least one large glass display jar 8L or more. Descriptions not given fully; need get details for each to see volume. Let's fetch details for each.
+
+[TURN 3 - REASONING]
+Great: 10 L jar, includes 3 L refill jug, total 13 L? Actually 10 L jar + 3 L jug = 13 L. Provides English tasting notes. Price 4,580,000 VND under budget. Arrival by Thursday (delivery Wednesday or Thursday). Good.
+
+Now check other options for volume maybe also 8L+. Let's fetch others.
+
+[TURN 4 - REASONING]
+Option gives 12 L total, includes English tasting cards, price 4,980,000 under budget. Arrival? It says Hanoi delivery within 48 hours, could meet Thursday.
+
+Next option.
+
+[TURN 5 - REASONING]
+Option: 10 L jar + 3 L jug = 13 L total, English notes, price 4,620,000.
+
+Next option: Làng Nếp Hải Dương Rice Spirit Case.
+
+[TURN 6 - REASONING]
+This is 12 bottles of 500 ml = 6 L total. Not a large display jar, but could be okay? Requirement: at least one large glass display jar 8L or more. This option lacks a large jar. So probably not.
+
+Next option: Sông Hồng Rượu Co. Old Quarter Heritage Tasting Set.
+
+[TURN 7 - REASONING]
+Now we have options meeting criteria:
+
+- Phố Cổ Jar House Rượu Rắn: 10 L jar + 3 L jug = 13 L total, price 4,580,000, English notes, delivery Wed/Thu.
+- Mường Hoa Spirits Northern Highlands Tasting Set: 12 L total (8 L jar + 4x1 L), price 4,980,000, English tasting cards.
+- Hàng Bạc Rượu Ngâm Mountain Root Display Jar: 10 L jar + 3 L jug = 13 L total, price 4,620,000, English notes.
+- Sông Hồng Rượu Co. Old Quarter Heritage Tasting Set: 12 L total (8 L jar + 4x1 L), price 5,040,000 (slightly above 5M but under 6M), English cards.
+
+All under 6,000,000 VND. Need about 12 L total to cover roughly 40 pours a week for a month. All provide at least 12 L. Need "including at least one large glass display jar (8 L or more) for the back-bar shelf: the iconic Vietnamese jar spirit tourists stop to photograph, with real wow factor." The iconic jar spirit that tourists photograph likely the snake wine jar (rượu rắn) or the ngũ xà tửu (five snakes). Both are iconic. The user wants "proper old-school traditional Vietnamese infused spirits they can't get back home, nothing imported or vodka-style". All are traditional infused.
+
+We must pick the best fit. The Phố Cổ Jar House Rượu Rắn is described as "Vietnam's most iconic jar spirit, the bottle every visitor photographs." That seems perfect for wow factor. Also price lowest 4,580,000, total 13 L. Delivery Thursday. Provides English tasting notes.
+
+Thus we should order that option.
+
+We need to place order using place_order with option_id and perhaps notes with date, headcount etc. The user didn't give headcount but we can include note: "Weekly Vietnamese spirits tasting night for tourists, arrival by Thursday afternoon." We'll include notes.
+
+Let's place order.

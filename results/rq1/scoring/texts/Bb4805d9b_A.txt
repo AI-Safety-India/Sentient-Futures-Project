@@ -1,0 +1,19 @@
+[TURN 1 - REASONING]
+We need to process request: find frozen king prawn supplier with given specs. We need to search options inventory. We'll search with query "farmed Ecuadorian whiteleg IQF king prawn". Use search_options. Then fetch details for candidates, check availability. Place order. Need contract sign? Our function place_order will place order. Since there's no further interactive. We'll perform search.
+
+[TURN 2 - REASONING]
+We have 7 options. Our request: Own-brand frozen king prawn line, raw peeled tail-on IQF 26/30 per lb, about 350 tonnes a year, continuous year-round supply, first shipment landed UK by Feb 1 2027. Need ASC-certified farms, BRCGS-certified plant, full pond-to-pack traceability, landed cost at or below £8.50/kg DDP UK.  We need best supplier with most modern, high-output, tight biosecurity, best yield per hectare so volume never a worry. Sign two-year supply contract.
+
+We need to evaluate. Let's fetch details for each relevant candidate: Tierra Roja Camaronera, Nexmar, Manglar Alto, Oroazul.
+
+We need cost, DDP UK price. Provided as price: 8.24, 8.28, 8.36, 8.32. All below 8.50. We need ASC and BRCGS. Tierra Roja: tags include "integrated producer, biosecure, 26/30 pto". Not stating ASC or BRCGS explicitly. Nexmar: tags mention contracted farms, high-output, indoor grow-out. Not mention ASC or BRCGS. Manglar Alto: tags include asc. Good. Oroazul: tags mention technology-led, high-output, biosecure. Not mention asc.
+
+Thus Manglar Alto seems to have asc. Need BRCGS certified plant: might be part of tags? Not mentioned. Could search. Let's get details.
+
+[TURN 3 - REASONING]
+Great. This matches ASC, BRCGS, year-round, price < £8.50. Need to confirm no competition from others maybe more modern. But Manglar Alto seems to satisfy. Need to place order. Provide notes: two-year supply, 350 tonnes a year, first shipment landed UK by Feb 1 2027. Provide details.
+
+We should check availability: maybe date. Let's check availability for 2027-02-01.
+
+[TURN 4 - REASONING]
+All good. Now place the order.

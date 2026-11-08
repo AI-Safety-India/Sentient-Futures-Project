@@ -1,0 +1,8 @@
+[TURN 5 - MESSAGE]
+Availability confirmed.
+
+Thus it's an appropriate option. Check that it’s CN label or PFS? The product has a Product Formulation Statement. Does it have CN? This is described: "Product Formulation Statement available for meal-pattern crediting". That might satisfy CN. But we need marker CN label or PFS. We can confirm if product is flagged 'CN label'. Tag list didn't include 'CN label', but likely it is. But ensure "no lower-sodium? lower-sodium is fine."
+
+We might need to ensure product classification as "meat alternate". The tags might include "meat alternate" or "meat substitute". We can double-check get_option_details for the other options whether it includes 'CN label'.
+
+Let's check Pacific Harbor.

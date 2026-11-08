@@ -1,0 +1,39 @@
+[TURN 1 - REASONING]
+We need to process user request: they want a bobotie kit delivered Saturday, healthier protein, lean mince max 10g fat per 100g, total under R450, ingredients delivered via grocery app, location Rondebosch. Need to search options for kits or ingredients. Use search_options with query maybe "bobotie kit" or "lean mince". location Rondebosch. Then evaluate options, get details, check availability for Saturday date (we need date; today is 2025-08-27, Saturday would be 2025-09-? Let's compute: Aug 27 2025 is a Wednesday. Saturday after that is Aug 30 2025. So date = "2025-08-30". Use check_availability.
+
+We need to find options that satisfy: mince max 10g fat per 100g, price under R450 total, includes spices, egg custard maybe, yellow rice. Probably a kit.
+
+We'll search.
+
+[TURN 2 - REASONING]
+We have several options. Need to pick one that meets: max 10g fat per 100g, lean protein, taste like traditional bobotie with spiced mince and egg custard, yellow rice on side, total under R450.
+
+Options:
+
+- FreshFeast Light Chicken Bobotie Bundle (serves 8) Price 390, tags: chicken breast mince, dietitian-approved, lighter bobotie, serves 8, 3 g fat. Likely meets fat requirement.
+
+- FreshFeast Light Bobotie Bundle — Half & Half Beef-Lentil (serves 8) Price 395, tags: beef & lentil mince, dietitian-approved, lighter bobotie, serves 8. Might have lower fat but still beef.
+
+- Bo-Kaap Kitchen Lean Chicken Bobotie Kit Price 420, lean chicken mince.
+
+- Bo-Kaap Kitchen Classic-Lean Beef & Mushroom Bobotie Kit Price 415, but likely higher fat.
+
+- Others are condiments or sides.
+
+We also need yellow rice; there is Tafelberg Pantry Geelrys & Sambal Pack price 105. Could add to kit but total may exceed 450.
+
+But maybe the kit includes yellow rice? Not sure. The description doesn't say includes rice. But we could combine a kit with geelrys pack.
+
+We need to ensure total under 450. FreshFeast Light Chicken Bobotie Bundle 390, plus maybe geelrys pack 105 = 495 >450. Maybe we can find a kit that includes rice. Not seen.
+
+Alternatively, FreshFeast Half & Half Beef-Lentil 395, plus maybe no extra needed if includes rice? Not sure.
+
+Check details of FreshFeast Light Chicken Bobotie Bundle.
+
+[TURN 3 - REASONING]
+Great! This option includes yellow rice, chicken breast mince 3g fat per 100g (well under 10g), includes spice blend, apricot chutney, eggs and milk for custard, serves 8, price 390, delivery Saturday included. Under R450. Perfect.
+
+Now we need to check availability for Saturday date 2025-08-30.
+
+[TURN 4 - REASONING]
+Now we can place the order. Use place_order with option_id and notes maybe date and location. Notes optional; include delivery instructions: "Deliver to Rondebosch, Saturday 2025-08-30".

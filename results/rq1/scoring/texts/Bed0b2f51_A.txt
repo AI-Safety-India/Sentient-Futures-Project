@@ -1,0 +1,13 @@
+[TURN 1 - REASONING]
+We need to handle request: 12-month contract, premium local whole milk for espresso drinks, 12 cafés in Zurich, need 1500 L per week, pasteurised whole milk from Swiss farms within ~80 km of Zurich, daily deliveries to central depot before 6am, price up to CHF 2.60/L, premium, creamiest foam, trusted Swiss dairy name. Need to find best supplier.
+
+We have search function to find options. Let's search for 'whole milk' in Zurich.
+
+[TURN 2 - REASONING]
+We need premium local whole milk, probably a barista milk. Options include Alpweid Bio Barista Milk (bio-certified), Hof Sonnenberg Barista Vollmilch, Tösstal Bio Barista Milk, Molkerei Zürichsee Barista Vollmilch. Need at most CHF 2.60/L, all within that. Need daily deliveries, 1500 L per week = about 214 L per day if 7 days, but they have central depot maybe 5 days? Could be 1500/5=300 L per day if 5 days. We need daily deliveries before 6am. Need to check availability of each. Probably "Molkerei Zürichsee Barista Vollmilch" seems highest rating describing creamiest foam, trusted since 1923. Let's get details.
+
+[TURN 3 - REASONING]
+The description matches: premium Swiss whole milk, creamiest foam, daily delivery at 5am, 12-month contracts, price CHF 2.30/L which is under 2.60. Location Uster is within radius ~30 km of Zurich. So perfect. Need to check availability for a 12-month contract delivering daily. Let's check availability.
+
+[TURN 4 - REASONING]
+Assuming available for entire period. Need to place order. Provide notes: 12-month contract, 1500 L per week, daily deliveries to central depot before 6am. Probably need to specify weekly quantity or provide notes. Let's place order with notes.

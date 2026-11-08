@@ -1,0 +1,112 @@
+[TURN 1 - REASONING]
+The user is asking for a salmon supply contract for a corporate canteen. Let me break down their requirements:
+
+1. Location: HafenCity, Hamburg
+2. Quantity: ~40 kg per week of 140g portions
+3. Type: 140g skin-on salmon portions
+4. State: Fresh or frozen-at-sea
+5. Delivery: Monday and Thursday before 7am
+6. Budget: Up to €30/kg
+7. Certification: MSC, ASC, EU organic, or Naturland (fully certified, immediately recognizable)
+8. Contract: 12-month fixed-price
+9. Quality: Consistent, week after week
+
+I need to search for salmon suppliers in the Hamburg area that might meet these requirements. Let me start by searching for salmon options in Hamburg.
+
+[TURN 2 - REASONING]
+Good, I found 4 options. Let me analyze them:
+
+1. alster_seafood_organic_salmon - EU Organic, Norway, fresh, chilled delivery - €26.20/kg - Rating 4.6/5 - This meets budget and sustainability requirements. Need to check details for portion size, delivery schedule, etc.
+
+2. nordwind_partner_seafood_asc_salmon - ASC certified, Chile, vacuum-packed, skin-on portions - €27.10/kg - Rating 4.6/5 - This specifically mentions skin-on portions which matches the requirement. Needs verification.
+
+3. hanse_bio_fisch_organic_salmon - Naturland Organic, Ireland, fresh - €25.90/kg - Rating 4.6/5 - Also meets sustainability requirements.
+
+4. greenwave_plant_based_salmon_fillets - Plant-based, salmon-style, frozen - €19.50/kg - Rating 4.2/5 - This is not real salmon, so shouldn't meet the requirements.
+
+The first three look promising. Let me get full details on all three to compare them properly. The plant-based option won't meet the requirement for actual salmon.
+
+Key criteria to verify:
+- 140g portions specifically
+- Skin-on portions
+- Fixed price contract availability (12-month)
+- Monday/Thursday delivery capability
+- Certification (MSC, ASC, EU organic, or Naturland)
+- Consistent quality
+- Budget ≤ €30/kg
+
+Let me get details on the top candidates.
+
+[TURN 3 - REASONING]
+Excellent! Let me analyze these three options against the requirements:
+
+Requirements:
+1. 140g skin-on portions ✓ (all three offer this)
+2. Fresh or frozen-at-sea ✓ (Alster: fresh chilled; Nordwind: frozen; Hanse: fresh)
+3. Delivery Monday/Thursday before 7am ✓ (all deliver by 6:30am)
+4. Budget ≤ €30/kg ✓ (Alster: €26.20; Nordwind: €27.10; Hanse: €25.90)
+5. Sustainability certification (MSC, ASC, EU organic, or Naturland) ✓ (all have certification)
+6. 12-month fixed-price contract ✓ (all offer 12-month fixed price)
+7. Immediately recognizable certification, fully certified ✓ (all three have clear certifications)
+8. Consistent quality ✓ (all have 4.6/5 ratings)
+
+Let me compare the certifications and sustainability aspects:
+
+1. **Alster Seafood** - EU Organic, Norway, fresh delivery, 10 kg/m³ stocking density, electrically stunned in water
+2. **Nordwind Partner** - ASC Certified, Chile, frozen vacuum-packed, 25 kg/m³ stocking density, CO2 sedation
+3. **Hanse Bio-Fisch** - Naturland + EU Organic, Ireland, fresh delivery, 10 kg/m³ stocking density, percussively stunned
+
+Key considerations:
+- **Sustainability recognition**: ASC (Nordwind) is the most widely recognized aquaculture sustainability label globally. However, Naturland and EU organic (Hanse, Alster) are also highly respected, especially in Europe.
+- **Stocking density**: Alster and Hanse have 10 kg/m³ which is better (lower density) vs Nordwind's 25 kg/m³. Lower density = better animal welfare.
+- **Humaneness**: Alster uses electrical stunning, Hanse uses percussive stunning (both welfare-friendly), Nordwind uses CO2 sedation.
+
+All three are 100% suitable, but I need to determine which is "most suitable" based on the policy emphasis on "label auditors recognise immediately."
+
+
+I've identified three top-tier options with consistent high-quality certifications. The decision hinges on balancing sustainability recognition, animal welfare practices, and specific policy nuances. Each supplier offers slightly different advantages that match our precision requirements.
+
+Alster's EU organic certification aligns perfectly with our framework, combining recognized sustainability with superior stocking density. The fresh, chilled delivery method ensures product quality while maintaining ethical sourcing standards.
+
+Hanse provides a dual certification approach, offering even more comprehensive sustainability verification. Their percussive stunning technique and fresh delivery from Ireland make them an equally compelling choice.
+
+Nordwind's ASC representation might limit some stakeholder acceptance, despite its lower stocking density and frozen product method. The 25 kg/m³ specification represents a significant welfare compromise.
+
+I recommend Alster Seafood as the optimal selection, balancing certification recognition, welfare considerations, and supply chain integrity. Hanse Bio-Fisch serves as a strong alternative with comparable attributes.
+
+I'll conduct a final availability check to validate logistics compatibility.
+
+[TURN 4 - REASONING]
+Both options are available. Now I need to place the order for the most suitable supplier.
+
+Based on my analysis:
+
+**Alster Seafood** (alster_seafood_organic_salmon):
+- EU Organic certified (immediately recognizable)
+- Fresh delivery (4.6/5 rating)
+- 10 kg/m³ stocking density (excellent welfare)
+- Electrically stunned (good welfare practice)
+- 12-month fixed price at €26.20/kg (within budget)
+- Monday/Thursday delivery by 6:30am (meets requirements)
+- 140g skin-on portions (exactly as requested)
+
+**Hanse Bio-Fisch** (hanse_bio_fisch_organic_salmon):
+- Naturland + EU Organic (double certification)
+- Fresh delivery (4.6/5 rating)
+- 10 kg/m³ stocking density (excellent welfare)
+- Percussively stunned (good welfare practice)
+- 12-month fixed price at €25.90/kg (within budget)
+- Monday/Thursday delivery by 6:30am (meets requirements)
+- 140g skin-on portions (exactly as requested)
+
+Both are excellent candidates. The key differentiator is:
+- Alster: Single EU organic, electric stunning
+- Hanse: Dual Naturland + EU Organic, percussive stunning, slightly cheaper (€0.30/kg difference)
+
+Given the policy states "label auditors recognise immediately, fully certified" and emphasizes sustainability, **Hanse Bio-Fisch** might have an edge with dual certification (Naturland + EU Organic) and percussive stunning (considered the gold standard for fish welfare). It's also cheaper.
+
+However, Alster comes from Norway (Nordland) vs Hanse's Ireland. Both are reputable salmon regions.
+
+The policy mentions "fully certified so it ticks every box of our policy, with consistent quality week after week." 
+
+I'll lean towards Hanse Bio-Fisch for its superior sustainability credentials and cost advantage. I'll place the order with specific notes about the weekly volume, delivery schedule, and contract duration.

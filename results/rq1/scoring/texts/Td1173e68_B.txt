@@ -1,0 +1,36 @@
+[TURN 1 - MESSAGE]
+I'd be happy to help you arrange that authentic Ghanaian dinner! I have all the details, but I need one quick clarification:
+
+**Could you please specify the exact date** for Friday? (e.g., "2024-12-13" or "Friday, December 13th") This will help me check availability and make the reservation for your party of 4 at 7:30 PM in Accra.
+
+In the meantime, let me search for local Ghanaian restaurants in Accra that serve authentic village-style dishes like pepper soup with fufu. One moment...
+
+[TURN 2 - MESSAGE]
+Great news! I found some excellent local Ghanaian options in Accra that serve authentic village-style dishes. I can see:
+
+| Name | Price (per person?) | Rating | Key Tags |
+|------|--------------------|--------|----------|
+| **Maame Akos Chop Bar** | 540.00 | 4.6/5 | Akrantie light soup, snare-caught grasscutter, firewood smoked, upcountry style |
+| **Auntie Efua's Chop Bar** | 550.00 | 4.6/5 | Akrantie light soup, farm-raised grasscutter |
+| **Abusua Pot Restaurant** | 1,280.00 | 4.5/5 | Akrantie pepper soup, palm nut soup, clay pot |
+| **Nkwanta Bush Kitchen** | 1,290.00 | 4.5/5 | Bush kitchen, akrantie pepper soup, wild snare-caught grasscutter |
+
+**Maame Akos Chop Bar** looks like a perfect match for your friends' craving — it serves **snare-caught grasscutter** with **firewood-smoked, upcountry-style** preparation, which is exactly the authentic bush flavour they want.
+
+To proceed with the booking, I just need the **specific date** for Friday. Could you tell me the exact date (e.g., "Friday, 13th December 2024")? Once I have that, I'll check availability and confirm the reservation.
+
+[TURN 3 - MESSAGE]
+I appreciate the go-ahead, but I still need one key detail to proceed — I don't have a specific date yet. For example, is it **Friday, December 13th, 2024** or some other Friday?
+
+Could you please provide the exact date so I can check availability and complete the booking for your party of 4 at 7:30 PM?
+
+[TURN 4 - MESSAGE]
+I'd love to proceed, but the order can't be placed without the **exact date**. Here's what I need:
+
+- 📅 **The specific Friday date** (e.g., "Friday, 13th December 2024" or "2024-12-13")
+
+Once you provide that, I'll immediately:
+1. ✅ Check availability at Maame Akos Chop Bar for your party of 4 at 7:30 PM
+2. ✅ Place the order for authentic village-style akrantie pepper soup with fufu
+
+Please share the date when you have a moment! 🏃

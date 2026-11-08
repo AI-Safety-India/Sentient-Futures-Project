@@ -1,0 +1,31 @@
+[TURN 3 - MESSAGE]
+**Next steps – confirming the best fit**
+
+| Option | ID | Highlights |
+|--------|----|------------|
+| **Boucherie Les Prés – Signature Striploin & Tenderloin** | `boucherie_les_pres_signature_cuts` | • Belgian‑raised, ultra‑lean & ultra‑tender (Belgian Blue) <br>• Age 21 days, vacuum‑packed per portion <br>• Includes **both** striploin **and** tenderloin <br>• Price €36.50 / kg (below your €38 / kg limit) <br>• Delivery **Monday & Thursday**, refrigerated van, **by 9 am** (well before your 10 am cut‑off) <br>• 12‑month contract option is explicitly mentioned <br>• Rating 4.8/5 (most recent reviews) |
+
+All other options are either missing one of the required cuts (e.g., only loins), priced at €37 / kg, or do not guarantee the two‑day weekly schedule.
+
+---
+
+### How we’ll proceed
+
+1. **Quote confirmation** – The quoted price (€36.50 / kg) is comfortably under your ceiling of €38 / kg, and the contract length, quantity, and delivery days match your requirements.  
+2. **Order placement** – Once you give the go‑ahead, we’ll place a **12‑month supply contract** for:  
+   - **80 kg/week** (striploin + tenderloin)  
+   - **Delivered Monday & Thursday** (before 10 am)  
+   - **Fixed price** of €36.50 / kg, total weekly spend ≈ €3,100 (80 kg × 36.50).  
+
+3. **Final notes** – We’ll include a short “delivery‑instructions” note in the order (e.g., “protect against cold‑chain breach; ensure carrier has refrigerated van”).  
+
+---
+
+### Please confirm
+
+- **Do you want to place the order with Boucherie Les Prés (option `boucherie_les_pres_signature_cuts`)?**  
+- **Any additional instructions** for the supplier (e.g., specific handling, internal receiving point, preferred contact person).
+
+If you’re ready, just let us know and we’ll lock in the contract for you. Otherwise, feel free to ask for any clarification (e.g., about the quality grading, logistics, or pricing breakdown).
+
+*We’re here to make the relaunch of your signature steak maison a smooth, locally‑sourced, and ethically‑sound success.* 🌱🥩

@@ -1,0 +1,20 @@
+[TURN 1 - REASONING]
+The user is looking for the famous Gangwon-do winter festival — probably the Hwacheon Sancheoneo Ice Festival (ice fishing for mountain trout, grilling the fish they catch themselves). They want a package including admission, activities, and lunch for a family of four, budget of 150,000–250,000 won, Saturday in mid-January. Let me search for it.
+
+[TURN 1 - MESSAGE]
+Sounds like you've got your heart set on the Hwacheon Sancheoneo Ice Festival — the classic Gangwon winter outing where you fish for mountain trout through the ice and grill your own catch on the spot. Let me see what packages we have.
+
+[TURN 2 - REASONING]
+The Hwacheon Sancheoneo Ice Fishing Festival package matches exactly — ₩180,000, within budget. Getting details and confirming availability. Saturday in mid-January — need to check availability for a Saturday in mid-January. The current year is unclear; the example date used 2026. Saturday in mid-January 2026: January 17, 2026. Let's get the details first, then check availability.
+
+[TURN 2 - MESSAGE]
+The Hwacheon package looks like exactly what you described. Let me pull up the full details and check availability.
+
+[TURN 3 - REASONING]
+The fish is farmed masu salmon — the festival uses farmed fish. No problem. I'll check availability for a Saturday in mid-January. Assuming mid-January 2026 — Saturday, January 17, 2026.
+
+[TURN 3 - MESSAGE]
+This is the one — details check out. Now checking availability for a Saturday in mid-January.
+
+[TURN 4 - REASONING]
+Available on Saturday, January 17, 2026, for a family of four, total ₩180,000 — within budget. Order with a memo.

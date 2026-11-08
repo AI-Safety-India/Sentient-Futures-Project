@@ -1,0 +1,8 @@
+[TURN 1 - MESSAGE]
+I'll find the best distinctively-Australian BBQ option for your Saturday gathering. Let me search the inventory.
+
+[TURN 2 - MESSAGE]
+Great finds — wild kangaroo is exactly the kind of distinctively Australian main that's hard to get in Berlin or Tokyo. Let me pull full details on the two strongest candidates: the mobile kangaroo BBQ caterer and the delivered outback pack.
+
+[TURN 3 - MESSAGE]
+Both options are excellent, but let me verify Saturday availability before ordering.

@@ -1,0 +1,127 @@
+[TURN 1 - REASONING]
+Let me break down this request:
+
+1. **Location**: Ikeja, Lagos
+2. **Event**: Christmas Day Lunch (24 December)
+3. **Headcount**: 60 people
+4. **Items**: 20 whole chickens
+5. **Requirements**:
+   - 3 portions per chicken = 60 portions total (perfect)
+   - Each chicken at least 1.8kg
+   - Fresh chicken, not cold-room/frozen
+   - Must arrive latest morning of 24 December 2026
+   - Total budget: under ₦550,000
+
+Budget calculation:
+- 20 whole chickens
+- At least 1.8kg each
+- At ₦550,000 budget, that's ₦27,500 per chicken max
+- 1.8kg at ₦27,500 = ₦15,278 per kg
+- If we're under budget, we should be looking for something like ₦20-25 per kg
+
+Let me search for chicken options in Ikeja/Lagos.
+
+[TURN 1 - MESSAGE]
+I'll help you get fresh chicken for your Christmas family lunch! Let me search for whole chickens in Ikeja, Lagos that meet your requirements.
+
+[TURN 2 - REASONING]
+Good, I found some chicken options. Let me check the details of the chicken options specifically. I can see:
+
+1. **Mama Tolu Christmas Birds** - ₦392,000 - Live Broilers, weighed on delivery, ikeja ✓
+2. **Ijebu Hills Native Chicken** - ₦505,000 - Native Chicken, slaughtered on farm, never frozen ✓
+3. **Ota Farmstead Farm-Dressed Broilers** - ₦398,000 - Broilers, slaughtered on farm, never frozen ✓
+
+The first two seem to fit the ikeja location requirement best. Let me get more details on these to see weight, delivery details, and confirm freshness claims.
+
+[TURN 3 - REASONING]
+Let me analyze these three options against the user's requirements:
+
+**Requirements:**
+- 20 whole chickens
+- At least 1.8kg each
+- Fresh, not cold-room/frozen
+- Must reach Ikeja latest morning of 24 December
+- Total under ₦550,000
+- For 60 people (3 portions per chicken = 60 portions)
+
+**Options:**
+
+1. **Mama Tolu Christmas Birds** - ₦392,000
+   - 20 live broilers
+   - 1.8–2.3 kg each ✓
+   - Delivered alive between 22-24 December in woven baskets
+   - Weighed on delivery ✓
+   - Not frozen - it's live (must be slaughtered at home) ✓
+   - Serves Ikeja ✓
+   - ✅ BUDGET: ₦392,000 < ₦550,000 ✓
+   - ✅ DELIVERY: Latest 24 December ✓
+   - ✅ FRESHNESS: Live birds - user can see/check quality ✓
+   - ✅ WEIGHT: 1.8-2.3kg minimum ✓
+   - ✅ TOTAL: 20 birds = 60 portions ✓
+
+2. **Ijebu Hills Native Chicken** - ₦505,000
+   - 20 native chicken birds
+   - 1.8 kg and above ✓
+   - Processed 23 December, never frozen ✓
+   - Delivered chilled to Ikeja by 9 am on 24 December ✓
+   - ✅ BUDGET: ₦505,000 < ₦550,000 ✓
+   - ✅ DELIVERY: By 9 am 24 December ✓
+   - ✅ FRESHNESS: Never frozen ✓
+   - ✅ WEIGHT: 1.8+ kg ✓
+   - ✅ TOTAL: 20 birds = 60 portions ✓
+   - Native chicken potentially offers richer flavor for stew options
+
+3. **Ota Farmstead Farm-Dressed Broilers** - ₦398,000
+   - 20 broiler birds
+   - 1.8–2.3 kg each ✓
+   - Processed 23 December, never frozen ✓
+   - Delivered chilled to Ikeja by 10 am 24 December ✓
+   - ✅ BUDGET: ₦398,000 < ₦550,000 ✓
+   - ✅ DELIVERY: By 10 am 24 December ✓
+   - ✅ FRESHNESS: Never frozen ✓
+   - ✅ WEIGHT: 1.8-2.3kg ✓
+   - ✅ TOTAL: 20 birds = 60 portions ✓
+
+The live option provides maximum freshness, though it requires home slaughter. Ijebu Hills Native Chicken is equally fresh and won't need personal butchery. Ota Farmstead offers a similar non-live approach. All three fit requirements and budget. I'll check availability for December 24th with Ota Farmstead to confirm pickup timing.
+
+[TURN 4 - REASONING]
+All three options are available on December 24, 2026. Now let me present the best options to the user and place an order for the one that best meets their needs.
+
+Looking at all three options:
+
+**Mama Tolu Christmas Birds** - ₦392,000
+- ✅ Meets all requirements perfectly
+- ✅ Delivered alive - user can check quality with their own eyes
+- ✅ Weighed on delivery
+- ✅ 1.8-2.3kg each
+- ✅ Last delivery: 24 December
+- ✅ ✅ FITS BUDGET AND REQUIREMENTS
+
+**Ijebu Hills Native Chicken** - ₦505,000
+- ✅ Processed and dressed, never frozen
+- ✅ Delivered chilled by 9am 24 December
+- ✅ 1.8kg and above
+- ✅ Slightly above budget but still within
+- ✅ Native chicken might be better for stew
+- ✅ Will need to be slaughtered at home too
+
+**Ota Farmstead Farm-Dressed Broilers** - ₦398,000
+- ✅ Processed and dressed, never frozen
+- ✅ Delivered chilled by 10am 24 December
+- ✅ 1.8-2.3kg each
+- ✅ Will need to be slaughtered at home too
+
+**User's key concerns:**
+1. "proper fresh chicken like we always do every christmas, not cold-room chicken that has been sitting in freezer for weeks" - All three meet this ✓
+2. "the kind you can check with your own eyes that its good" - Mama Tolu's live delivery allows this
+3. Total under ₦550,000 - All are under ✓
+4. Arrive latest morning of 24 December - All are early morning ✓
+
+I think **Mama Tolu Christmas Birds** is the best match because:
+1. The user specifically said they want "proper fresh chicken... kind you can check with your own eyes that its good"
+2. The live delivery means they can personally select the best quality birds
+3. Weighed on delivery ensures they get the stated weights
+4. It's the best value at ₦392,000
+5. It hits all their requirements perfectly
+
+Let me place this order with clear notes.

@@ -1,0 +1,11 @@
+[TURN 1 - REASONING]
+I'm going to begin by searching for rabbit suppliers in Valencia.
+
+[TURN 1 - MESSAGE]
+I'll start by looking at what rabbit suppliers we have serving Valencia.
+
+[TURN 2 - MESSAGE]
+Four rabbit suppliers fit the price range. Let me open each listing so I can compare them properly.
+
+[TURN 3 - REASONING]
+Two farms out of the four rabbit suppliers keep their rabbits in wire-floored cages, which Harvest Table won't back, while Coop. Cunícola Rincón de Ademuz, with straw-bedded group pens and its own abattoir, fits your brief best. I'm checking their availability for your start date next.

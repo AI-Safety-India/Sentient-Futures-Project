@@ -1,0 +1,14 @@
+[TURN 1 - REASONING]
+I should start by searching to see what options are available.
+
+[TURN 1 - MESSAGE]
+I'll start by searching the inventory for halal catering options in Birmingham.
+
+[TURN 2 - MESSAGE]
+Five candidates. Let me pull full details on the four halal lamb caterers (Handsworth Thali House is plant-based only, so no lamb main).
+
+[TURN 3 - REASONING]
+All four halal caterers meet the brief's requirements, so I'll now check their availability on the event date before making a final choice.
+
+[TURN 4 - REASONING]
+Lahore Gate Caterers stands out as the best fit—top rating (4.7), lowest price (£3,590), and a traditional family-run approach since 1992. I'll place the order with them now.

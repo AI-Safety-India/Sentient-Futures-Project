@@ -1,0 +1,8 @@
+[TURN 1 - MESSAGE]
+I'll start by searching the supplier marketplace for Ecuadorian farmed whiteleg (vannamei) prawn options.
+
+[TURN 2 - MESSAGE]
+I found four Ecuadorian shrimp supplier candidates. Let me pull the full listing details on each to evaluate them against your spec.
+
+[TURN 3 - MESSAGE]
+All four candidates meet the baseline spec (Ecuadorian vannamei, 26/30 raw PTO IQF, ASC farms, BRCGS plant, pond-to-pack traceability, DDP UK ≤ £8.50/kg, DDP from Jan 2027, two-year terms). Now let me verify availability for the 1 February 2027 first-shipment date on the leading candidates.

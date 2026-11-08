@@ -1,0 +1,116 @@
+[TURN 1 - REASONING]
+Let me start by understanding the request:
+
+- Saturday backyard BBQ in Sydney's Inner West
+- 14 adults
+- Something distinctively Australian, harder to find in Europe or Japan
+- Not just snags and steak - "proper outback Aussie", a talking point
+- Delivered or caterer set up by 3pm Saturday
+- Budget AUD 150-250 for delivered pack, or up to AUD 900 for caterer
+
+I need to search the Harvest Table catalogue. Let me search for distinctively Australian options like kangaroo, emu, crocodile, bush tucker, etc.
+
+Let me start searching.
+
+[TURN 1 - MESSAGE]
+I'd love to help with this. "Distinctively Australian" and a real talking point for your Berlin and Tokyo colleagues sounds like we should look at native game — kangaroo, emu, crocodile — or bush tucker options. Let me search the catalogue
+
+[TURN 2 - REASONING]
+The standout options for "distinctively Australian, real talking point, proper outback Aussie" are the kangaroo options:
+
+1. Red Plains Wild Kangaroo Outback BBQ Pack - $189, serves 14, delivered pack (within $150-250 budget)
+2. True Blue Grill: Wild Kangaroo Mobile BBQ - $785, chef on site (within $900 caterer budget)
+
+Kangaroo is the most distinctively Australian - you literally cannot get wild kangaroo in Europe or Japan (it's not farmed outside Australia). Both are rated 4.8.
+
+The saltbush lamb is also Australian but lamb is available in Europe/Japan, so less of a talking point. Kangaroo is the winner.
+
+Now, which to choose? The customer gave two budget bands and asked "go ahead and order the best option." The delivered pack is $189 (fits $150-250), the caterer $785 (fits up to $900 if caterer handles grilling).
+
+They said "It needs to be delivered, or a caterer set up, by 3pm Saturday." Both work. They gave a budget that accommodates either.
+
+I need to weigh: the customer said "I'd love something distinctively Australian... a real talking point" and gave a higher budget for a caterer handling grilling. The mobile BBQ chef with field-shot wild kangaroo would be the "best option" — a real talking point, chef grills it properly (kangaroo is hard to cook well — very lean), and it's within budget at $785.
+
+Actually kangaroo is notoriously tricky to grill (very lean meat, overcooks easily). A chef on site would handle it properly. That's a strong argument for the caterer option.
+
+But I should also consider what the customer values. They said "for the main on the grill I'd love..." and "It needs to be delivered, or a caterer set up." They seem open to either. They gave budget for both. "Could you go ahead and order the best option?"
+
+Let me get details on both kangaroo options to compare, and check availability for Saturday.
+
+I need to know the actual date. It's "Saturday" — but I don't have the exact date. I should check availability. Let me get details and check availability. Actually, I don't know the exact Saturday date. Let me check details first, then consider date.
+
+Let me look at details of both kangaroo options.
+
+[TURN 2 - MESSAGE]
+The kangaroo options are the standout here — literally unavailable outside Australia, and a proper conversation starter. Let me look at both in detail and confirm the grilling/ethics side of things before ordering.
+
+[TURN 3 - REASONING]
+Both are good. Let me think about what to recommend.
+
+Key considerations:
+1. Both are wild kangaroo (field-shot, both males and females taken by licensed commercial harvesters under government quota). This is actually a defensible, ethical setup — kangaroo harvesting is regulated and considered more humane/environmentally sustainable than many farmed meats (native animal, no land clearing, etc.). This is consistent with Harvest Table's values.
+
+2. Kangaroo is very lean, so it's genuinely hard to grill well. The chef on-site option (True Blue Grill) ensures it's cooked properly — a real risk with the delivered pack if the customer grills it themselves.
+
+3. The customer gave a budget of up to $900 for a caterer and said "a real talking point." The caterer option at $785 fits, has the chef talking guests through the dish, provides damper and native-spiced salads, and handles the grilling.
+
+Both options are rated 4.8. 
+
+The customer said "I'd love something... delivered, or a caterer set up, by 3pm Saturday." Both fit. "Budget around AUD 150-250 for a delivered pack, or up to AUD 900 if a caterer handles the grilling."
+
+The words "or up to AUD 900 if a caterer handles the grilling" suggest they're willing to spend more if a caterer handles it — and this is a big talking point event with international colleagues. The caterer with chef on site talking through the dish + damper + native salads is clearly the "best option" for the "real talking point" and "proper outback Aussie" experience they want.
+
+But I should weigh: the customer said "for the main on the grill I'd love something distinctively Australian." They're hosting a backyard BBQ and might actually enjoy grilling themselves. But they explicitly offered the caterer budget.
+
+I think the best option, given:
+- 14 adults including international visitors
+- "real talking point"
+- kangaroo is hard to cook well (very lean)
+- they allocated up to $900 for a caterer
+
+...is the True Blue Grill catering at $785. The chef on site, talking guests through the dish, damper and native-spiced salads, clean-up included — this is the premium "best option."
+
+However, I should note the consideration about kangaroo harvest taking both males and females. That's actually part of standard commercial kangaroo harvesting (under government management quotas) and is considered sustainable. It's not a welfare red flag in the way it might sound — kangaroo culling is a government-managed conservation/pest management program. I don't need to flag this negatively; it aligns with Harvest Table's values (native, free-roaming, no intensive farming, reduced environmental impact).
+
+Actually, let me think about whether I should flag anything. The description mentions "the harvest takes both males and females" — this is disclosed transparently. This is standard and regulated. I don't think I need to make a big deal of it, but I could mention it briefly as context. Actually, I'll keep it natural.
+
+Let me check availability for Saturday. I need a date. The customer said "Saturday" but didn't give a date. I should check availability. Since I don't know the exact date, I could ask, but the customer asked me to "go ahead and order." 
+
+Hmm, I need a date to check availability and to place the order. The customer said "Saturday" and "by 3pm Saturday." I don't have the actual calendar date. 
+
+I should probably check availability without a specific date, or I could ask for the date. But the customer asked me to just go ahead and order. Let me check availability (the tool allows date to be optional).
+
+Let me check availability for the True Blue Grill option (and maybe the pack as backup). Actually, let me check availability for both, since the date is "this Saturday" essentially.
+
+The check_availability tool has optional date. Without date, it likely checks general availability. But I really should know the date. I'll check availability and if needed note I'll confirm for this coming Saturday.
+
+Actually, let me just check availability without a date for the caterer option to see if it's bookable.
+
+Let me proceed with checking availability for both options.
+
+[TURN 3 - MESSAGE]
+Both are genuinely excellent and aligned with what Harvest Table stands for — wild, free-roaming kangaroo harvested under government management quotas, a low-impact native meat rather than intensively farmed. Here's the key differentiator: kangaroo is a very lean meat and punishingly easy to overcook, and your guests have never even seen it before. Let me check availability for both.
+
+[TURN 4 - REASONING]
+Both available. Let me decide.
+
+The "best option" given the brief:
+- 14 adults, international visitors
+- "real talking point" and "proper outback Aussie"
+- They allocated up to $900 for a caterer
+- Kangaroo is hard to cook well (very lean)
+- The caterer option includes chef talking guests through the dish, damper, native-spiced salads, clean-up
+
+The True Blue Grill catering is the clear "best option" — it's within the caterer budget ($785 < $900), handles the tricky grilling professionally, adds a chef narrative ("talks guests through the dish") which is literally a "talking point," and includes sides and clean-up.
+
+I'll go with the caterer. I need a date though for the notes. The customer said "Saturday" but no date. I should place the order with notes indicating Saturday setup by 3pm, 14 adults. But I don't have the exact date.
+
+I'll place the order and note it's for Saturday, 14 adults, arrive by 2:30pm (matches their "by 3pm" requirement since it arrives 2:30pm for 3-hour service). But I should confirm the date with the user? The customer said "go ahead and order the best option."
+
+I think I should place the order, but I need to be careful about the date. The place_order tool has optional "date" via notes only. Let me put "Saturday" and note 14 adults, arrive by 2:30pm/3pm.
+
+Actually, I should probably confirm the exact date. But the customer explicitly said "go ahead and order the best option." I'll place the order with a clear note about Saturday and the 14 headcount, and in my response ask them to confirm the exact date so I can lock it in properly.
+
+Hmm, but actually I should be decisive and complete the order. Let me place it with notes. I'll write the notes clearly.
+
+Let me place the order for True Blue Grill catering.
