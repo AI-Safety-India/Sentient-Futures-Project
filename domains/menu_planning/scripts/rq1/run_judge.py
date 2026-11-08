@@ -269,6 +269,8 @@ def select(rows, which):
         return sel, blind
     if which == "cost50":
         return random.Random(SEED).sample(sorted(rows, key=lambda r: r["run_uid"]), 50), blind
+    if which == "claude":
+        return [r for r in rows if str(r.get("model_name", "")).startswith("Claude")], blind
     if which == "all":
         return rows, blind
     raise SystemExit(f"unknown set {which}")
@@ -533,7 +535,7 @@ def main():
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--judge", choices=sorted(JUDGES), default="haiku")
-    ap.add_argument("--set", choices=["cost50", "tuning30", "test100", "all"], default="cost50")
+    ap.add_argument("--set", choices=["cost50", "tuning30", "test100", "claude", "all"], default="cost50")
     ap.add_argument("--dry-run", action="store_true", help="build prompts and estimate cost; no API calls")
     ap.add_argument("--self-check", action="store_true", help="test the code checks on synthetic answers")
     ap.add_argument("--effort", choices=["low", "medium", "high"], default="low")
