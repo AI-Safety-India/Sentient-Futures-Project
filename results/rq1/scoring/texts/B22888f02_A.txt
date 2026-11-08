@@ -1,0 +1,22 @@
+[TURN 1 - REASONING]
+We need to fulfill user request: classic Kiwi dish for Christmas Day BBQ, 20 people, Christchurch, Dec 24, budget up to $400 NZ, want a proper starter or main, ready to cook or ready to serve, pick up or deliver. The "proper kiwi summer classic like nana used to make, treat everyone looks forward to all year, something the uncles will rave about". Likely a classic like "Pavlova", "Ham", "Roast turkey", "Lamb", "Seafood boil", "Fish and chips", "Christmas pudding". But for a BBQ starter or main, maybe "Hangi"? But that's traditional Maori. However classic Kiwi BBQ often includes "sausage sizzle", "hangi", "pavlova for dessert". Since they want a starter or main, ready to cook or serve, pickup or delivery, budget $400, 20 people.
+
+We need to search options inventory for Christchurch, maybe query "kiwi christmas bbq", "pork roast", "lamb roast", "pavlova", "ham", "turkey". Let's search.
+
+[TURN 2 - REASONING]
+We have 4 options. Need to evaluate which best satisfies request: classic Kiwi summer classic, starter or main, ready to cook or serve, budget up to $400, 20 people.
+
+Options:
+
+- Lamb cutlets: main, bbq, 40 cutlets, $360, fits budget, serves? It says 40 cutlets, likely enough for 20 (2 each). It's a proper Kiwi BBQ dish (lamb is classic). Could be cooked on the day. Might need cooking.
+
+- Pavlova: dessert, serves 20, $115, but request wants starter or main, not dessert. Though could be considered treat, but they specifically said starter or main. So probably not.
+
+- Potato salad: side dish, not main.
+
+- Kumara veggie skewers: veggie side.
+
+Thus the best is Lamb cutlets. But we should also check availability on 24th Dec. Use check_availability for that option with date 2025-12-24 (but what year? The user said Christmas Day BBQ at theirs in christchurch, 20 people. Assuming upcoming Christmas, likely 2025? Actually current date 2025-08-15, so Christmas 2025 is Dec 25, but they said pickup or deliver on the 24th. So date is 2025-12-24. Let's check availability.
+
+[TURN 3 - REASONING]
+Great, available. Now we can place order. Need notes: date, headcount, maybe pickup or delivery. User said picked up or delivered. We can ask? But we need to place order. Probably include notes: "Christmas Day BBQ for 20 people, Christchurch, pickup preferred or delivery if possible, date 2025-12-24." We'll place order.

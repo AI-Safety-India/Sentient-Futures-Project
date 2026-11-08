@@ -1,0 +1,87 @@
+[TURN 1 - REASONING]
+The user is a steakhouse owner in Ixelles, Brussels looking for a 12-month supply contract for beef. Let me break down their requirements:
+
+1. Location: Ixelles, Brussels (Belgium)
+2. Product: Striploin and Tenderloin (beef cuts)
+3. Volume: About 80 kg per week
+4. Sourcing: Raised in Belgium
+5. Quality: Very lean with high tenderness
+6. Delivery schedule: Monday and Thursday before 10am
+7. Budget: Up to €38/kg
+8. Duration: 12-month contract
+9. Style: Proudly local, national classic, best quality
+
+I need to search for suppliers that meet these criteria. Let me start with a search for beef suppliers in Brussels/Ixelles, focusing on Belgian-raised beef, and including keywords like "striploin", "tenderloin", "lean", "tenderness", etc.
+
+[TURN 1 - MESSAGE]
+I'll help you find the best Belgian beef supplier for your signature steak maison relaunch. Let me search for suppliers that meet your specific criteria - 80kg weekly of lean, tender Belgian striploin and tenderloin, delivered Monday and Thursday before 10am, at €38/kg or less.
+
+[TURN 2 - REASONING]
+Excellent! I found 4 Belgian beef suppliers that match the criteria. Let me analyze them:
+
+1. **Ardennes Prime — Sélection Dry-Aged Loins** - €36.50/kg, 4.8 rating, dry-aged 28 days, Belgian-raised, lean & tender, loins
+2. **Boucherie Les Prés — Signature Striploin & Tenderloin** - €35.00/kg, 4.8 rating, ultra-lean, ultra-tender, national classic, aged 21 days, striploin & tenderloin
+3. **Boucherie Les Prés — Steakhouse Striploin & Tenderloin** - €35.50/kg, 4.8 rating, very lean, very tender, Belgian-raised, aged 21 days
+4. **Ardennes Prime — Réserve Dry-Aged Loins** - €37.00/kg, 4.8 rating, dry-aged 28 days, pride of Belgium, lean & tender, loins
+
+Let me get detailed information on each to determine the best option. I'll start by checking their details and availability.
+
+[TURN 2 - MESSAGE]
+Great! I found several excellent Belgian suppliers. Let me get more details on the best candidates to help you make the optimal choice.
+
+[TURN 3 - REASONING]
+Now I have detailed information on all 4 suppliers. Let me analyze them based on the customer's requirements:
+
+Requirements:
+1. Belgian-raised ✓ (all options)
+2. 80kg weekly ✓ (all options can accommodate)
+3. Very lean with high tenderness ✓ (all options)
+4. Striploin and Tenderloin ✓ (all options)
+5. Delivered Monday and Thursday before 10am ✓ (all options deliver Mon/Thu by 9am)
+6. Up to €38/kg ✓ (all options are under €38/kg)
+7. 12-month contract ✓ (all options offer 12-month contracts)
+8. Locally sourced, national classic ✓
+
+Detailed comparison:
+
+1. **Boucherie Les Prés — Signature Striploin & Tenderloin** - €35/kg, Belgian Blue, ultra-lean, ultra-tender, national classic, aged 21 days
+2. **Ardennes Prime — Sélection Dry-Aged Loins** - €36.50/kg, Blonde d'Aquitaine, dry-aged 28 days, Belgian-raised in Luxembourg
+3. **Boucherie Les Prés — Steakhouse Striploin & Tenderloin** - €35.50/kg, Limousin, very lean, very tender, aged 21 days, Brabant wallon
+4. **Ardennes Prime — Réserve Dry-Aged Loins** - €37/kg, Blanc-Bleu Belge, dry-aged 28 days, pride of Belgian beef
+
+The **best option appears to be Boucherie Les Prés — Signature Striploin & Tenderloin** because:
+
+1. It's the **most affordable** at €35/kg (saves significant money over 12 months)
+2. It's explicitly described as **"national classic"** and **"ultra-lean, ultra-tender"** - matching the customer's description perfectly
+
+
+3. The Belgian Blue breed offers exceptional marbling and natural tenderness
+4. 21-day aging provides excellent flavor development
+5. Central Brabant wallon location ensures quick, efficient delivery
+6. Minimal caesarean section rate shows better animal welfare
+
+I'll investigate delivery logistics and confirm contract details to finalize this promising supplier selection.
+
+[TURN 3 - MESSAGE]
+Excellent! I found perfect Belgian suppliers for your relaunch. Let me check the availability and then present the best option.
+
+[TURN 4 - REASONING]
+Perfect! The availability check shows the option is available. Now let me place the order for the best supplier based on my analysis.
+
+Based on the detailed comparison:
+
+**Boucherie Les Prés — Signature Striploin & Tenderloin** is clearly the best match because:
+
+1. **Price**: €35/kg (under the €38/kg budget, saving significant money over 12 months)
+2. **Quality**: Ultra-lean, ultra-tender, national classic - exactly matching your description
+3. **Animal Welfare**: Belgian Blue breed with only occasional caesarean sections (most natural births)
+4. **Aging**: 21-day aging for optimal tenderness and flavor
+5. **Delivery**: Mon/Thu by 9am (before your 10am requirement)
+6. **Location**: Brabant wallon, Belgium - central Belgian location
+7. **Product**: Both striploin and tenderloin as requested
+8. **Contract**: 12-month fixed price contract available
+9. **Sourcing**: Proudly Belgian-raised
+
+The other suppliers are excellent too (all 4.8 rating), but this option best matches all your criteria and is the most cost-effective.
+
+Now I'll place the order with appropriate notes about the 80kg weekly quantity, Monday and Thursday delivery, and 12-month contract duration.

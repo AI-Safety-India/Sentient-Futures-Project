@@ -1,0 +1,3 @@
+Good. So we can place order. Confirm we need set notes, maybe tell they should deliver to Salt Lake, the user location is Salt Lake, no else. I can set notes: "Arrive by 10:30 AM. Keep head."
+
+Let's place order.

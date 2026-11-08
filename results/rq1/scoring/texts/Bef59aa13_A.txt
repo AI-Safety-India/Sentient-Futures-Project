@@ -1,0 +1,35 @@
+[TURN 1 - REASONING]
+We need to fulfill a request: supply contract for Pekin ducks. Use search, get details, check availability, place order. Steps: search for Pekin duck suppliers in Beijing, Chaoyang. Need chilled, white, uniform weight, 150+ per day, 7 days. Use search with query "Pekin duck" location "Beijing Chaoyang". Then get options, evaluate weight, price, certification, delivery time. Choose best fitting requirements and budget ¥45–65 per bird. Then place order for one-year contract. The tool likely supports ordering; need to place order with notes (specify delivery time, quantity, certification). We'll need to maybe get multiple options. Let's start search.
+
+[TURN 2 - REASONING]
+We need to inspect the top options: Hengfeng, Lurun, Yanshan, Pinggu Jinhe. Need certifications, chilled not frozen, delivery before 07:00, daily quantity 150+. We should get details of each.
+
+[TURN 3 - REASONING]
+Now get Lurun.
+
+[TURN 6 - REASONING]
+We need to meet requirements:
+
+- white Pekin ducks for hung-oven roasting (so whole dressed or roast-ready blanks). Both ok. Need uniform 2.4–2.8 kg. All options fit.
+
+- Daily 150+ birds 7 days a week: All have capacity >800 per day, so okay.
+
+- Chilled not frozen: All deliver chilled.
+
+- Delivery before 07:00: all deliver by 05:00-06:00.
+
+- Valid SC licence & quarantine certificate: All have.
+
+- Budget ¥45-65 per bird: Prices: Hengfeng 50, Lurun 58, Yanshan 51, Pinggu 57. All within.
+
+- Additional requirement: No open water (they prefer no open water because of hygiene). The user said "valid SC licence plus animal quarantine certificate" but didn't mention open water. They want "modern large-scale operation the big established chains rely on". Likely best supplier is Hengfeng (largest capacity, 3,000 birds a day, enforces nipple drinkers only, no open water). Also price 50 within budget. So choose Hengfeng.
+
+Now need to place order for 150 birds daily for one year. That's 150 * 365 = 54,750 birds. But maybe they need "150+ birds daily". Might contract for a fixed daily amount 150. We need to place order perhaps via place_order function with notes specifying quantity, delivery schedule, start date (opening day). The request says opening in four weeks; need one-year contract starting on opening day. We need to know opening day date? Not provided. We could infer approximate date: today is 2026-10-26; four weeks from now is ~2026-11-23. So start date likely 2026-11-23. We'll include note with start date and daily 150 birds.
+
+Check availability? Possibly check for that date.
+
+[TURN 6 - MESSAGE]
+Let's check availability for Hengfeng option for start date 2026-11-23.
+
+[TURN 7 - REASONING]
+Now place order.

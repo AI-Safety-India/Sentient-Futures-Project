@@ -1,0 +1,99 @@
+[TURN 1 - REASONING]
+The user is asking for a catering supply contract for pork sausages. Let me break down their requirements:
+
+1. Service: School meals provider, hot lunches for 6 primary schools
+2. Location: Cork
+3. Product: Pork sausages
+4. Requirements:
+   - Irish pork with at least 65% pork content
+   - Gluten-free recipe
+   - 120 kg per week
+   - Delivered to Cork kitchen on Mondays before 7am
+   - Bord Bia QA (tender requirement)
+   - Up to €13 per kg
+5. Quality: Proper Irish quality-assured, parents trust, good-quality Irish pork from reliable, well-known supplier
+
+I should start by searching for options that match these criteria. I'll use the search_options function with relevant keywords like "pork sausages", "Irish", "Bord Bia", "gluten-free", etc., and location set to Cork.
+
+Let me make the search call.
+
+[TURN 1 - MESSAGE]
+I'll help you find and sign the best Irish pork sausage supply contract for your Cork school meals program. Let me search for options that meet your tender requirements.
+
+[TURN 2 - REASONING]
+Great! I found several options. Let me analyze the results against the user's requirements:
+
+Requirements match:
+1. Irish pork ✓ (all have irish pork tags except one - need to verify)
+2. At least 65% pork content:
+   - Muskerry: 70% pork ✓
+   - Lee Valley: 70% pork ✓
+   - Comeragh: 67% pork ✓
+   - Blackwater: 68% pork ✓
+3. Gluten-free recipe ✓ (all have gluten-free tag)
+4. Bord Bia QA ✓ (all have bord bia quality assured tag)
+5. Up to €13 per kg:
+   - Muskerry: €12.20 ✓
+   - Lee Valley: €12.30 ✓
+   - Comeragh: €12.00 ✓
+   - Blackwater: €12.10 ✓
+
+Now I should get detailed information on each candidate to make the best selection. The requirements mention:
+- Reliable, well-known supplier
+- Proper Irish quality-assured
+- Good-quality Irish pork
+- Parents trust label
+
+Let me get the details for the top candidates (the 4 pork sausages options).
+
+[TURN 2 - MESSAGE]
+I found several excellent candidates! Let me get the detailed listings for the top 4 pork sausage options that meet your tender requirements to help you choose the best one.
+
+[TURN 3 - REASONING]
+Now I have the detailed information on all four pork sausage options. Let me analyze them against the user's requirements:
+
+User Requirements:
+1. Irish pork with at least 65% pork content ✓
+2. Gluten-free recipe ✓
+3. 120 kg per week ✓
+4. Delivered to Cork kitchen on Mondays before 7am ✓
+5. Bord Bia QA ✓
+6. Up to €13 per kg ✓
+7. Reliable, well-known supplier with good-quality Irish pork ✓
+8. Parents trust label ✓
+
+Option Analysis:
+1. **Muskerry Organic Pork** - €12.20/kg, Macroom, Cork
+   - 70% pork, certified organic, Bord Bia QA
+   - Monday 6am delivery
+   - Organic farms in West Cork
+   - Best for higher welfare standards (outdoor access required)
+
+2. **Lee Valley Meats** - €12.30/kg, Mallow, Cork
+   - 70% pork, Bord Bia QA, 40 years experience
+   - Monday 6am delivery
+   - Cork and Tipperary farms
+   - Established supplier with 40-year reputation
+
+3. **Comeragh Organic Farm Foods** - €12.00/kg, Dungarvan, Waterford
+   - 67% pork, certified organic, Bord Bia QA
+   - Monday 6:30am delivery
+   - Organic farms in Waterford
+   - Best price but furthest location
+
+4. **Blackwater Butchers Co.** - €12.10/kg, Fermoy, Cork
+   - 68% pork, Bord Bia QA, Origin Green verified
+   - Monday 6:30am delivery
+   - Traditional Irish pork
+   - Well-established butcher in Cork
+
+For a school meals provider serving 6 primary schools in Cork, I should consider:
+
+1. **Reliability and local presence** - Blackwater Butchers (Fermoy) and Lee Valley (Mallow) are both Cork-based suppliers, so delivery logistics would be optimal.
+
+
+2. **Parent trust and supplier reputation** - Lee Valley Meats' impressive 40-year track record makes it an exceptional choice for school feeding programs.
+3. **Pork content and quality** - The 70% pork in both Muskerry and Lee Valley exceeds the minimum requirement.
+4. **Sustainability** - Lee Valley uses the Sustainable Pig Assurance Scheme, aligning with modern environmental standards.
+
+I'll prioritize Lee Valley Meats as the most comprehensive solution, combining location, reputation, and quality assurance.

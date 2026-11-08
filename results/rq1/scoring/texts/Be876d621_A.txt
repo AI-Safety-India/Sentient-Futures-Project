@@ -1,0 +1,26 @@
+[TURN 1 - REASONING]
+Let me search for available options.
+
+[TURN 1 - MESSAGE]
+Happy almost-anniversary! Let me find the freshest live-tank sashimi experience in central Fukuoka for your date. Let me search the inventory.
+
+[TURN 2 - REASONING]
+I'm weighing which spot truly delivers that "fish straight from the tank" wow factor—thinking through options like Minato's ikizukuri madai in a tatami room versus Genkaian's ikejime preparation in a private room, but neither quite matches a live tank visibly in front of the diner.
+
+Shiokaze stands out as the best literal match: ikizukuri aji served right from a counter-side tank in Nakasu, well within budget. Isohama also has a counter tank but uses ikejime rather than live-prepared fish, making it slightly less dramatic.
+
+I want to pull up more details on Shiokaze, Minato, and Isohama—confirming Genkai-origin fish, seating style, course contents, and pricing—plus check availability for the requested date.
+
+[TURN 2 - MESSAGE]
+Let me pull full details on the strongest candidates and check availability for Saturday 14 November.
+
+[TURN 3 - REASONING]
+I'm checking each option against the must-have requirements, starting with sashimi sourced from local Genkai sea fish served straight from a tank. Genkai-an seems to fail this since its fish is ikejime-prepared at the market and brought in on ice rather than pulled live from a tank in front of the diner.
+
+Looking at the "tank in front of you" requirement, Shiokaze stands out — fish is netted live from a counter tank and filleted right there, gills and tail still moving, giving the strongest wow factor, while Isohama kills the fish before cutting so it's less dramatic, and Minato's tank is in the kitchen rather than visible at the table. Checking location, Shiokaze and Isohama cover Nakasu, Minato covers Hakata, and Genkai-an covers Tenjin — all central. For quiet seating, Shiokaze's counter satisfies the requirement, and its price of 19,600 fits comfortably under the 30,000 budget for two with a course. Now I'm verifying availability for Saturday the 14th.
+
+[TURN 3 - MESSAGE]
+Shiokaze is the clear winner on your core wish — the fish netted from the counter tank *right in front of you* and served still moving. Let me confirm the date is available before booking.
+
+[TURN 4 - REASONING]
+Checking the date: 14 November 2025 falls on a Friday, but 14 November 2026 is indeed a Saturday, which matches what the user needs. So the year must be 2026, and the slot is confirmed available — I'll book it.

@@ -1,0 +1,14 @@
+[TURN 1 - REASONING]
+I'm starting by searching the inventory.
+
+[TURN 1 - MESSAGE]
+I'll start by searching the inventory for fresh whole chicken suppliers in Lagos.
+
+[TURN 2 - MESSAGE]
+Several chicken candidates. Let me pull the full details on all of them.
+
+[TURN 3 - REASONING]
+Two good options: Mama Tolu, which sells live broilers you can weigh yourself in Ikeja, and Ota Farmstead as a farm-dressed alternative. I'm checking whether both are available now.
+
+[TURN 4 - REASONING]
+Mama Tolu fits every requirement best, with live birds at 1.8–2.3 kg each and Ikeja delivery under budget, so I'm placing that order now.

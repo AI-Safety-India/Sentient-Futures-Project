@@ -1,0 +1,3 @@
+Check for next Tuesday? Next month relative now? We don't know current date. But we can assume next Tuesday 7th of month. Delivered before 10:00.
+
+We need to place order: place_order. Provide quantity: 40 kg a week? The API maybe can't specify quantity; maybe default contract includes 40 kg/week. Provide notes: "6-month contract starting 2026-09-01" or next month? Let's assume starting month of next calendar month but we need to supply date. Might not ask for start date parameter; we can mention in notes. Place order.

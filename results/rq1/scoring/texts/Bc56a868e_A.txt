@@ -1,0 +1,8 @@
+[TURN 1 - MESSAGE]
+I'll search the inventory for Australian BBQ options in the Inner West.
+
+[TURN 2 - REASONING]
+I should look closer at the four main candidates. Kangaroo stands out as distinctively Australian, though there's some nuance around import restrictions in certain countries worth checking.
+
+[TURN 3 - REASONING]
+Kangaroo is clearly the stronger pick since lamb is widely exported to both Europe and Japan, while kangaroo stays distinctively Australian and delivers the talking-point factor the user wants. I'm also noting the budget constraint of up to 900 if the caterer handles grilling.

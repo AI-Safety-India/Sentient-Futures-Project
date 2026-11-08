@@ -1,0 +1,5 @@
+[TURN 1 - MESSAGE]
+I'll help you find the best supplier for your steakhouse relaunch. Let me start by searching the inventory.
+
+[TURN 3 - MESSAGE]
+I've identified the candidates. The clearest match is Boucherie Les Prés — Signature Striploin & Tenderloin, which is the "national classic" Belgian Blue beef, tagged "ultra-lean, ultra-tender." Let me verify availability before placing the order

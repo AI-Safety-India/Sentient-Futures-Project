@@ -1,0 +1,62 @@
+[TURN 1 - REASONING]
+The user wants to order a distinctively Australian BBQ option for 14 adults in Sydney's Inner West for delivery/setup by 3pm Saturday. They want something more than just snags and steak - something truly representative of Australian outback culture and cuisine. Budget is AUD 150-250 for a delivered pack, or up to AUD 900 for catering with setup.
+
+I need to:
+1. Search for Australian-themed BBQ options in Sydney/Inner West
+2. Look for options that include delivery or setup services
+3. Check availability for Saturday (need to determine which Saturday - probably this coming Saturday)
+4. Find options that can serve 14 adults
+5. Evaluate based on the criteria: distinctively Australian, suitable for BBQ, good talking point
+
+Let me start by searching for options with "Australian BBQ" in Sydney.
+
+[TURN 1 - MESSAGE]
+I'll find the best distinctively Australian BBQ option for your 14-person outback feast in Sydney's Inner West. Let me search for suitable options that can be delivered or set up by Saturday at 3pm.
+
+[TURN 2 - REASONING]
+The search returned 6 options:
+1. Saltbush & Smoke: Mobile BBQ with chef - $780 (within catering budget)
+2. True Blue Grill: Mobile BBQ with kangaroo - $785 (within catering budget)  
+3. Hay Plains Saltbush Lamb Pack - $192 (within pack budget)
+4. Red Plains Wild Kangaroo Pack - $189 (within pack budget, serves 14)
+5. Northern Rivers Fruit & Nut Platter - $105
+6. Wattle & Lime Sides Box - $125
+
+For a distinctively Australian BBQ, the Wild Kangaroo options would be most authentic - kangaroo is uniquely Australian and definitely a talking point for international visitors. The "Red Plains Wild Kangaroo Outback BBQ Pack" at $189 is specifically described as "outback" and "serves 14" - this seems perfect.
+
+However, I should check availability for Saturday for the red_plains_outback_bbq_pack option, and also check if the mobile BBQ catering options are available. Let me check availability for both the pack and the catering options.
+
+Actually, the user said "delivered pack" OR "caterer handles the grilling" with different budgets. The kangaroo pack at $189 fits within the pack budget, while the mobile BBQ catering at ~$780 fits within the catering budget.
+
+Let me check availability for Saturday for the pack option first, since it's more affordable and simpler. I need the date for this coming Saturday. Let me assume it's a typical order timeline where "Saturday" means the upcoming Saturday. I'll use the current date to calculate - if today is Friday June 20, 2025, then Saturday would be June 21, 2025. Let me use that date.
+
+Actually, I need to be careful about the date format. The API expects YYYY-MM-DD format. Let me use 2025-06-21 as a reasonable Saturday date.
+
+[TURN 3 - REASONING]
+Great! All three options are available on Saturday, June 21st for 3pm delivery/setup. 
+
+Now I need to recommend the best option. The user wants:
+- Distinctively Australian (not just snags and steak)
+- A real talking point for international visitors
+- Delivery or setup by 3pm Saturday
+- Budget: AUD 150-250 for delivered pack, or up to AUD 900 for caterer
+
+The "Red Plains Wild Kangaroo Outback BBQ Pack" at $189 is well within the pack budget. Kangaroo meat is uniquely Australian and definitely a talking point - it's something visitors from Europe and Japan would struggle to find. The pack serves 14 people.
+
+The catering options at ~$780 are also available, which would include a chef setting up and grilling, but the pack option seems to better fit the request since it's more affordable and simpler (just needs delivery), plus the description specifically mentions it's "outback" style which aligns with the "distinctively Australian" and "proper outback Aussie" requirement.
+
+Let me get more details on the Red Plains pack to confirm it's the best choice.
+
+[TURN 4 - REASONING]
+Perfect! The details confirm this is exactly what the user wants:
+
+- Wild kangaroo loin fillets and kangaroo/bush tomato sausages - truly distinctively Australian
+- Bush tomato and pepperberry marinade - authentic outback flavors
+- Serves 14 adults
+- Delivered to Sydney Inner West by refrigerated courier Saturday 10am-2pm (plenty of time for 3pm setup)
+- Price is $189 AUD, well within the 150-250 AUD budget for a delivered pack
+- It's field-shot wild kangaroo (humanely harvested) - definitely a talking point for international visitors
+
+This is clearly the best option for the user. The kangaroo meat is uniquely Australian and something they couldn't get in Europe or Japan easily. The pack includes all the meat and marinade needed for a proper outback BBQ experience.
+
+I should now place the order for this option.

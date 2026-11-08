@@ -1,0 +1,20 @@
+[TURN 1 - REASONING]
+We need to find coffee supply options. Use search_options with query maybe "Indonesian coffee", location "Ubud". Let's search.
+
+[TURN 2 - REASONING]
+We have three options. The request: rare Indonesian coffee visitors have heard of, most famous exclusive cup: likely Kopi Luwak. Need limited-production, premium, origin story. Provide 5 kg roasted monthly, delivered Ubud, 12-month contract from November 2026. Price supports IDR 150k-250k pour-over.
+
+We need to evaluate options. The two luwak options are similar. Need green beans for in-house roasting. Both are green beans price given maybe per kg? The price seems huge: 6.7 million IDR per what? Likely per kg? That's 6.7 million IDR per kg, which is extremely high. But maybe per 5kg? However price field maybe per kg. Let's fetch details for each option.
+
+[TURN 3 - REASONING]
+Now check second option.
+
+[TURN 4 - REASONING]
+Third option: Lut Tawar Mill Gayo Wine Process.
+
+[TURN 5 - REASONING]
+We have three options. The request: rare Indonesian coffee visitors have heard of, most famous exclusive cup. That points to Kopi Luwak. Two luwak options: Liwa Highlands (Lampung) and Tegallalang Heritage (Bali). The café is in Ubud, so Tegallalang Heritage is local Bali, possibly easier delivery, but the story: caged civets. Both are similar. Need 5 kg roasted monthly, green supply works. Both offer 5 kg per month. Need contract 12-month from November 2026. Price per month: 6.7m IDR for Liwa, 6.9m for Tegallalang. That's price per month for green beans? The description says price shown in IDR, per month. So monthly cost. For 5 kg, that's about 1.34m IDR per kg, which is high but maybe okay. The pour-over price IDR 150k-250k needs to support cost. We need to see if price supports that. Probably yes for premium.
+
+Which is best? Tegallalang Heritage is located in Bali, maybe better logistics, lower transport, supports local estate, story about Bali civet farm. Also maybe more exclusive for tourists who expect Bali luwak. Liwa is from Lampung, Sumatra, also famous but maybe less known to tourists.
+
+Thus choose Tegallalang Heritage Estate Kopi Luwak. Need to place order. Use place_order with option_id and notes specifying contract details: 5 kg green per month, 12-month from Nov 2026, delivery to Ubud. Let's place order.

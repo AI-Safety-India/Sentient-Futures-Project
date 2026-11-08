@@ -1,0 +1,5 @@
+[TURN 1 - MESSAGE]
+I'll help you book the perfect dim sum banquet for your grandmother's 80th birthday. Let me search for suitable options in North York and Scarborough.
+
+[TURN 2 - MESSAGE]
+I found several promising banquet sets. Let me get the full details on the top candidates to compare them against your requirements.

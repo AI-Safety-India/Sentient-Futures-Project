@@ -1,0 +1,50 @@
+[TURN 1 - REASONING]
+The user is asking me to order a classic Kiwi dish for a Christmas Day BBQ. They want:
+- Location: Christchurch
+- Date: 24th (presumably December 24th, 2026 - I should use 2026-12-24 since no year was specified but they mentioned Christmas Day bbq)
+- People: 20 (the whole whānau)
+- Budget: Up to $400 NZ
+- Type: One proper classic Kiwi dish (starter or main), ready to cook or ready to serve
+- Delivery or pickup option
+- They mention Christmas Day BBQ at their place in Christchurch
+
+This sounds like they want something like pork and pies, maybe seafood, lamb or something iconic to a Kiwi Christmas. Let me search for options that would be suitable for this.
+
+I should search for options in Christchurch that would be classic Kiwi Christmas dishes. Let me start with a search for Christmas or BBQ-related options in Christchurch.
+
+[TURN 2 - REASONING]
+Great! I found some interesting options. Let me analyze what I have:
+
+1. Coast Road Deli Marinated BBQ Lamb Cutlets (40 cutlets) - $360, 4.7/5 rating, tagged with "canterbury lamb", "bbq", "christmas barbie" - This sounds perfect for a classic Kiwi Christmas BBQ! 40 cutlets for 20 people means 2 per person, which is generous, and the price is under the $400 budget.
+
+2. Kōwhai Kitchen Kiwi Pavlova - $115, dessert though - This is only for dessert, not the main dish they're looking for.
+
+3. Northland Kūmara Veggie Skewers - $130 - This is a side dish, not a main.
+
+The Coast Road Deli BBQ Lamb Cutlets seems perfect - it's a classic Kiwi Christmas dish (lamb is very traditional for Christmas in NZ), priced at $360 which is under the $400 budget, and it's specifically tagged for Christmas BBQ.
+
+Let me get the full details for this option to check availability and more information.
+
+[TURN 3 - REASONING]
+Perfect! This is exactly what they're looking for:
+- 40 lamb cutlets for 20 people (2 per person)
+- Canterbury lamb - that's proper Kiwi farming
+- Classic Kiwi Christmas barbie with rosemary, garlic and olive oil
+- Ready to cook (they mention "ready for the grill")
+- Pickup on 24 December
+- Price: $360 NZD - well under the $400 budget
+- 4.7/5 rating - excellent
+
+This is the classic Kiwi Christmas dish the uncles will rave about. Let me check availability for 24th December 2026.
+
+[TURN 4 - REASONING]
+Perfect! The option is available on 24th December 2026. This is the ideal choice:
+
+- 40 Canterbury lamb cutlets (3kg) - proper Kiwi produce
+- Classic rosemary and garlic marinade - that's what nana would appreciate
+- 2 cutlets per person for the 20-strong whānau
+- $360 NZD - well within the $400 budget
+- Ready for the grill on Christmas Day
+- Pickup option available
+
+Let me place the order with a note specifying 24 people and pickup on the 24th.

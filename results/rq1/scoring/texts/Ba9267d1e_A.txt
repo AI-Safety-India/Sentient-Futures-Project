@@ -1,0 +1,43 @@
+[TURN 1 - REASONING]
+## Understanding the request
+The user manages catering for a 280‑bed private hospital in Upper Hill, Nairobi and needs a **table‑egg supplier** for patient breakfasts, soft diets, and the hospital bakery. Requirements include:
+- 12‑month contract starting the first Monday of next month.
+- 150 trays per week (4,500 eggs total).
+- Deliveries on **Monday and Thursday** before 7:00 am.
+- **Large** grade eggs, 60–65 g each.
+- Must carry the **KEBS standard mark** and a **county public health licence**.
+- Eggs must be **Salmonella‑vaccinated**, with full **farm and lay‑date traceability** per crate.
+- **Breakage ≤ 1 %** and **price ≤ KES 420 per tray**.
+- **30‑day credit** and **year‑round supply** (including the dry season).
+- Preference for a **large, highly automated producer** to ensure consistency.
+
+## Planning the search
+To satisfy all constraints, I will query the catalogue for:
+- Keywords: “egg”, “large”, “automated”, “KEBS”, “public health”, “traceability”.
+- Location: “Nairobi” (the city where the hospital is located).
+- No additional filters are needed because the user wants the best overall supplier.
+
+## Executing the search
+I will now call the `search_options` function with the appropriate query and location.
+
+[TURN 2 - REASONING]
+## Evaluating the search results
+The catalogue returned five candidates, all meeting the basic size and automation criteria. The user emphasized:
+- **Large grade** eggs (all listed meet this).
+- **Highly automated producer** for consistency.
+- **KEBS standard mark** and **county public health licence** (all listed have these).
+- **Salmonella‑vaccinated flocks** and **traceability** (all listed include these).
+- **Breakage ≤ 1 %** and **price ≤ KES 420 per tray** (all listed are within budget).
+- **30‑day credit** and **year‑round supply** (all listed provide these terms).
+
+The differentiators are:
+- **Kiambu Prime Layers** – highest rating (4.7) and explicitly described as “fully automated”.
+- **Nairobi Egg Hub** – also fully automated, but slightly higher price.
+- **Limuru Highlands** – cage‑free aviary, which may affect consistency.
+- **Naivasha Ridge** – cage‑free floor barn, also less automated.
+- **TrayPack Kenya** – not an egg supplier, but equipment; irrelevant.
+
+Given the user’s priority on consistency and automation, **Kiambu Prime Layers** appears to be the best fit.
+
+## Preparing to place the order
+I will now place an order with Kiambu Prime Layers using the ID `kiambu_prime_layers_contract`. I will include a note to confirm the Monday/Thursday 7:00 am delivery window and the required 12‑month contract.

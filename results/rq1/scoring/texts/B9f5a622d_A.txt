@@ -1,0 +1,68 @@
+[TURN 1 - REASONING]
+The user wants to order singi macher jhol (freshwater fish curry) ingredients for Sunday lunch in Salt Lake, Kolkata for 8 people. The requirements are:
+- Need ~1.5 kg of singi fish
+- Cleaned and cut into jhol pieces
+- Head kept (so not filleted)
+- No cutting work at home
+- Must reach Salt Lake by 10:30 AM on Sunday
+- Budget: under ₹2000 including delivery
+- Must be freshest possible, like fresh fish from bazaar
+- Freshness is critical for the curry
+
+I need to:
+1. Search for suppliers/options that offer fresh singi (pabda) in Kolkata/Salt Lake area
+2. Check availability for Sunday delivery
+3. Check pricing to ensure it's under ₹2000 for 1.5kg with delivery
+4. Place the order once confirmed
+
+Let me start by searching for fresh singi fish suppliers in or near Salt Lake, Kolkata.
+
+[TURN 2 - REASONING]
+Good! I found 5 options. Let me analyze them for the user's requirements:
+
+1. **barasat_pukur_farm_singi**: ₹1,470, tagged as "never frozen", "same-morning harvest", "jhol pieces" - This looks promising for freshness. It's farm-to-door. Price is good.
+
+2. **jyanto_maach_doorstep_singi**: ₹1,490, "live singi" - held alive until delivery, cut at doorstep. This sounds very fresh but might be riskier with kids if they get stressed by live fish. However, para fishmonger tradition is good quality.
+
+3. **machh_bari_sunday_singi**: ₹1,460, "neighbourhood fish shop" - specifically mentions Sunday pre-order, "stunned at harvest", "never frozen". Good price.
+
+4. **maniktala_bazaar_runner_singi**: ₹1,440, "held alive in tub", "cut to order at stall", "jhol pieces" - This is from Maniktala bazaar which is famous for fresh fish. Price is lowest.
+
+5. **koley_market_jhol_sobji_box**: ₹380 - This is just vegetables for jhol, doesn't match the singi fish requirement.
+
+The user needs ~1.5kg of singi fish cleaned and cut, head kept, fresh as possible, delivered to Salt Lake by 10:30 AM Sunday, under ₹2000.
+
+All options 1-4 are around ₹1440-1490, which is well under ₹2000, so price is not an issue. The main concern is freshness and getting the fish to Salt Lake by Sunday 10:30 AM.
+
+Let me check availability for Sunday for the top candidates. The "barasat_pukur_farm_singi" sounds like it offers the freshest experience - "stunned at harvest, same-morning jhol cut" which mimics exactly what the user wants: "like baba used to bring straight from the bazaar on sundays".
+
+
+I'll verify the Sunday availability for the Barasat Pukur option to confirm it meets the delivery requirements.
+
+[TURN 3 - REASONING]
+Perfect! Barasat Pukur option is available on Sunday (2024-12-22). Now let me check the other top candidates as well to give options, then place the order. Let me check a couple more.
+
+[TURN 4 - REASONING]
+Excellent! All four singi fish options are available on Sunday. The prices are all well under ₹2000. Now I need to compare the options based on the user's requirements:
+
+Key requirements:
+- Freshest possible singi (not frozen, stunned at harvest is even better)
+- Cleaned, cut into jhol pieces, head kept
+- Delivery to Salt Lake by 10:30 AM Sunday
+- No cutting work at home
+- Under ₹2000 including delivery
+
+Options:
+1. **barasat_pukur_farm_singi**: ₹1,470 - Farm-to-door, stunned at harvest, same-morning jhol cut, never frozen. This seems to match "like baba used to bring straight from the bazaar" perfectly. Farm-fresh, stunned at harvest (humane and fresh), same morning processing.
+
+2. **jyanto_maach_doorstep_singi**: ₹1,490 - Live singi in handi, cut at doorstep. Traditional para fishmonger style. Very fresh since they're alive until the moment of cutting.
+
+3. **machh_bari_sunday_singi**: ₹1,460 - Neighbourhood fish shop, Sunday pre-order, stunned at harvest, never frozen. Good neighborhood option.
+
+4. **maniktala_bazaar_runner_singi**: ₹1,440 - Maniktala bazaar runner, held alive in tub, cut at stall, jhol pieces. Maniktala bazaar is famous for fresh fish, and being cut at the stall ensures freshness.
+
+All options mention "jhol pieces" and keeping the fish fresh. Since freshness is "everything for jhol" and "thakuma will definitely notice", I should choose the freshest option that best matches "like baba used to bring straight from the bazaar."
+
+The **Barasat Pukur Singi** option with "Stunned at Harvest, Same-Morning Jhol Cut" seems to be the closest match to the "baba used to bring straight from the bazaar" description. Being stunned at harvest is essentially like being caught fresh, and same-morning processing is exactly what they want.
+ 
+I'll move forward with placing the order through this method, ensuring a seamless and fresh delivery process.

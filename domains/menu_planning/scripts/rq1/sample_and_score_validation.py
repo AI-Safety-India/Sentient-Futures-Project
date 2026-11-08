@@ -8,7 +8,7 @@ Subcommands
 Examples
   python sample_and_score_validation.py sample
   python sample_and_score_validation.py sample --from-logs          # no Step 1 table yet: build one first
-  python sample_and_score_validation.py kappa ../outputs/blind_scoring_sheet_PREM.csv ../outputs/blind_scoring_sheet_NEEL.csv
+  python sample_and_score_validation.py kappa ../outputs/tuning_set_100_PREM.csv ../outputs/tuning_set_100_NEEL.csv
   python sample_and_score_validation.py selftest
 
 Run with the repo's environment (plus pyarrow for the parquet key):
@@ -252,7 +252,7 @@ def sample(args):
     for rater, seed_offset in (("PREM", 1), ("NEEL", 2)):
         rows_r = sheet_rows["test"][:]
         random.Random(SEED + seed_offset).shuffle(rows_r)  # each rater gets a different order
-        write_csv(out / f"blind_scoring_sheet_{rater}.csv", rows_r, BLIND_COLS + SCORE_COLS)
+        write_csv(out / f"tuning_set_100_{rater}.csv", rows_r, BLIND_COLS + SCORE_COLS)
     key_path = write_key(out, key_rows)
 
     report = composition_report(tune, test, tune_dev, test_dev, model_target, len(pool), key_path)
@@ -622,7 +622,7 @@ def selftest(args):
         print(f"  {'PASS' if good else 'FAIL'}  {name}")
 
     print("\nKappa mode end to end, on synthetic raters filling the real test sheets:")
-    sheet = read_sheet(tmp / "blind_scoring_sheet_PREM.csv")
+    sheet = read_sheet(tmp / "tuning_set_100_PREM.csv")
     rnd = random.Random(7)
     r1, r2 = [], []
     for bid, row in sheet.items():
@@ -662,7 +662,7 @@ def selftest(args):
 
 
 def hidden_ok(folder):
-    with (folder / "blind_scoring_sheet_PREM.csv").open(encoding="utf-8-sig") as fh:
+    with (folder / "tuning_set_100_PREM.csv").open(encoding="utf-8-sig") as fh:
         header = next(csv.reader(fh))
     return not ({"model_name", "prompt_condition", "outcome", "ordered_option_id", "run_uid"} & set(header))
 

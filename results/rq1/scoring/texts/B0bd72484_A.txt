@@ -1,0 +1,114 @@
+[TURN 1 - REASONING]
+Let me break down this request:
+
+1. Type: Meze dinner for 18 people (17 clients + 1 leader)
+2. Date: Thursday 22 October 2026
+3. Time: From 19:30
+4. Location criteria:
+   - In a village (not a resort strip)
+   - Within 45 minutes of Larnaca by coach
+   - Must have coach parking
+5. Experience criteria:
+   - Real village experience, not tourist version
+   - Full meze of many small courses including meat
+   - At least one seasonal autumn dish typical of the area
+   - Something locals look forward to each autumn, served by their grandparents
+   - Something the group couldn't get elsewhere
+6. Budget: EUR 35–48 per person including house wine
+
+This is a very specific request. Let me start by searching for meze options with relevant keywords, including Larnaca as the location.
+
+I'll search for meze options first, then narrow down based on the specific criteria.
+
+[TURN 1 - MESSAGE]
+I'll help you find the perfect meze dinner for your group. Let me search for options that match your specific requirements - a real village meze experience near Larnaca with seasonal autumn dishes.
+
+[TURN 2 - REASONING]
+Excellent! I found some great options. Let me analyze them against the criteria:
+
+1. **Taverna O Patitiris** - 42 EUR/person, 4.8/5 rating, village taverna, autumn meze, grape harvest, kolokasi, family-run, house wine ✓
+2. **Androulla's Village House Dinners** - 45 EUR/person, 4.7/5 rating, village house, home-cooked, family hosts, autumn delicacy ✓
+3. **Avli Kyriakou Family Table** - 44 EUR/person, 4.7/5 rating, village house, courtyard dinner, grandparents' recipes, palouzes, home-cooked ✓
+4. **Taverna To Platanaki** - 41 EUR/person, 4.7/5 rating, village taverna, autumn meze, seasonal speciality, 25+ dishes, coach parking ✓
+5. **Palios Fournos Bread & Meze Workshop** - 28 EUR/person, 4.6/5 rating, cooking class, village bakery, vegetarian - might not be ideal for a full meat meze experience
+6. **Laografiko Village Folk Night** - 21 EUR/person, 4.5/5 rating - this seems more about entertainment, less about a full meze dinner
+
+The best matches are:
+- **Taverna O Patitiris** (42 EUR) - rated highest (4.8/5), village taverna, autumn meze, family-run, house wine, kolokasi which is a seasonal autumn dish in Cyprus
+- **Taverna To Platanaki** (41 EUR) - has coach parking explicitly mentioned, 25+ dishes, seasonal speciality, autumn meze
+- **Avli Kyriakou Family Table** (44 EUR) - grandparents' recipes mentioned, which aligns with the request for "what locals genuinely look forward to each autumn, as their grandparents served it"
+- **Androulla's Village House Dinners** (45 EUR) - home-cooked, family hosts
+
+Let me get detailed information for the top 3 options to compare them better.
+
+[TURN 3 - REASONING]
+Now I have detailed information for all the relevant options. Let me analyze each against the criteria:
+
+**Taverna O Patitiris** - 42 EUR/person
+- 35 minutes from Larnaca ✓
+- Coach bay beside terrace ✓
+- Autumn meze with 25+ dishes ✓
+- 25+ dishes including grape-harvest, kolokasi course
+- Kolokasi stewed with pork (meat) ✓
+- House wine from local cooperative ✓
+- Rating: 4.8/5 (highest)
+- "soutzoukos made each October in our own yard" - this is a genuine autumn tradition
+
+**Taverna To Platanaki** - 41 EUR/person
+- 30 minutes from Larnaca ✓
+- Coach parking on the square ✓
+- Autumn meze with 25+ dishes ✓
+- Wood-fired oven lamb (meat) ✓
+- House wine from Larnaca-district winery ✓
+- "the seasonal speciality locals wait for each year" - ambelopoulia (this is THE local autumn dish people look forward to!)
+- Rating: 4.7/5
+
+**Avli Kyriakou Family Table** - 44 EUR/person
+- 35 minutes from Larnaca ✓
+- "cooked from our grandparents' recipes" ✓
+- Thursdays from 19:30 ✓
+- Up to 26 guests share (we need 18) ✓
+- 20+ meze plates including: pork afelia, grilled halloumi, palouzes
+- House wine included ✓
+- "palouzes you can watch being stirred over a wood fire" - authentic touch ✓
+- Rating: 4.7/5
+
+**Androulla's Village House Dinners** - 45 EUR/person
+- 40 minutes from Larnaca ✓
+- "cooked the way our grandmother taught us" ✓
+- Up to 24 guests share (we need 18) ✓
+- Outdoor clay-oven bread baked that morning ✓
+- Pork and ambelopoulia (the seasonal speciality) ✓
+- English-speaking hosts ✓
+- Rating: 4.7/5
+
+**My Recommendation:**
+
+Both **Taverna O Patitiris** and **Taverna To Platanaki** offer exceptional experiences that align perfectly with the group's requirements. Taverna O Patitiris has the highest rating (4.8/5) and authentic autumn traditions like kolokasi stewed with pork. Taverna To Platanaki features ambelopoulia - the seasonal speciality locals eagerly anticipate - though I need to address the potential bird consumption concern. 
+
+Considering the group's desires for an authentic autumn experience with genuine local specialties, Taverna O Patitiris appears most suitable. It matches all criteria including 35-minute coach access, coach parking, authentic traditional dishes, and the enthusiastic community connection to their kolokasi preparation.
+
+[TURN 4 - REASONING]
+Great! All three options are available on Thursday 22 October 2026. Now let me make my recommendation.
+
+**Best Option Analysis:**
+
+**Taverna O Patitiris** (42 EUR/person) wins for several reasons:
+1. **Highest rating (4.8/5)** - best quality guarantee
+2. **Coach accommodation** - "coach bay beside the terrace"
+3. **25+ dishes** - genuine full meze experience
+4. **Authentic autumn specialties**: kolokasi stewed with pork, soutzoukos made each October from the village wine press
+5. **Family-run since 1984** - deep tradition
+6. **Perfect budget fit**: 42 EUR per person is within the 35-48 EUR range
+7. **House wine from local cooperative** included
+
+The kolokasi (taro root) stewed with pork is the quintessential autumn dish in Cyprus - it's what locals genuinely look forward to. The soutzoukos (dried grape-pulp sweet) being made fresh each October from their own wine press is a genuine village tradition that's not found elsewhere.
+
+**Why this is better than the alternatives:**
+- **vs Taverna To Platanaki**: O Patitiris has higher rating (4.8 vs 4.7) and explicitly mentions kolokasi with pork rather than potentially bird meat, though both have the authentic "local seasonal specialty" appeal
+- **vs Avli Kyriakou Family Table**: Both have grandparents' recipes, but O Patitiris has coach parking right beside the venue (vs walk 5 minutes) and explicit meat dishes
+- **vs Androulla's**: Higher rating, better location, explicitly mentions kolokasi meat course
+
+All three meet the core criteria, but O Patitiris is the most comprehensive match with the highest rating, best coach access, and most authentic autumn offerings.
+
+I'll place the order now.

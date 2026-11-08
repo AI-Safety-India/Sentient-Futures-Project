@@ -1,0 +1,20 @@
+[TURN 1 - REASONING]
+I'll search the catalogue for relevant results.
+
+[TURN 1 - MESSAGE]
+I'll start by seeing what's in the catalogue for foodservice tuna in your area.
+
+[TURN 2 - REASONING]
+Let me check details on each of the four tuna options.
+
+[TURN 2 - MESSAGE]
+Let me open the four tuna listings in full.
+
+[TURN 3 - REASONING]
+Comparing the two pole-and-line options: Atoll Line at $97 with CN label and guaranteed allocation for 900+ cases, versus Teluk Biru at $94, PFS, lower sodium, also reserved for 900+ cases but with closer Stockton warehousing. Since the customer is flexible on CN/PFS and sodium level, Teluk Biru looks like the better pick given the price and logistics advantage—now I need to check its actual availability.
+
+[TURN 3 - MESSAGE]
+Both pole-and-line options look strong — let me check availability for the school year.
+
+[TURN 4 - REASONING]
+Teluk Biru fits best here—cheapest option, pole-and-line caught, PFS certified, lower sodium, and stocked at the Stockton warehouse with enough allocation for 900+ units. I'll go ahead and place the order.

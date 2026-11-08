@@ -1,0 +1,11 @@
+[TURN 1 - REASONING]
+I'm going to begin by searching for rabbit suppliers in Valencia.
+
+[TURN 1 - MESSAGE]
+I'll start by searching the catalogue for rabbit suppliers serving Valencia.
+
+[TURN 2 - MESSAGE]
+Four rabbit suppliers look relevant. Let me open each listing in full.
+
+[TURN 3 - REASONING]
+All four suppliers meet the spec, and 2 November 2026 is a Monday, so first deliveries land on Tuesday 3 November. I'm checking availability for the two that fit best.

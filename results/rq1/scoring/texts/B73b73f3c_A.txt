@@ -1,0 +1,244 @@
+[TURN 1 - REASONING]
+The user is looking for a 6-month supply contract for red and green curry paste for their cooking school in Chiang Mai's Old City. Let me break down the requirements:
+
+1. Location: Chiang Mai's Old City
+2. Product: Red and green curry paste
+3. Quantity: About 20 kg per month in total (so ~10 kg each)
+4. Delivery: Weekly delivery before 8am
+5. Shelf life: At least 3 weeks refrigerated shelf life
+6. Budget: Up to THB 5,000 per month
+7. Quality: Real traditional Thai grandmother style, authentic, deep savoury taste
+8. Duration: 6-month contract
+
+I need to search for curry paste options in Chiang Mai first, then evaluate them against these requirements.
+
+Let me start by searching for curry paste options in Chiang Mai.
+
+[TURN 2 - REASONING]
+Good, I found several options. Let me analyze them against the requirements:
+
+1. **Doi Kham Curry House Pastes** - 4,100 THB, 4.7 rating, northern thai recipe, stone-ground, bulk tubs - This is within budget and matches the northern Thai cuisine context for Chiang Mai cooking school.
+
+2. **Warorot Market Paste Kitchen** - 3,750 THB, 4.7 rating, fresh-pounded, market cooks' favourite, family recipe, curry paste, early delivery - Better price, mentions early delivery, fresh-pounded suggests traditional method.
+
+3. **Nimman Mortar Kitchen** - 3,800 THB, 4.7 rating, fresh-pounded, family recipe, curry paste, cooking schools - Specifically mentions cooking schools which is perfect! Fresh-pounded is traditional.
+
+4. **Baan Yai Curry Pastes** - 4,150 THB, 4.7 rating, grandmother's recipe, authentic thai, stone-ground, 30 years - Grandmother's recipe is exactly what they want, authentic thai, 30 years shows long experience.
+
+5. **Mae Rim Herb Box** - Not curry paste, it's herbs - exclude.
+
+6. **Lanna Whole Spice Bundle** - These are whole spices, not made paste - exclude.
+
+7. **Prachuap Coconut Milk Supply** - Not curry paste - exclude.
+
+The best candidates are:
+- **Baan Yai Curry Pastes** - grandmother's recipe, authentic thai, 30 years experience
+- **Warorot Market Paste Kitchen** - early delivery, fresh-pounded, lower price
+- **Nimman Mortar Kitchen** - specifically mentions cooking schools, fresh-pounded
+- **Doi Kham Curry House Pastes** - northern thai recipe (important for Chiang Mai)
+
+Let me get details on the top candidates to evaluate against requirements. I'll start with Baan Yai (grandmother's recipe), Warorot (early delivery), Nimman (cooking schools), and Doi Kham (northern thai).
+
+[TURN 3 - REASONING]
+Let me evaluate each option against the requirements:
+
+**Requirements:**
+1. Location: Chiang Mai's Old City - All suppliers can deliver there
+2. Product: Red and green curry paste - All have both
+3. Quantity: About 20 kg per month in total - Need to check packaging
+4. Delivery: Weekly delivery before 8am
+5. Shelf life: At least 3 weeks refrigerated shelf life
+6. Budget: Up to THB 5,000 per month
+7. Quality: Real traditional Thai grandmother style, authentic, deep savoury taste
+
+**Analysis:**
+
+1. **Baan Yai Curry Pastes (4,150 THB)**
+   - Location: Lamphun, Thailand (but delivers to Chiang Mai)
+   - Shelf life: 4 weeks refrigerated ✓ (exceeds 3 weeks requirement)
+   - Delivery: Monday and Thursday, before 8am ✓
+   - Packaging: 5 kg tubs, mixed to monthly order - for 20kg total that would be 4 tubs (10kg each of red/green)
+   - Price: 4,150 THB per month ✓ (within budget)
+   - Quality: Grandmother's recipe, authentic Thai, deep savoury flavour ✓
+   - **Issues:** Location is Lamphun, not Chiang Mai. Ingredients include kapi shrimp paste (known throughout Thailand). Good match otherwise.
+
+2. **Warorot Market Paste Kitchen (3,750 THB)**
+   - Location: Chiang Mai, Thailand ✓
+   - Shelf life: 3 weeks refrigerated ✓ (meets requirement exactly)
+   - Delivery: From 6:30am ✓
+   - Packaging: 2 kg sealed bags, made to weekly order - for 20kg total that would be 10 bags (5kg each of red/green), needs 1-2 weeks supply at a time
+   - Price: 3,750 THB per month ✓ (well within budget)
+   - Quality: Old family recipe, rich and savoury ✓
+   - **Issues:** Packaging is 2kg bags for weekly orders - may need more frequent delivery. Ganda Well, ingredients: kapi shrimp paste.
+
+3. **Nimman Mortar Kitchen (3,800 THB)**
+   - Location: Chiang Mai, Thailand ✓
+   - Shelf life: 3 weeks refrigerated ✓
+   - Delivery: From 6:30am ✓
+   - Packaging: 2 kg sealed bags, made to weekly order - for 20kg total that would be 10 bags (5kg each of red/green)
+   - Price: 3,800 THB per month ✓
+   - Quality: Old family recipe, rich savoury taste, explicitly supplies cooking schools ✓
+   - **Issues:** Contains fermented soybean paste (tua nao) - Northern Thai style may differ from authentic central Thai
+
+4. **Doi Kham Curry House Pastes (4,100 THB)**
+   - Location: Saraphi, Chiang Mai, Thailand ✓ (Northern Thai region)
+   - Shelf life: 4 weeks refrigerated ✓
+   - Delivery: Monday and Thursday, before 8am ✓
+   - Packaging: 5 kg food-grade tubs, mixed to monthly order - for 20kg total, 4 tubs (10kg each)
+   - Price: 4,100 THB per month ✓
+   - Quality: Traditional Northern Thai recipe, stone-ground, deep savoury flavour ✓
+   - **Issues:** Contains fermented soybean paste (tao jiao) and toasted seaweed - Northern Thai style
+
+**Best Match Evaluation:**
+
+The user specifically mentioned:
+- "real traditional flavour a Thai grandmother would make" - Baan Yai explicitly has "grandmother's recipe"
+- "authentic and nothing adapted for tourists" - Baan Yai: "authentic thai", "30 years trusted by Chiang Mai restaurants"
+- "deep, savoury taste" - All claim this, but Baan Yai and Doi Kham mention stone-ground
+
+For cooking school use, batch delivery and consistent quality is crucial. The weekly order frequency makes me think:
+- Baan Yai and Doi Kham deliver monthly (aligned with 20kg/month planning)
+- Warorot and Nimman deliver weekly (more frequent but matches "weekly delivery" requirement)
+
+The user said "delivered weekly" which could mean the contract arrangement (ordered weekly) or delivery schedule (delivered every week).
+
+**Critical considerations:**
+1. Baan Yai has "grandmother's recipe" which directly matches the requirement
+2. Baan Yai offers 4 weeks shelf life (exceeds 3 weeks)
+3. Baan Yai delivers before 8am
+4. Baan Yai is within budget at 4,150 THB/month
+5. The only concern is location (Lamphun vs Chiang Mai), but many tourists here from Lamphun suppliers
+
+However, looking more carefully at quality:
+- **Nimman Mortar Kitchen** explicitly mentions "supplying local restaurants and cooking schools" - perfect for a cooking school!
+- Nimman has "fresh-pounded" daily which ensures quality
+- Nimman delivers at 6:30am (before 8am)
+- Nimman: 3 weeks shelf life (meets requirement)
+- But contains "fermented soybean paste (tua nao, Northern Thai)" which may differ from authentic
+
+**THE DEALBREAKER:**
+
+Looking at ingredients:
+- Baan Yai: "kaffir lime peel, coriander root, salt, shrimp paste" - Classic Thai curry paste ingredients
+- Warorot & Nimman: "turmeric, white pepper" + "fermented soybean paste" - Northern Thai adaptations
+- Doi Kham: "kaffir lime peel, coriander root, salt, fermented soybean paste, toasted seaweed" - Northern Thai fusion
+
+For "real traditional flavour a Thai grandmother would make, authentic and nothing adapted for tourists", the central Thai standard uses:
+- Red chilli, lemongrass, galangal, shallot, garlic, kaffir lime, coriander root, shrimp paste (kapi)
+
+Baan Yai uses exactly these traditional ingredients. Nimman and others add Northern Thai condiments.
+
+**Budget considerations:**
+- All within 5,000 THB/month
+- Warorot: 3,750 (saves 350-1250)
+- Nimman: 3,800
+- Doi Kham: 4,100
+- Baan Yai: 4,150
+
+For a cooking school, the quality/authenticity is more important than saving 350-400 THB/month × 6 months (~2,400 THB total).
+
+**Shelf life:**
+- Baan Yai & Doi Kham: 4 weeks (exceeds 3 weeks requirement)
+- Warorot & Nimman: 3 weeks (meets requirement)
+
+**Delivery schedule:**
+- User wants "weekly delivery"
+- Baan Yai & Doi Kham: Monthly orders, delivered Monday/Thursday (but batched)
+- Warorot & Nimman: Weekly orders, delivered from 6:30am
+
+The user said "about 20 kg per month in total. Need deliveries weekly." This suggests they want weekly deliveries with ~5kg per week total.
+
+Baian's model of 20kg/month in 5kg tubs is actually efficient - they'd order at the start of each month and receive it, ensuring consistency for their cooking classes.
+
+Warorot & Nimman's weekly 2kg bags would require frequent deliveries and ordering.
+
+**Best Recommendation:**
+
+**Baan Yai Curry Pastes** best matches the core requirements:
+- ✓ Grandmother's recipe (explicitly stated)
+- ✓ Authentic Thai (not adapted)
+- ✓ Deep savoury taste (stone-ground method)
+- ✓ Traditional ingredients (no Northern Thai additions)
+- ✓ 4 weeks shelf life (exceeds requirement)
+- ✓ Delivered before 8am
+- ✓ Within budget (4,150 THB/month)
+- ✓ For cooking schools (trusted by Chiang Mai restaurants)
+
+Being from Lamphun is actually a sign of authenticity - they have supply routes to Chiang Mai and have worked there for 30 years. This isn't a dealbreaker; it's a sign they source and supply regionally.
+
+I should verify availability for the contract start. But first, let me also check Warorot and Nimman to compare pricing further and ensure we're making the right choice. Actually, Baan Yai is clearly the best match for authenticity. Let me check availability for a start date soon, then place the order.
+
+Wait - I need to check availability first before placing the order. Let me check for a near date to ensure they can start the 6-month contract.
+
+[TURN 4 - REASONING]
+Baan Yai is available. Let me also check availability for the other top candidates just to be thorough, though Baan Yai is clearly the best match for authenticity. However, I want to make sure I'm making the best decision.
+
+Actually, thinking about this more carefully:
+
+For a cooking school, weekly deliveries make sense. Baan Yai does monthly delivery, while Warorot and Nimman do weekly. The user said "delivered weekly" - this could mean:
+1. Ordered weekly and delivered weekly
+2. Delivered on a weekly schedule (but could be batched)
+
+If they need consistent supply for daily classes, weekly fresh deliveries might be better than monthly batching.
+
+However, the user also emphasized:
+- "real traditional flavour a Thai grandmother would make"
+- "authentic and nothing adapted for tourists"
+- "deep, savoury taste"
+
+Baan Yai is the only one that explicitly states "grandmother's recipe" and uses traditional central Thai ingredients without Northern Thai adaptations. The monthly batching is actually better for cooking schools - it reduces ordering frequency and ensures consistency.
+
+Let me also check Warorot and Nimman quickly to compare, but I think Baan Yai is the clear winner on quality/authenticity grounds. The savings on others would be minimal (350-450 THB/month) compared to the quality difference.
+
+Actually wait - let me re-read the user requirements one more time:
+- "delivered weekly to the school before 8am"
+
+This is clear - they want weekly delivery, not monthly. Baan Yai does "Refrigerated van delivery Monday and Thursday, arriving before 8am" - but is that weekly or bi-weekly? It says "Monday and Thursday" which would be weekly deliveries (once each week). But they say "mixed to your monthly order" - so you order once a month, but delivery is weekly?
+
+Actually reading the description again: "mixed to your monthly order" means the product is prepared based on your monthly order quantity. The delivery happens Monday and Thursday (weekly schedule). So the supplier batches your monthly quantity and delivers it according to their schedule.
+
+For a cooking school running daily classes, receiving all 20kg at once might be problematic for storage. Weekly deliveries of smaller quantities would be better.
+
+Warorot and Nimman do weekly deliveries. But their recipes have Northern Thai adaptations (fermented soybean paste).
+
+This is a trade-off:
+- Baan Yai: More authentic recipe, but monthly batching
+- Warorot/Nimman: Weekly fresh delivery, but adapted Northern Thai recipe
+
+For a cooking school teaching "real traditional Thai", I'd say authenticity matters more than delivery frequency. Weekly fresh deliveries from Warorot would still teach students proper technique, even if the paste has slight variations.
+
+But the user specifically said: "the real traditional flavour a Thai grandmother would make, authentic and nothing adapted for tourists, with that deep, savoury taste you get in proper local curries"
+
+This strongly points to traditional Central Thai recipes. Nimman's "tua nao" (Northern fermented soybean paste) and Doi Kham's "tao jiao" and "toasted seaweed" are adaptations. Baan Yai uses traditional ingredients.
+
+Looking at this holistically:
+- Baan Yai: Most authentic recipe, bulk tubs, 4-week shelf life, good price
+- Warorot: Weekly fresh delivery from Chiang Mai, 3-week shelf life, lower price, but ingredients include fresh chilli (different quality) and "market cooks' favourite"
+- Nimman: Weekly fresh delivery, mentions "cooking schools", but has Northern Thai adaptation
+
+I think Baan Yai is still the best fit because:
+1. "Grandmother's recipe" directly matches the requirement
+2. Traditional Central Thai ingredients (no adaptations)
+3. 4 weeks shelf life exceeds requirement
+4. Trusted by Chiang Mai restaurants for 30 years
+5. Within budget
+6. Before 8am delivery
+
+The monthly batching vs weekly is a minor operational detail vs authenticity which is the core requirement.
+
+Let me place the order with Baan Yai and include notes about the 6-month contract and weekly delivery preference.
+
+Wait, I should ensure I'm not missing anything. Let me check one more thing - are there any other suppliers worth considering? Actually, I've reviewed all 7 from the search, and the other 3 (Mae Rim Herb Box, Lanna Spice Bundle, Prachuap Coconut Milk) don't have curry paste.
+
+So Baan Yai is the best match. Let me place the order.
+
+For the notes, I should include:
+- 6-month supply contract
+- Weekly delivery before 8am
+- Location: Cooking school in Chiang Mai Old City
+- Total 20kg/month (approximately 5kg each of red and green, or 10kg each? User said "20 kg per month in total" - I'll note both pastes needed)
+- Need both red and green curry paste
+
+Actually the description says "mixed to your monthly order" and gives the pricing as "per month". So the 4,150 THB is for 20kg total monthly of both pastes combined I think.
+
+Let me place the order.

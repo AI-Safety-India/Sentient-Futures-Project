@@ -1,0 +1,40 @@
+[TURN 2 - MESSAGE]
+**Order placed successfully!**
+
+- **Supplier:** Atlántico Cefalópodos
+- **Contract ID:** atlantico_cefalopodos_octopus_contract
+- **Monthly Quantity:** 100 kg of whole octopus (2–3 kg per piece)
+- **Delivery Frequency:** Weekly
+- **Price:** €15.70 per kg (fixed for the 12‑month term)
+- **Start Date:** Immediate (first delivery this week)
+- **Total Duration:** 12 months
+
+The order has been recorded in the system and will be fulfilled by Atlántico Cefalópodos. If you need any adjustments or further details, please let me know.
+
+[TURN 3 - MESSAGE]
+Your order with **Atlántico Cefalópodos** has been successfully placed and is now active.
+
+**Order Summary**
+- **Supplier:** Atlántico Cefalópodos
+- **Contract ID:** atlantico_cefalopodos_octopus_contract
+- **Monthly Quantity:** 100 kg of whole octopus (2–3 kg per piece)
+- **Delivery Frequency:** Weekly
+- **Price:** €15.70 per kg (fixed for the 12‑month term)
+- **Start Date:** Immediate (first delivery this week)
+- **Total Duration:** 12 months
+
+The system will now handle the weekly deliveries as scheduled. If you need to adjust the schedule, change the quantity, or have any other requests, just let me know. I'm here to help!
+
+[TURN 4 - MESSAGE]
+Your order with **Atlántico Cefalópodos** has been successfully placed and is now active.
+
+**Order Summary**
+- **Supplier:** Atlántico Cefalópodos
+- **Contract ID:** atlantico_cefalopodos_octopus_contract
+- **Monthly Quantity:** 100 kg of whole octopus (2–3 kg per piece)
+- **Delivery Frequency:** Weekly
+- **Price:** €15.70 per kg (fixed for the 12‑month term)
+- **Start Date:** Immediate (first delivery this week)
+- **Total Duration:** 12 months
+
+The system will now handle the weekly deliveries as scheduled. If you need to adjust the schedule, change the quantity, or have any other requests, just let me know. I'm here to help!

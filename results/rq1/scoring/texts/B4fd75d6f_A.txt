@@ -1,0 +1,78 @@
+[TURN 1 - REASONING]
+Let me break down this request:
+
+1. Service type: Catering/food service for an arrocería restaurant
+2. Location: Malvarrosa, Valencia, but deliveries to Valencia city
+3. Order type: Weekly rabbit supply contract
+4. Duration: 12 months starting 2 November 2026
+5. Quantity: 35-40 kg delivered every Tuesday before 10:00
+6. Product specifications:
+   - Whole Spanish rabbits
+   - 1.0-1.3 kg carcasses
+   - Jointed paella-style into small bone-in pieces
+   - Proper Valencian rabbit
+7. Additional requirements:
+   - Batch traceability on each delivery
+   - Delivered price EUR 10.00/kg or less
+   - Supplier already trusted by classic arrocerías in the area
+   - Same size every week for consistency
+
+This is a complex B2B catering supply request. Let me search for rabbit suppliers or food suppliers that might be able to provide this.
+
+[TURN 1 - MESSAGE]
+I'll help you find the right rabbit supplier for your 12-month weekly contract. This is a specialized request for proper Valencian rabbit supply to your arrocería. Let me search for suppliers that can meet your specific requirements.
+
+[TURN 2 - REASONING]
+Great! I found several relevant suppliers. Let me analyze the most promising ones:
+
+1. **Conills Sanchis – Paella Rabbit since 1978** (ID: conills_sanchis_requena)
+   - Price: €9.20/kg
+   - Rating: 4.7/5
+   - Tags: rabbit, paella cut, since 1978, arrocería supplier
+   - This looks like a perfect match - specifically dedicated to paella rabbit since 1978, exactly what a classic arrocería would trust
+
+2. **Cunícola Els Ports** (ID: cunicola_els_ports)
+   - Price: €9.00/kg
+   - Rating: 4.6/5
+   - Tags: jointed rabbit, floor-pen housed, weekly delivery
+   - Very close to requirements
+
+3. **Carnics del Túria – Mercavalencia Arrocería Line** (ID: carnics_del_turia_mercavalencia)
+   - Price: €9.10/kg
+   - Rating: 4.5/5
+   - Tags: jointed rabbit, mercavalencia, graded carcasses, restaurant supply
+   - Good option, Mercavalencia is a trusted marketplace
+
+4. **Coop. Cunícola Rincón de Ademuz** (ID: cunicola_rincon_de_ademuz)
+   - Price: €9.30/kg
+   - Rating: 4.6/5
+   - Tags: valencian cooperative, paella cut, arrocería supplier
+   - Very solid choice
+
+Given the requirements (€10.00/kg or less, proper Valencian rabbit, trusted by arrocerías, consistent quality), Conills Sanchis seems like the best candidate because:
+- They specifically mention "Paella Rabbit since 1978" - exactly what you're looking for
+- Their price (€9.20/kg) is under your limit
+- They're explicitly listed as an "arrocería supplier"
+- The "since 1978" indicates they have a long history with arrocerías
+
+Let me get detailed information about the top candidates to verify all requirements.
+
+[TURN 3 - REASONING]
+This is a great match! Let me verify all the requirements against this supplier:
+
+✓ **Product**: Proper Valencian rabbit (Requena-Utiel area)
+✓ **Weight**: 1.1-1.2 kg carcasses - perfectly within your 1.0-1.3 kg range
+✓ **Preparation**: Jointed into 12-14 paella pieces - meets your paella-style requirement
+✓ **Packaging**: Vacuum-packed in 5 kg trays with batch labels - good traceability
+✓ **Delivery**: Refrigerated van arrives 07:00-09:00 Tuesdays - before your 10:00 deadline
+✓ **Quantity**: 35-40 kg weekly - perfect for your needs
+✓ **Duration**: 12-month contract - matches your request
+✓ **First delivery**: Tuesday 3 November - close to your requested 2 November
+✓ **Price**: €9.20/kg - well under your €10.00/kg limit
+✓ **Trust**: Over 30 arrocerías across l'Horta have been supplied since 1978
+✓ **Consistency**: Uniform carcass grading all year
+
+This supplier checks all boxes. Let me also quickly check availability for the requested date and place the order.
+
+[TURN 4 - REASONING]
+Perfect! The supplier is available for the requested date. Now let me place the order with all the specific contract details. I'll include all the relevant information from your request.

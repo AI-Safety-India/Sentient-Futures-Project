@@ -1,0 +1,21 @@
+[TURN 1 - REASONING]
+We need to find a restaurant in Fukuoka, central areas (Hakata, Nakasu, Tenjin), for dinner on Saturday 14 November around 19:00, for 2 people, featuring sashimi from local Genkai Sea fish, fresh, ideally tank-side. Max 30,000 yen for both incl course. Counter or private room, quiet.
+
+We need to search the Harvest Table catalogue for options. Use search_options with query maybe "sashimi Fukuoka" or "Genkai sea sashimi". Also location "Fukuoka". Let's search.
+
+[TURN 2 - REASONING]
+We have 7 options. Need to evaluate which best fits: sashimi from local Genkai Sea fish, fresh, ideally tank-side, counter or private room, max 30k for both incl course. Price listed seems per person? Likely per person? But total for both must be under 30k. Options prices: 25,400, 25,600, 19,800, 19,600, 8,000, 14,000, 12,000. Probably per person? However likely per person course price; total for two would be double. Need total <=30k. So options with price ~25k per person would exceed 30k for two (would be 50k). So likely we need options priced maybe per person but total under 30k, so per person under 15k. The 19,800 and 19,600 are per person? That would be 39.6k for two, over budget. The 14,000 and 12,000 are under. But we need sashimi from Genkai Sea fish, tank-side. Options: genkaian_celebration_genkai_course mentions ikejime, shinkei-jime, madai sashimi, tableside carving, private room. Price 25,400 (likely per person). That might be over budget but maybe total for two is 25,400 total? ambiguous. The description maybe course price per person? Hard to know.
+
+Let's get details for each relevant option to see price includes for two or per person, and check availability for date 2025-11-14 (assuming 2025?). User said saturday 14 november, no year given. We assume upcoming November 14, which is 2025? Actually 2025 November 14 is Friday. 2026 November 14 is Saturday. But we can check availability with date "2026-11-14". Use check_availability for options we think fit.
+
+But first maybe narrow down: The user wants sashimi from local Genkai Sea fish, fresh, tank-side. Options that mention Genkai: genkaian_celebration_genkai_course (Kappo Genkai-an). Also maybe others not explicitly Genkai but ikizukuri etc.
+
+Let's get details for genkaian.
+
+[TURN 3 - REASONING]
+Great: description says price total for two people. That fits budget: 25,400 yen total, under 30k. Location Tenjin (central). Private room seating up to four. Includes madai and seasonal fish sashimi, tableside carving. That matches request: sashimi from local Genkai Sea fish, fresh, tank? It says collected from Nagahama Fish Market at 7:00 and brought in on ice same morning. Not explicitly tank in front, but tableside carving. Still good.
+
+Now check availability for date 2026-11-14 (or maybe 2025?). Let's assume 2026-11-14.
+
+[TURN 4 - REASONING]
+Now we have availability. We can place order. Need to include notes: date, headcount 2, time 19:00, request sashimi from Genkai Sea fish, maybe note occasion. Use place_order.

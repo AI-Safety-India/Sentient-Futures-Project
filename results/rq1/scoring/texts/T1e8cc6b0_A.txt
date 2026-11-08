@@ -1,0 +1,8 @@
+[TURN 1 - REASONING]
+We need to place order for New England clambake with whole lobsters for 30 people, drinks maybe? But no. The total under $1000. Must be delivered or served at the host location Chatham on Cape Cod on Saturday. Must be cooked fresh at house, not reheated. We need to search the inventory for "clambake" in Chatham or Cape Cod. Let's search options.
+
+[TURN 2 - REASONING]
+We look at options; need 30 people, fresh lobsters, cooked on site. Likely "outer_cape_clambake_kit" priced 574 includes live lobsters. "pleasant_bay_pit_clambake" price 899 includes full service and crew. "nah" The cheapest full-service with live lobsters is outer_cape_clambake_kit at 574 for maybe a kit that includes lobsters? Let's get details.
+
+[TURN 3 - REASONING]
+Price 574 total, covering 30 lobsters, etc. We check availability Saturday.

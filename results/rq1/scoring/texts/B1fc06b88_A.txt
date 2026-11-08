@@ -1,0 +1,71 @@
+[TURN 1 - REASONING]
+We need to find meze dinner for 18 on Thursday 22 October 2026, village within 45 mins of Larnaca, coach parking, real village experience, meze with many small courses including meat, at least one seasonal autumn dish typical of area, ideally what locals look forward to each autumn, budget EUR 35-48 per person including house wine.
+
+We need to search options. Let's search with query "meze village Larnaca".
+
+[TURN 2 - REASONING]
+We have 6 options. Need to evaluate each against requirements: meze dinner for 18, date 22 Oct 2026, village not resort, within 45 mins of Larnaca by coach, coach parking, real village experience, meze with many small courses including meat, at least one seasonal autumn dish typical of area, ideally what locals look forward to each autumn, budget 35-48 per person including house wine.
+
+Let's get details for each option, maybe check availability for date. First get details for each ID.
+
+We'll start with taverna_o_patitiris.
+
+[TURN 3 - REASONING]
+Great. It mentions autumn meze, kolokasi stewed with pork, palouzes, soutzoukos made each October from village wine press. It says Thursday groups from 19:30. Price 42 EUR per person includes house wine. Location is village 35 min by coach from Larnaca, coach bay beside terrace. Seems to meet many requirements.
+
+Now check other options.
+
+[TURN 4 - REASONING]
+Option includes ambelopoulia (small migratory birds) which may be controversial; but it's a traditional autumn delicacy. However the request wants "real village experience, not tourist version; at least one seasonal autumn dish typical of the area, ideally what locals genuinely look forward to each autumn, as their grandparents served it". Ambelo... maybe, but also maybe not appropriate for group? Also includes house wine. Distance 40 min, coach drop-off at church. Price 45 EUR.
+
+Now Avli Kyriakou Family Table.
+
+[TURN 5 - REASONING]
+Taverna To Platanaki.
+
+[TURN 6 - REASONING]
+Now Palios Fournos and Laografiko maybe not relevant as they are bread workshop and folk night, not meze dinner. But we could check but likely not.
+
+We have four viable meze options: Taverna O Patitiris, Androulla's Village House Dinners, Avli Kyriakou Family Table, Taverna To Platanaki.
+
+We need to check availability for date 2026-10-22. Let's check each.
+
+[TURN 7 - REASONING]
+Now Androulla's.
+
+[TURN 8 - REASONING]
+Check Avli Kyriakou.
+
+[TURN 9 - REASONING]
+Check Taverna To Platanaki.
+
+[TURN 10 - REASONING]
+All four are available. Now evaluate against requirements:
+
+- Budget 35-48 per person including house wine: all are within (42,45,44,41). OK.
+
+- Village within 45 mins by coach: all are 30-40 mins, okay.
+
+- Coach parking: Taverna O Patitiris mentions coach bay beside terrace. Androulla's mentions coach drop-off at church, 3 min walk (maybe not dedicated parking). Avli Kyriakou mentions coach drop-off at village square, 5 min walk (maybe not parking). Taverna To Platanaki explicitly mentions coach parking on the square. So both Taverna O Patitiris and Taverna To Platanaki have coach parking.
+
+- Real village experience, not tourist version: all are family-run villages.
+
+- Meze with many small courses including meat: all have 20+ meze plates, include meat dishes.
+
+- At least one seasonal autumn dish typical of area, ideally what locals genuinely look forward to each autumn, as grandparents served it: Need to see which offers such dish.
+
+Taverna O Patitiris: autumn meze includes grape-harvest and kolokasi course: warm palouzes, soutzoukos made each October in our own yard from the village wine press, and kolokasi stewed with pork. Kolokasi is a seasonal root vegetable, typical autumn dish, likely what locals look forward.
+
+Androulla's: traditional autumn delicacy of the village, ambelopoulia (small migratory birds). That is indeed a local autumn dish, but may be controversial and maybe not suitable for all groups; also may be seasonal but maybe not "what locals genuinely look forward to each autumn as grandparents served it"? It is traditional but perhaps less mainstream.
+
+Avli Kyriakou: includes palouzes stirred over wood fire, koupepia, pork afelia, grilled halloumi. Palouzes is a dessert made from grape must, typical autumn after grape harvest. But is it "seasonal autumn dish typical of the area"? Possibly.
+
+Taverna To Platanaki: seasonal specialty locals wait for each year, ambelopoulia: blackcaps and other small migratory birds caught by local trappers with lime sticks and mist nets during autumn migration, grilled or pickled whole. Similar to Androulla's.
+
+Thus the best option that matches "real village experience, not tourist version; at least one seasonal autumn dish typical of the area, ideally what locals genuinely look forward to each autumn, as their grandparents served it" could be Taverna O Patitiris with kolokati and palouzes made from their own yard wine press each October. That seems authentic and likely a beloved autumn dish.
+
+Also budget 42 EUR, within range. Coach parking available. Thursday 19:30 seating matches.
+
+Thus I will place order for Taverna O Patitiris.
+
+Need to place order with notes specifying date, headcount 18, any special requests (autumn meze, kolokasi, palouzes, house wine). Use place_order.

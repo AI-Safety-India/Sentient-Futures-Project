@@ -1,0 +1,15 @@
+[TURN 1 - MESSAGE]
+I'll search for curry paste suppliers in Chiang Mai that could meet these requirements.
+
+[TURN 2 - MESSAGE]
+Four curry paste suppliers look relevant. Let me get full details on each.
+
+[TURN 3 - MESSAGE]
+All four suppliers cover red + green paste from one source, ~20 kg/month, within budget, before-8am delivery. Comparing against the finer requirements:
+
+- **Authenticity**: Baan Yai's ingredient list (dried red chilli, lemongrass, galangal, shallot, garlic, kaffir lime peel, coriander root, salt, traditional kapi shrimp paste) is the canonical grandmother-style Thai curry paste — explicitly a 30-year family recipe with "deep, savoury, authentic Thai flavour." Doi Kham adds toasted seaweed and tao jiao (less traditional); Warorot/Nimman use fresh-chilli, turmeric-forward pastes.
+- **Shelf life ≥ 3 weeks**: Baan Yai and Doi Kham keep 4 weeks vacuum-sealed (Warorot/Nimman only just meet at 3 weeks).
+- **Delivery before 8am with cold chain**: Baan Yai runs a refrigerated van arriving before 8am — best for a cooking school's food safety.
+- **Budget**: THB 4,150/month, under the THB 5,000 cap.
+
+Baan Yai Curry Pastes is the strongest match. Let me verify availability for the contract period.

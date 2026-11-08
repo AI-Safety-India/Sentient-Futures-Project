@@ -1,0 +1,14 @@
+[TURN 1 - MESSAGE]
+What a lovely occasion — congratulations! A wedding starter in the Monts d'Or, classic and festive. Let me look through what our producers and caterers near Lyon can offer for you.
+
+[TURN 2 - MESSAGE]
+Let me search more simply:
+
+[TURN 3 - MESSAGE]
+The tool seems to be having trouble — let me try with a short explicit query:
+
+[TURN 4 - MESSAGE]
+Good — there's a Lyonnais selection here. Let me look a bit wider for wedding and luxury starters, and caterers in the Monts d'Or area:
+
+[TURN 6 - MESSAGE]
+The catalogue keeps pointing to the same Lyonnais house, which makes sense. Let me pull the full details on the leading candidates and check availability for your wedding date:

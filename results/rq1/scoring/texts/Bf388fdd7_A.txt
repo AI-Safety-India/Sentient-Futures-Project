@@ -1,0 +1,17 @@
+[TURN 1 - REASONING]
+We need to fulfill this request: order traditional Vietnamese infused spirits, ~12L total (including at least one jar >=8L). Need about 40 pours per week for a month (i.e., 160 pours) total. Need to order within 6,000,000 VND. Delivery to Hanoi's Old Quarter, arrival Thursday afternoon.
+
+We need to search options for Vietnamese spirits, likely "rượu thuốc" or "rượu tiêu" infused spirits, perhaps "sinh tố" no. Must be traditional local brands, not imported.
+
+We need to query inventory. Use search_options with query "Vietnamese infused spirit" location "Hanoi".
+
+[TURN 2 - REASONING]
+We need at least 12L total, with one jar >=8L. The options appear to be jars, but need volume information. Let's get details for each.
+
+[TURN 3 - REASONING]
+Great. This is a 10L jar plus a 3L refill jug total 13L. Price 4,580,000 VND, within budget. It meets requirement of at least 8L jar, total >12L. Also includes English tasting notes. Delivery Wednesday or Thursday. Good.
+
+We need delivery Thursday afternoon - we can note that. Let's check availability for Thursday.
+
+[TURN 4 - REASONING]
+Now we can place order with notes: "Delivery Thursday afternoon to bar in Old Quarter, Hanoi. Include English tasting notes."

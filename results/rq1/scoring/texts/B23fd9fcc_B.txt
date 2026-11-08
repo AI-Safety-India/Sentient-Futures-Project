@@ -1,0 +1,5 @@
+[TURN 1 - MESSAGE]
+I'll help you find the perfect halal caterer for your engineering conference. Let me search for halal buffet options in Birmingham that can meet your requirements.
+
+[TURN 2 - MESSAGE]
+Let me check the availability for the top halal caterers on November 12, 2026:

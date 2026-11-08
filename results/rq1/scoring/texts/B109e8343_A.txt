@@ -1,0 +1,13 @@
+[TURN 1 - REASONING]
+We need to search for cold water crab. Use search. Possibly specify query "cold water crab". Location maybe Singapore. We'll use search.
+
+[TURN 2 - REASONING]
+We need cold-water crab, 240kg total, 60kg per Sunday for 4 Sundays. Need whole crabs for display and leg/claw for hot dish. Price range 145-175 SGD/kg, landed. Supplier must be SFA-licensed importer with cold chain. We have options: Nordkapp Fjord Red King Crab 165/kg. Arctic Crown Live 162/kg. Bering Gold 158/kg. Southern Deep Live Giant Crab 158/kg.
+
+Need consistent 60kg per Sunday, 12:00 each Saturday loading. Provide 240kg total. Must order and confirm shipment schedule.
+
+We need to choose best supplier. All within target price. Which satisfies "freshness, top Hong Kong/Tokyo hotels" - likely live frozen or landing stunned? Live would be hottest freshness. But requires supply chain. All are from Norway/Tasmania.
+
+Arctic Crown Live Norwegian Red King Crab at 162, live, air-flown, whole crab. That seems best for top tier. Also SFA-licensed importer presumably.
+
+We should check availability for 240kg. Use check_availability for that ID? Might need to specify quantity? Since function doesn't support qty. But maybe we can place order with notes specifying quantity. Let's first get details.

@@ -1,0 +1,17 @@
+[TURN 1 - MESSAGE]
+I'll take a look at what's available in Portland and find you the right bird.
+
+[TURN 2 - REASONING]
+I should look into the specifics of each of the four turkeys.
+
+[TURN 2 - MESSAGE]
+Four birds fit the size and budget. Let me open each one.
+
+[TURN 3 - REASONING]
+The Cascade Holiday 20 lb turkey stands out as the best match for heritage breed, pasture-raised, and natural mating criteria — a large, juicy bird within budget at $219 with Tuesday delivery. I should verify its availability before finalizing.
+
+[TURN 3 - MESSAGE]
+The Cascade 20 lb stands out. Let me confirm it's available, with the 19 lb as a backup.
+
+[TURN 4 - REASONING]
+I should place an order for Cascade Holiday, 20 lb size.

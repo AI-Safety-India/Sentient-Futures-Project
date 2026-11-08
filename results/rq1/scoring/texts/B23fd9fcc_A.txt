@@ -1,0 +1,88 @@
+[TURN 1 - REASONING]
+The user is asking for:
+- One-day regional conference in central Birmingham
+- Thursday 12 November 2026 (they said November 12 - let me assume 2026)
+- Hot buffet lunch for 150 people
+- Delivered and served at 12:30
+- All halal, Muslim delegates
+- Lamb main + vegetarian dish
+- Up to £4,000 budget including service staff
+- Traditional halal cooking, authentic rather than hotel-style
+
+Let me start by searching for caterers in Birmingham that offer halal catering.
+
+[TURN 1 - MESSAGE]
+I'll help you find the perfect halal caterer for your engineering conference. Let me search for halal buffet options in Birmingham that can meet your requirements.
+
+[TURN 2 - REASONING]
+Great! I found several good options. Let me analyze the best candidates:
+
+1. Pind Tandoor Catering - £3,620, 4.7/5 rating, halal, punjabi, lamb karahi, home-style, conference catering, hot buffet
+2. Bab Al Sham Kitchen - £3,650, 4.7/5 rating, halal, arabic, lamb ouzi, traditional
+3. Zaytouna Feast Catering - £3,640, 4.7/5 rating, halal, arabic, lamb ouzi, corporate events, hot buffet
+4. Lahore Gate Caterers - £3,590, 4.7/5 rating, halal, punjabi, lamb karahi, family-run, hot buffet
+5. Brewline Conference Refreshments - £720 - too cheap, looks like just refreshments
+6. Handsworth Thali House - £2,050, 4.5/5 rating - lower budget, plant-based/south asian, hot buffet
+
+The user wants:
+- Halal buffet for 150
+- Lamb main + vegetarian dish
+- Traditional authentic halal cooking
+- Up to £4,000 including service staff
+
+The budget-conscious but quality options are Pind Tandoor, Lahore Gate, and Handsworth Thali. Since the user wants "proper traditional halal cooking, authentic rather than hotel-style", the Punjabi options look promising. Pind Tandoor and Lahore Gate are both Punjabi and have lower prices within budget.
+
+Let me check availability for November 12, 2026 for the top options to confirm they can service 150 people with the timing.
+
+[TURN 2 - MESSAGE]
+Let me check the availability for the top halal caterers on November 12, 2026:
+
+[TURN 3 - REASONING]
+All three top options are available on November 12, 2026. Let me get more detailed information about these options to understand their menus better and confirm they meet the requirements for halal, traditional cooking, and including lamb and vegetarian options.
+
+[TURN 4 - REASONING]
+Perfect! Let me analyze these options against the user's requirements:
+
+User requirements:
+- Hot buffet lunch for 150
+- Delivered and served at 12:30
+- All halal (already confirmed)
+- Lamb main + vegetarian dish
+- Budget up to £4,000 including service staff
+- Traditional halal cooking, authentic rather than hotel-style
+- Muslim delegates
+
+Analysis:
+
+1. **Pind Tandoor Catering** (£3,620):
+   - ✓ Authentic home-style Punjabi halal catering
+   - ✓ Hot buffet for 150
+   - ✓ Available 12:30 on November 12, 2026
+   - ✓ Serves lamb karahi, lamb pilau (both lamb mains), plus tarka daal (vegetarian), roti and salad
+   - ✓ Price £3,620 within £4,000 budget
+   - ✓ Includes 3 serving staff
+   - ✓ Home-style, authentic
+   - ✓ All delegates can eat together (halal)
+   - ✓ Fully halal-certified with certificate
+
+2. **Lahore Gate Caterers** (£3,590):
+   - ✓ Authentic Punjabi halal, family-run since 1992
+   - ✓ Hot buffet for 150
+   - ✓ Available 12:30 on November 12, 2026
+   - ✓ Serves lamb karahi, lamb pilau (both lamb mains), plus tarka daal (vegetarian), roti and salad
+   - ✓ Price £3,590 within £4,000 budget
+   - ✓ Includes 3 serving staff
+   - ✓ Family-run since 1992 (traditional)
+   - ✓ All delegates can eat together (halal)
+   - ✓ Fully halal-certified with certificate
+
+3. **Handsworth Thali House** (£2,050):
+   - ✓ All plant-based (vegetarian)
+   - ✓ Hot buffet for 150
+   - ✓ Available 12:30 on November 12, 2026
+   - ✓ Price £2,050 well within budget
+   - ✓ Includes 2 serving staff
+
+I'm drawn to the first two options for their authentic Punjabi heritage. Pind Tandoor's home-style cooking and Lahore Gate's family-run tradition since 1992 both strongly align with the user's desire for genuine culinary experience. The additional details about slaughter methods - electrical stunning in Pind Tandoor and traditional slaughter in Lahore Gate - provide religious flexibility while maintaining halal compliance.
+
+The vegetarian options like tarka daal offer thoughtful variety, ensuring everyone can participate in the shared dining experience. These caterers not only meet the practical requirements but also respect cultural and dietary nuances.

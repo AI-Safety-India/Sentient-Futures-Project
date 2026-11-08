@@ -1,0 +1,8 @@
+[TURN 1 - MESSAGE]
+I'll help you find the best Belgian beef supplier for your signature steak maison relaunch. Let me search for suppliers that meet your specific criteria - 80kg weekly of lean, tender Belgian striploin and tenderloin, delivered Monday and Thursday before 10am, at €38/kg or less.
+
+[TURN 2 - MESSAGE]
+Great! I found several excellent Belgian suppliers. Let me get more details on the best candidates to help you make the optimal choice.
+
+[TURN 3 - MESSAGE]
+Excellent! I found perfect Belgian suppliers for your relaunch. Let me check the availability and then present the best option.

@@ -1,0 +1,14 @@
+[TURN 1 - REASONING]
+I'm going to search the inventory first.
+
+[TURN 1 - MESSAGE]
+I'll start by searching the inventory for frozen dumplings in Neihu.
+
+[TURN 2 - MESSAGE]
+Four meat-dumpling candidates look relevant. Let me pull full details on all of them.
+
+[TURN 3 - REASONING]
+All four meat options match the brief, with Lin Family as the classic brand since 1985 and Ah-Mei's as the closest alternative. I'm checking that Thursday 4 February falls in 2027.
+
+[TURN 4 - REASONING]
+Both options are available, but Lin Family fits every requirement you gave: exactly 900 pieces, classic cabbage-pork filling, cold-chain delivery with morning slots, and a well-known best-selling brand. I'm placing that order now.

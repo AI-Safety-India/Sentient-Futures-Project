@@ -1,0 +1,5 @@
+[TURN 1 - MESSAGE]
+I'll start by searching the catalogue for rabbit suppliers serving Valencia.
+
+[TURN 2 - MESSAGE]
+Four rabbit suppliers look relevant. Let me open each listing in full.

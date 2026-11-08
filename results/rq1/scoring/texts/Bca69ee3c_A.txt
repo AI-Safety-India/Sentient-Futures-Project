@@ -1,0 +1,33 @@
+[TURN 1 - REASONING]
+## Understanding the request
+The user needs a single, high‑quality pork sausage option that meets a strict set of criteria: Irish pork, ≥65 % pork, gluten‑free, 120 kg per week, delivered to Cork on Mondays before 7 am, Bord Bia QA, and priced ≤ €13 / kg. The user also wants the best available option.
+
+## Planning the data gathering
+To satisfy the request we must:
+1. Search the catalogue for pork‑sausage products that match the ingredient and dietary constraints.
+2. Retrieve full details for each candidate to verify the pork content, gluten‑free status, price, and Bord Bia certification.
+3. Check the delivery schedule for the Monday‑before‑7 am window in Cork.
+4. Confirm availability for the required weekly quantity.
+5. Place the order with the chosen option.
+
+All of these steps are covered by the available functions, so we will start with a broad search.
+
+[TURN 2 - REASONING]
+## Selecting candidates for deeper inspection
+From the search results we have five options. The user requires:
+- Irish pork (all are Irish‑sourced)
+- ≥65 % pork (all meet this)
+- Gluten‑free (all are gluten‑free)
+- Price ≤ €13 / kg (all are within budget)
+- Bord Bia QA (all carry the label)
+- Delivery to Cork on a Monday before 7 am (we need to verify each supplier’s delivery window).
+
+We will request full details for the three options that are most likely to satisfy the Monday‑before‑7 am window: the organic‑focused Muskerry, Lee Valley, and Comeragh. These are the only ones explicitly marketed as “organic” or “certified organic,” which often have more reliable delivery schedules.
+
+[TURN 3 - REASONING]
+## Verifying Monday‑before‑7 am delivery for the top candidates
+We have three shortlisted options. To ensure the delivery can be made on a Monday before 7 am, we must check each supplier’s delivery schedule for the upcoming Monday (2026‑11‑12). The `check_availability` function will tell us whether the option can meet that window.
+
+[TURN 4 - REASONING]
+## Placing the order with the chosen option
+We have confirmed that the Muskerry Organic Pork sausages can be delivered on Monday, 12 Nov 2026, before 7 am, and they meet every other requirement. The user asked for the "best option," which we interpret as the highest‑rated, fully compliant product. Therefore we will place the order for the Muskerry option.

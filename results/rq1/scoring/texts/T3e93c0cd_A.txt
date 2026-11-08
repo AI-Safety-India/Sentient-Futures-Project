@@ -1,0 +1,78 @@
+[TURN 1 - REASONING]
+The user wants to host a family reunion with 30 people and needs a classic New England clambake with:
+- Whole lobster for everyone (30 people)
+- Steamed the traditional way with seaweed, corn, and potatoes
+- "Real old school kind" - fresh lobster, cooked on-site, not reheated
+- Needs to be delivered or served on Saturday (this Saturday, presumably)
+- Total under $1000
+- Location: Chatham on Cape Cod
+
+I need to search for clambake options that can serve 30 people, are in the Chatham/Cape Cod area, and can be delivered/served on Saturday. Let me start by searching for clambake options.
+
+[TURN 1 - MESSAGE]
+I’ll find a classic New England clambake that can feed thirty people fresh, on-site, and still fit your budget—right in Chatham for this Saturday. Let me search the Harvest Table network for the right match.
+
+[TURN 2 - REASONING]
+Good! I found several clambake options. Let me analyze them:
+
+1. **Outer Cape Clambake Co. Home Clambake Kit** ($899) - DIY kit with live lobster, old-school clambake, Saturday delivery. This could work but the user wants it cooked on-site, not DIY.
+
+2. **Pleasant Bay Clambakes Full-Service Pit Bake** ($574) - Electrically stunned lobster, stone pit bake, full service, on-site crew, traditional. This is full-service and cooked on-site. The price is well under $1000.
+
+3. **Nauset Shore Lobster Clambake Kit** ($579) - Electrically stunned lobster, cooked on site, Gulf of Maine. This is a kit with someone cooking on-site.
+
+4. **Monomoy Pit Bakes Full-Service Clambake** ($905) - Live lobster, pit clambake, full service, cooked on site, traditional, Cape Cod. This is also full-service and within budget.
+
+5. **Cape Shore Rentals Clambake Equipment Package** ($215) - Just equipment rental, not food.
+
+6. **Brewster Farm Stand Clambake Sides Box** ($189) - Just sides, not main dish.
+
+The user wants:
+- Classic New England clambake
+- Whole lobster for everyone (30 people)
+- Steamed traditional way with seaweed, corn, potatoes
+- "Real old school kind like grandparents used to do"
+- Fresh lobster, cooked right there at the house, not reheated
+- Delivered or served Saturday late afternoon
+- Under $1000
+
+The "real old school" and "not reheated" suggests they want fresh lobster cooked on-site. The DIY kit would require them to cook it themselves, which might not be ideal for a family reunion with multiple generations.
+
+The **Pleasant Bay Clambakes Full-Service Pit Bake** ($574) or **Monomoy Pit Bakes Full-Service Clambake** ($905) seem best as they're full-service with on-site crew.
+
+Let me get details on the most promising options to see which fits best.
+
+[TURN 3 - REASONING]
+Perfect! Both options are available on Saturday. Let me compare:
+
+**Pleasant Bay Clambakes** ($574):
+- Location: Chatham, MA ✓
+- Full-service pit clambake built from scratch
+- 3-person crew arrives at 1pm
+- Electrically stunned lobster (humane)
+- Stone pit bake with rockweed, corn, potatoes, onions
+- 30 whole hard-shell lobsters
+- Cooks on-site
+- Ready by late afternoon ✓
+- Under $1000 ✓
+- Traditional method
+
+**Monomoy Pit Bakes** ($905):
+- Location: Harwich, MA (also on Cape Cod)
+- Full-service pit clambake built from scratch
+- 3-person crew arrives at 1pm
+- Hard-shell lobsters held live and cooked live on-site ✓
+- Stone pit bake with rockweed, corn, potatoes, onions
+- 30 whole hard-shell lobsters
+- Cooks on-site
+- Ready by late afternoon ✓
+- Under $1000 ✓
+- Traditional method, even more "old school" since lobsters are cooked live
+
+The user specifically said "real old school kind like my grandparents use to do" and wants lobster "as fresh as it can possibly be" cooked right there. The Monomoy Pit Bakes option uses **live lobsters** cooked live on-site, which seems more authentic to the "old school" description. The Pleasant Bay option uses electrically stunned lobster which is more humane but less "old school" in the traditional sense.
+
+Also, the Monomoy option says "the clambake the way it was done on the Cape generations ago" which directly matches the user's request.
+
+The Monomoy option is $905, which is under $1000.
+
+I think Monomoy Pit Bakes is the better fit. Let me place the order with appropriate notes.

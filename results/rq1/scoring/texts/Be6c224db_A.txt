@@ -1,0 +1,30 @@
+[TURN 1 - REASONING]
+The user wants an order for a classic Kiwi dish on Christmas Day BBQ in Christchurch for 20 people. They want a classic Kiwi dish, a starter or main, ready to cook or ready to serve, pickup or delivery on 24th. Budget up to $400 NZ. Need the "proper Kiwi summer classic".
+
+We need to find an option: Search options with query e.g "classic kiwi dish" or "kiwi barbecue", location "Christchurch", maybe "Christmas" or "food" for BBQ. Then find best candidate that covers 20 people, maybe full meal / ready-to-serve for 20 people. We want "a proper classic kiwi dish". Considering Kiwi Christmas BBQ staples: perhaps "Pavlova" for dessert? But the user wants suspect main or starter? They mention "proper classic kiwi dish, a starter or main". Maybe "Jellied Prawns" (??). For summer BBQ, probably "Pork ribs with BBQ sauce" or "Kiwi rashers of lamb"? But they mention something Nana used to make, treat everyone looks forward to all year, uncle would rave about. Could also be "Kiwi Roast lamb"? Or "Fish, e.g., Salmon"? Summer bet: "Kiwi salad" maybe "Kiwi Summer salad"? But likely "Pork roast" or "Beef roast" with sides?
+
+But think of a 'classic Kiwi dish' in the context of BBQ for Christmas: maybe "Pork belly with pineapple glaze" or "Steak", "Hamburgers". But the user wants a single dish: "a classic Kiwi dish, a starter or main" ready to cook or ready to serve. So we can choose a ready-to-serve 'Kumara Roast' or 'Kiwi BBQ Lamb' ready to serve for 20. Or "grilled hot pot of Sausage cases"? Hmm.
+
+But we need to place order. We need to search.
+
+Let's search for "Christmas BBQ" in Christchurch.
+
+[TURN 2 - REASONING]
+We got options. We need one dish suitable for 20 people, classic Kiwi dish. Options: 
+
+- But pavlova is dessert not main or starter.
+- Southern Catch Frozen Whitebait 1kg. But 20 people? Only 1kg maybe not enough.
+- Coast Road Deli Marinated BBQ Lamb Cutlets (40 cutlets) price 330. That is a main dish likely, 20 people fit (2 per person).
+- Coast Road Deli Whitebait Fritters (40 ready). Could be a starter. Price 365. 
+- Bach Kitchen Sweetcorn Fritters with Avocado Salsa 40 fritters price 335. 
+- Pukekohe New Potato & Mint Salad: side dish. 
+- Northland Kūmara Veggie Skewers: side/dish.
+
+Classic Kiwi dish: could be Lamb cutlets, a staple for Christmas BBQ. Whitebait fritters also a Kiwi classic, "Nana used to make". Whitebait fritters: the user mentions Nana used to make treat everyone looks forward to all year. That likely whitebait fritters, yes. Whitebait fritters from Coast Road Deli are called "Kiwi classic" appears. Price 365, within budget 400 best to pick that.
+
+Check availability on 24th.
+
+[TURN 3 - REASONING]
+Make the order with notes: pickup/delivery? The user didn't specify but will pick up at 24th or deliver that day? They didn't say. We'll pick delivery or pickup? They said "picked up or deliverd on the 24th." We can choose delivery to simplify. So place order delivering to Christchurch presumably. We'll add notes: "Delivery on 24th". But we also need to provide delivery pickup instructions? We'll just say "Delivery to Christchurch on 24th."
+
+Let's place order.

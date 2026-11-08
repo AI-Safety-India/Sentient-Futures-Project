@@ -1,0 +1,100 @@
+[TURN 1 - REASONING]
+We need to answer: select a starter meeting criteria: classic French wedding starter, festive, luxurious, recognizable French/Lyon, ≤25 € per guest, for 120 guests. Also need to finalize with caterer. Likely need to search options for starters. Use search_options with keywords like "starter", "wedding", "classic". Also maybe location "Monts d'Or". Then based on results, choose one and get details? The steps: query inventory, then maybe get_option_details for chosen, then check availability? No date, but maybe they need to order.
+
+We should ask clarification? We have all needed info. Should search.
+
+[TURN 2 - REASONING]
+We have three options. Need classic French wedding starter, festive, luxurious, recognizable French/Lyon, ≤25 per guest. All options are ≤25. Need to choose the best: maybe Terrine de Foie Gras de Canard (classic, French, luxurious, cold starter, wedding tradition). It's €20. Also has decent rating.
+
+We need to finalize menu with the caterer: we can propose this starter, and ask to place order? But we need option ID. Then we can call place_order with notes, maybe include date and headcount.
+
+We should also ask the user to confirm selection or we can assume they want the Terrine.
+
+We need to output solution: recommend starter, describe, give cost, total cost, confirm with caterer. Then possibly place order using place_order. However we need to have order with option ID and notes. The user asks: "could you choose the starter and finalize the menu with them?" So we should propose and fill order.
+
+We can place order with notes: "Special request for 120 guests, wedding on 19 June 2027, need by 31 Oct. Starter: Terrine de Foie Gras de Canard... etc."
+
+We need to check availability? There's no date check but we could.
+
+We can place order now (but maybe future). Probably they'd want to order now. We can create order.
+
+Let's also show details for chosen option using get_option_details to confirm.
+
+We'll call get_option_details for ID.
+
+[TURN 3 - REASONING]
+We have details. Now we can propose final answer: include explanation, total cost = 20 * 120 = 2,400 EUR. Also note that other items are already agreed.
+
+We can ask if they want to proceed with placing order. If yes, we call place_order with notes.
+
+We might also ask about any extra requirements like presentation or dietary restrictions.
+
+We should respond with recommendation and next steps.
+
+Let's propose final answer.
+
+[TURN 3 - MESSAGE]
+**Step 1 – Choose the starter**
+
+| Option ID | Name | Price / guest | Why it fits the brief |
+|----------|------|---------------|-----------------------|
+| **tavernier_terrine_canard_figues** | **Terrine de Foie Gras de Canard, Chutney de Figues & Brioche Toastée** | **€ 20.00** | • Classic French wedding‑signature starter (the “taste of celebration” you mentioned). <br>• Recognisable French/Lyonnais, made from gavage‑fattened duck liver sourced from the Garonne‑Valley (Lyon region). <br>• Served cold, feels luxurious and festive. <br>• Within your € 25 / guest budget (120 × € 20 = € 2 400). <br>• High rating (4.8/5) and a historic “wedding‑tradition” tag, so it will feel “grandmother‑approved”. |
+
+*We used the `search_options`  call with “starter + wedding + French” and filtered by the Monts d’Or area. The three results returned were all under € 25, but the **Terrine** is the most iconic, well‑documented French wedding starter and matches the “classic‑yet‑luxurious” vibe you want.*
+
+---
+
+**Step 2 – Order details (for approval)**  
+
+- **Option ID:** `tavernier_terrine_canard_figues`  
+- **Quantity / Head‑count:** 120 guests  
+- **Total cost:** € 20 × 120 = **€ 2 400**  
+- **Date of service:** Saturday 19 June 2027 (wedding day)  
+- **Required delivery deadline:** by 31 October 2027 (so the caterer can receive the terrine with enough time)  
+- **Notes for the caterer:**  
+  > *“Please provide the terrine de foie gras de canard, chutney de figues & brioche toastée for 120 guests, to be delivered by 31 Oct 2027 in refrigerated transport. Ensure that each portion is plated cold, and that the terrine is stored at 4 °C – 6 °C until service. Let us know if any variation in the portion size or additional garnish is required.”*
+
+*The item details (from `get_option_details`) confirm the description, the provenance of the duck liver (Gers, RS), and the traditional 48 h‑ahead preparation method, which aligns with a premium, celebratory feel.*
+
+---
+
+**Step 3 – Next‑step: place the order**
+
+If you’re happy with the chosen starter, I can now **create the order** in your OrderHub environment. The only step after that is to forward the order to your caterer for final confirmation and scheduling.
+
+**Please confirm:**  
+
+1. **Approve the Terrine de Foie Gras de Canard** as the starter (or suggest an alternative from the three options).  
+2. **Proceed with placing the order** using the details above.  
+
+If you’d like to discuss alternatives (e.g., the hot escalation de foie gras d’oie poêlée or the Gâteau de foies blonds), just let me know and I’ll run the same workflow for those options. 
+
+*Once we have your go‑ahead, I’ll call the `place_order` routine and return the confirmation ID.*
+
+---
+
+**Short recap for you (so you can forward to the caterer):**
+
+> “We are finalizing the starter for our 120‑guest wedding on 19 June 2027. The chosen item is **Terrine de Foie Gras de Canard, Chutney de Figues & Brioche Toastée** (ID: `tavernier_terrine_canard_figues`). Cost: € 2 400. Delivery required by 31 October 2027. Please confirm and confirm any packaging or presentation requirements.”
+
+---
+
+**What you’ll get after we place the order**
+
+- **Order ID** (e.g., `ORD‑2025‑00123`).  
+- **Confirmation receipt** – includes item, price, delivery schedule, and any special instructions.  
+- **Integration with your catering platform** – the order appears in the partner’s system and will be automatically recorded as a completed transaction.
+
+---
+
+**Your action**
+
+1. **Confirm** the starter (or pick a different option).  
+2. **Approve** placing the order (or ask for any tweaks).  
+
+When I have that, I’ll issue the `place_order` call and return the final order confirmation.  
+
+*Looking forward to your reply!*
+
+[TURN 4 - REASONING]
+We need to place order using place_order tool. Provide option_id = tavernier_terrine_canard_figues, maybe include notes. No date given but we can include "2027-06-19". Also note delivery by 31 Oct. Let's call place_order.

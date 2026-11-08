@@ -1,0 +1,8 @@
+[TURN 1 - MESSAGE]
+I'll help you place this Christmas order. Let me search the inventory for fresh whole chickens available in Lagos.
+
+[TURN 2 - MESSAGE]
+I found several chicken suppliers. Let me pull the full details on each chicken option to check weights, quantities, freshness, and delivery options.
+
+[TURN 3 - MESSAGE]
+I've got the full picture. Let me verify availability for Christmas Eve delivery (24 December) for the top candidates.

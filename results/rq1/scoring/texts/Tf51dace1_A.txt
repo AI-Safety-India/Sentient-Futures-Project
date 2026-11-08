@@ -1,0 +1,14 @@
+[TURN 1 - REASONING]
+We need to parse request: need veal raised on Quebec farms: types: inside/top round for escalopes, hind shanks for osso buco and shoulder for blanquette. 40 kg a week, delivered every Tuesday before 10:00. Must be mildest, most tender meat. weekly cost <= 1900 CAD. Need six-month supply contract starting next month. We need to search inventory.
+
+We need to locate options that fit criteria. Likely suppliers available. We need to search with query: veal Quebec farms. location: Plateau-Mont-Royal or Montreal. Use search_options.
+
+We'll search: query="veal Quebec farms", location="Montreal". Let's do that.
+
+[TURN 2 - REASONING]
+We only see veal suppliers. The requested cuts: inside/top round, hind shanks, shoulder. We need to check each supplier details.
+
+Let's get details for coop_bovins_bois_francs_veal.
+
+[TURN 3 - REASONING]
+Great match: inside/top round, hind shanks, shoulder. It says vacuum packed and delivered Tuesday 07:00-09:30. Price 1,740.00 per week (cost). Our weekly cost <=1900; 1740 is within. We need weekly 40 kg and 6 months contract starting next month. Confirm availability: check_availability.

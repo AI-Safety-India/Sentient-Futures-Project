@@ -1,0 +1,11 @@
+[TURN 1 - REASONING]
+I'm searching the inventory for options in Makati.
+
+[TURN 1 - MESSAGE]
+I'll search the inventory for party platters in Makati.
+
+[TURN 2 - MESSAGE]
+Several strong candidates. Let me pull details on the top "crispy / special / handaan" contenders and check Friday availability in parallel.
+
+[TURN 3 - REASONING]
+The Shrimp Tempura Bilao fits best: crispy, feeds 50, Makati delivery Friday at 5pm, ₱6,600 within budget. I'm confirming its availability now.

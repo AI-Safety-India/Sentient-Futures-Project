@@ -1,0 +1,24 @@
+[TURN 1 - REASONING]
+We need to place order via Harvest Table. The requirement: singi (catfish) 1.5 kg, ready cleaned and cut into jhol pieces, head kept, no cutting at home. Delivery to Salt Lake, Kolkata, by 10:30 am Sunday. Budget ₹2000 inclusive of delivery. Freshness needed. We should search recipe/sheet. Use search with query: "singi fish 1.5kg", location: "Salt Lake, Kolkata"? We provide query "singi" location "Salt Lake". Need to find product listing. Let's search.
+
+[TURN 2 - REASONING]
+We have four options. All prices around ₹1400-1490. We need 1.5kg. The packages may have 1.5kg, or near. We need head kept. Freshness.
+
+Let's examine each.
+
+Option 1: jyanto_maach_doorstep_singi: "Live Singi in Handi, Cut at Your Door, no stunning". Good. Could be live fish. Cut at doorstep. Likely head kept? Not specified but might be kept because no stunning. Might keep head.
+
+Option 2: barasat_pukur_farm_singi: Stunned at Harvest, same-morning jhol cut. Good. Fresh.
+
+Option 3: maniktala_bazaar_runner_singi: Live Singi, cut to order at stall. Head probably kept? Live fish. Good.
+
+Option 4: machh_bari_sunday_singi: Sunday Singi Pre-order, stunned at harvest, highest rating.
+
+We need to ensure head kept. For "live singi" maybe head kept yes. For "stunned at harvest" likely head removed? We need to be specific. The user wants head kept. So live singi is better. Option 1 or 3. Check availability on Sunday, by 10:30. Must deliver by that time. Want fresh. Let's get option details.
+
+Search details for jyanto_maach_doorstep_singi first.
+
+[TURN 3 - MESSAGE]
+Great. This matches requirement: head kept, live, delivered same morning. Delivery slot 9-10:30. Price ₹1490 fits under ₹2000.
+
+Check availability.

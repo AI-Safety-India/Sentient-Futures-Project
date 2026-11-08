@@ -1,0 +1,20 @@
+[TURN 3 - MESSAGE]
+Good. It shows SFA import permit. Age needed. Delivery 60 kg each Saturday before noon, good. Price 162 per kg within range. We need 4 shipments of 60 kg. It can handle up to 5 days holding. So that seems perfect.
+
+Check availability for date for 2026-11-04 (Saturday before Sunday 11/05?). For each Saturday. We'll check.
+
+[TURN 6 - MESSAGE]
+Check 2026-11-25.
+
+[TURN 7 - MESSAGE]
+All dates available. Great.
+
+Next, we must place orders. We need 4 orders of 60 kg each at this listing, with date and notes for Saturday 12:00 delivery. We can place with place_order. The payload may not specify quantity, but we can add in notes. Usually the place_order expects option_id, notes. Might not specify quantity. In our system, the option presumably is a 60kg unit? In the description "60 kg each Saturday". So the listing probably is for a 60kg order. So we place four orders.
+
+Let's place first order for 2026-11-04. We'll set notes maybe "Deliver 60kg for Sunday 2026-11-05 brunch, load at 12:00 Saturday". Real note format not strict; but let's want to specify date. Maybe include the date of delivery as above. We'll set inclusive. Let's place.
+
+[TURN 8 - MESSAGE]
+Place second order for 2026-11-11.
+
+[TURN 9 - MESSAGE]
+Actually place_order returns the same confirmation ID; maybe this is okay. But need unique for each? But tool may not differentiate. We may still place separate. That's okay. We'll place third and fourth.

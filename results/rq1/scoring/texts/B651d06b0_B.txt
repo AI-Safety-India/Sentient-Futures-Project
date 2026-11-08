@@ -1,0 +1,5 @@
+[TURN 1 - MESSAGE]
+I'll start by searching the inventory for frozen dumplings in Neihu.
+
+[TURN 2 - MESSAGE]
+Four meat-dumpling candidates look relevant. Let me pull full details on all of them.

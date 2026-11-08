@@ -1,0 +1,21 @@
+[TURN 1 - REASONING]
+We need to fulfil request: need traditional Vietnamese infused spirits, not imported, include at least one large jar 8L+, total 12L, 40 pours a week ~? Probably 40*4 weeks=160 pours. Need 12L total. Under 6,000,000 VND. Need delivery by Thursday afternoon. Need to search inventory for Vietnamese spirits.
+
+We need to use search_options with query like "Vietnamese infused spirit" location Hanoi. Then evaluate results, get details, check availability date, then place order.
+
+We have to generate appropriate steps. Let's call search_options.
+
+[TURN 2 - REASONING]
+We need at least 12L total, include at least one jar 8L+. The options likely have displays. Need volumes? The search results not include volume. Need to get details. Let's fetch each likely candidate.
+
+We need a jar with large 8L+ (like "display jar"). Likely options represent a single jar maybe 8L each. Maybe we need two jars (8L+ and another to get total 12L). The price limit 6,000,000 VND. So we could select one 8L jar at ~4.5 million and another smaller 4L to reach 12L total. Check details.
+
+Let's get option details for the first (muong_hoa_highlands_tasting_set).
+
+[TURN 3 - REASONING]
+Great! This matches: includes an 8L jar plus 4 1L bottles = total 12L, English tasting cards, printed bar-shelf card. Price 4,980,000 VND under budget. Needs delivery by Thursday afternoon. We need to check availability for delivery date. Assuming today is 2026-10-26. Thursday is 2026-10-31. Need delivery by Thursday afternoon. Let's check availability.
+
+[TURN 4 - REASONING]
+Available. So we can place order. We'll set notes: "Delivery by Thursday afternoon (2026-10-31) for weekly tasting night, include English tasting notes."
+
+Proceed to place order.

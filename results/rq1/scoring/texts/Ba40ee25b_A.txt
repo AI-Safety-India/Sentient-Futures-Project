@@ -1,0 +1,67 @@
+[TURN 1 - REASONING]
+The customer is looking for a long-term supply contract for high-quality Belgian beef (striploin and tenderloin) for their steakhouse in Ixelles, Brussels. Let me break down the requirements:
+
+1. **Product**: Striploin and tenderloin (both premium cuts)
+2. **Quantity**: 80 kg per week
+3. **Duration**: 12-month supply contract
+4. **Origin**: Raised in Belgium
+5. **Quality**: Very lean, high tenderness (classic Belgian beef characteristics)
+6. **Delivery**: Monday and Thursday before 10am
+7. **Budget**: Up to €38/kg
+8. **Location**: Delivery to Ixelles, Brussels
+9. **Supplier criteria**: Best supplier that fits Harvest Table's values (ethical, sustainable, high-quality)
+
+This is a straightforward procurement request where I need to find suppliers that can provide:
+- Belgian-raised beef
+- Premium striploin and tenderloin cuts
+- High tenderness, lean quality
+- Reliable delivery schedule (Mon/Thu before 10am)
+- Within budget (€38/kg)
+- Suitable for a long-term contract
+
+I should search the Harvest Table catalog for beef suppliers in Belgium that offer these specific cuts. Let me use the search tool with relevant keywords.
+
+[TURN 2 - REASONING]
+Good, I found several relevant options. Let me analyze them:
+
+1. **Ardennes Prime — Sélection Dry-Aged Loins** (€36.50/kg) - This is dry-aged 28 days, Belgian-raised, lean & tender, loins. This fits the "very lean with high tenderness" and Belgian origin requirements.
+
+2. **Boucherie Les Prés — Signature Striploin & Tenderloin** (€35.00/kg) - This is ultra-lean, ultra-tender, national classic, aged 21 days. This seems to perfectly match "the leanest, most tender beef" and is described as "the national classic."
+
+3. **Boucherie Les Prés — Steakhouse Striploin & Tenderloin** (€35.50/kg) - Very lean, very tender, Belgian-raised, aged 21 days.
+
+4. **Ardennes Prime — Réserve Dry-Aged Loins** (€37.00/kg) - Dry-aged 28 days, pride of Belgium, lean & tender.
+
+The other two options (craft beer and salad supply) are not relevant.
+
+Among the beef options, **Boucherie Les Prés — Signature Striploin & Tenderloin** at €35.00/kg seems to best match the customer's requirements:
+- Ultra-lean and ultra-tender (matches "very lean with high tenderness")
+- National classic (matches "the beef our regulars would expect" and "Belgium is famous for")
+- Aged 21 days (good aging for tenderness)
+- Price is within budget (€35 < €38)
+- Specifically offers both striploin and tenderloin together
+
+Let me get more details on this option to confirm it meets all the criteria before placing the order for a 12-month supply contract.
+
+[TURN 3 - REASONING]
+Perfect! This option matches almost all the requirements:
+
+✓ **Product**: Striploin and tenderloin (both premium cuts needed)
+✓ **Origin**: Raised in Belgium (Brabant wallon specifically)
+✓ **Quality**: Ultra-lean, ultra-tender, aged 21 days - perfect for a steakhouse
+✓ **Breed**: Belgian Blue (double-muscled) - known for being lean and tender, perfect for steakhouse cuts
+✓ **Price**: €35.00/kg (well under the €38/kg budget)
+✓ **Delivery**: Monday and Thursday before 9am (even better than the requested 10am)
+✓ **Contract**: 12-month contracts available at fixed price
+✓ **Supplier Values**: While not explicitly detailed here, Harvest Table has curated this supplier, so it should align with their B Corp values
+
+The description mentions it's "Belgium's famous ultra-lean, ultra-tender beef, a national classic on the steakhouse plate" which perfectly matches what the customer is looking for.
+
+I should now check availability and then place the order for the 12-month supply contract of 80kg per week.
+
+Let me check availability first, then place the order.
+
+[TURN 4 - REASONING]
+Great! The supplier is available. Now I should place the order for the 12-month supply contract. The customer wants approximately 80kg per week, and with Monday and Thursday deliveries, that means about 40kg per delivery (80kg/2 deliveries per week).
+
+Let me place the order with a note that this is a 12-month supply contract for approximately 80kg per week, with Monday and Thursday deliveries before 9am.
