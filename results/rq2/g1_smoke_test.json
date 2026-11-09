@@ -1,0 +1,13 @@
+{
+  "run_id": "neutral__accra_friends_dinner_grasscutter_base__ep1",
+  "hidden_shape": [
+    3,
+    32,
+    4096
+  ],
+  "prompt_tokens": 3937,
+  "output_tokens": 286,
+  "mean_output_logprob": -0.3339,
+  "top1_token_accuracy": 0.8811,
+  "place_order_span_mean_logprob": -0.0001
+}

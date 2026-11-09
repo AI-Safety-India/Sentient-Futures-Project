@@ -21,12 +21,7 @@ import random
 import sys
 from collections import Counter, defaultdict
 
-import warnings
-
 import numpy as np
-
-# sklearn >=1.8 warns on every penalty="l2" fit; harmless, but it floods the log.
-warnings.filterwarnings("ignore", category=FutureWarning, module="sklearn")
 
 sys.dont_write_bytecode = True
 sys.stdout.reconfigure(encoding="utf-8")
@@ -184,7 +179,7 @@ def load_qwen_model_and_tokenizer(model_name="Qwen/Qwen3.5-9B"):
     dtype = torch.bfloat16 if torch.cuda.is_available() and torch.cuda.is_bf16_supported() else torch.float16
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        dtype=dtype,
+        torch_dtype=dtype,
         device_map="auto",
     )
     model.eval()
