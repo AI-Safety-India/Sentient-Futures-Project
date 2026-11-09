@@ -36,3 +36,4 @@ In RQ2, we identified an evaluative direction $\mathbf{w}_{\text{eval}}$ that di
 1. $\Delta_{\text{safe}}(\alpha) = P(\text{safe} \mid \alpha) - P(\text{safe} \mid 0)$.
 2. Tool call validity rate: share of runs correctly outputting a valid `place_order` call.
 3. CoT monitoring inspection: does steering cause the agent to verbalize the welfare concern, or does it steer action directly?
+

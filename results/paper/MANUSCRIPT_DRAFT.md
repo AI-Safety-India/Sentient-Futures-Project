@@ -106,3 +106,4 @@ Calibrating against an out-of-fold **5% false-positive rate on safe options**, w
 To establish whether the latent evaluation vector $\mathbf{w}_{\text{eval}}$ causally governs option selection, we inject the direction into the agent loop:
 $$h_\ell \leftarrow h_\ell + \alpha \mathbf{w}_{\text{eval}}$$
 and measure the recovery of safe decisions under neutral prompts.
+
