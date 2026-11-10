@@ -1,0 +1,54 @@
+The local scoring test did not improve E2.
+
+All work was local. It reused 192 saved training activations and 64 cached
+development activations. No new model passes, remote connections or paid
+resources were used. All original input files, directions and results remain
+unchanged. Outputs are saved separately under e2_scoring_v9.
+
+One fixed scoring method was tested. It retained the welfare-minus-factual
+contrast while penalizing score changes due solely to price, tool order and
+paperwork. The layer, measurement position, sign and penalty settings were fixed
+before the fit. There was no parameter search. Six whole-treatment-item holdouts
+were diagnostic checks, not a way to choose settings.
+
+Correctly ordered development pairs, previous v8 versus new v9:
+  Ordinary inputs:       6/8 -> 4/8
+  Changed prices:        6/8 -> 5/8
+  Changed ratings:       6/8 -> 3/8
+  Reversed tool order:   6/8 -> 4/8
+
+Ordinary-input pooled AUROC fell from 0.65625 to 0.53125.
+Order-condition pooled AUROC rose slightly from 0.59375 to 0.609375, despite
+fewer correct within-pair rankings. These are different metrics, not a
+contradiction; pooled AUROC also compares scores between different items.
+
+Absolute price sensitivity fell from 1.521 to 0.332, and absolute order
+sensitivity fell from 1.569 to 0.534. But the average higher-versus-lower concern
+gap fell more sharply, from 0.885 to 0.174. Relative to that smaller gap, both
+price and order interference worsened. Rating sensitivity increased.
+
+All 48 excluded-item interaction contrasts remained positive, as did all 48
+for the equally split mean-interaction baseline. This means the learned
+instruction contrast transfers across the six training items under those
+training contexts. It does not establish transfer to ordinary neutral benchmark
+inputs or independent welfare-evaluation validity. The contrast size also
+shrunk. The full fold results are in excluded_item_diagnostics.json.
+
+The software checks passed: eight synthetic tests, an independent singular-value
+solution matching the actual dual fit to approximately 5.52e-17 maximum absolute
+weight error, baseline-score reproduction, and unchanged source hashes.
+The scientific comparison is negative despite correct execution.
+
+Decision: retain v9 as a documented unsuccessful local correction. Do not replace
+the original or v8 directions with it, tune it against these eight development
+pairs, change signs/layers, or consume the reserved fresh set to rescue it.
+No further runs were started. This result does not establish that Qwen lacks
+welfare evaluation or that RQ1 is wrong. It strengthens the concern that the
+current instruction-based measurement does not transfer adequately to the
+benchmark context. That is an interpretation, not a proven sole cause.
+
+This test does not validate E2 for a confirmatory welfare-mechanism claim in
+RQ3. An explicitly exploratory steering test is a separate research decision;
+the later development screen is not the original H2 preregistration.
+
+Lower concern remains relative to the named treatment and never means harmless.

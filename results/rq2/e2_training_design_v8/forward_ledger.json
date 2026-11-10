@@ -1,0 +1,962 @@
+{
+  "v8_train__high_suffering_farm_products_008__0__welfare__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "2ad43d0d2880369ac0588e39cd386d979c97dbc1966eb908eabbeacb09d8c405"
+  },
+  "v8_train__high_suffering_farm_products_008__0__welfare__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "86ee7b4d84c70e9d8274aa8629dcd6317017276f3652c526ba6904b360adeb1c"
+  },
+  "v8_train__high_suffering_farm_products_008__0__welfare__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "2d399f4cab96c53717880390de7e7fcf1b3fe59282c7f5d823e310f63e8a6e04"
+  },
+  "v8_train__high_suffering_farm_products_008__0__welfare__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "e5609f2e8497af2328ed77b93f1d99eb969b9dcb40a379e9742b185d15f05dea"
+  },
+  "v8_train__high_suffering_farm_products_008__0__welfare__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "7146e87f2afcd29d9db3f8cfe72f8f8e820e084147b4b73c33f7e717f8bb513a"
+  },
+  "v8_train__high_suffering_farm_products_008__0__welfare__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "c72db483265c0e7230af004af771fa0d35276625f3fe9a64b4a7702028662426"
+  },
+  "v8_train__high_suffering_farm_products_008__0__welfare__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "96500f8ed53200b6d9930c29aab242723c7cb0530bc6b32cdf95223c3ff66f8d"
+  },
+  "v8_train__high_suffering_farm_products_008__0__welfare__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "f651861ab26190450fee93b11d0bd7e03ec6da37dc21e97b4459e02ad5acca77"
+  },
+  "v8_train__high_suffering_farm_products_008__0__facts__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "1325c17744754b1f7ea021468cbc2fa8fdf35a08d5483b697fbe2497f09b8be7"
+  },
+  "v8_train__high_suffering_farm_products_008__0__facts__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "2fb4bbc8ef50343df04e8ed616bb0218d154e71d02d0af8122952d061d6f9d32"
+  },
+  "v8_train__high_suffering_farm_products_008__0__facts__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "2dd0dd98bf1a9db88f4087574cfabd6b4df278c3b14f6c87a9b21ba65e1881f7"
+  },
+  "v8_train__high_suffering_farm_products_008__0__facts__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "401cfb4053f2efa9c3d8f16e8057a6780c1d3aae640edb3319eddffbb7c18eb5"
+  },
+  "v8_train__high_suffering_farm_products_008__0__facts__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "b5a49a46d9e4181c2d3e99bf05161130435abfb6e063d83878d01eeec7eec086"
+  },
+  "v8_train__high_suffering_farm_products_008__0__facts__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "a72afe99e2725cd99bc2cf06c009d59010959b43af6a0f0e91f7353902a4917c"
+  },
+  "v8_train__high_suffering_farm_products_008__0__facts__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "66ceecd40cbf54a3e7401955841afb8423a0b3e7ba12dc2ff8289e466e0a1971"
+  },
+  "v8_train__high_suffering_farm_products_008__0__facts__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "d03ff12a1f937b1f8e31d2fea0acf90f85b23bf8b5e14b3b5f52afa559bc7923"
+  },
+  "v8_train__high_suffering_farm_products_008__1__welfare__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "5b16b255c5cfa8add8d4f49c461d7fdc52716389cd608eebc182fd6116609280"
+  },
+  "v8_train__high_suffering_farm_products_008__1__welfare__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "42c60d4b5d4f94c6ee4156787c17da71500003a19bf9b0e3970702c36e1beb6c"
+  },
+  "v8_train__high_suffering_farm_products_008__1__welfare__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "f828db8d7b22b7005dab77b3d4f892408dfb5e0a158f12baf915ed434651d192"
+  },
+  "v8_train__high_suffering_farm_products_008__1__welfare__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "31b5c54f1b207246465fd6da082abcfc1b5c38e154a59400bd5db028bf2f111e"
+  },
+  "v8_train__high_suffering_farm_products_008__1__welfare__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "991dff4f2730af479baba65be9c8b4beed0bae2769150f21f03671303b2540a4"
+  },
+  "v8_train__high_suffering_farm_products_008__1__welfare__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "0c3f5c7ca88eb8e6c8c12a30b8df5c85e4e02aff07aa23e9bf9873e45ee017d2"
+  },
+  "v8_train__high_suffering_farm_products_008__1__welfare__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "9d0de210751d8906b92f5faa1bdc27f9ca27c2800256f0ee7b17d15efbf8116a"
+  },
+  "v8_train__high_suffering_farm_products_008__1__welfare__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "211d640a1248f1a7419524a6f81e4adc3a47424ede14309893ead73da5f3ef2f"
+  },
+  "v8_train__high_suffering_farm_products_008__1__facts__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "40e299a03fc7449d42727c0ed9059ef59dc8dddd20495edf090aaa5e0888879e"
+  },
+  "v8_train__high_suffering_farm_products_008__1__facts__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "58609cccb8ca1de7727ee0b1a24a43624b84e2c2a17ee951069c427990004790"
+  },
+  "v8_train__high_suffering_farm_products_008__1__facts__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "300368734fe91d9a355e6b4a8c5632d36b29d5e0df1f88310376f360510e6413"
+  },
+  "v8_train__high_suffering_farm_products_008__1__facts__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "a5203687539d133fef40e454fee3da8265c4e07c57155e54d9627f2a3ea431b8"
+  },
+  "v8_train__high_suffering_farm_products_008__1__facts__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "ff200f162e96c1e7fdb7b283d9e14ef05daec5e2b6c4c7aac6fb8617e28f1d8e"
+  },
+  "v8_train__high_suffering_farm_products_008__1__facts__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "e3a38fd8917a0f59ae99734d88ee737c20565ae01cce1c4dccc98f29f6068a86"
+  },
+  "v8_train__high_suffering_farm_products_008__1__facts__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "a3b6c5e7f5a415ba210e5a5459561355e5727aece2d935844f9d72685f6cac40"
+  },
+  "v8_train__high_suffering_farm_products_008__1__facts__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "ff69283500af25cff25c6d4ad346c35e5b40a67e92e608f05975c0929b9cdc92"
+  },
+  "v8_train__killing_slaughter_method_005__0__welfare__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "c6b56c9b086d7e6a46ebc799d8fe0ff4379cb2dc72fbf04f6f15ef756714b389"
+  },
+  "v8_train__killing_slaughter_method_005__0__welfare__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "c9d807f1f43598e881ddbfffd8bff2438745ba4a5c2d728adf13b897d0ccb827"
+  },
+  "v8_train__killing_slaughter_method_005__0__welfare__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "e3294f402dcc197da9431fcb0ee8d02e566d87f98dfb146147f0140f5464706a"
+  },
+  "v8_train__killing_slaughter_method_005__0__welfare__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "c4f5a7a4231f01ff4cd42954c117f8b98f67e4b2559427ff5297ba90ab557338"
+  },
+  "v8_train__killing_slaughter_method_005__0__welfare__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "f6a9ea6569c16d65a7418b3678fc1941ab858a9d6ed18156eed6466f684e4f94"
+  },
+  "v8_train__killing_slaughter_method_005__0__welfare__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "a7c6e8de8242693e24fe4f90b8366fc2f19d56ba4ff56f1162fd87a35fa8c374"
+  },
+  "v8_train__killing_slaughter_method_005__0__welfare__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "82a2648d4e18abd8ee6180dd9208a4ca23758f83bc2fdd940b66b6a066302278"
+  },
+  "v8_train__killing_slaughter_method_005__0__welfare__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "d2452060602c40a06628886729c205a1cb3394ee282d94c0c255edb087546d34"
+  },
+  "v8_train__killing_slaughter_method_005__0__facts__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "98c477e2348cbd99e45956be4cd7916c58f00e37eaf31d8f9227f0db6ea11cca"
+  },
+  "v8_train__killing_slaughter_method_005__0__facts__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "47b6c07d12ea9e9d5f1202ba15792dcfd08eac03c809f2facea3d730e4db4747"
+  },
+  "v8_train__killing_slaughter_method_005__0__facts__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "20bc387e240af785a2928aa076b24aa93e31f3023f0d57630aacda9cce110035"
+  },
+  "v8_train__killing_slaughter_method_005__0__facts__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "5de8802ed3f2e8e2907e890d6b1e376b0584e068158eef2a9fb506b63dbe7cb2"
+  },
+  "v8_train__killing_slaughter_method_005__0__facts__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "feb60b4e90407f911e7c763197af37933d5bd3be839d3a818bcae90169b95d85"
+  },
+  "v8_train__killing_slaughter_method_005__0__facts__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "d259bacbeeed6f1b180fa6f4849ca8115fb24a18549f0b136c7a6fe3a49b0e2e"
+  },
+  "v8_train__killing_slaughter_method_005__0__facts__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "4a2972c75383a83ee63976db020df6504d627cb6c6390bc5d7c9cdb723aecfa3"
+  },
+  "v8_train__killing_slaughter_method_005__0__facts__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "80daec0d91a592423a7e84bd98fef3a6175d326fd8071e859f3c38c3ee3426ca"
+  },
+  "v8_train__killing_slaughter_method_005__1__welfare__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "2018596be9d6b70f53da28187198e00a8d485650570b6efe68e5711ead82542d"
+  },
+  "v8_train__killing_slaughter_method_005__1__welfare__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "cb375e91f20f410c6d55893c50de15568a81480e55c3925689e90d4dd97bdc2a"
+  },
+  "v8_train__killing_slaughter_method_005__1__welfare__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "46d1cbc90d8a112e0a88eb0ed88168a421f7056ca344daa203854b46c6f3ae63"
+  },
+  "v8_train__killing_slaughter_method_005__1__welfare__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "67ecd689f72eca0989d21c5eeb522b38594e9e37c1944a8c65d86a5a46a7b287"
+  },
+  "v8_train__killing_slaughter_method_005__1__welfare__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "6ebec952d076bf64170b7be76789cd8d633e71052a135ea8c304cebe91ee4c43"
+  },
+  "v8_train__killing_slaughter_method_005__1__welfare__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "97b2fb5b263adba9066bffa5688e45d17ee32f3d9f4ae44182735f0865d8ed23"
+  },
+  "v8_train__killing_slaughter_method_005__1__welfare__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "6620e3e6081b513c090efa79f3ed8190c1aeafe12a6fd4b4f3c050a8c79f9f53"
+  },
+  "v8_train__killing_slaughter_method_005__1__welfare__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "7512d42ba9c3eda4b064f41362411d7b32c70fd86c3a72afe5bcba126571a70c"
+  },
+  "v8_train__killing_slaughter_method_005__1__facts__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "5e2b6f314308594adafc84ee56970e580b81f10534cb7999111a576b390fe61a"
+  },
+  "v8_train__killing_slaughter_method_005__1__facts__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "064af1aacac2bd49dec963a08fc8002f57dcb7979b8a1ceb95813e0510b3633f"
+  },
+  "v8_train__killing_slaughter_method_005__1__facts__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "697ca0dea8cd5b0bd1b77389da95b47e85473b59fce2c5a567a8c390668d20fe"
+  },
+  "v8_train__killing_slaughter_method_005__1__facts__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "e7bc0a94a07f7d1c3c6b3a6c6bfd51ad0dd2793afb33563ce4310a11d904aee4"
+  },
+  "v8_train__killing_slaughter_method_005__1__facts__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "e0f7d9d99ff311850caee0b4962cfd94c08846d6c4606e8804cab4e66cf66c0d"
+  },
+  "v8_train__killing_slaughter_method_005__1__facts__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "cf9caecd8b2d5ee837ece371962d4b03a8f3ffbd3eacabcaa22c334f5e91ae4a"
+  },
+  "v8_train__killing_slaughter_method_005__1__facts__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "13144c4c7705c77fbbaba1c952a62e85f79eec07b86ec5ad1476c3db4a0dbf5b"
+  },
+  "v8_train__killing_slaughter_method_005__1__facts__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "d90e1df4f0f71b50f479e93137d8092fd6caea1504f8ac376f51279270763e44"
+  },
+  "v8_train__lifetime_farming_conditions_006__0__welfare__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "8b72274be30a95d93be506293ddd28f33bb8a0022f9b997ea01fcdf9f14f1a9e"
+  },
+  "v8_train__lifetime_farming_conditions_006__0__welfare__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "63eba83e0f735a9fcd37790a6552192840328995191c2082cf3def79044515ce"
+  },
+  "v8_train__lifetime_farming_conditions_006__0__welfare__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "18462c12a0d442a931fe6de69290d64f005557734b104cd0ceed28d7b5f1b2cf"
+  },
+  "v8_train__lifetime_farming_conditions_006__0__welfare__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "5c1c8dc3b32e5fc44adf2210cd73f8e81d1eed06cede007e6ef8916c00a05f1e"
+  },
+  "v8_train__lifetime_farming_conditions_006__0__welfare__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "9ffa0af8d3ae702d5bd207c083c05ad97970c6af6285ab0d767289ff69ff1382"
+  },
+  "v8_train__lifetime_farming_conditions_006__0__welfare__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "4918884c2d6daf5b1bfdb583c8fc7fe7960fb223d19aeae25d6f67d618647d09"
+  },
+  "v8_train__lifetime_farming_conditions_006__0__welfare__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "622f2596e6a744ffb3aba0e6e085f786d667cabcf2d790b1fae38f64a944f13d"
+  },
+  "v8_train__lifetime_farming_conditions_006__0__welfare__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "ba19872b58e1752f3c0e4dde06a40db018a523e77326d5283f043e078d7b17f7"
+  },
+  "v8_train__lifetime_farming_conditions_006__0__facts__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "787c7fd13bf7df2abcdb3bdd684310645cc21ddc74d6f6d028d56b09cf7387f7"
+  },
+  "v8_train__lifetime_farming_conditions_006__0__facts__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "2d1f4d7adc08b12d1b0d675049101a1e2ee1d59a46dc02b92f0c884d5dbc431d"
+  },
+  "v8_train__lifetime_farming_conditions_006__0__facts__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "d3a227dd6e54bf89aae9457e8e27f741039b70f54ef3ab8a62b860e09d6f9967"
+  },
+  "v8_train__lifetime_farming_conditions_006__0__facts__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "c8f590b7c05533c9cb7620b3bb597b82cc680c0ef48b556480fbf52f1ffb09ba"
+  },
+  "v8_train__lifetime_farming_conditions_006__0__facts__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "3cf4d05c11f9425263a54bb9dbb64a588e30fb3b589657a2942e2c34b1c96003"
+  },
+  "v8_train__lifetime_farming_conditions_006__0__facts__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "18f85518c78acd446072047e8e188d41f954d48a72432b53b17d44c8aeb8823b"
+  },
+  "v8_train__lifetime_farming_conditions_006__0__facts__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "842417716a105599855269d5fbf8d51b305cc4b83c8e0c1aa9b80ed83e1bac7f"
+  },
+  "v8_train__lifetime_farming_conditions_006__0__facts__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "eaabc4d0c5c8b76500b100fdcd4ed8deb7966ebc65304e058effad12f36328cf"
+  },
+  "v8_train__lifetime_farming_conditions_006__1__welfare__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "13037614d25b3e790c21ca4d30f18eec38bee5cdae5a47a2e6d1f24164fcae02"
+  },
+  "v8_train__lifetime_farming_conditions_006__1__welfare__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "9d626e6a28513cc1f4d146375a4c6c5b7328fee0ca1a4bc59e491c0acb73fbb1"
+  },
+  "v8_train__lifetime_farming_conditions_006__1__welfare__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "c011675bcbf52900051bb02bfb7c85ee61f7d754cfcb3e05118f5e5cd8f7c16e"
+  },
+  "v8_train__lifetime_farming_conditions_006__1__welfare__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "6d7c26bb66fd43e8c5bdf5942ddbf3ee0aeee7f22d43c1ff26f75044de3156bf"
+  },
+  "v8_train__lifetime_farming_conditions_006__1__welfare__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "f302c78b3f7bc7574190948c4748a3fc865768ad33eea7be117ec52d494a323d"
+  },
+  "v8_train__lifetime_farming_conditions_006__1__welfare__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "224147b7b4bcb9d6705050d3dd5f172074b6d8d7b0eedef4c2bb753ab52b610a"
+  },
+  "v8_train__lifetime_farming_conditions_006__1__welfare__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "fab8cf1dfe82f1776b913657276a6ad217d6b573ac8f9850ca6852ce0e3af639"
+  },
+  "v8_train__lifetime_farming_conditions_006__1__welfare__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "948542169d95939013a12ee65e3237454b8b8f371b6993209b0d685478003c45"
+  },
+  "v8_train__lifetime_farming_conditions_006__1__facts__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "b3243ce3d0f5defdf930c1496a4a1ca917f466466cf0167080534becc91fa761"
+  },
+  "v8_train__lifetime_farming_conditions_006__1__facts__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "686b23042db1f604e58f6c2e0ae4467b3424c1ce5f37d74506ecbcf40d2a9b0f"
+  },
+  "v8_train__lifetime_farming_conditions_006__1__facts__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "8f43d6959fb93aafd4532154a7ef2a99ebbcfdbeef156be81c5fd9a160b90f2c"
+  },
+  "v8_train__lifetime_farming_conditions_006__1__facts__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "9f3198cf9495cac727c8122bc8da68dd570b0ba3527d6ee11b3fa6e16c609353"
+  },
+  "v8_train__lifetime_farming_conditions_006__1__facts__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "b6ccadd65bd0a7dd65c6db57f7db018b9997a293ed3e6d2c819ad176010f3b1d"
+  },
+  "v8_train__lifetime_farming_conditions_006__1__facts__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "2d1ceda058a307b5e1ae89b520394b98d4a4a895a6d177bb1bc04a7e2b0a2543"
+  },
+  "v8_train__lifetime_farming_conditions_006__1__facts__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "cf5a7385c66647ea904ce7c44a702c2bb970d117ddb32f27c37129016380e04a"
+  },
+  "v8_train__lifetime_farming_conditions_006__1__facts__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "cf3cd68a38564ad691909cab332c7db3432d3d85bac8d135a21c15fdd85f8592"
+  },
+  "v8_train__live_transport_holding_004__0__welfare__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "00dfdeba4f891f123b4f38e4d016975731e5e6c1a5314bd3c419c2ea7bb13686"
+  },
+  "v8_train__live_transport_holding_004__0__welfare__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "543f697af73622d4e9f9b06666371e3120f461f93b49ea16f7b4f4617981b978"
+  },
+  "v8_train__live_transport_holding_004__0__welfare__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "7ce779220831451c415842aeba1c87f614e0fc3e074530265e3f00d7d46d4e7a"
+  },
+  "v8_train__live_transport_holding_004__0__welfare__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "515526a25bc6252b29e252d717f47a343ecd1521025b79f9a9cf04af184837f5"
+  },
+  "v8_train__live_transport_holding_004__0__welfare__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "cb549db53c8d73f53986f016c8414373d5bc0e59e649ff975dd3c989547dacd2"
+  },
+  "v8_train__live_transport_holding_004__0__welfare__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "11df9f6060f4c0d37c3e33b9e6a3caa24e824118173430c6eac638c910dd6edd"
+  },
+  "v8_train__live_transport_holding_004__0__welfare__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "4b45b16053bf48ceb863c8ea39dd0360f12f67a3d3cab58cf2e2bb8f3f911157"
+  },
+  "v8_train__live_transport_holding_004__0__welfare__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "c14541aad312b725f8e2ce245d84bef740c02e9f00b581c35b76c0e8177e5e34"
+  },
+  "v8_train__live_transport_holding_004__0__facts__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "ec0585767d7c59db71e9b3b5f9ade2edae6e9bb17bc816c7326be66986e1d6ee"
+  },
+  "v8_train__live_transport_holding_004__0__facts__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "84c637c35e4d9cadaaa52f1eba448d9eb39ec43913a2f398209eb702a807cf58"
+  },
+  "v8_train__live_transport_holding_004__0__facts__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "3551e142d75d1b5ec02cbb33f8852f9a884a80f3c32294cf5b5b61805cb76123"
+  },
+  "v8_train__live_transport_holding_004__0__facts__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "6724e330b6c067ab51452aacdd695bb2e47608933ea5a6cf0862412494a3569b"
+  },
+  "v8_train__live_transport_holding_004__0__facts__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "6372fb4e4dd13b7a4f7ff3dd54762651b2df8040a5395af84df95ca5796e86be"
+  },
+  "v8_train__live_transport_holding_004__0__facts__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "839e02880bed806c0ae4add062d9d7f65b4a5233871801ec8b9a07f44186fe1f"
+  },
+  "v8_train__live_transport_holding_004__0__facts__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "5efbde267799afe9250b01735f9665773d2eb41ac35e1ce275d0bff31867ae13"
+  },
+  "v8_train__live_transport_holding_004__0__facts__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "a8c946274b47edff54474177f9d1f1f8162ddd2b1a5a9a0ddb792bb3f2d33e9c"
+  },
+  "v8_train__live_transport_holding_004__1__welfare__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "e02e0502fc650d4dbbc61bddfd7beba75206541924be70099348a1a0f3b64538"
+  },
+  "v8_train__live_transport_holding_004__1__welfare__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "a5cc340d2ced2e8d155be5174703fcbef69c4ce6b155f1aee2b81af5a5d39f21"
+  },
+  "v8_train__live_transport_holding_004__1__welfare__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "ea40c3626a1d9f4162cfe115a00e13557d73a545003b3a4da4ff2959e013d26c"
+  },
+  "v8_train__live_transport_holding_004__1__welfare__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "441572295a29fcbc13709f28fbdc288257fd03ad0af30da97580cbcfdac1768d"
+  },
+  "v8_train__live_transport_holding_004__1__welfare__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "a78be15701e700612c88437c68296431af714bde2bdf326bdc8c7f049621f8b5"
+  },
+  "v8_train__live_transport_holding_004__1__welfare__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "28eba48c4696355c94898548518b6fab9b97004bd133a58c2953c147f4fe0131"
+  },
+  "v8_train__live_transport_holding_004__1__welfare__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "9a49a9243025d1febab368c126fe7e9a24544f97d3fe1ca677014fc68289ea8b"
+  },
+  "v8_train__live_transport_holding_004__1__welfare__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "f6035d75574979dad24e6b70a4da32236f80316cfda00d263df86a86837cffbd"
+  },
+  "v8_train__live_transport_holding_004__1__facts__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "85988f59f90d56da5009a1ace1696b54c4625482aca96a7c0cff380a274858f6"
+  },
+  "v8_train__live_transport_holding_004__1__facts__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "558db1d77ae38be5301331bfdde33c3ba1c14f2d133de7ef66f2ad9a1622a224"
+  },
+  "v8_train__live_transport_holding_004__1__facts__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "b0852cc3f9af6362b5dfcec92d17cfe9377743816cb1cd1a504ce97b297b59ef"
+  },
+  "v8_train__live_transport_holding_004__1__facts__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "7806673d1f0061097af602a2a9704785e982e44ee832a577dbedbe116aef7830"
+  },
+  "v8_train__live_transport_holding_004__1__facts__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "644538672e1a3a973347999060c36a0f00d89ca9ada5962ebb17afded5ff75c9"
+  },
+  "v8_train__live_transport_holding_004__1__facts__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "e9556fe283c44508a9b128a4a4d678d999705c1b7f438282ddfa737feb235f63"
+  },
+  "v8_train__live_transport_holding_004__1__facts__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "dd590b760b30b757cb11ac12d24eeac7445d62fa30eb406b3e8204c562f72a80"
+  },
+  "v8_train__live_transport_holding_004__1__facts__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "ad208f2b2beb1d11adb1a231ff26e39b280f4f914a6d93f481f5d7c302fe388d"
+  },
+  "v8_train__welfare_claims_labels_001__0__welfare__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "65a79a2f6dce79dafe83393be75b2bba1df23e8f126e5be5d56ffa2dae3d827d"
+  },
+  "v8_train__welfare_claims_labels_001__0__welfare__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "070546a5fc66e54e82691734ae32784caf6c47849ceba753b16f378931dc670f"
+  },
+  "v8_train__welfare_claims_labels_001__0__welfare__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "8eb85688b9dd134e0610c88b57b9da54b8681b378c1b125d5ff95e9b792a98de"
+  },
+  "v8_train__welfare_claims_labels_001__0__welfare__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "8b5045a4ea58c4ff445a71852df260cbe634249eede9ec57570ca2230dc39130"
+  },
+  "v8_train__welfare_claims_labels_001__0__welfare__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "6399ce702763184ad6fc0489900c549ba4fc8db0ed486e1c14cac47dcde6644b"
+  },
+  "v8_train__welfare_claims_labels_001__0__welfare__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "5c90d43bfc1cba0a993994420be064a13f90c1ad94dc0ffc8b31147e2bf4b2bb"
+  },
+  "v8_train__welfare_claims_labels_001__0__welfare__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "31f4b92244daec86e15ca43dda79d595f4ee9c1eb15796c29179f6cd22f27b69"
+  },
+  "v8_train__welfare_claims_labels_001__0__welfare__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "8ef496ce9135a5d2f259410f1302a7ad523702c0fca3b52485efb0fae884f3ba"
+  },
+  "v8_train__welfare_claims_labels_001__0__facts__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "fb91b682a2aa20e9dfff26b587b4e75fa97213dfe0d2ef7284868ba7b79ff8bd"
+  },
+  "v8_train__welfare_claims_labels_001__0__facts__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "763326e0542023d58bded056705c90af4756d692bb19299ce3c384e854505b8b"
+  },
+  "v8_train__welfare_claims_labels_001__0__facts__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "b68c316282c0349cff515c4febba35d98ee38cd6044e4b285fded3f6af6da254"
+  },
+  "v8_train__welfare_claims_labels_001__0__facts__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "337c9d7d5ee77423b8fabdd50b4f4dc704d9a995d928425fbec82d4fde3352e3"
+  },
+  "v8_train__welfare_claims_labels_001__0__facts__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "2a741c2aaedf84e685702ecbee7374d8604614a220eaabd75b3c9166b46308e8"
+  },
+  "v8_train__welfare_claims_labels_001__0__facts__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "05c641212228db332542b5221414454d38b75f2d52e87306feb6fffbff7a2196"
+  },
+  "v8_train__welfare_claims_labels_001__0__facts__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "aa939185fb373e92b0c358b8aecd32d60920fb9bc54bc59c5c61834a4315fa93"
+  },
+  "v8_train__welfare_claims_labels_001__0__facts__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "9b728e0aab0fd94c14c7ab246c8d7157a987bf3c6d58e882f79ee8d641618769"
+  },
+  "v8_train__welfare_claims_labels_001__1__welfare__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "18cd85a92be1ac6593e73ebddd17bcae488124832e03f0d72a0c53e48b04b524"
+  },
+  "v8_train__welfare_claims_labels_001__1__welfare__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "f3ecfd6780aab0dafec438ecd8c5e7cbce8f01be7db3381392ca1526e1292f6d"
+  },
+  "v8_train__welfare_claims_labels_001__1__welfare__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "295cf0102317e1af5a4107938cc9eaf0c50afa7b0e4cd882f24cf9c5ddbeeee6"
+  },
+  "v8_train__welfare_claims_labels_001__1__welfare__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "b14f29672184093e6fcd9067136ad8b16639764cf58cb94afe04021e2308a252"
+  },
+  "v8_train__welfare_claims_labels_001__1__welfare__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "86d16f10bfb4da63eb802eac6d5cb44dcbaf722271e2eececac6ce535372d254"
+  },
+  "v8_train__welfare_claims_labels_001__1__welfare__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "514b34f6403910c04ac7ee7143aa4cf51fcb49c8b9246843962889c3571a1e1b"
+  },
+  "v8_train__welfare_claims_labels_001__1__welfare__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "e60f1d85b2b01507ec553b8b0b2fb1f6c96d02a88261c242f40a3b5ae1a53840"
+  },
+  "v8_train__welfare_claims_labels_001__1__welfare__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "c44f191be1114ad6a05f5797838547fcbcafe316100a597b4770a174f9ce6b70"
+  },
+  "v8_train__welfare_claims_labels_001__1__facts__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "347df3e3ef031f9ed47e801ef623e48dd44312bc8fcf90ebbd83c768c896feca"
+  },
+  "v8_train__welfare_claims_labels_001__1__facts__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "6b80c991c7017b7dc0b98f662fdd8b41d841638b9ff1c9fb96ae6b204caba9ae"
+  },
+  "v8_train__welfare_claims_labels_001__1__facts__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "586dd9aee7f6313d948dd526ada8c5cde5b9b3969ce4342e38c7d37e6c8e533c"
+  },
+  "v8_train__welfare_claims_labels_001__1__facts__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "acedf78660b456fbd04fe417633921c5b4031039bf816645959ad125dd299fcc"
+  },
+  "v8_train__welfare_claims_labels_001__1__facts__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "2266b26841eb0808247035a6c8ed3abc16923394767cd18758fd259598d9e677"
+  },
+  "v8_train__welfare_claims_labels_001__1__facts__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "2b41e76cd0b9dcd3b4db53f531965c765c533abce714e335c55c0a61852933da"
+  },
+  "v8_train__welfare_claims_labels_001__1__facts__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "f01a9b7634f9c2f52e76d82bcc2f2193830991ab66bb8edf48f02c12083531a0"
+  },
+  "v8_train__welfare_claims_labels_001__1__facts__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "e04777c161f568b1b20879e504d049ff74abb5da3748b7858d7b56d3a7bd5fe1"
+  },
+  "v8_train__wild_capture_bycatch_005__0__welfare__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "8ca9d6cee7f35ddb57fe57b75cbd3ea835f8c53574d31a5f51a6090741ac933a"
+  },
+  "v8_train__wild_capture_bycatch_005__0__welfare__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "4ccb5d468046387f470419a62079c3afeb00db42853668c54252e001a941515c"
+  },
+  "v8_train__wild_capture_bycatch_005__0__welfare__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "20ead8222bb329515d8cb3b6db3a38029653e85e3ec97849c87b7ae21f4394f8"
+  },
+  "v8_train__wild_capture_bycatch_005__0__welfare__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "9c80f3846e3f7b76322a7786528763e5a8e3d84c03e74524a74c4c893c55bce5"
+  },
+  "v8_train__wild_capture_bycatch_005__0__welfare__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "db3bc270a2f8a1e689cf9c5e0fe2e776f0e703a9b7f030db41eb085447380ef2"
+  },
+  "v8_train__wild_capture_bycatch_005__0__welfare__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "9e103d7f23262e441a72b66cb6ec1f0c25ae3e1d83ac2a84b5f07317b02ec1fd"
+  },
+  "v8_train__wild_capture_bycatch_005__0__welfare__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "ad846814c7f85354dfe5d640718c89ffdbd038bab1afae412b2e12005b753350"
+  },
+  "v8_train__wild_capture_bycatch_005__0__welfare__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "3b483cef6b1035c1e58232044535b90be6f755adad557a6025ba6c311a974ddb"
+  },
+  "v8_train__wild_capture_bycatch_005__0__facts__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "6e145de85bd394b861bc8cafb86b3aa177a2b787b1dc7cacfc4b046a227e81bb"
+  },
+  "v8_train__wild_capture_bycatch_005__0__facts__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "76ca3826bf370eb8b321aad6b1e1d0fff7d20fa937823c3cfd5eeafeedbcd9f1"
+  },
+  "v8_train__wild_capture_bycatch_005__0__facts__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "547ca31f7f28ae08a33d1928f4a96a4c0e7302a8f647296cfa51b02c6a82ee6e"
+  },
+  "v8_train__wild_capture_bycatch_005__0__facts__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "4c5d06608d9f6920e43dfc5fb32fcbfe2643eac06bc21f390103b4df3022a621"
+  },
+  "v8_train__wild_capture_bycatch_005__0__facts__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "fa6f6e90c842f0d38b7b6ce16adff5c4237ffb0d455d68857b4cb0cb76934e10"
+  },
+  "v8_train__wild_capture_bycatch_005__0__facts__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "8f950138b330b4b18e0b9314c51f84576ac42e9973bacc1a4166e4bb0f817f89"
+  },
+  "v8_train__wild_capture_bycatch_005__0__facts__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "e1e9df772919c3a6fe4754118f56aca7f0a568349f5f673774113156bdfb1f7e"
+  },
+  "v8_train__wild_capture_bycatch_005__0__facts__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "8989913b7d2b486141feb83d2d9095eabc55643a84ca31ecd46cc76debb2e696"
+  },
+  "v8_train__wild_capture_bycatch_005__1__welfare__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "78f745986a84b62b81d2d6fe607cdc7b89835fd31dfa66580b79d12fc180a775"
+  },
+  "v8_train__wild_capture_bycatch_005__1__welfare__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "785940f448913798455bd65b839dccbe59df8ca697a3311ae816281cc9e8ae96"
+  },
+  "v8_train__wild_capture_bycatch_005__1__welfare__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "804a29ce2cfae1b60b8adfed6f18a1a5c9863e7546440d940964fdc3a71823d9"
+  },
+  "v8_train__wild_capture_bycatch_005__1__welfare__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "c779efdfb780fc8fb5a0f289bbd60f210f109b8e15bc44f6cd71566ec2e66f32"
+  },
+  "v8_train__wild_capture_bycatch_005__1__welfare__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "daff099e188700897f10124229fb68c61556f24a83860dde6366507ce07e4aa9"
+  },
+  "v8_train__wild_capture_bycatch_005__1__welfare__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "ebdf1eef6764bfa283217ee44a301ac956dff98a1de34118da2f67b7fd883d62"
+  },
+  "v8_train__wild_capture_bycatch_005__1__welfare__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "b80d2b4b4709585431abb3aad6b0a529c6afeeb99cad1838e4ceba8d8f0d770f"
+  },
+  "v8_train__wild_capture_bycatch_005__1__welfare__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "03bcaca2edcf2150dd65f49e29ed3bd634fedea21ea6b5babc5d72b26129a789"
+  },
+  "v8_train__wild_capture_bycatch_005__1__facts__target_first__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "d8f6f14c660f50823e6a2791c9321d8514a0c56701650036526ecd11cc95a13f"
+  },
+  "v8_train__wild_capture_bycatch_005__1__facts__target_first__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "7deba67485c4da3b6dc3b4147e06efa66de663df128e4f9b3881b9673acde368"
+  },
+  "v8_train__wild_capture_bycatch_005__1__facts__target_first__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "21f94a0894b30fadfc497a606402dbdd73f6e90e1fb7c4fb04b9c53f2b9bd81c"
+  },
+  "v8_train__wild_capture_bycatch_005__1__facts__target_first__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "d5e844dfa97ba1bc116161788529d664b740305c5f44293d02a973e69d763bff"
+  },
+  "v8_train__wild_capture_bycatch_005__1__facts__target_last__service_positive__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "7907f38fa3d63d8344f4bda66bcff88eae70eb59f4538f938641c5745a1ccfe6"
+  },
+  "v8_train__wild_capture_bycatch_005__1__facts__target_last__service_positive__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "90e13144ff61bc09e4f93a2433adb1a2497e0a46b909756a28873e05651a8d92"
+  },
+  "v8_train__wild_capture_bycatch_005__1__facts__target_last__service_negative__price_base": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "5cb9fb2167392c5f72356c208231d7206963234e2d615af0248043508aecfd5c"
+  },
+  "v8_train__wild_capture_bycatch_005__1__facts__target_last__service_negative__price_double": {
+    "state": "complete",
+    "attempts": 1,
+    "job_sha256": "825373cd27530501a761ba2e262eac15cb15a3ce55fbc0426a994e2e6dac752c"
+  }
+}

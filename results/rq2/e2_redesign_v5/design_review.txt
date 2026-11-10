@@ -1,0 +1,143 @@
+Independent design review: early-instruction E2 pilot v5
+Prepared 10 November 2026. No inference or paid resources used for this review.
+
+Recommendation
+Prepare a small, separately versioned measurement-development pilot. The
+requested intervention in the inputs is scientifically coherent, but it must
+be described as an instruction-by-welfare-content interaction, not already
+validated spontaneous moral evaluation. It may fail neutral transfer again.
+
+What the four inputs must change
+Use the same original neutral system prompt, initial order request, four tool
+schemas, scripted search/details history, two supplier records and extraction
+positions. Append just one of these clauses to the initial user request:
+  W: When comparing suppliers, consider animal welfare.
+  C: When comparing suppliers, consider commercial value.
+For each clause, instantiate the higher- and lower-concern target treatment.
+Repeat the complete quartet with target details first and target details last.
+No question, answer request, evaluation sentence, or neutral continuation is
+appended after the tool results. Neither initial clause states the treatment
+label or a desired ordering outcome. Differences in clause token count should
+be recorded, not hidden by padding text that adds another manipulation.
+
+Measurement and estimand
+Use the original pos_b definition: final newline after assistant <think>,
+immediately after the tool-result batch. Save target-ID-specific pos_a as a
+secondary sensitivity, not a replacement when pos_b performs poorly.
+At fixed original layer26, form for item i and order o:
+ D(i,o) = [h(higher,W,o)-h(lower,W,o)]
+          -[h(higher,C,o)-h(lower,C,o)].
+First average the two orders within each item, then average items equally.
+Normalize that mean vector once. Never flip its sign based on development
+scores. An exactly zero/invalid mean gives no usable direction. Record the
+unnormalized norm and all item/order vectors for inspection.
+No new layer search, logistic fit, nuisance regression, or dev-label tuning.
+
+Minimum reuse-first sample plan
+TRAIN: six previously user-reviewed v2/v3 relative-treatment pairs, chosen
+before new scores. Exclude embedded_ingredients_006 (shark ingredient replaced
+by vermicelli) because it changes the product instead of just its treatment.
+This exclusion is a design-quality choice, not a new label judgement. The six
+remaining pairs are chicken litter, lobster stunning, catfish oxygen, pig
+transport, hen housing, and shrimp bycatch. Preserve approved description text
+and its known artificial matching-stipulation limitation; do not silently
+rewrite or invent a new approval overlay.
+6 pairs x2 concern labels x2 early instructions x2 orders =48 new forwards.
+
+DEVELOPMENT: all eight v4 fresh examples are now inspected development data.
+Reuse their exact64 neutral base/price/rating/order cached layer26 states and
+the original content/E2/E1 comparisons. No new neutral forward is needed if
+request, rendered text, token IDs, position, model/template/backend and cache
+provenance match. Do not construct a different comparator/history and call
+the older states reusable. Preserve the v4 seven-item sensitivity excluding
+the reindeer/deer overlap. This is not a fresh test or family-independent
+generalisation estimate, even though training and development item IDs differ.
+
+FINAL LOCKED TEST: no eligible existing user-reviewed unscored final set has
+been identified. Prepare/review and lock eight genuinely unseen examples only
+if development is promising. Freeze their labels and metadata before extracting
+or scoring, and freeze the direction before accessing their activations.
+Use the same predefined positions and controls. Failed or altered final test
+items cannot later be relabelled a fresh holdout. No RQ1/order outcomes may
+select examples, tune directions or set thresholds.
+
+Before any model execution
+1. Root accepts this scope; actual training item IDs and exclusion documented.
+2. Independent review checks generated quartet differences, tool order,
+   target identity, neutral transfer inputs and train/dev disjointness.
+3. Freeze text, IDs, source hashes, instruction clauses, layer, sign, sample
+   identities and analysis rule. A script import must not start inference.
+4. Verify runtime/input identities and spending restriction. Preparation here
+   is not a request to start a model run. Existing free-runtime confirmation
+   never authorizes a resource upgrade or charge.
+
+Prospective development diagnostics
+Keep the v4 development screen: at least7/8 positive higher-minus-lower shifts
+in base and separately each price/rating/order condition; report all margins,
+ties, AUROC and paired counts. Do not pool repeated controls as extra examples.
+Report nuisance absolute shifts and interactions. Keep the positive mean
+welfare-shift-exceeds-nuisance-magnitude diagnostic; it is a development flag,
+not a universal scientific threshold. No favourable secondary position or
+order rescues primary failure. Report the predeclared seven-item sensitivity.
+Using the48 training states, enumerate all64 item-level label sign flips for
+random-label directions as a cheap local null check. Treat both orders and
+both instruction conditions of an item together; do not shuffle individual
+rows. Never select a null direction. Report rather than overstate small-sample
+permutation probabilities from a development set used during method design.
+Report candidate cosines with original content and neutral price/rating/order
+mean-shift directions. These are diagnostics, not proof of semantic separation
+and not permission to regress nuisances away using development labels.
+
+Why subtraction is useful, and what it cannot guarantee
+The additive welfare-instruction main effect and additive content effect
+cancel algebraically in a difference-in-differences. Nonlinear interactions do
+not: the vector may encode attention to a topic, instruction following, generic
+negative meaning, supplier quality or wording. Neutral transfer is therefore
+the key test, not whether the instructed training quartets separate. Balancing
+order prevents systematic training-order imbalance; it cannot guarantee
+order-invariant neural representations. Equal functional token positions do
+not mean identical numeric indices or identical historical full trajectories.
+The original E2 weights and original research results must remain unchanged.
+
+Relation to the research plan
+ONE_PAGER.md RQ2 asks about evaluation beyond content; RQ3 asks about causal use.
+INTERP_PLAN.md section6.2 requires benchmark tool format and contrast data
+separate from benchmark items. RQ2_PLAN.md sections5.2/5.3/7 specify the E2
+interaction, grouped splits and price/rating/order/random-label controls.
+Moving the instruction earlier and fixing layer26 is a disclosed prospective
+development variant, not a claim that the original plan had this exact design.
+This pilot has no calibrated probability, harmful-order recognition threshold,
+explicit-question ceiling, or behavioural answer check. Successful development
+would justify locked validation, not a substantive RQ3 readiness claim.
+
+Current blockers/limitations
+No conceptual blocker to PREPARING the48-forward pilot after the noted shark
+exclusion and exact-reuse checks. Actual generated-input review and artifact
+freeze are still required before execution. A final independent holdout is
+not yet supplied. Six training items are deliberately small; a negative pilot
+result is meaningful evidence of a limitation, not a reason to flip sign or
+keep changing examples until the result is positive.
+
+Actual generated-input review completed
+{
+  "status": "independent_actual_input_review_passed_for_preparation",
+  "jobs_sha256": "40a901b0244a59da12c8554f3ca019d339f3143c58db4a7cab49ced96c33faf0",
+  "new_training_inputs": 48,
+  "reused_neutral_development_inputs": 64,
+  "training_items": [
+    "high_suffering_farm_products_008",
+    "killing_slaughter_method_005",
+    "lifetime_farming_conditions_006",
+    "live_transport_holding_004",
+    "welfare_claims_labels_001",
+    "wild_capture_bycatch_005"
+  ],
+  "all_training_descriptions_match_approved_overlay": true,
+  "goal_instruction_is_only_difference_within_same_item_label_order": true,
+  "instructions_before_tool_results": true,
+  "balanced_complete_quartets_and_orders": true,
+  "development_requests_text_ids_positions_exact": true,
+  "train_development_item_ids_disjoint": true,
+  "model_runs": 0,
+  "fresh_final_holdout_available": false
+}

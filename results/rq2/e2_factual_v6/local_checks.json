@@ -1,0 +1,13 @@
+{
+  "jobs": 24,
+  "items": 6,
+  "labels": 2,
+  "orders": 2,
+  "only_initial_clause_changes": true,
+  "upstream_instruction": true,
+  "saved_welfare_jobs_reused": 24,
+  "cached_neutral_development_jobs_reused": 64,
+  "positions_verified": true,
+  "token_ids_verified_offline": true,
+  "model_runs": 0
+}

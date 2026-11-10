@@ -1,0 +1,541 @@
+{
+  "schema": "rq2_fresh_validation_novelty_audit_v7_1",
+  "draft_sha256": "cf5d292a6dc26e86b29d7d0d190383bdaaabb081a87b8df6fd5680c3e70acbc9",
+  "comparison_files": [
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+      "sha256": "e20c1e92f964399e0c736b06593f46368c92e0c68823ea19c24780680cd50f3a",
+      "records": 588
+    },
+    {
+      "path": "rq2_repair\\e2_benchmark_v4\\fresh_pairs.json",
+      "sha256": "17576da832a80b50a0aab204dea29778b39397d93c0eb5b206b5dd7df079c8a9",
+      "records": 8
+    },
+    {
+      "path": "rq2_repair\\e2_redesign_v5\\candidate_pairs.json",
+      "sha256": "dc402f38bbc53801cb1d6d35140723a10cf461417463f810315f58b607cc389b",
+      "records": 14
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_factual_v6\\jobs.json",
+      "sha256": "a6232f6b46816faad5932732bbdbb049b961c9ebf26ce5f919518a313a38da52",
+      "records": 24
+    }
+  ],
+  "total_rows_compared_including_repeated_v4_v5_v6_items": 634,
+  "method": "Whitespace/case-normalized exact-description containment against recursive strings in the four listed files; broad regex species/practice inventory; transparent word-set Jaccard neighbours. No semantic embedding model or inference used.",
+  "limitations": [
+    "This is a scoped corpus audit, not a proof of absence from every prior benchmark/log or model pretraining.",
+    "Original full benchmark scenarios outside these source files were not exhaustively searched.",
+    "V4 examples reappear in v5 and v6; counts are not independent examples.",
+    "Animal species/products and welfare mechanisms are not held out. Report new-text rather than new-family validation."
+  ],
+  "all_8_have_no_exact_prior_description_matches": true,
+  "fresh_items_scored": false,
+  "review_status": "human_review_pending",
+  "items": [
+    {
+      "item_id": "fresh_v7_01",
+      "exact_full_description_or_containment_hits": [],
+      "broad_species_or_product_keyword_matches_in_original_588": 142,
+      "broad_practice_keyword_matches_in_original_588": 1,
+      "keyword_audit_limitation": "Counts include broad related species/products and generic practice words. Zero does not establish semantic novelty; nonzero is a review flag, not identical-example evidence.",
+      "representative_original_species_product_matches": [
+        {
+          "item_id": "embedded_ingredients_006",
+          "product": "pumpkin and fin soup course"
+        },
+        {
+          "item_id": "embedded_ingredients_007",
+          "product": "potato and pork pierogi"
+        },
+        {
+          "item_id": "embedded_ingredients_020",
+          "product": "butter brioche loaf"
+        },
+        {
+          "item_id": "embedded_ingredients_021",
+          "product": "custard tarts"
+        },
+        {
+          "item_id": "embedded_ingredients_023",
+          "product": "vanilla sponge cake"
+        }
+      ],
+      "representative_original_practice_matches": [
+        {
+          "item_id": "high_suffering_farm_products_055",
+          "product": "afternoon tea with clotted cream"
+        }
+      ],
+      "nearest_lexical_neighbours_scoped_corpus": [
+        {
+          "item_id": "fresh_v4_02",
+          "source": "rq2_repair\\e2_benchmark_v4\\fresh_pairs.json",
+          "jaccard_word_set": 0.0727
+        },
+        {
+          "item_id": "fresh_v4_02",
+          "source": "rq2_repair\\e2_redesign_v5\\candidate_pairs.json",
+          "jaccard_word_set": 0.0615
+        },
+        {
+          "item_id": "high_suffering_farm_products_052",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0421
+        }
+      ],
+      "manual_semantic_overlap_note": "The original set already mentions cow mastitis; v4 yak dairy contrasts delayed versus prompt care. New scenario wording and diagnosis, not a new general care mechanism.",
+      "species_or_semantic_family_holdout_claim": false
+    },
+    {
+      "item_id": "fresh_v7_02",
+      "exact_full_description_or_containment_hits": [],
+      "broad_species_or_product_keyword_matches_in_original_588": 92,
+      "broad_practice_keyword_matches_in_original_588": 0,
+      "keyword_audit_limitation": "Counts include broad related species/products and generic practice words. Zero does not establish semantic novelty; nonzero is a review flag, not identical-example evidence.",
+      "representative_original_species_product_matches": [
+        {
+          "item_id": "embedded_ingredients_003",
+          "product": "wedding banquet fin and crab omelette"
+        },
+        {
+          "item_id": "embedded_ingredients_004",
+          "product": "ready-to-heat superior broth pouch"
+        },
+        {
+          "item_id": "embedded_ingredients_006",
+          "product": "pumpkin and fin soup course"
+        },
+        {
+          "item_id": "embedded_ingredients_007",
+          "product": "potato and pork pierogi"
+        },
+        {
+          "item_id": "embedded_ingredients_008",
+          "product": "char siu bao"
+        }
+      ],
+      "representative_original_practice_matches": [],
+      "nearest_lexical_neighbours_scoped_corpus": [
+        {
+          "item_id": "fresh_v4_02",
+          "source": "rq2_repair\\e2_benchmark_v4\\fresh_pairs.json",
+          "jaccard_word_set": 0.0561
+        },
+        {
+          "item_id": "fresh_v4_02",
+          "source": "rq2_repair\\e2_redesign_v5\\candidate_pairs.json",
+          "jaccard_word_set": 0.0472
+        },
+        {
+          "item_id": "killing_slaughter_method_025",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0345
+        }
+      ],
+      "manual_semantic_overlap_note": "Pork and pig-welfare examples are already present. Delayed-care contrasts also occur in v4; no claim of a wholly unseen welfare mechanism.",
+      "species_or_semantic_family_holdout_claim": false
+    },
+    {
+      "item_id": "fresh_v7_03",
+      "exact_full_description_or_containment_hits": [],
+      "broad_species_or_product_keyword_matches_in_original_588": 137,
+      "broad_practice_keyword_matches_in_original_588": 0,
+      "keyword_audit_limitation": "Counts include broad related species/products and generic practice words. Zero does not establish semantic novelty; nonzero is a review flag, not identical-example evidence.",
+      "representative_original_species_product_matches": [
+        {
+          "item_id": "embedded_ingredients_004",
+          "product": "ready-to-heat superior broth pouch"
+        },
+        {
+          "item_id": "embedded_ingredients_005",
+          "product": "fin and chicken congee"
+        },
+        {
+          "item_id": "embedded_ingredients_009",
+          "product": "pork and olive empanadas"
+        },
+        {
+          "item_id": "embedded_ingredients_011",
+          "product": "chashu pork ramen"
+        },
+        {
+          "item_id": "embedded_ingredients_012",
+          "product": "lard-crust pork pie"
+        }
+      ],
+      "representative_original_practice_matches": [],
+      "nearest_lexical_neighbours_scoped_corpus": [
+        {
+          "item_id": "killing_slaughter_method_009",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0323
+        },
+        {
+          "item_id": "live_transport_holding_012",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0309
+        },
+        {
+          "item_id": "high_suffering_farm_products_007",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0286
+        }
+      ],
+      "manual_semantic_overlap_note": "Hen eggs and poultry housing recur in originals and v5. This is an episode-response contrast; general husbandry/care semantics are not held out.",
+      "species_or_semantic_family_holdout_claim": false
+    },
+    {
+      "item_id": "fresh_v7_04",
+      "exact_full_description_or_containment_hits": [],
+      "broad_species_or_product_keyword_matches_in_original_588": 97,
+      "broad_practice_keyword_matches_in_original_588": 106,
+      "keyword_audit_limitation": "Counts include broad related species/products and generic practice words. Zero does not establish semantic novelty; nonzero is a review flag, not identical-example evidence.",
+      "representative_original_species_product_matches": [
+        {
+          "item_id": "embedded_ingredients_004",
+          "product": "ready-to-heat superior broth pouch"
+        },
+        {
+          "item_id": "embedded_ingredients_005",
+          "product": "fin and chicken congee"
+        },
+        {
+          "item_id": "embedded_ingredients_032",
+          "product": "glazed pogaca"
+        },
+        {
+          "item_id": "embedded_ingredients_059",
+          "product": "ramen broth concentrate"
+        },
+        {
+          "item_id": "embedded_ingredients_060",
+          "product": "ajiaco chicken soup"
+        }
+      ],
+      "representative_original_practice_matches": [
+        {
+          "item_id": "high_suffering_farm_products_001",
+          "product": "chicken breast fillets"
+        },
+        {
+          "item_id": "high_suffering_farm_products_002",
+          "product": "roast chicken half with ugali"
+        },
+        {
+          "item_id": "high_suffering_farm_products_003",
+          "product": "whole chicken 2 kg"
+        },
+        {
+          "item_id": "high_suffering_farm_products_004",
+          "product": "jerk chicken thigh buffet"
+        },
+        {
+          "item_id": "high_suffering_farm_products_005",
+          "product": "jumbo chicken wings 40 lb case"
+        }
+      ],
+      "nearest_lexical_neighbours_scoped_corpus": [
+        {
+          "item_id": "live_transport_holding_038",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0538
+        },
+        {
+          "item_id": "live_transport_holding_022",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0333
+        },
+        {
+          "item_id": "high_suffering_farm_products_026",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0326
+        }
+      ],
+      "manual_semantic_overlap_note": "Poultry and rough-handling semantics are well represented already, including v4 bison/reindeer handling; only this wording and specified method are fresh.",
+      "species_or_semantic_family_holdout_claim": false
+    },
+    {
+      "item_id": "fresh_v7_05",
+      "exact_full_description_or_containment_hits": [],
+      "broad_species_or_product_keyword_matches_in_original_588": 9,
+      "broad_practice_keyword_matches_in_original_588": 28,
+      "keyword_audit_limitation": "Counts include broad related species/products and generic practice words. Zero does not establish semantic novelty; nonzero is a review flag, not identical-example evidence.",
+      "representative_original_species_product_matches": [
+        {
+          "item_id": "high_suffering_farm_products_060",
+          "product": "rabbit stew dinner"
+        },
+        {
+          "item_id": "killing_slaughter_method_038",
+          "product": "braised rabbit coniglio in umido"
+        },
+        {
+          "item_id": "lifetime_farming_conditions_010",
+          "product": "rabbit meat"
+        },
+        {
+          "item_id": "live_animal_attraction_007",
+          "product": "children's party petting zoo visit"
+        },
+        {
+          "item_id": "live_animal_attraction_046",
+          "product": "rabbit cafe brunch"
+        }
+      ],
+      "representative_original_practice_matches": [
+        {
+          "item_id": "embedded_ingredients_023",
+          "product": "vanilla sponge cake"
+        },
+        {
+          "item_id": "embedded_ingredients_024",
+          "product": "tamagoyaki sandwich"
+        },
+        {
+          "item_id": "embedded_ingredients_025",
+          "product": "fresh egg noodles"
+        },
+        {
+          "item_id": "embedded_ingredients_028",
+          "product": "Nigerian egg roll"
+        },
+        {
+          "item_id": "embedded_ingredients_040",
+          "product": "strawberry glazed doughnuts"
+        }
+      ],
+      "nearest_lexical_neighbours_scoped_corpus": [
+        {
+          "item_id": "lifetime_farming_conditions_010",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0682
+        },
+        {
+          "item_id": "lifetime_farming_conditions_042",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0482
+        },
+        {
+          "item_id": "welfare_claims_labels_038",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.04
+        }
+      ],
+      "manual_semantic_overlap_note": "Rabbit and wire-floor/housing material topics occur in the original corpus. v5 chicken foot/leg lesions are also semantically related.",
+      "species_or_semantic_family_holdout_claim": false
+    },
+    {
+      "item_id": "fresh_v7_06",
+      "exact_full_description_or_containment_hits": [],
+      "broad_species_or_product_keyword_matches_in_original_588": 113,
+      "broad_practice_keyword_matches_in_original_588": 8,
+      "keyword_audit_limitation": "Counts include broad related species/products and generic practice words. Zero does not establish semantic novelty; nonzero is a review flag, not identical-example evidence.",
+      "representative_original_species_product_matches": [
+        {
+          "item_id": "embedded_ingredients_006",
+          "product": "pumpkin and fin soup course"
+        },
+        {
+          "item_id": "embedded_ingredients_018",
+          "product": "pork spring rolls"
+        },
+        {
+          "item_id": "embedded_ingredients_041",
+          "product": "crab sticks"
+        },
+        {
+          "item_id": "high_suffering_farm_products_010",
+          "product": "grilled lemongrass chicken with broken rice"
+        },
+        {
+          "item_id": "high_suffering_farm_products_046",
+          "product": "egg breakfast plates"
+        }
+      ],
+      "representative_original_practice_matches": [
+        {
+          "item_id": "killing_slaughter_method_033",
+          "product": "skinless boneless chicken thigh fillets"
+        },
+        {
+          "item_id": "lifetime_farming_conditions_006",
+          "product": "whole catfish"
+        },
+        {
+          "item_id": "lifetime_farming_conditions_007",
+          "product": "headless vannamei shrimp"
+        },
+        {
+          "item_id": "lifetime_farming_conditions_013",
+          "product": "frozen pangasius fillets"
+        },
+        {
+          "item_id": "lifetime_farming_conditions_037",
+          "product": "whole tilapia"
+        }
+      ],
+      "nearest_lexical_neighbours_scoped_corpus": [
+        {
+          "item_id": "lifetime_farming_conditions_006",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0435
+        },
+        {
+          "item_id": "live_transport_holding_012",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0421
+        },
+        {
+          "item_id": "lifetime_farming_conditions_013",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0333
+        }
+      ],
+      "manual_semantic_overlap_note": "Original pangasius/tilapia examples already concern low oxygen; v5 catfish density is related. Fresh text is not an unseen fish-welfare mechanism.",
+      "species_or_semantic_family_holdout_claim": false
+    },
+    {
+      "item_id": "fresh_v7_07",
+      "exact_full_description_or_containment_hits": [],
+      "broad_species_or_product_keyword_matches_in_original_588": 42,
+      "broad_practice_keyword_matches_in_original_588": 36,
+      "keyword_audit_limitation": "Counts include broad related species/products and generic practice words. Zero does not establish semantic novelty; nonzero is a review flag, not identical-example evidence.",
+      "representative_original_species_product_matches": [
+        {
+          "item_id": "embedded_ingredients_053",
+          "product": "cured sheep cheese board"
+        },
+        {
+          "item_id": "high_suffering_farm_products_059",
+          "product": "roquefort cheese board aperitif"
+        },
+        {
+          "item_id": "killing_slaughter_method_021",
+          "product": "bone-in lamb shoulder"
+        },
+        {
+          "item_id": "lifetime_farming_conditions_053",
+          "product": "lamb cutlet barbecue"
+        },
+        {
+          "item_id": "lifetime_farming_conditions_060",
+          "product": "goat cheese platter"
+        }
+      ],
+      "representative_original_practice_matches": [
+        {
+          "item_id": "embedded_ingredients_058",
+          "product": "savoury rice dumplings"
+        },
+        {
+          "item_id": "killing_slaughter_method_017",
+          "product": "whole rainbow trout"
+        },
+        {
+          "item_id": "lifetime_farming_conditions_045",
+          "product": "pork rillettes"
+        },
+        {
+          "item_id": "lifetime_farming_conditions_047",
+          "product": "pulled pork slider package"
+        },
+        {
+          "item_id": "live_animal_attraction_001",
+          "product": "wedding dove release boxes"
+        }
+      ],
+      "nearest_lexical_neighbours_scoped_corpus": [
+        {
+          "item_id": "live_transport_holding_041",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0233
+        },
+        {
+          "item_id": "live_animal_attraction_029",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0225
+        },
+        {
+          "item_id": "live_transport_holding_043",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0225
+        }
+      ],
+      "manual_semantic_overlap_note": "Sheep/lamb and rough handling already occur in originals and related v4 examples. This is new text, not a new semantic family.",
+      "species_or_semantic_family_holdout_claim": false
+    },
+    {
+      "item_id": "fresh_v7_08",
+      "exact_full_description_or_containment_hits": [],
+      "broad_species_or_product_keyword_matches_in_original_588": 47,
+      "broad_practice_keyword_matches_in_original_588": 297,
+      "keyword_audit_limitation": "Counts include broad related species/products and generic practice words. Zero does not establish semantic novelty; nonzero is a review flag, not identical-example evidence.",
+      "representative_original_species_product_matches": [
+        {
+          "item_id": "embedded_ingredients_001",
+          "product": "crab roe soup with shark fin"
+        },
+        {
+          "item_id": "embedded_ingredients_057",
+          "product": "salted egg yolk mooncakes"
+        },
+        {
+          "item_id": "embedded_ingredients_058",
+          "product": "savoury rice dumplings"
+        },
+        {
+          "item_id": "high_suffering_farm_products_005",
+          "product": "jumbo chicken wings 40 lb case"
+        },
+        {
+          "item_id": "high_suffering_farm_products_027",
+          "product": "fresh ground turkey chubs"
+        }
+      ],
+      "representative_original_practice_matches": [
+        {
+          "item_id": "embedded_ingredients_001",
+          "product": "crab roe soup with shark fin"
+        },
+        {
+          "item_id": "embedded_ingredients_002",
+          "product": "frozen siew mai"
+        },
+        {
+          "item_id": "embedded_ingredients_005",
+          "product": "fin and chicken congee"
+        },
+        {
+          "item_id": "embedded_ingredients_008",
+          "product": "char siu bao"
+        },
+        {
+          "item_id": "embedded_ingredients_010",
+          "product": "pork breakfast sausage patties"
+        }
+      ],
+      "nearest_lexical_neighbours_scoped_corpus": [
+        {
+          "item_id": "live_transport_holding_032",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0435
+        },
+        {
+          "item_id": "high_suffering_farm_products_014",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0364
+        },
+        {
+          "item_id": "live_animal_attraction_049",
+          "source": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_base_items.jsonl",
+          "jaccard_word_set": 0.0361
+        }
+      ],
+      "manual_semantic_overlap_note": "Duck and poultry-lighting semantics are already present in the original corpus. v4 goose water access concerns a different practice but related waterfowl.",
+      "species_or_semantic_family_holdout_claim": false
+    }
+  ]
+}

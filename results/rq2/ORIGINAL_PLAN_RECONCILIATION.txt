@@ -1,0 +1,71 @@
+Original-plan reconciliation — 10 November 2026
+
+No model runs or paid work. Original results remain unchanged. The later
+seven-pair screen and its 0.85 threshold are not substituted for the original
+RQ2 preregistration.
+
+Original research question: when an agent violates an unstated value, did it
+fail to evaluate it, or evaluate it but not act accordingly? Does its written
+reasoning reveal the difference?
+RQ1: verbalisation. RQ2: internal evaluation beyond content recognition.
+RQ3: causal influence of the candidate evaluation direction on safe orders.
+RQ4: responsiveness to ethical prompts and instruction-following controls.
+
+Original documents are not identical:
+- RQ2_PLAN (8 November) specifies AUROC >=0.70 at reading/persistence and
+  at least 10% of harmful-order runs above threshold.
+- RQ2_PREREGISTRATION (dated 9 November) specifies AUROC >0.50 with lower
+  95% CI >0.50, permits action time, and treats E1 as primary, E2 as secondary.
+  The stated preregistration timing was read, not independently proven here.
+- The original plan explicitly permits E2 fallback if E1 fails separation.
+  That fallback does not waive the need to validate the evaluation interpretation.
+
+Original numerical sanity check:
+Recomputed AUROC from all 6,064 original CSV rows, representing 1,197 distinct
+run IDs. These point estimates match G5 to its reported three decimals.
+The headline dataset contains 1,200 runs; do not imply every run contributes
+every scored position. Original confidence intervals were read, not recomputed.
+
+Original E2 results:
+- Held-out contrast test: 0.9246 (G3 report).
+- Neutral reading: 0.406 [0.358,0.455].
+- Neutral persistence: 0.539 [0.467,0.606].
+- Neutral action: 0.621 [0.558,0.685].
+- Ethical action: 0.511 [0.446,0.580].
+Thus the original action-time E2 association is promising under the later
+preregistration's statistical criterion, but is secondary, context-specific,
+and not evidence that the original primary E1 hypothesis or all of RQ2 passed.
+
+Original validation limitations already visible before the new screen:
+- E1 held-out AUROC 1.000, but the content probe also separates E1 pairs
+  at 0.9872: the intended separation gate was not established.
+- Nuisance cosine checks in the original G3 report are explicitly for E1;
+  they do not establish corresponding E2 checks.
+- The original G2 report has token counts and teacher-forced likelihood,
+  but does not report the required matched-backend token-ID/logprob check.
+- The original final table labels 20/464 neutral harmful orders and 11/353
+  ethical harmful orders as evaluated-but-unstated. Present these as
+  above-threshold unstated probe counts, not validated hidden recognition.
+- Below-threshold scores do not prove absent moral understanding.
+
+Presentation decision: YES, present the original measured results as mixed
+and preliminary, with the above distinctions. NO, do not say everything worked
+or that a hidden-evaluation monitoring gap has been established.
+
+RQ3 decision: an exploratory test of whether adding/subtracting the saved E2
+direction changes safe-order rates is a reasonable next experiment consistent
+with the original causal-use question. It must not be called causal confirmation
+of a validated hidden-welfare representation. A direction can be tested causally
+even when observational association is weak; its psychological interpretation
+remains limited. The new seven-pair pass rule is not an original prerequisite.
+
+Minimum original-design experiment: preserve fixed E2/layer, baseline, positive
+and negative intervention, matched random directions, several prespecified
+strengths, and completion/tool-validity checks. Verify the actual intervention
+position and runtime inputs before running a small live subset. The existing
+single-magnitude 44-episode pilot is only an engineering pilot, not the full
+original multi-strength RQ3 study. No run is authorized on paid resources.
+
+Known later audit findings must still be disclosed; returning to the original
+plan does not justify erasing them. The later rewritten screen should be shown
+separately rather than used to retroactively redefine the original hypothesis.

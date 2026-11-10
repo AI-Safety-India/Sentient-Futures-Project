@@ -1,0 +1,18 @@
+{
+  "status": "offline_preparation_checks_passed",
+  "jobs": 112,
+  "new_training_forwards_required": 48,
+  "existing_development_jobs_reused": 64,
+  "train_items": 6,
+  "development_items": 8,
+  "independent_fresh_holdout_items": 0,
+  "objectives_upstream_of_measurement": true,
+  "quartet_causal_prefixes_differ": true,
+  "train_order_balanced": true,
+  "within_pair_metadata_matched": true,
+  "no_post_tool_user_message": true,
+  "development_requests_and_ids_unchanged": true,
+  "development_previously_scored": true,
+  "model_runs": 0,
+  "training_runtime_ids_verified": false
+}

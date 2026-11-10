@@ -1,0 +1,61 @@
+{
+  "status": "independent_row_summary_audit_passed",
+  "rows": 128,
+  "pair_summaries": 40,
+  "control_blocks": 30,
+  "sensitivity_summaries": 40,
+  "v6_primary": {
+    "items": 8,
+    "positive_pairs": 6,
+    "negative_pairs": 2,
+    "ties": 0,
+    "mean_pair_shift": 1.0191911264680544,
+    "pair_shifts": {
+      "fresh_v4_01": 3.895434910536905,
+      "fresh_v4_02": 0.8408159219389937,
+      "fresh_v4_03": -0.22122202093911802,
+      "fresh_v4_04": 0.8840711630282989,
+      "fresh_v4_05": 1.0329521343056776,
+      "fresh_v4_06": 0.6707313673297994,
+      "fresh_v4_07": 1.15749536270555,
+      "fresh_v4_08": -0.10674982716166959
+    },
+    "auroc": 0.6875
+  },
+  "v5_primary": {
+    "items": 8,
+    "positive_pairs": 6,
+    "negative_pairs": 2,
+    "ties": 0,
+    "mean_pair_shift": 1.0231791906554426,
+    "pair_shifts": {
+      "fresh_v4_01": 4.686898495627886,
+      "fresh_v4_02": 1.0844616781621719,
+      "fresh_v4_03": -0.24085366773647632,
+      "fresh_v4_04": 0.6519195025280995,
+      "fresh_v4_05": 1.082377989435951,
+      "fresh_v4_06": 0.843020399989598,
+      "fresh_v4_07": 0.37872241444412413,
+      "fresh_v4_08": -0.30111328720781305
+    },
+    "auroc": 0.625
+  },
+  "development_flags": {
+    "primary_at_least_7_of_8": false,
+    "control_at_least_7_of_8": {
+      "price": true,
+      "rating": false,
+      "order": false
+    },
+    "nuisance_dominance": {
+      "price": false,
+      "rating": true,
+      "order": true
+    },
+    "rq3_ready": false,
+    "measurement_validated": false,
+    "status": "development_diagnostics_only"
+  },
+  "interpretation": "Mixed development result: baseline AUROC improves but paired correctness remains6/8; reversed-order paired count and AUROC are lower than v5, while absolute order score offsets are smaller and no pair signs change versus v6 baseline. Price offset remains larger than welfare contrast. V6 and v5 content-main-effect cosines use different reference vectors, so direct comparison does not establish improved construct isolation. No fresh validation or RQ3 pass.",
+  "model_runs": 0
+}

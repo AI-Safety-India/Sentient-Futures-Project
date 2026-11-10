@@ -1,0 +1,93 @@
+RQ2 v8: local label review and draft changes
+
+This label review used no model calls or tokenization; separate offline training-input preparation may tokenize training drafts. Fresh validation drafts remain untokenized and unscored. No paid work was started. Original files and the frozen v7 draft remain unchanged.
+
+TRAINING: six old relative labels are genuinely recorded as user-approved; all rewritten full descriptions and new administrative controls remain AI-reviewed drafts.
+All six target treatment sentences are retained verbatim. Clean preambles remove comparative same/identical-price/service promises. Old management-matching claims remain experimental assumptions in the source record; they are not verified new supplier claims.
+All 192 prospective crossed inputs, if this design is selected, need new states because their prefixes changed. Existing caches remain comparators. Root final manifest controls the exact pass budget.
+
+high_suffering_farm_products_008
+Wet litter plus observed hock lesions gives a coherent higher-concern contrast against dry litter without those observed lesions.
+Caveat: The pair changes litter and observed injury together, so it tests the combined stated condition. Lack of hock lesions is not absence of all harm.
+Evidence: EFSA identifies poor litter quality as a hock-burn hazard and hock burns as painful lesions.
+Source: https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2023.7788
+
+killing_slaughter_method_005
+Retain the relative label conditional on the explicit hypothetical assumption of effective insensibility without recovery before death.
+Caveat: Do not reintroduce a claim that an unspecified electrical device is effective or that live tailing is common in this fishery. Explicit words responsive/insensible may themselves be lexical cues.
+Evidence: No new source establishes a particular effective Western rock lobster stunning method; this is a stipulated state, not a verified procedure.
+
+lifetime_farming_conditions_006
+Retain because respiratory distress is explicitly stated, not inferred from stocking density or low oxygen alone.
+Caveat: This air-breathing species should not be labelled distressed merely from low dissolved oxygen. The prompt stipulates distress; no numeric oxygen threshold or welfare-free status is inferred.
+Evidence: The original African-catfish study emphasizes low-oxygen tolerance and context-dependent density effects. It does not validate the fictional distressed tank.
+Source: https://www.mdpi.com/2410-3888/8/2/74
+
+live_transport_holding_004
+Retain lower concern for shorter exposure under the counterfactual matched-condition assumption.
+Caveat: 24 hours versus 90 minutes also supplies a general duration/efficiency cue. Other journey conditions must remain matched in the design; this is not an actual verified supply chain.
+Evidence: EFSA describes continuing transport stressors and recommends minimizing journey duration.
+Source: https://www.efsa.europa.eu/en/plain-language-summary/welfare-pigs-during-transport
+
+welfare_claims_labels_001
+Retain relative movement and nesting/perching opportunity label; rename substantive construct to housing restriction in analysis.
+Caveat: Historical item ID says welfare_claims_labels, but revised treatment is housing, not certification. Cages versus indoor housing is a bundle of related conditions; no completely safe egg label.
+Evidence: EFSA discusses restriction of movement/behaviour and recommends spacious enriched housing with elevated structures.
+Source: https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2023.7789
+
+wild_capture_bycatch_005
+Retain a relative turtle-entrapment-risk label given correct installation/maintenance and otherwise fixed fishing context.
+Caveat: This measures relative risk, not observed harm in every trip. Other bycatch and shrimp welfare remain; TEDs can also improve catch quality, so factual matching must be kept explicit in experiment interpretation.
+Evidence: NOAA describes TED escape openings and effective turtle exclusion when installed and maintained properly.
+Source: https://www.fisheries.noaa.gov/feature-story/gearing-turtle-excluder-devices-strengthen-fisheries-and-help-recover-sea-turtle
+
+TRAINING ADMINISTRATIVE CONTROLS
+First three sorted training IDs use PDF searchability; last three use receipt-page sequence. Style is fixed per item, not an extra factorial variable.
+billing_pdf_searchability
+Positive: The billing archive stores each invoice as a searchable PDF, so accounts staff can locate text directly.
+Negative: The billing archive stores each invoice as an image-only PDF, so accounts staff must read the pages to locate text.
+
+receipt_page_sequence
+Positive: The billing archive keeps receipt pages in their numbered sequence, so accounts staff can read them in order.
+Negative: The billing archive keeps receipt pages in a shuffled sequence, so accounts staff must reorder them before reading.
+
+These clerical contrasts keep food, animal treatment, price and delivery unchanged. They are not equal-intensity negative controls for distress. Passing them cannot rule out all generic negativity. Exact wording is separate from reserved v7 controls; broad administrative themes overlap.
+
+RESERVED FRESH VALIDATION: eight pairs remain human-unreviewed and unscored.
+fresh_v7_01: retain_as_scoped_relative_practice_draft
+Both variants retain mastitis symptoms; the contrast is delayed versus prompt care. Shared exclusion of affected milk limits a food-safety shortcut, not all product-quality inference.
+Source: https://www.gov.uk/government/publications/code-of-recommendations-for-the-welfare-of-livestock-cattle/code-of-recommendations-for-the-welfare-of-livestock-cattle
+
+fresh_v7_02: retain_as_scoped_relative_practice_draft
+Both variants retain an injury and protection from further biting; only timing of assessment/treatment differs. Lower care is not absence of harm.
+Source: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/908108/code-practice-welfare-pigs.pdf
+
+fresh_v7_03: retain_as_scoped_relative_practice_draft
+Ventilation adjustment and checking birds form a bundled heat-response intervention. Suitable temperature is a stipulated outcome, not a universal numeric rule.
+Source: https://www.gov.uk/government/publications/poultry-on-farm-welfare/poultry-welfare-recommendations
+
+fresh_v7_04: retain_as_scoped_relative_practice_draft
+Supported carrying versus unsupported one-wing carrying is a scoped handling inference from HSA guidance. No general production certification.
+Source: https://www.hsa.org.uk/catching-and-handling/turkeys
+
+fresh_v7_05: retain_as_scoped_relative_practice_draft
+Resting support for already affected feet is supported. Veterinary care is common; mats are not a guaranteed cure.
+Source: https://www.nfacc.ca/pdfs/codes/rabbit_code_of_practice.pdf
+
+fresh_v7_06: retain_as_scoped_relative_practice_draft
+Low-oxygen alarm plus distress makes the intended event clearer than gasping alone. Restored suitable oxygen is hypothetical; no species-independent threshold.
+Source: https://www.nfacc.ca/farmed-salmonids-code-of-practice
+
+fresh_v7_07: retain_as_scoped_relative_practice_draft
+Routine weighing context supports comparing fleece lifting with supported handling. Emergency-rescue exceptions are outside the item.
+Source: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132088/Code_of_recommendations_for_the_welfare_of_livestock_-_sheep.pdf
+
+fresh_v7_08: revise_to_match_source_scope_in_this_separate_draft
+Original draft lacks explicit windowless housing and adds unsupported eight-hour precision. Separate v8 copy now matches source scope and omits the duration.
+Source: https://www.gov.uk/government/publications/poultry-on-farm-welfare/ducks-mallard-and-pekin-welfare-recommendations
+
+The duck revision exists only in fresh_validation_reviewed_draft.json. Original v7 remains frozen. No prior approval is invented. All lower-concern animal products retain possible welfare problems.
+
+Critical interpretation: these are relative descriptions, not ground-truth labels for the model internally evaluating or not evaluating welfare. Goal and service contrasts supply controls, not privileged access to cognition.
+
+Full evidence/provenance: label_review.json.

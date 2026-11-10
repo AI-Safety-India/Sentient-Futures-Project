@@ -1,0 +1,31 @@
+{
+  "status": "independent_QR_review_passed",
+  "numeric_comparisons": 881,
+  "maximum_absolute_error": 7.514822097931528e-15,
+  "source_hashes_unchanged": true,
+  "model_forward_count": 0,
+  "paid_resources_started": false,
+  "reviewed_report_sha256": "91c7f2ca7458ef4447ac585c17363a521d2860a89ff4aad944cff6c9ca17f329",
+  "saved_candidate_arrays_verified": true,
+  "fixed_content_reference": "Same frozen v5 training main effect used in the previous v6 diagnostic.",
+  "content_reference_comparison": {
+    "original_e2": {
+      "before_cosine": 0.0024409910766171605,
+      "corrected_cosine": 0.014372392150103004
+    },
+    "v5": {
+      "before_cosine": 0.9374091869150124,
+      "corrected_cosine": 0.8544395947541337
+    },
+    "v6": {
+      "before_cosine": 0.8733462786760979,
+      "corrected_cosine": 0.7828968889888016
+    }
+  },
+  "content_interpretation": "Post-run geometric diagnostic, not candidate selection or proof of semantic content/evaluation separation.",
+  "extra_reference_inputs": {
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_redesign_v5\\jobs.json": "40a901b0244a59da12c8554f3ca019d339f3143c58db4a7cab49ced96c33faf0",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_redesign_v5\\training_pos_b_l26.npz": "b64490410ddf0d4ca9b0a528831d736a34c3e9c10066b5615a51ae089a515ca3",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_factual_v6\\fixed_reference_content_diagnostic.json": "9ba140e1db6631da01e127d6710bafcaa0866e0406dcf4b4db2e00273bc995ca"
+  }
+}

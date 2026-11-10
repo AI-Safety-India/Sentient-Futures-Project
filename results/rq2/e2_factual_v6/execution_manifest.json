@@ -1,0 +1,25 @@
+{
+  "jobs_sha256": "a6232f6b46816faad5932732bbdbb049b961c9ebf26ce5f919518a313a38da52",
+  "development_only": true,
+  "paid_resources_authorized": false,
+  "tests_passed": 13,
+  "expected_new_forwards": 24,
+  "reused_welfare_states": 24,
+  "reused_neutral_checks": 64,
+  "code_and_input_sha256": {
+    "build_jobs.py": "541aa5d15dcef27f1330e2d08a3653d0acac1a5f63952e77b2f8bb8f93dedf0a",
+    "extract_factual.py": "e64ed77e9050404583b5f3bf11b1e5c767a686b801ccbdce7a2d66802c3ef6a2",
+    "analyze_factual.py": "c4aaf34a26a318d1377f7f237630accbb585488ae039a2430b37c4b13b3cc61b",
+    "validation_helpers.py": "ef7c66e9d28805c2f7d10505e591194a1f4ede014b1d9abaa48077a8fd48fff7"
+  },
+  "protocol_sha256": "8a2f4859200e0f30be2515656c4b216e09eeb49a1f3e7959377b73c961783ff8",
+  "source_sha256": {
+    "Sentient-Futures-Project-git\\results\\rq2\\probe_directions.npz": "bcd29390210350dd707a37db85b83ce21ab5db2fa55f74ec9fa0b5ab64679749",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_redesign_v5\\jobs.json": "40a901b0244a59da12c8554f3ca019d339f3143c58db4a7cab49ced96c33faf0",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_redesign_v5\\candidate_v5_direction.npz": "5095b1ebdfe3543435cc6a7c76974f436696a19aa7e9c5d9588ef48073c7f188",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_redesign_v5\\development_analysis.json": "b9db14533b3e08cad769a9897b86a584113d84d8570d216334845074cf42372d",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_benchmark_v4\\jobs.json": "5b8a7b8e2269efe94e8b2f32249ee76256120e9ac882e22e6df025063596d96d",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_benchmark_v4\\selected_layers_1_26.npz": "9fcf3e18bff741a77db7186524e916d6b71437b62bbcba5a795926a5e0d87074"
+  },
+  "pre_inference_fix": "Corrected accidental template fingerprint typo; original template/inputs/protocol unchanged; zero model forwards before correction."
+}

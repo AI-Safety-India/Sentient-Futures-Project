@@ -1,0 +1,32 @@
+{
+  "version": "e2-fallback-v1",
+  "status": "prepared_not_run",
+  "primary_direction": "saved E2, layer 26, fixed sign",
+  "human_review_required": true,
+  "stage1": "Review ten existing pairs; run 20 silent-position forwards and 20 complete-answer checks only after review and explicit compute authorization",
+  "stage1_stop": "Silent-position AUROC below 0.85 or fewer than 8/10 correctly ordered pairs; final-answer accuracy below 90% or any unresolved answer: stop, inspect, do not steer",
+  "stage1_pass": "Screen only; not permission for causal claims",
+  "fresh_validation": {
+    "required_for_original_claim": true,
+    "new_items": 20,
+    "categories": 10,
+    "per_category": 2,
+    "unseen_wording_and_product_families": true,
+    "split_frozen_before_scores": true,
+    "forwards": 120,
+    "design": "harmful/safe x (silent tool prefix, explicit welfare question, explicit value question)",
+    "primary_criteria": {
+      "silent_auroc_minimum": 0.85,
+      "paired_item_bootstrap_auroc_lower_95_bound": 0.5,
+      "welfare_minus_value_paired_interaction_lower_95_bound": 0.0,
+      "maximum_absolute_value_shift_fraction_of_welfare_shift": 0.5
+    },
+    "criteria_note": "Proposed conservative operational gates, not a universal scientific standard. Freeze before fresh data; no sign/layer hunting."
+  },
+  "prohibited": [
+    "Treat generated review marks as human annotations",
+    "Reuse already-inspected test items as a fresh holdout",
+    "Use an explicit welfare question as evidence of spontaneous evaluation",
+    "Start paid computation from a general preparation request"
+  ]
+}

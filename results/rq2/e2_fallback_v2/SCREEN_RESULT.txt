@@ -1,0 +1,15 @@
+E2 development screen: FAILED
+
+All 42 approved checks completed on the existing Molab runtime the user confirmed was free. No paid resources started. Original caches and historical results preserved.
+
+Silent reading: 1/7 pairs correctly ordered (required 6/7); AUROC 0.32653 (required 0.85). Fixed saved E2 sign and layer 26; no sign flipping or layer selection after results.
+
+Direct welfare questions: 13/14 produced correct final answers; one hit the 2048-token generation limit. Six pairs were correct in both orders. One verbose final B answer was reviewed explicitly and recorded separately from raw output.
+
+Commercial-value questions: all 14 hit the 2048-token limit before a final answer. These are unresolved, not incorrect, and do not establish value specificity. The chosen generation cap was insufficient for these answers.
+
+Decision: do not proceed to substantive RQ3 with E2 presented as a validated spontaneous-welfare-evaluation direction. Longer answer generation cannot repair the failed silent-reading result. No full 1200-run rerun is justified by this screen.
+
+Next research step: inspect why the asked-to-judge direction does not transfer to silent reading; any revised sign, layer, direction or prompt design is a new development hypothesis requiring a fresh frozen validation set. Do not retrospectively change these criteria. An exploratory steering experiment would need to be explicitly described as such, not as validated welfare steering.
+
+Presentation wording: We repaired input and cache issues, then tested the E2 fallback with seven reviewed relative-welfare pairs. Direct welfare answers were mostly correct, but the fixed probe failed at the unprompted reading position (1/7 correct pairs; AUROC 0.327). We therefore paused causal steering claims rather than treating the direction as validated. Value controls remain unresolved because generation reached its token limit.

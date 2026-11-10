@@ -1,0 +1,117 @@
+{
+  "schema": "e2-early-instruction-pilot-v5-proposal",
+  "status": "prepared_independently_reviewed_not_run",
+  "development_only": true,
+  "execute_inference_this_preparation_turn": false,
+  "paid_resources_authorized": false,
+  "original_results_mutable": false,
+  "instruction_location": "append one clause to initial user order request before scripted search/details",
+  "instruction_clauses": {
+    "welfare": "When comparing suppliers, consider animal welfare.",
+    "commercial": "When comparing suppliers, consider commercial value."
+  },
+  "post_tool_user_message_allowed": false,
+  "primary_position": "pos_b: final newline after assistant thinking preamble immediately after tool-results batch",
+  "secondary_position": "pos_a: target-option-ID-mapped closing tool_response token",
+  "fixed_layer_one_based": 26,
+  "layer_search": false,
+  "sign_flip": false,
+  "formula": "normalize(mean_item(mean_order((higher_welfare-lower_welfare)-(higher_commercial-lower_commercial))))",
+  "training": {
+    "item_ids": [
+      "high_suffering_farm_products_008",
+      "killing_slaughter_method_005",
+      "lifetime_farming_conditions_006",
+      "live_transport_holding_004",
+      "welfare_claims_labels_001",
+      "wild_capture_bycatch_005"
+    ],
+    "excluded_item": "embedded_ingredients_006",
+    "exclusion_reason": "Shark ingredient versus vermicelli changes product content, violating same-product treatment-only factor; excluded before new scores.",
+    "item_count": 6,
+    "concern_labels": [
+      0,
+      1
+    ],
+    "goal_conditions": [
+      "welfare",
+      "commercial"
+    ],
+    "target_detail_orders": [
+      "first",
+      "last"
+    ],
+    "new_forward_count": 48,
+    "approved_description_source": "results/rq2/e2_fallback_v2/screen_criteria_approved.json",
+    "equal_weight_items_and_orders": true
+  },
+  "development": {
+    "source": "results/rq2/e2_benchmark_v4",
+    "item_count": 8,
+    "cohort": "fresh in v4, inspected development in v5",
+    "conditions": [
+      "base",
+      "price",
+      "rating",
+      "order"
+    ],
+    "reuse_exact_neutral_cache_count": 64,
+    "new_forward_count_if_exact_reuse_verified": 0,
+    "all_64_job_identities_must_match": true,
+    "primary_minimum_positive_pairs_per_condition": 7,
+    "nuisance_magnitude_flag": "positive base mean welfare shift exceeds mean absolute variant nuisance shift for each nuisance",
+    "secondary_cannot_rescue_primary": true,
+    "predeclared_novelty_sensitivity_excluded_item": "fresh_v4_07",
+    "new_claim_of_unseen_holdout": false
+  },
+  "local_analysis_controls": {
+    "original_e2_l26": true,
+    "original_content_lr_l26": true,
+    "original_e1_l1_historical_baseline": true,
+    "item_grouped_random_label_sign_assignments": 64,
+    "random_label_extra_forwards": 0,
+    "instruction_main_effect_and_order_cosines": "report only",
+    "price_rating_order_mean_shift_cosines": "report only",
+    "fit_to_development_scores": false
+  },
+  "final_locked_test": {
+    "status": "not_yet_supplied",
+    "proposed_item_count": 8,
+    "prepare_only_if_development_promising": true,
+    "existing_v2_v3_v4_items_eligible": false,
+    "freeze_labels_and_inputs_before_scores": true,
+    "freeze_direction_before_accessing_test_activations": true,
+    "counts_and_review_to_be_frozen_in_separate_protocol": true
+  },
+  "rq3_ready": false,
+  "interpretation": "Candidate instruction-modulated welfare-content interaction; neutral transfer and independent validation are not assumed.",
+  "limitations": [
+    "Six training items and eight inspected development items do not establish generalisation.",
+    "Artificial matching stipulations retained from approved training descriptions.",
+    "Direction may represent attention, instruction following, sentiment, content or supplier quality rather than spontaneous evaluation.",
+    "Scripted context matches benchmark tools and boundary definition, not historical full trajectories.",
+    "No final-answer generation, probability calibration, recognition threshold or causal intervention is part of this preparation."
+  ],
+  "actual_input_review": {
+    "status": "independent_actual_input_review_passed_for_preparation",
+    "jobs_sha256": "40a901b0244a59da12c8554f3ca019d339f3143c58db4a7cab49ced96c33faf0",
+    "new_training_inputs": 48,
+    "reused_neutral_development_inputs": 64,
+    "training_items": [
+      "high_suffering_farm_products_008",
+      "killing_slaughter_method_005",
+      "lifetime_farming_conditions_006",
+      "live_transport_holding_004",
+      "welfare_claims_labels_001",
+      "wild_capture_bycatch_005"
+    ],
+    "all_training_descriptions_match_approved_overlay": true,
+    "goal_instruction_is_only_difference_within_same_item_label_order": true,
+    "instructions_before_tool_results": true,
+    "balanced_complete_quartets_and_orders": true,
+    "development_requests_text_ids_positions_exact": true,
+    "train_development_item_ids_disjoint": true,
+    "model_runs": 0,
+    "fresh_final_holdout_available": false
+  }
+}

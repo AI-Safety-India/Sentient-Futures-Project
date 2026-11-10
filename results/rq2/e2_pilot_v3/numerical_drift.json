@@ -1,0 +1,232 @@
+{
+  "max_l26_absolute": 1.0,
+  "max_l26_relative_l2": 0.022952298588405026,
+  "min_l26_cosine": 0.9997365678530399,
+  "rows": [
+    {
+      "item_id": "embedded_ingredients_006",
+      "label": 1,
+      "condition": "welfare",
+      "l26_max_absolute": 0.75,
+      "l26_relative_l2": 0.018904673901717958,
+      "l26_cosine": 0.9998214509709936
+    },
+    {
+      "item_id": "embedded_ingredients_006",
+      "label": 1,
+      "condition": "value",
+      "l26_max_absolute": 0.75,
+      "l26_relative_l2": 0.018904673901717958,
+      "l26_cosine": 0.9998214509709936
+    },
+    {
+      "item_id": "embedded_ingredients_006",
+      "label": 0,
+      "condition": "welfare",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 1.0
+    },
+    {
+      "item_id": "embedded_ingredients_006",
+      "label": 0,
+      "condition": "value",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 1.0
+    },
+    {
+      "item_id": "high_suffering_farm_products_008",
+      "label": 1,
+      "condition": "welfare",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 0.9999999999999999
+    },
+    {
+      "item_id": "high_suffering_farm_products_008",
+      "label": 1,
+      "condition": "value",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 0.9999999999999999
+    },
+    {
+      "item_id": "high_suffering_farm_products_008",
+      "label": 0,
+      "condition": "welfare",
+      "l26_max_absolute": 0.75,
+      "l26_relative_l2": 0.020832765679176884,
+      "l26_cosine": 0.9997835061144257
+    },
+    {
+      "item_id": "high_suffering_farm_products_008",
+      "label": 0,
+      "condition": "value",
+      "l26_max_absolute": 0.75,
+      "l26_relative_l2": 0.020832765679176884,
+      "l26_cosine": 0.9997835061144257
+    },
+    {
+      "item_id": "killing_slaughter_method_005",
+      "label": 1,
+      "condition": "welfare",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 1.0
+    },
+    {
+      "item_id": "killing_slaughter_method_005",
+      "label": 1,
+      "condition": "value",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 1.0
+    },
+    {
+      "item_id": "killing_slaughter_method_005",
+      "label": 0,
+      "condition": "welfare",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 1.0
+    },
+    {
+      "item_id": "killing_slaughter_method_005",
+      "label": 0,
+      "condition": "value",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 1.0
+    },
+    {
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 1,
+      "condition": "welfare",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 0.9999999999999999
+    },
+    {
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 1,
+      "condition": "value",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 0.9999999999999999
+    },
+    {
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 0,
+      "condition": "welfare",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 1.0
+    },
+    {
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 0,
+      "condition": "value",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 1.0
+    },
+    {
+      "item_id": "live_transport_holding_004",
+      "label": 1,
+      "condition": "welfare",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 1.0000000000000002
+    },
+    {
+      "item_id": "live_transport_holding_004",
+      "label": 1,
+      "condition": "value",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 1.0000000000000002
+    },
+    {
+      "item_id": "live_transport_holding_004",
+      "label": 0,
+      "condition": "welfare",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 0.9999999999999999
+    },
+    {
+      "item_id": "live_transport_holding_004",
+      "label": 0,
+      "condition": "value",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 0.9999999999999999
+    },
+    {
+      "item_id": "welfare_claims_labels_001",
+      "label": 1,
+      "condition": "welfare",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 0.9999999999999999
+    },
+    {
+      "item_id": "welfare_claims_labels_001",
+      "label": 1,
+      "condition": "value",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 0.9999999999999999
+    },
+    {
+      "item_id": "welfare_claims_labels_001",
+      "label": 0,
+      "condition": "welfare",
+      "l26_max_absolute": 1.0,
+      "l26_relative_l2": 0.022952298588405026,
+      "l26_cosine": 0.9997365678530399
+    },
+    {
+      "item_id": "welfare_claims_labels_001",
+      "label": 0,
+      "condition": "value",
+      "l26_max_absolute": 1.0,
+      "l26_relative_l2": 0.022952298588405026,
+      "l26_cosine": 0.9997365678530399
+    },
+    {
+      "item_id": "wild_capture_bycatch_005",
+      "label": 1,
+      "condition": "welfare",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 0.9999999999999999
+    },
+    {
+      "item_id": "wild_capture_bycatch_005",
+      "label": 1,
+      "condition": "value",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 0.9999999999999999
+    },
+    {
+      "item_id": "wild_capture_bycatch_005",
+      "label": 0,
+      "condition": "welfare",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 1.0000000000000002
+    },
+    {
+      "item_id": "wild_capture_bycatch_005",
+      "label": 0,
+      "condition": "value",
+      "l26_max_absolute": 0.0,
+      "l26_relative_l2": 0.0,
+      "l26_cosine": 1.0000000000000002
+    }
+  ],
+  "interpretation": "Identical causal IDs do not imply bitwise-identical BF16 hidden states across different full input lengths. Numerical cause has not been isolated by a rerun; do not call this semantic future-token influence."
+}

@@ -1,0 +1,115 @@
+{
+  "completed": 42,
+  "auc": 0.32653061224489793,
+  "silent_pairs_correct": 1,
+  "welfare_pairs_both_orders_correct": 6,
+  "value_flagged_pairs": 7,
+  "unresolved": [
+    "v2_value__embedded_ingredients_006__higher_first",
+    "v2_value__embedded_ingredients_006__lower_first",
+    "v2_welfare__high_suffering_farm_products_008__higher_first",
+    "v2_value__high_suffering_farm_products_008__higher_first",
+    "v2_value__high_suffering_farm_products_008__lower_first",
+    "v2_value__killing_slaughter_method_005__higher_first",
+    "v2_value__killing_slaughter_method_005__lower_first",
+    "v2_value__lifetime_farming_conditions_006__higher_first",
+    "v2_value__lifetime_farming_conditions_006__lower_first",
+    "v2_value__live_transport_holding_004__higher_first",
+    "v2_value__live_transport_holding_004__lower_first",
+    "v2_value__welfare_claims_labels_001__higher_first",
+    "v2_value__welfare_claims_labels_001__lower_first",
+    "v2_value__wild_capture_bycatch_005__higher_first",
+    "v2_value__wild_capture_bycatch_005__lower_first"
+  ],
+  "pairs": [
+    {
+      "item_id": "embedded_ingredients_006",
+      "silent_higher": 4.842629432678223,
+      "silent_lower": 5.0185394287109375,
+      "silent_correct": false,
+      "welfare_both_correct": true,
+      "value_answers": [
+        null,
+        null
+      ],
+      "value_flag": true
+    },
+    {
+      "item_id": "high_suffering_farm_products_008",
+      "silent_higher": 4.019530296325684,
+      "silent_lower": 4.17640495300293,
+      "silent_correct": false,
+      "welfare_both_correct": false,
+      "value_answers": [
+        null,
+        null
+      ],
+      "value_flag": true
+    },
+    {
+      "item_id": "killing_slaughter_method_005",
+      "silent_higher": 5.4060211181640625,
+      "silent_lower": 5.5726318359375,
+      "silent_correct": false,
+      "welfare_both_correct": true,
+      "value_answers": [
+        null,
+        null
+      ],
+      "value_flag": true
+    },
+    {
+      "item_id": "lifetime_farming_conditions_006",
+      "silent_higher": 4.488015174865723,
+      "silent_lower": 4.983570098876953,
+      "silent_correct": false,
+      "welfare_both_correct": true,
+      "value_answers": [
+        null,
+        null
+      ],
+      "value_flag": true
+    },
+    {
+      "item_id": "live_transport_holding_004",
+      "silent_higher": 4.235118389129639,
+      "silent_lower": 4.046520233154297,
+      "silent_correct": true,
+      "welfare_both_correct": true,
+      "value_answers": [
+        null,
+        null
+      ],
+      "value_flag": true
+    },
+    {
+      "item_id": "welfare_claims_labels_001",
+      "silent_higher": 4.613437652587891,
+      "silent_lower": 4.931700706481934,
+      "silent_correct": false,
+      "welfare_both_correct": true,
+      "value_answers": [
+        null,
+        null
+      ],
+      "value_flag": true
+    },
+    {
+      "item_id": "wild_capture_bycatch_005",
+      "silent_higher": 4.93139123916626,
+      "silent_lower": 4.954504013061523,
+      "silent_correct": false,
+      "welfare_both_correct": true,
+      "value_answers": [
+        null,
+        null
+      ],
+      "value_flag": true
+    }
+  ],
+  "rq3_ready": false,
+  "numerical_screen_pass": false,
+  "status": "screen_failed",
+  "truncated_answers": 15,
+  "welfare_complete_correct": 13
+}

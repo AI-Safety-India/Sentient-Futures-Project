@@ -1,0 +1,112 @@
+{
+  "review_date": "2026-11-10",
+  "reviewer": "delegated agent /root/v8_run_review",
+  "review_type": "user_delegated_agent_review_of_remaining_four_pairs_and_controls",
+  "status": "accepted_for_bounded_development_pilot_with_recorded_limitations",
+  "blocking_contradictions_found": false,
+  "authorization_context": "The user explicitly approved the revised chicken and lobster pairs with their qualifications, asked the agent to review the remaining pairs, and authorized continuing directly to the pilot subject to free compute only. This artifact records delegated review; it does not invent independent human annotations.",
+  "human_annotations_added": 0,
+  "source_files": {
+    "training_pairs_reviewed_draft.json": "92953e2d5a94efca30e03212cf43666ff71a43c343d363a4c86875970bc25fb0",
+    "training_jobs_draft.json": "95c8232f06b6bdc22e8acddbaa8e211f2d9c23b76881c30c2de82881f0ebf569"
+  },
+  "review_method": "Read the exact revised pair descriptions, administrative controls, existing label-review record, protocol and input-check summary. No model scores for the prospective pilot were available or used. This is a consistency and label-scope review of the supplied record, not a new independent empirical verification of its cited animal studies.",
+  "input_changes_required_for_this_pilot": false,
+  "original_and_draft_files_modified": false,
+  "historical_metadata_note": "The frozen draft retains preparation-time fields such as human_review_pending and NOT human-approved. This separate dated artifact records the later delegated review without rewriting historical input files or falsely relabelling them human-annotated.",
+  "pairs": [
+    {
+      "item_id": "lifetime_farming_conditions_006",
+      "topic": "catfish rearing",
+      "decision": "accept_for_bounded_development_pilot",
+      "higher_label": 1,
+      "lower_label": 0,
+      "label_scope": "Relative concern for the stated respiratory distress and aeration response, not whole-product harmlessness.",
+      "reason": "The higher description explicitly reports repeated oxygen depletion accompanied by respiratory distress and no corrective aeration; the lower describes suitable monitored conditions without observed distress and aeration when needed. The contrast is coherent under these hypothetical stipulated observations.",
+      "qualifications": [
+        "African sharptooth catfish can breathe air; low dissolved oxygen alone is not used to infer distress.",
+        "The veterinary protocol, observations and respiratory distress are stipulated fictional facts, not independently verified farm records or a universal numerical oxygen threshold.",
+        "The contrast bundles oxygen conditions, observed distress and response. Absence of observed respiratory distress does not imply absence of all suffering."
+      ],
+      "administrative_control": "billing_pdf_searchability",
+      "human_annotation": false
+    },
+    {
+      "item_id": "live_transport_holding_004",
+      "topic": "pig transport duration",
+      "decision": "accept_for_bounded_development_pilot",
+      "higher_label": 1,
+      "lower_label": 0,
+      "label_scope": "Relative concern for longer transport exposure under the recorded assumption that other relevant conditions are matched.",
+      "reason": "The pair contrasts 24 hours on a collection route with 90 minutes on a direct route. Shorter exposure is the intended lower-concern condition when other journey conditions are held fixed in the experimental design.",
+      "qualifications": [
+        "This is conditional on matched ventilation, handling, stocking, weather, fitness and other relevant conditions; it is not an unconditional claim that any shorter journey is better than any longer one.",
+        "The prompt no longer states all matching conditions explicitly. Their equality remains a design assumption in provenance, not a verified supplier claim and not necessarily an assumption the model will adopt.",
+        "Duration and route efficiency are possible general commercial or factual cues. The pilot must report that limitation rather than treating this pair as uniquely diagnostic of welfare evaluation.",
+        "The shorter trip and the resulting animal product are not labelled harmless."
+      ],
+      "administrative_control": "receipt_page_sequence",
+      "human_annotation": false
+    },
+    {
+      "item_id": "welfare_claims_labels_001",
+      "topic": "hen housing restriction",
+      "decision": "accept_for_bounded_development_pilot",
+      "higher_label": 1,
+      "lower_label": 0,
+      "label_scope": "Relative concern for movement restriction and absence of perching and nesting opportunities.",
+      "reason": "Feed, veterinary care and lack of outdoor access are shared. The contrast changes space to spread wings and access to perches and nest boxes, supporting the intended relative housing label.",
+      "qualifications": [
+        "The historical ID contains welfare_claims_labels, but this revised construct is housing restriction, not certification or label credibility.",
+        "Housing type, movement space, perches and nest boxes form a bundle; the pair cannot attribute an effect to one isolated feature.",
+        "Indoor enriched housing and egg production remain capable of welfare problems; lower concern is not a safe or harmless whole-option label."
+      ],
+      "administrative_control": "receipt_page_sequence",
+      "human_annotation": false
+    },
+    {
+      "item_id": "wild_capture_bycatch_005",
+      "topic": "shrimp trawl turtle entrapment risk",
+      "decision": "accept_for_bounded_development_pilot",
+      "higher_label": 1,
+      "lower_label": 0,
+      "label_scope": "Relative turtle-entrapment risk given an effective escape opening in the stated correctly installed and maintained device.",
+      "reason": "The lower description supplies a turtle escape opening through a correctly installed and maintained turtle excluder device; the higher lacks that dedicated opening. This supports a relative risk label under an otherwise comparable fishing context.",
+      "qualifications": [
+        "The pair describes risk, not proof that turtles are harmed on every trip or that every turtle escapes.",
+        "Correct installation and maintenance are hypothetical stipulated conditions, not evidence about a real supplier.",
+        "Other bycatch, shrimp welfare and other fishing impacts remain. The lower version is not harmless.",
+        "Devices can imply commercial or catch-quality consequences; equal model interpretation of these consequences is not guaranteed."
+      ],
+      "administrative_control": "receipt_page_sequence",
+      "human_annotation": false
+    }
+  ],
+  "administrative_control_review": {
+    "decision": "accept_as_mild_clerical_burden_controls_only",
+    "billing_pdf_searchability": "Searchable versus image-only invoices changes the described effort needed to locate invoice text.",
+    "receipt_page_sequence": "Numbered versus shuffled receipt pages changes the described effort needed to read the pages in order.",
+    "scope": "Neither contrast explicitly changes animal treatment, food, price, payment amounts or delivery. Positive and negative mean relative clerical usability only.",
+    "limitations": [
+      "Clerical inconvenience is not intensity matched to animal suffering; success cannot exclude every general negative-language signal.",
+      "The model may infer wider supplier competence from clerical quality, so these are not a proof of pure valence manipulation.",
+      "Receipt-page order also uses order-related vocabulary while actual tool order is varied; the design crosses these factors, but the lexical overlap remains a reportable limitation.",
+      "The two styles are fixed across three items each, not separately crossed across every item. Broad administrative themes overlap earlier controls even though exact wording is distinct."
+    ]
+  },
+  "pilot_contract": {
+    "new_forwards": 192,
+    "factorization": "6 items x 2 concern labels x 2 goals x 2 tool orders x 2 prices x 2 clerical conditions",
+    "reused_comparison_states": {"prior_training": 72, "neutral_development": 64},
+    "new_training_states_replaceable_by_old_exact_prefix_matches": 0,
+    "primary_measurement": "Layer 26 at pos_b after tool results, using the frozen welfare-minus-factual concern interaction and one equal mean.",
+    "scope": "One bounded development pilot. No automatic RQ3 approval, independent validation claim, layer/sign search or additional passes follow from this review.",
+    "qualification": "Relative treatment labels are not ground-truth labels of whether the model internally evaluates welfare. Factual attention can still include evaluation."
+  },
+  "execution": {
+    "remote_access_performed_by_this_review": false,
+    "model_forwards_started_by_this_review": 0,
+    "paid_resources_started": false,
+    "free_runtime_verification": "Must be satisfied by the executing parent before model work. This review neither verifies billing nor authorizes charges."
+  }
+}

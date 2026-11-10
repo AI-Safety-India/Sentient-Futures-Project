@@ -1,0 +1,18 @@
+{
+  "state": "complete",
+  "completed": 192,
+  "total": 192,
+  "jobs_sha256": "95c8232f06b6bdc22e8acddbaa8e211f2d9c23b76881c30c2de82881f0ebf569",
+  "generation_calls": 0,
+  "forward_attempts_total": 192,
+  "new_forwards_this_invocation": 192,
+  "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+  "backend_versions": {
+    "torch": "2.11.0",
+    "transformers": "5.14.1",
+    "numpy": "2.4.6"
+  },
+  "paid_resources_authorized": false,
+  "selected_payload_sha256": "e45162fb630f453030275b5c7ad9d49c2557c6aeacc079bc7b9ce6b8dbdc714b"
+}

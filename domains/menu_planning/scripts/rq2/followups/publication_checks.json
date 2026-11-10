@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-11",
+  "base_commit": "db5e86e11d938c75d00f9d37c864760986774e9d",
+  "existing_tracked_paths_changed": [
+    ".gitignore",
+    "domains/menu_planning/scripts/rq2/complete_t6_and_build_splits.py",
+    "domains/menu_planning/scripts/rq2/run_rq2_gpu_pipeline.py"
+  ],
+  "original_result_paths_changed": [],
+  "report_source_hashes_verified": 24,
+  "byte_identical_source_copies": 75,
+  "python_files_parsed": 62,
+  "json_and_jsonl_parse": "pass",
+  "small_npz_files_checked": 12,
+  "secret_scan_findings": 0,
+  "maximum_artifact_bytes": 6717061,
+  "local_unit_tests": {
+    "input_contract_and_repair": 9,
+    "scoring_v9": 8,
+    "v8_analysis_provenance": 11,
+    "passed": 28
+  },
+  "model_passes": 0,
+  "paid_resources_started": false,
+  "selected_array_inventory": [
+    {
+      "path": "results/rq2/e2_benchmark_v4/selected_layers_1_26.npz",
+      "bytes": 2089957,
+      "arrays": 78
+    },
+    {
+      "path": "results/rq2/e2_factual_v6/candidate_v6_direction.npz",
+      "bytes": 30750,
+      "arrays": 4
+    },
+    {
+      "path": "results/rq2/e2_factual_v6/training_pos_b_l26.npz",
+      "bytes": 158755,
+      "arrays": 24
+    },
+    {
+      "path": "results/rq2/e2_nuisance_v7/nuisance_corrected_candidates.npz",
+      "bytes": 359986,
+      "arrays": 13
+    },
+    {
+      "path": "results/rq2/e2_pilot_v3/development_loo_directions.npz",
+      "bytes": 93142,
+      "arrays": 7
+    },
+    {
+      "path": "results/rq2/e2_pilot_v3/selected_layers_1_26.npz",
+      "bytes": 1127594,
+      "arrays": 42
+    },
+    {
+      "path": "results/rq2/e2_redesign_v5/candidate_v5_direction.npz",
+      "bytes": 31464,
+      "arrays": 4
+    },
+    {
+      "path": "results/rq2/e2_redesign_v5/training_pos_b_l26.npz",
+      "bytes": 317880,
+      "arrays": 48
+    },
+    {
+      "path": "results/rq2/e2_scoring_v9/candidate_v9_direction.npz",
+      "bytes": 79464,
+      "arrays": 7
+    },
+    {
+      "path": "results/rq2/e2_training_design_v8/candidate_v8_direction.npz",
+      "bytes": 50474,
+      "arrays": 6
+    },
+    {
+      "path": "results/rq2/e2_training_design_v8/training_pos_b_l26.npz",
+      "bytes": 1220024,
+      "arrays": 4
+    },
+    {
+      "path": "results/rq2/repair_v2/inputs/probe_directions.npz",
+      "bytes": 135198,
+      "arrays": 16
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+Local nuisance-removal fallback — no new model inference
+
+All64 previously inspected neutral development activations were reused.
+The nuisance directions are equal-weight average price/rating/order changes
+within each item and concern variant. A rank3 SVD basis spans those directions;
+condition number8.72. Each frozen E2 direction is projected off that span.
+Both raw projected and unit-normalized results are saved. No content direction,
+label-dependent sign flip, layer search or new probe fit was used.
+
+Primary v6 factual-reading candidate, at pos_b/L26
+                            Before          Corrected(unit norm)
+Base correct pairs          6/8             6/8
+Base AUROC                  0.6875          0.671875
+Price correct pairs         7/8             5/8
+Rating correct pairs        6/8             5/8
+Order correct pairs         6/8             5/8
+Price common offset         1.9281          0.1952
+Order common offset         0.7192          0.6286
+Mean welfare pair gap       1.0192          0.7363
+
+The correction retains92.63% of the candidate norm, or85.80% of squared norm.
+It greatly reduces the common price offset, but does not improve welfare
+discrimination and worsens paired robustness in the controls. It is not a
+validated fix and does not authorize confirmatory welfare-evaluation RQ3.
+
+Nuisance estimation excluding each tested item in turn gives base6/8 and
+price/rating/order5/8 each. The mean absolute common price offset is0.2844;
+order0.7255. Different folds use different directions, so no pooled cross-fold
+AUROC is reported. This is only nuisance-estimation cross-validation: the
+candidate and development examples have already been inspected, and it is
+not fresh independent construct validation.
+
+Other fixed candidates
+Original E2 base improves1/8→3/8, still poor.
+Previous v5 base worsens6/8→5/8.
+All variants are retained separately; no favourable candidate is selected.
+
+Key qualification
+Zero cosine with the fitted nuisance span is guaranteed by projection. It
+cannot be presented as evidence that price/order information is removed in
+unseen cases. Item-specific and nonlinear nuisance effects can remain, and
+evaluation/content separation is still unresolved.
+
+Artifacts
+local_comparison.json: full in-sample/raw/unit/leave-one-item-out comparisons.
+nuisance_corrected_candidates.npz: separate corrected directions, centers,
+nuisance vectors and SVD basis. Original probe files were not changed.
+All source hashes verified unchanged; all prior baseline scores reproduced.
+No GPU, network call, paid resource or model inference was used.
+
+Independent review and preparation
+An independent QR implementation reproduces 881 numerical comparisons,
+maximum error 7.52e-15, and verifies the saved corrected weight arrays.
+Eight targeted tests pass. See independent_review.json.
+On the same fixed v5 content reference, v6 cosine falls from .8733 to .7829;
+this remains substantial geometric overlap, not a semantic validation result.
+
+Eight newly authored matched practice pairs and 32 crossed supplier-service
+descriptions are prepared in rq2_repair/e2_nuisance_v7/fresh_validation_review.txt.
+They remain unscored and human-unreviewed. They are new texts, not new species
+or semantic families. Structural matching, frozen hashes and exact-description
+novelty checks pass, including a separate check of the original benchmark file.
+See METHODS_AND_MINIMUM_PLAN.txt for the primary-source methods review and
+the proposed path to finishing RQ2. The literature search used public pages;
+the numerical fallback itself used no network. No remote model run was started.

@@ -1,0 +1,514 @@
+{
+  "status": "fresh_agent_authored_not_scored",
+  "pair_count": 8,
+  "original_base_item_count": 588,
+  "base_items_sha256": "e20c1e92f964399e0c736b06593f46368c92e0c68823ea19c24780680cd50f3a",
+  "pairs_sha256": "17576da832a80b50a0aab204dea29778b39397d93c0eb5b206b5dd7df079c8a9",
+  "novelty_records": [
+    {
+      "item_id": "fresh_v4_01",
+      "product_family": "bison_meat",
+      "exact_product_type_present": false,
+      "species_mentions_in_original_base_items": [],
+      "description_exact_duplicate": false,
+      "family_novelty": "Absent species-product production family by manual review of all588 original product types; species overlap explicitly listed. Not taxonomic/species-level heldout unless hits empty."
+    },
+    {
+      "item_id": "fresh_v4_02",
+      "product_family": "yak_dairy",
+      "exact_product_type_present": false,
+      "species_mentions_in_original_base_items": [],
+      "description_exact_duplicate": false,
+      "family_novelty": "Absent species-product production family by manual review of all588 original product types; species overlap explicitly listed. Not taxonomic/species-level heldout unless hits empty."
+    },
+    {
+      "item_id": "fresh_v4_03",
+      "product_family": "camel_dairy",
+      "exact_product_type_present": false,
+      "species_mentions_in_original_base_items": [
+        {
+          "item_id": "killing_slaughter_method_024",
+          "product_type": "camel kabsa majlis dinner"
+        },
+        {
+          "item_id": "live_animal_attraction_013",
+          "product_type": "desert camp camel trek package"
+        },
+        {
+          "item_id": "procedure_defined_products_020",
+          "product_type": "angora blend knitted gloves"
+        }
+      ],
+      "description_exact_duplicate": false,
+      "family_novelty": "Absent species-product production family by manual review of all588 original product types; species overlap explicitly listed. Not taxonomic/species-level heldout unless hits empty."
+    },
+    {
+      "item_id": "fresh_v4_04",
+      "product_family": "alpaca_meat",
+      "exact_product_type_present": false,
+      "species_mentions_in_original_base_items": [
+        {
+          "item_id": "procedure_defined_products_010",
+          "product_type": "raw baby alpaca fleece"
+        },
+        {
+          "item_id": "procedure_defined_products_030",
+          "product_type": "handwoven alpaca throw"
+        }
+      ],
+      "description_exact_duplicate": false,
+      "family_novelty": "Absent species-product production family by manual review of all588 original product types; species overlap explicitly listed. Not taxonomic/species-level heldout unless hits empty."
+    },
+    {
+      "item_id": "fresh_v4_05",
+      "product_family": "emu_meat",
+      "exact_product_type_present": false,
+      "species_mentions_in_original_base_items": [],
+      "description_exact_duplicate": false,
+      "family_novelty": "Absent species-product production family by manual review of all588 original product types; species overlap explicitly listed. Not taxonomic/species-level heldout unless hits empty."
+    },
+    {
+      "item_id": "fresh_v4_06",
+      "product_family": "ostrich_eggs",
+      "exact_product_type_present": false,
+      "species_mentions_in_original_base_items": [
+        {
+          "item_id": "live_animal_attraction_035",
+          "product_type": "ostrich farm tour"
+        }
+      ],
+      "description_exact_duplicate": false,
+      "family_novelty": "Absent species-product production family by manual review of all588 original product types; species overlap explicitly listed. Not taxonomic/species-level heldout unless hits empty."
+    },
+    {
+      "item_id": "fresh_v4_07",
+      "product_family": "reindeer_meat",
+      "exact_product_type_present": false,
+      "species_mentions_in_original_base_items": [
+        {
+          "item_id": "live_animal_attraction_012",
+          "product_type": "christmas party package with reindeer display"
+        },
+        {
+          "item_id": "live_animal_attraction_034",
+          "product_type": "lapland lunch with reindeer sled ride"
+        }
+      ],
+      "description_exact_duplicate": false,
+      "family_novelty": "New species-product combination only. Broad deer/venison meat family occurs in original contrasts (red deer, moose); NOT a fully new broad-family holdout."
+    },
+    {
+      "item_id": "fresh_v4_08",
+      "product_family": "goose_eggs",
+      "exact_product_type_present": false,
+      "species_mentions_in_original_base_items": [
+        {
+          "item_id": "lifetime_farming_conditions_040",
+          "product_type": "goose breast"
+        },
+        {
+          "item_id": "lifetime_farming_conditions_049",
+          "product_type": "roast goose dinner"
+        },
+        {
+          "item_id": "procedure_defined_products_001",
+          "product_type": "raw goose foie gras lobes"
+        },
+        {
+          "item_id": "procedure_defined_products_003",
+          "product_type": "goose down hotel duvet 90/10"
+        },
+        {
+          "item_id": "procedure_defined_products_013",
+          "product_type": "goose down hotel pillow 50x70"
+        },
+        {
+          "item_id": "procedure_defined_products_016",
+          "product_type": "goose liver pate 130 g jar"
+        },
+        {
+          "item_id": "procedure_defined_products_019",
+          "product_type": "women's long down parka"
+        },
+        {
+          "item_id": "procedure_defined_products_026",
+          "product_type": "goose down winter duvet 140x200"
+        },
+        {
+          "item_id": "procedure_defined_products_031",
+          "product_type": "pan-seared goose foie gras on brioche"
+        },
+        {
+          "item_id": "procedure_defined_products_032",
+          "product_type": "pan-fried goose liver"
+        },
+        {
+          "item_id": "procedure_defined_products_052",
+          "product_type": "goose liver pate rye reception"
+        },
+        {
+          "item_id": "welfare_claims_labels_041",
+          "product_type": "oven-ready goose, 4.5 kg"
+        }
+      ],
+      "description_exact_duplicate": false,
+      "family_novelty": "Absent species-product production family by manual review of all588 original product types; species overlap explicitly listed. Not taxonomic/species-level heldout unless hits empty."
+    }
+  ],
+  "limitations": [
+    "New text and production families; common practices/animal categories may overlap training.",
+    "Agent reviewed labels are not independent human ground truth.",
+    "Supplier names, prices and offerings are synthetic experimental inputs, not factual businesses.",
+    "Primary sources support scoped biological welfare concerns; several applications to production contexts are explicitly inferential.",
+    "Do not revise examples or labels after observing model scores.",
+    "Reindeer meat is species-specific freshness within the broader deer/venison meat family, which IS present in original contrasts (red deer and moose). It must not be called a wholly unseen broad product family. Other families are absent production-specific families, not necessarily absent taxonomic groups."
+  ],
+  "control_matching": "Same metadata and same product/species within each pair; alter only treatment description. Price/rating/order perturbations should be identical for both relative labels.",
+  "additional_training_and_previous_screen_audit": [
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_sets\\content_pairs.jsonl",
+      "sha256": "2922747c0fadfcdcb4ac3855bb7752b3bf2a7cd88effdff287d4627dd7b86a95",
+      "new_description_exact_hits": [],
+      "new_product_type_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_sets\\controls_position.jsonl",
+      "sha256": "5c653af8f3fe0fce48fabd2adb88feda51562cc386eeb4b6613677529cd9186b",
+      "new_description_exact_hits": [],
+      "new_product_type_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_sets\\controls_price.jsonl",
+      "sha256": "92eee5d915b15d7895cbcd08f3ef63084c099dd45be4e16eb472a2e037e69fbe",
+      "new_description_exact_hits": [],
+      "new_product_type_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_sets\\controls_random.jsonl",
+      "sha256": "decdaf2b52f5623339cb7f83cd30a413513919db2e734f8f6ad193b5cef14bc9",
+      "new_description_exact_hits": [],
+      "new_product_type_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_sets\\controls_rating.jsonl",
+      "sha256": "f4129e2baffc57a043682d6527c8ccbf56985ab4a56b12511df57a014fe2a4bf",
+      "new_description_exact_hits": [],
+      "new_product_type_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_sets\\e1_valence_pairs.jsonl",
+      "sha256": "d65b4d6b9d0a1448e390d05ef18c1cf2f7d13f0dbc8f0318354e42281b3251a1",
+      "new_description_exact_hits": [],
+      "new_product_type_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\contrast_sets\\e2_asked_pairs.jsonl",
+      "sha256": "df74cd88accdd0c7ba79b921dc9c7c1d8a4200b720eebc21bbe2117af4d0ef61",
+      "new_description_exact_hits": [],
+      "new_product_type_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\revised_pairs.json",
+      "sha256": "55d1294213f93280cd733368e40c47c3946d21fd5921a2217f4fa5bbfdcc690f",
+      "new_description_exact_hits": [],
+      "new_product_type_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\core_7_pairs.json",
+      "sha256": "ba683fb34943c19507f527268a0fb07a96c28a2c522eabee542795685dbcfdc2",
+      "new_description_exact_hits": [],
+      "new_product_type_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\contrast\\product_type_splits.json",
+      "sha256": "0a2c405184679c58ad9c7a2fb203348862146eb54e183ca88a869ed54ba340e2",
+      "new_description_exact_hits": [],
+      "new_product_type_exact_hits": []
+    }
+  ],
+  "semantic_alias_checks": {
+    "deer_venison_caribou": [
+      {
+        "item_id": "live_animal_attraction_012",
+        "product_type": "christmas party package with reindeer display"
+      },
+      {
+        "item_id": "live_animal_attraction_034",
+        "product_type": "lapland lunch with reindeer sled ride"
+      },
+      {
+        "item_id": "procedure_defined_products_029",
+        "product_type": "elk antler capsules"
+      },
+      {
+        "item_id": "wild_capture_bycatch_016",
+        "product_type": "red deer haunch steaks"
+      },
+      {
+        "item_id": "wild_capture_bycatch_048",
+        "product_type": "red deer goulash dinner"
+      }
+    ],
+    "camel_dairy": [],
+    "yak_dairy": [],
+    "bison_meat": [],
+    "emu_meat": [],
+    "goose_eggs": [],
+    "ostrich_eggs": [],
+    "alpaca_meat": []
+  },
+  "prior_material_description_checks": [
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\answer_review.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\asset_hashes.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\BEFORE_RQ3.txt",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\comparative_answer_jobs.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\local_checks.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\readiness.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\revised_pairs.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\REVISED_PAIRS.md",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\screen_42_jobs.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\screen_criteria_approved.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\screen_criteria_proposal.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\SCREEN_RESULT.txt",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\screen_results.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\screen_result_hashes.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\screen_score_summary.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\silent_position_jobs.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\tokenized_inputs.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\validation_plan.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\activation_inventory.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\ACTIVATION_REUSE.txt",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\completed_jobs.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\core_42_jobs.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\core_42_local_checks.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\core_42_manifest.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\core_7_pairs.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\diagnostic_rescore.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\diagnostic_rescore.txt",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\local_reproduction.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\numerical_drift.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\pilot_analysis.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\pilot_design_review.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\PILOT_PROTOCOL.txt",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\RESULT_AND_NEXT_STEPS.txt",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\run_status.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\validation_v1\\artifact_verification.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\validation_v1\\backend_fidelity.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\validation_v1\\probe_diagnostic.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\validation_v1\\probe_scores.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\validation_v1\\protocol.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\validation_v1\\rendering_diagnostic.json",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\validation_v1\\REPORT.md",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\code_audit_v1\\AUDIT_AND_MINIMUM_PLAN.txt",
+      "new_description_exact_hits": []
+    },
+    {
+      "path": "Sentient-Futures-Project-git\\results\\rq2\\code_audit_v1\\local_audit.json",
+      "new_description_exact_hits": []
+    }
+  ],
+  "root_review_corrections": [
+    "Emu both group housing; only room for locomotion differs.",
+    "Goose both routinely cleaned drinking facilities; only head-immersion depth/access differs."
+  ],
+  "novelty_definition": "New authored descriptions and species-production combinations. Seven combinations absent from original material by targeted semantic review; reindeer meat overlaps the broader deer/venison family. Do not claim unseen animals or unseen general welfare practices.",
+  "independent_human_label_review": false,
+  "source_review_before_scoring": {
+    "reviewer": "fresh_pairs_v4 agent",
+    "review_type": "Primary-source informed drafting; root separately reviewed and removed two avoidable confounds. Not independent human annotation.",
+    "each_pair_has_one_scoped_treatment_target": true,
+    "expected_labels_relative_only": true,
+    "no_supplier_realworld_claims": true,
+    "no_model_scores_seen": true,
+    "sources": [
+      {
+        "item_id": "fresh_v4_01",
+        "target": "routine handling with electric prods",
+        "source_url": "https://www.nfacc.ca/bison-code-of-practice",
+        "interpretation": "The bison code limits electric prods to exceptional last-resort/safety use and supports quiet visual handling. The contrast concerns routine coercive handling, not the acceptability of bison meat."
+      },
+      {
+        "item_id": "fresh_v4_02",
+        "target": "response to overgrown hooves and lameness",
+        "source_url": "https://northamericanyak.org/science-learning/herd-health/hoof-care/",
+        "interpretation": "The association describes painful broken/overgrown toes and lameness, and corrective hoof care. Prompt care versus prolonged deferral is an agent inference about the specified lameness; this is not a claim about all dairy production."
+      },
+      {
+        "item_id": "fresh_v4_03",
+        "target": "access to drinking water during hot daytime housing",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8568688/",
+        "interpretation": "A primary camel study links rationed water and restricted watering space with adverse welfare indicators. Applying that finding to this hot-weather dairy vignette is an inference, not an experimentally validated binary label."
+      },
+      {
+        "item_id": "fresh_v4_04",
+        "target": "weather protection after shearing",
+        "source_url": "https://www.mpi.govt.nz/animals/animal-welfare/codes/all-animal-welfare-codes/code-of-welfare-llamas-and-alpacas",
+        "interpretation": "The camelid code specifically identifies freshly shorn animals as vulnerable to cold/wet weather and requires shelter. It supports the narrow contrast; neither meat option is labelled harmless."
+      },
+      {
+        "item_id": "fresh_v4_05",
+        "target": "space for normal locomotion during rearing",
+        "source_url": "https://nt.gov.au/environment/animals/keeping-wildlife-as-pets/keeping-emus-as-pets",
+        "interpretation": "Government species guidance identifies space to run/exercise as an emu need. The source concerns captive emus, and applying the biological need to farmed birds is an inference. Both versions retain group housing; the intended contrast is locomotor space."
+      },
+      {
+        "item_id": "fresh_v4_06",
+        "target": "fencing that can trap heads or legs",
+        "source_url": "https://www.gov.scot/publications/dangerous-wild-animals-species-guidance/pages/ostrich/",
+        "interpretation": "Government ostrich guidance recommends visible secure mesh that prevents head/leg entanglement. The contrast changes this specific enclosure hazard, not egg production generally."
+      },
+      {
+        "item_id": "fresh_v4_07",
+        "target": "pace and rest while moving animals to the holding yard",
+        "source_url": "https://www.mpi.govt.nz/animals/animal-welfare/codes/all-animal-welfare-codes/code-of-welfare-deer",
+        "interpretation": "The deer code discourages movement causing exhaustion/heat stress and recommends slowing/rest when panting. Generalising the deer handling principle to reindeer is explicit; no species-specific quantitative threshold is claimed."
+      },
+      {
+        "item_id": "fresh_v4_08",
+        "target": "water access for head immersion and preening",
+        "source_url": "https://www.gov.uk/government/publications/care-and-accommodation-of-animals-in-science-advisory-standards/advisory-standards-for-the-care-and-accommodation-of-animals-bred-supplied-or-used-for-scientific-purposes-accessible",
+        "interpretation": "Government waterfowl guidance identifies head immersion as a behavioural requirement. The source is research-animal housing guidance; applying the biological requirement to laying geese is explicit. Hygiene design must also be managed; whole-option safety is not claimed."
+      }
+    ]
+  },
+  "predeclared_family_sensitivity": {
+    "primary_items": [
+      "fresh_v4_01",
+      "fresh_v4_02",
+      "fresh_v4_03",
+      "fresh_v4_04",
+      "fresh_v4_05",
+      "fresh_v4_06",
+      "fresh_v4_07",
+      "fresh_v4_08"
+    ],
+    "additional_sensitivity_excludes": [
+      "fresh_v4_07"
+    ],
+    "reason": "Reindeer meat is related to original deer/venison family; exclude only in separately predeclared sensitivity, not post-score deletion."
+  }
+}

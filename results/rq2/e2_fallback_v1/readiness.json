@@ -1,0 +1,19 @@
+{
+  "input_contract_local_pass": true,
+  "human_reviewed_pairs": 0,
+  "human_review_required_pairs": 10,
+  "silent_position_inference_completed": false,
+  "final_answer_checks_completed": false,
+  "fresh_validation_completed": false,
+  "offline_pilot_smoke_pass": true,
+  "live_rq3_pilot_completed": false,
+  "paid_execution_enabled": false,
+  "original_claim_rq3_ready": false,
+  "blockers": [
+    "Independent human review must be completed without generated pass marks.",
+    "Silent-position and actual-answer results are not yet available.",
+    "Fresh independent validation has not been performed.",
+    "Live steering hook and generation/tool integration have not been verified.",
+    "No paid compute is authorized."
+  ]
+}

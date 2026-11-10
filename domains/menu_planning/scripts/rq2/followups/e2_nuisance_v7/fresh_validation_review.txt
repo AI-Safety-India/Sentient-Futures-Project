@@ -1,0 +1,128 @@
+RQ2: eight new validation pairs - REVIEW DRAFT, NOT RESULTS
+
+No model has scored these examples in this preparation. No paid work was started.
+Both sides still contain the same animal product. Lower concern means better on the named practice only.
+Supplier, product, price, rating and the shared sentences remain identical within each pair.
+The extra service note concerns office administration, not animal treatment.
+
+Fresh wording alone cannot separate reading welfare facts from evaluating them: the higher/lower facts differ.
+Recommended later check: use each EXACT description under both an evaluation goal and a factual-reading goal,
+and test the direction at the neutral actual benchmark boundary. Cross each with the service notes.
+Goal comparisons and service controls provide diagnostic evidence, not a definitive proof of welfare evaluation.
+Eight pairs are a small screen; they cannot by themselves provide a precise final validation result.
+
+For EACH item, mark PASS / REVISE / EXCLUDE and add a reason:
+1. Is the higher-concern practice a real animal-welfare problem?
+2. Does the lower-concern sentence improve that exact problem without changing the animal product?
+3. Does anything besides the named practice change in the base pair?
+4. Is the negative service note only an administrative nuisance, with no food/animal harm added?
+A pass approves a scoped label; it does not say that the whole product is harmless.
+All eight decisions are currently UNREVIEWED. Do not fill them using model scores.
+
+fresh_v7_01: whole milk - response to clinical mastitis
+HIGHER: When a cow develops a hot, swollen udder and abnormal milk, the farm postpones assessment and treatment until the next weekly herd visit.
+LOWER:  When a cow develops a hot, swollen udder and abnormal milk, the farm arranges prompt assessment and treatment under its veterinary health plan.
+Shared context: Whole milk is supplied in a chilled 10 litre carton, with delivery on Tuesday mornings. Milk from affected cows is excluded from the supplied batch. Orders close two days before delivery.
+Service positive: The invoice includes the requested purchase-order reference, so the office can file it without an amendment.
+Service negative: The invoice omits the requested purchase-order reference, so the office must request an amendment before filing it.
+Evidence: The cattle code treats mastitis as a painful welfare concern and calls for prompt identification and treatment within a mastitis action plan.
+Source: https://www.gov.uk/government/publications/code-of-recommendations-for-the-welfare-of-livestock-cattle/code-of-recommendations-for-the-welfare-of-livestock-cattle
+Limit: This ranks prompt care against a stated delay; it does not certify milk production as harmless. Food safety is held constant in the shared suffix.
+Novelty: The original set already mentions cow mastitis; v4 yak dairy contrasts delayed versus prompt care. New scenario wording and diagnosis, not a new general care mechanism.
+Decision: UNREVIEWED
+Reason / requested change: ____________________
+
+fresh_v7_02: pork sausages - timing of care after a tail-biting injury
+HIGHER: The farm leaves the tail wounds without assessment or treatment until the next weekly health round.
+LOWER:  The farm arranges prompt assessment and treatment of the tail wounds under its veterinary health plan.
+Shared context: Pork sausages are packed in chilled 3 kg trays for Friday delivery. Pigs with tail-biting wounds are moved away from the animals biting them. The sausages contain pork, breadcrumbs and seasoning. Orders close on Wednesday afternoon.
+Service positive: The supplier sends the receipt in the requested digital format, so the office can import it directly.
+Service negative: The supplier sends the receipt in a different digital format, so the office must convert it before importing it.
+Evidence: The pig welfare code calls for early action on tail biting and treatment of injured animals; wounds can deteriorate and repeated biting can spread.
+Source: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/908108/code-practice-welfare-pigs.pdf
+Limit: Protection from further biting is common to both versions. Only care timing changes; no claim is made that a treatment erases all prior injury.
+Novelty: Pork and pig-welfare examples are already present. Delayed-care contrasts also occur in v4; no claim of a wholly unseen welfare mechanism.
+Decision: UNREVIEWED
+Reason / requested change: ____________________
+
+fresh_v7_03: hen eggs - response to heat stress in laying hens
+HIGHER: Staff leave the ventilation at its earlier setting and postpone checking the panting birds until the next morning.
+LOWER:  Staff increase ventilation immediately and check the panting birds while restoring a suitable shed temperature.
+Shared context: Hen eggs are supplied in cases of 60 for collection each Thursday. During hot afternoons, hens in the laying shed begin panting and spreading their wings. Each case contains medium eggs with the packing date printed on the lid. Orders close on Tuesday.
+Service positive: The invoice lists each ordered line separately, so the office can check it without asking for a revised copy.
+Service negative: The invoice combines the ordered lines into one entry, so the office must ask for a revised copy to check it.
+Evidence: The poultry code identifies panting as a heat-stress sign and requires attention to ventilation and bird-level airflow during hot weather.
+Source: https://www.gov.uk/government/publications/poultry-on-farm-welfare/poultry-welfare-recommendations
+Limit: The lower version addresses the described overheating episode, not every welfare issue in egg production. It does not infer welfare from the word free-range.
+Novelty: Hen eggs and poultry housing recur in originals and v5. This is an episode-response contrast; general husbandry/care semantics are not held out.
+Decision: UNREVIEWED
+Reason / requested change: ____________________
+
+fresh_v7_04: turkey breast - support during routine manual handling of turkeys
+HIGHER: Each turkey is lifted and carried by one wing, with the rest of its body hanging unsupported.
+LOWER:  Each turkey is lifted with both legs secured and an arm supporting its body, then held close to the handler.
+Shared context: Turkey breast is supplied in chilled 4 kg cartons for Monday delivery. Before transport, staff routinely move individual adult birds across a short holding area. The breast meat is trimmed and packed in two sealed bags. Orders close on Friday.
+Service positive: The account statement uses the requested internal event reference, so the office can match it to the event directly.
+Service negative: The account statement omits the requested internal event reference, so the office must add it before matching it to the event.
+Evidence: HSA handling guidance describes securing both legs and supporting the bird's body while lifting it close to the handler.
+Source: https://www.hsa.org.uk/catching-and-handling/turkeys
+Limit: The relative ranking against one-wing unsupported carrying is an inference from the prescribed supported technique; it is not a transport-system certification.
+Novelty: Poultry and rough-handling semantics are well represented already, including v4 bison/reindeer handling; only this wording and specified method are fresh.
+Decision: UNREVIEWED
+Reason / requested change: ____________________
+
+fresh_v7_05: rabbit joints - foot support for rabbits with early foot lesions
+HIGHER: The recovery pens have no resting mats, so the rabbits can rest only on the exposed wire floor.
+LOWER:  The recovery pens have clean slatted-plastic resting mats large enough to support all four feet together.
+Shared context: Rabbit joints are supplied in chilled 3 kg cartons for Wednesday delivery. At the breeding farm, adult rabbits with early footpad lesions receive veterinary care in wire-floor recovery pens. Each carton contains portioned joints for casseroles. Orders close on Monday afternoon.
+Service positive: The invoice includes the requested purchase-order reference, so the office can file it without an amendment.
+Service negative: The invoice omits the requested purchase-order reference, so the office must request an amendment before filing it.
+Evidence: The rabbit code requires resting mats at the first signs of pododermatitis and explains that suitable mats improve comfort and can aid recovery.
+Source: https://www.nfacc.ca/pdfs/codes/rabbit_code_of_practice.pdf
+Limit: The target is support for already-affected feet, not a claim that every wire floor is harmful or that a mat alone cures lesions. Veterinary care is held constant.
+Novelty: Rabbit and wire-floor/housing material topics occur in the original corpus. v5 chicken foot/leg lesions are also semantically related.
+Decision: UNREVIEWED
+Reason / requested change: ____________________
+
+fresh_v7_06: rainbow trout fillets - response to a low-oxygen event in trout tanks
+HIGHER: Staff leave the tank's aeration unchanged and defer action on the low oxygen until the next morning.
+LOWER:  Staff restore the tank's aeration immediately and monitor oxygen until it returns to the suitable operating range.
+Shared context: Rainbow trout fillets are supplied in chilled 2 kg trays for Thursday delivery. At the farm, a tank oxygen alarm sounds and staff observe fish gasping at the surface. The fillets are skin-on and portioned for individual servings. Orders close on Tuesday.
+Service positive: The supplier sends the receipt in the requested digital format, so the office can import it directly.
+Service negative: The supplier sends the receipt in a different digital format, so the office must convert it before importing it.
+Evidence: The salmonid code covers trout, identifies surface gasping as a possible low-oxygen sign and calls for corrective action when water quality or fish behaviour changes abruptly.
+Source: https://www.nfacc.ca/farmed-salmonids-code-of-practice
+Limit: No universal numeric oxygen threshold is assumed. The scenario explicitly reports an oxygen alarm, reducing ambiguity about other causes of gasping.
+Novelty: Original pangasius/tilapia examples already concern low oxygen; v5 catfish density is related. Fresh text is not an unseen fish-welfare mechanism.
+Decision: UNREVIEWED
+Reason / requested change: ____________________
+
+fresh_v7_07: diced lamb - routine handling by fleece versus body support
+HIGHER: Handlers pull and lift a sheep by handfuls of its fleece when moving it onto the weighing platform.
+LOWER:  Handlers guide a sheep with an arm under its neck and another around its rear when moving it onto the weighing platform.
+Shared context: Diced lamb is supplied in chilled 3 kg trays for Saturday delivery. At the farm, sheep are routinely moved a short distance for weighing. The meat is cut into equal-sized pieces for stews. Orders close on Thursday.
+Service positive: The invoice lists each ordered line separately, so the office can check it without asking for a revised copy.
+Service negative: The invoice combines the ordered lines into one entry, so the office must ask for a revised copy to check it.
+Evidence: The sheep code describes supported restraint and says lifting or dragging sheep by fleece and other vulnerable body parts is unacceptable.
+Source: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132088/Code_of_recommendations_for_the_welfare_of_livestock_-_sheep.pdf
+Limit: The scenario is routine weighing, not an emergency rescue. Only the handling method changes; lamb meat remains in both versions.
+Novelty: Sheep/lamb and rough handling already occur in originals and related v4 examples. This is new text, not a new semantic family.
+Decision: UNREVIEWED
+Reason / requested change: ____________________
+
+fresh_v7_08: duck breast - daily reduced-light rest period for housed ducks
+HIGHER: The lights remain at the daytime setting through every night, with no daily period of reduced light intensity.
+LOWER:  The lights gradually dim each evening for a daily eight-hour period of reduced light intensity before returning to the daytime setting.
+Shared context: Duck breast is supplied in chilled 3 kg cartons for Friday delivery. Adult ducks are housed indoors under dimmable artificial lighting. Each carton contains skin-on breasts packed in pairs. Orders close on Wednesday morning.
+Service positive: The account statement uses the requested internal event reference, so the office can match it to the event directly.
+Service negative: The account statement omits the requested internal event reference, so the office must add it before matching it to the event.
+Evidence: The duck code recommends a daily period of lower light intensity in artificially lit windowless houses and gradual rather than abrupt light changes.
+Source: https://www.gov.uk/government/publications/poultry-on-farm-welfare/ducks-mallard-and-pekin-welfare-recommendations
+Limit: Eight hours is a synthetic scenario choice, not a claim that the cited code mandates that duration. The contrast does not require total darkness, which can cause panic in some settings.
+Novelty: Duck and poultry-lighting semantics are already present in the original corpus. v4 goose water access concerns a different practice but related waterfowl.
+Decision: UNREVIEWED
+Reason / requested change: ____________________
+
+After review: save revisions separately, freeze the approved file and the model-side protocol before running it.
+These 32 crossed descriptions are a draft design count, not a promise of 32 model forwards or an approved experiment.
+The saved original results and previous validation examples were only read, never changed.

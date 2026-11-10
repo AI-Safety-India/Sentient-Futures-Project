@@ -1,0 +1,24 @@
+Exact cached diagnostic rescoring: E2 vs content LR, both L26
+
+No new prompts, model forwards or network calls. 120 cached NPZs / 160 positions. All input IDs and indices match extraction plans. E2 scores reproduce saved results to <1e-5.
+
+Group | E2 AUROC | Content LR AUROC | E2 positive pairs | Content positive pairs
+e1_original|None|primary | 0.580 | 1.000 | 7/10 | 10/10
+e1_value_control|None|primary | 0.520 | 1.000 | 5/10 | 10/10
+e2_original|welfare|primary | 0.940 | 0.770 | 10/10 | 9/10
+e2_tool|welfare|primary | 0.880 | 0.770 | 8/10 | 10/10
+e2_tool|welfare|reading | 0.330 | 0.810 | 1/10 | 8/10
+e2_original|value|primary | 0.530 | 0.620 | 6/10 | 8/10
+e2_tool|value|primary | 0.340 | 0.530 | 1/10 | 5/10
+e2_tool|value|reading | 0.330 | 0.810 | 1/10 | 8/10
+e2_tool|unprompted_reading_deduplicated | 0.330 | 0.810 | 1/10 | 8/10
+
+Interpretation limits:
+Same layer does not mean same training context/position: saved content LR was trained on tool-response states, E2 on pre-answer states.
+E1 groups label judgement polarity on identical harmful facts; E2 groups label harmful/safe listings. Their AUROCs are not the same task.
+Previously inspected ten-item diagnostic set; no fresh holdout, no scientific pass claim.
+Reading observations duplicated across welfare/value future questions share identical causal prefixes and states; aggregate once per item/label.
+Changed descriptions/tags/context require new activations; these historical scores cannot be assigned to revised pilot prompts.
+Content LR and E2 score scales differ; absolute shift magnitudes are not directly comparable effect sizes.
+
+The stored tool-response reading boundary is not the later assistant-start silent position. These are historical baseline diagnostics, not the revised v3 pilot.

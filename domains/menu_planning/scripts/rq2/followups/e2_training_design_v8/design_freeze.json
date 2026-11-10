@@ -1,0 +1,104 @@
+{
+  "status": "draft_frozen_for_review_not_authorized_for_execution",
+  "new_forwards": 192,
+  "model_runs": 0,
+  "paid_resources_authorized": false,
+  "revision_policy": "Preserve historical results and frozen v7 draft. Text revisions require a new version/hash and rebuilt input manifest; this freeze is not human approval.",
+  "files": [
+    {
+      "name": "build_jobs_v8.py",
+      "sha256": "7428d9d174ab1cd316f510d65c82704786d56cc21db624d77f4d337648474488",
+      "bytes": 17093
+    },
+    {
+      "name": "cache_reuse_audit.json",
+      "sha256": "b8ad5d745e1d31acb351e73731616f6c4e4d94d97245dab388f815370848d9c3",
+      "bytes": 117300
+    },
+    {
+      "name": "DESIGN_REVIEW.txt",
+      "sha256": "c7fd29ab609daea36019f3f228dcf6da7714619579d2fb54cf8aa9e9452ca736",
+      "bytes": 5642
+    },
+    {
+      "name": "final_local_review.json",
+      "sha256": "623ce3600a672d38566794115791da9234edeea5a070de846fbf910dde3a344b",
+      "bytes": 1385
+    },
+    {
+      "name": "finalize_local_design.py",
+      "sha256": "6b24421b16d886ed58b6eb5d08ae64ac427089af2e5a0f6a6d965261d579d861",
+      "bytes": 4643
+    },
+    {
+      "name": "fit_direction.py",
+      "sha256": "9538540c2b330afdf2ec13868eddf998f756f79fb63573e73a16d210f2923415",
+      "bytes": 8430
+    },
+    {
+      "name": "fresh_validation_reviewed_draft.json",
+      "sha256": "c93bba39c058f1b89f685db0a58ea80076b0e8d0212e56ff8248525636f042ce",
+      "bytes": 55713
+    },
+    {
+      "name": "label_review.json",
+      "sha256": "6cd0c04dac0ea974493b8393f8be5f94352b55cdefd591091095a26ccb5b5c42",
+      "bytes": 16923
+    },
+    {
+      "name": "LABEL_REVIEW.txt",
+      "sha256": "47122d60460a4d74ca1bcc2b255f2e1fee816ba5475684f5628801879f065091",
+      "bytes": 8420
+    },
+    {
+      "name": "LOCAL_DESIGN_RESULT.txt",
+      "sha256": "8883a666ca087879d62e7b61652fbbeedeb51252cf33e10bac20134e0e73f986",
+      "bytes": 4354
+    },
+    {
+      "name": "local_test_results.json",
+      "sha256": "9c4e8331e0dc197c7b098d7df21b2c61637c5eeb96f322995ace9bf96ba276bf",
+      "bytes": 439
+    },
+    {
+      "name": "PROTOCOL_DRAFT.txt",
+      "sha256": "f075037dd08f78a4283188e0efc60de3df2bc932086705ba2a399112f172ac27",
+      "bytes": 8618
+    },
+    {
+      "name": "test_build_jobs_v8.py",
+      "sha256": "d36273f461810c4abebb5a7971ad4a7a14539f8e8170e9cc6c71e24eddb9cf57",
+      "bytes": 3060
+    },
+    {
+      "name": "test_fit_direction.py",
+      "sha256": "aa1aff26f97dea0e6f849c8458296ac9c2183d5e534f681ac31e716bb09b3b1a",
+      "bytes": 3317
+    },
+    {
+      "name": "training_builder_test_results.json",
+      "sha256": "77b8ea318b94f038e6f8d5c6a2af5511bd9ff9ed2168c4f754f282eace25f7f1",
+      "bytes": 370
+    },
+    {
+      "name": "training_input_checks.json",
+      "sha256": "9bb810d2d1d0edfd83fa3337de8732295a0f3f8a17d72caa9093dc47e0840ff6",
+      "bytes": 927
+    },
+    {
+      "name": "training_jobs_draft.json",
+      "sha256": "95c8232f06b6bdc22e8acddbaa8e211f2d9c23b76881c30c2de82881f0ebf569",
+      "bytes": 6717061
+    },
+    {
+      "name": "training_pairs_reviewed_draft.json",
+      "sha256": "92953e2d5a94efca30e03212cf43666ff71a43c343d363a4c86875970bc25fb0",
+      "bytes": 36470
+    },
+    {
+      "name": "training_preparation_manifest.json",
+      "sha256": "e126ba428c3e3119e6d491b15a64e7da2007548d0d0d1554ec6664b873f8a89b",
+      "bytes": 3691
+    }
+  ]
+}

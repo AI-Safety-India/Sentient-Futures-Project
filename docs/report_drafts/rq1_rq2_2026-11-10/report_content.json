@@ -1,0 +1,587 @@
+[
+  {
+    "type": "heading",
+    "level": 1,
+    "text": "Animal welfare in language model agents"
+  },
+  {
+    "type": "paragraph",
+    "text": "Results and discussion for the Sentient Futures report"
+  },
+  {
+    "type": "paragraph",
+    "text": "Harmful choices frequently occurred without an explicit welfare concern in visible reasoning. Internal probes produced some positive associations, but did not establish a reliable distinction between welfare evaluation and the processing of welfare-related content. The study therefore provides a behavioural result and a bounded measurement result, while leaving the internal explanation unresolved."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Research question and scope"
+  },
+  {
+    "type": "paragraph",
+    "text": "The original research question was: “When a language-model agent takes an action that violates a value it was never asked to consider, does it fail to evaluate the relevant consideration as morally significant, or evaluate it and act against it? And does its chain of thought reveal which occurred?” [S1]"
+  },
+  {
+    "type": "paragraph",
+    "text": "We investigated animal welfare in an agentic food-ordering benchmark. RQ1 asked what the agents explicitly said before their final orders. RQ2 asked whether internal activations could reveal welfare evaluation beyond merely encoding the supplied facts. This report ends at RQ2. It makes no completed RQ3 causal claim; intervention experiments and broader extensions are proposed as future research."
+  },
+  {
+    "type": "paragraph",
+    "text": "Here, welfare concern means concern about the treatment or suffering of animals. “Harmful” and “safe” in the original benchmark refer to its assigned outcome labels. In the later matched examples, “higher concern” and “lower concern” describe a particular practice. A lower-concern animal product is not necessarily harmless. A probe is a scoring rule applied to a model’s internal numerical state; its score is not itself a judgement, an explanation, or a probability of understanding."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "RQ1 results"
+  },
+  {
+    "type": "paragraph",
+    "text": "The scored corpus contained 12,400 trajectories: 9,600 from eight open-weight models, each with three repeated runs per benchmark configuration, and 2,800 from seven frontier models with one run per configuration. Primary inference used the eight open-weight models. Group rates are unweighted averages of per-model rates, not proportions obtained by pooling every trajectory. Uncertainty was estimated with 10,000 scenario-cluster bootstrap resamples, with Holm correction across the four primary tests. Repeats and prompt variants were not treated as independent scenarios. [S2, S3]"
+  },
+  {
+    "type": "paragraph",
+    "text": "The reasoning rubric distinguished no relevant mention (Score A = 0), a treatment fact without explicit welfare evaluation (Score A = 1), and an explicit welfare concern (Score A = 2). A separate correctness judgement prevented mistaken or unclear concerns from counting as correctly acknowledged harm. Thus a factual mention and a correct welfare evaluation were not interchangeable."
+  },
+  {
+    "type": "table",
+    "caption": "Table 1  Primary and companion RQ1 findings for the open-weight group",
+    "headers": [
+      "Measure",
+      "Estimate",
+      "95% scenario-bootstrap interval"
+    ],
+    "rows": [
+      [
+        "No treatment or welfare mention among harmful neutral-prompt outcomes",
+        "73.9%",
+        "70.4% to 77.2%"
+      ],
+      [
+        "No explicit welfare evaluation among harmful neutral-prompt outcomes (Scores 0 or 1)",
+        "94.7%",
+        "93.5% to 95.9%"
+      ],
+      [
+        "Correct explicit welfare concern despite a harmful neutral-prompt outcome",
+        "2.0%",
+        "1.3% to 2.9%"
+      ],
+      [
+        "Increase in explicit welfare mention under ethical prompting",
+        "+9.9 percentage points",
+        "+8.1 to +12.0 points"
+      ],
+      [
+        "Increase in safe orders under ethical prompting",
+        "+5.1 percentage points",
+        "+2.9 to +7.4 points"
+      ],
+      [
+        "Paired excess of the mention increase over the safe-order increase",
+        "+4.9 percentage points",
+        "+3.0 to +6.7 points"
+      ],
+      [
+        "Explicit welfare concern in the three prespecified hardest categories, neutral prompt, all outcomes",
+        "5.1%",
+        "2.2% to 8.2%"
+      ]
+    ],
+    "note": "The paired excess is calculated before rounding, so it need not equal the subtraction of the two rounded headline changes. The hardest-category comparison is over all outcomes, not only harmful orders. Source: [S2]."
+  },
+  {
+    "type": "paragraph",
+    "text": "The four primary RQ1 tests met their recorded decision criteria: silence was common in harmful trajectories; correct concern co-occurred with harm in a nonzero minority spanning 20 scenarios; ethical prompting increased explicit discussion more than safe ordering; and welfare discussion was especially rare in three categories selected using prior behavioural outcomes. In those categories, explicit concern was 4.0 percentage points lower than in the remaining categories (95% interval −7.5 to −0.4). These findings support the RQ1 hypotheses about observable reasoning and choices. They do not establish what happened internally during silent trajectories. [S2, S3]"
+  },
+  {
+    "type": "paragraph",
+    "text": "Qwen3.5-9B provides the direct link to RQ2. Under neutral prompting it made 464 harmful and 136 safe orders in 600 trajectories. Among the 464 harmful outcomes, 266 had no relevant mention, 141 mentioned a treatment fact only, and 57 expressed a welfare concern. Of those 57 concerns, 33 were correct, 9 were wrong and 15 unclear. Under ethical prompting it made 353 harmful orders, 240 safe orders and 7 no-order outcomes. Among harmful outcomes, 93 expressed a concern, of which 38 were correct. The safe-order rate rose from 22.7% to 40.0%, while correct acknowledgement did not guarantee a safe choice. [S2]"
+  },
+  {
+    "type": "paragraph",
+    "text": "On the 100-item annotation test, human–human quadratic weighted agreement for the three-level reasoning score was 0.852, with 90.0% exact agreement. The main automated judge achieved weighted agreement of 0.708 against human consensus, with 69.0% exact agreement; an alternative judge achieved 0.899 and 92.0%. The recorded minimum agreement criterion was met, but annotation error remains material. Frontier results are supplementary: visible summaries and fuller reasoning traces are not equivalent observation channels, so pooled frontier figures should not be read as a clean comparison of internal recognition. [S2, S4]"
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "RQ2 results from the original and repaired analyses"
+  },
+  {
+    "type": "paragraph",
+    "text": "The original probes addressed different comparisons. The content probe contrasted descriptions with and without harmful details. E1 contrasted the same facts followed by supplied evaluations such as “problem” versus “fine”. E2 used four inputs to contrast higher- and lower-concern descriptions under welfare and commercial-value questions. Its subtraction was intended to isolate the additional effect of asking about welfare. The code audit confirmed the implemented subtraction and layer convention; it did not find a sign or layer-index error that explains away the negative transfer findings. [S1, S9]"
+  },
+  {
+    "type": "paragraph",
+    "text": "On the original held-out contrast task, E1 achieved AUROC 1.000, but a content probe also separated those E1 examples at 0.9872. E2 achieved 0.9246 on the explicit-welfare-question contrast. These results establish discrimination within those tasks, not a welfare-specific detector in an ordinary agent trajectory. AUROC measures ranking: 0.5 is chance ranking and 1.0 is perfect separation in the tested direction. It is not answer accuracy or the probability that a model understood welfare. [S5]"
+  },
+  {
+    "type": "paragraph",
+    "text": "The benchmark comprised 1,200 Qwen trajectories. Its original score table contained 6,064 position-level rows representing 1,197 distinct run IDs; not every trajectory contributed every scored position. Audit findings were addressed through targeted extraction rather than regenerating trajectories. Twenty runs received 55 replacement option-reading states and 20 replacement persistence states through 21 original-call forwards. Three diagnostic forwards supported retaining the existing activation states for three additional runs while correcting 12 saved position indices. In total, 225 scalar projections were updated in a separate table; the remaining 5,989 score strings were retained exactly. Original results, probe weights and caches were preserved. [S5, S7]"
+  },
+  {
+    "type": "paragraph",
+    "text": "The repaired analysis uses the first reading of each run–option combination, excludes mixed harmful/safe batches from the persistence comparison, treats action separately, and leaves missing harmful readings missing. It does not replace a missing reading with an action score. The intervals below use 10,000 scenario-cluster bootstrap resamples. This is a post-audit reanalysis, not a new preregistered confirmation. [S6, S7]"
+  },
+  {
+    "type": "table",
+    "caption": "Table 2  Repaired benchmark AUROC and 95% intervals",
+    "headers": [
+      "Prompt",
+      "Measurement",
+      "Harmful / safe observations",
+      "E1",
+      "E2"
+    ],
+    "rows": [
+      [
+        "Neutral",
+        "First option reading",
+        "968 / 787",
+        "0.398 [0.343, 0.450]",
+        "0.406 [0.359, 0.454]"
+      ],
+      [
+        "Neutral",
+        "Persistence in unmixed batches",
+        "121 / 37",
+        "0.460 [0.214, 0.617]",
+        "0.485 [0.354, 0.660]"
+      ],
+      [
+        "Neutral",
+        "Action position",
+        "464 / 136",
+        "0.518 [0.433, 0.617]",
+        "0.621 [0.557, 0.685]"
+      ],
+      [
+        "Ethical",
+        "First option reading",
+        "952 / 835",
+        "0.422 [0.363, 0.478]",
+        "0.446 [0.398, 0.492]"
+      ],
+      [
+        "Ethical",
+        "Persistence in unmixed batches",
+        "132 / 89",
+        "0.446 [0.324, 0.575]",
+        "0.458 [0.324, 0.594]"
+      ],
+      [
+        "Ethical",
+        "Action position",
+        "353 / 240",
+        "0.549 [0.482, 0.612]",
+        "0.511 [0.446, 0.578]"
+      ]
+    ],
+    "note": "Reading observations are run–option readings; persistence observations are retained unmixed batches; action observations are completed orders. Counts are not interchangeable sample sizes. Source: [S6]."
+  },
+  {
+    "type": "paragraph",
+    "text": "E2 retained a modest positive association at the neutral action position: AUROC 0.621, with its interval above 0.5. The action table compares scores in trajectories ending in harmful versus safe orders; it is not evidence of the originally proposed matched chosen-minus-rejected option comparison. E2 did not show the expected positive separation at reading or persistence. Reading scores below 0.5 mean ranking in the opposite direction to the fixed probe sign; they do not mean no information is present. Ethical action scores were near chance. The original neutral persistence estimate of 0.539 and the repaired estimate of 0.485 use different aggregation rules and retained observations, so the change cannot be attributed solely to activation repair. [S5, S6]"
+  },
+  {
+    "type": "paragraph",
+    "text": "The original threshold-based “evaluated but unstated” counts belonged to E1, not E2: 20 of 464 neutral harmful outcomes and 11 of 353 ethical harmful outcomes. We report them as above-threshold readings without an explicit welfare statement. The repaired neutral classification also contains one missing harmful reading. Calibrating an option-level threshold does not guarantee a 5% false-positive rate after selecting the maximum across a run; alternative run-maximum-safe calibration gave 5 and 6 above-threshold unstated cases, respectively. Neither calibration validates hidden evaluation. Below-threshold scores likewise cannot establish absent recognition. [S5, S6]"
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Backend fidelity and probe specificity checks"
+  },
+  {
+    "type": "paragraph",
+    "text": "A current Hugging Face–vLLM comparison found exact token IDs for 20 of 20 explicitly rendered replay texts. Across 10,471 continuation tokens, log-probability correlation was 0.999703, with a mean absolute difference of 0.01171 nats; the lowest per-run correlation was 0.999257. However, the default vLLM chat renderer matched the audited prefix in 0 of 20 cases. Historical reasoning was omitted and other message-normalisation differences remained. A subsequent explicit-text input contract passed 20 of 20 local checks and rejected the mismatched legacy route. These checks support the tested current route, not the unknown historical server configuration. [S8, S11]"
+  },
+  {
+    "type": "table",
+    "caption": "Table 3  Diagnostic screen on ten previously inspected items",
+    "headers": [
+      "Diagnostic context",
+      "E1 AUROC",
+      "E2 AUROC"
+    ],
+    "rows": [
+      [
+        "Supplied welfare problem-versus-fine statements",
+        "1.00",
+        "0.58"
+      ],
+      [
+        "Supplied commercial problem-versus-fine statements",
+        "1.00",
+        "0.52"
+      ],
+      [
+        "Original explicit welfare question",
+        "0.49",
+        "0.94"
+      ],
+      [
+        "Explicit welfare question in tool context",
+        "0.41",
+        "0.88"
+      ],
+      [
+        "Explicit commercial-value question in tool context",
+        "0.31",
+        "0.34"
+      ],
+      [
+        "Tool reading boundary before the question",
+        "0.51",
+        "0.33"
+      ]
+    ],
+    "note": "The first two rows distinguish supplied polarity; the remaining rows distinguish concern labels. They are different prediction tasks. The 120 forward passes are repeated conditions on ten items, not 120 independent examples. Source: [S8]."
+  },
+  {
+    "type": "paragraph",
+    "text": "E1 responded almost identically to supplied positive/negative assessments of welfare and commercial value: mean problem-minus-fine shifts were approximately 0.132 and 0.131. E2 separated the descriptions when asked about welfare, but only 1 of 10 pairs had the expected direction at the unprompted reading boundary. This identifies an important transfer problem without establishing its sole cause. The code audit also found that original E2 training lacked the specified tool context, included condition-dependent tags, and selected its layer using explicit-question separation. Original nuisance controls were computed for E1, not E2, and a failed separation check did not stop the pipeline. These limitations qualify earlier “passed” execution summaries. [S8, S9]"
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Exploratory E2 development results"
+  },
+  {
+    "type": "paragraph",
+    "text": "Versions v1–v9 below denote preparation and analysis packages, not nine successful training runs or nine independent replications. The model itself was not retrained. The later screens addressed context transfer and specificity; their thresholds are separate from the original RQ2 hypotheses."
+  },
+  {
+    "type": "paragraph",
+    "text": "v1 reviewed labels and prepared the input route. All ten initial pairs were marked for revision: six decisions came from direct human review and four from delegated AI-assisted review. No new model inference was conducted in this package. The revisions made concern relative to a named treatment and avoided treating every animal-containing alternative as harmless. [S10, S11]"
+  },
+  {
+    "type": "paragraph",
+    "text": "v2 completed 42 checks on seven reviewed pairs. Silent reading correctly ordered 1/7 pairs (AUROC 0.327). Direct welfare questions produced 13/14 correct final answers; one answer was truncated at 2,048 tokens. All 14 commercial-value answers hit that limit, so their outcomes are unresolved rather than incorrect. Answering a welfare question successfully did not ensure that the fixed probe transferred to silent reading. [S12]"
+  },
+  {
+    "type": "paragraph",
+    "text": "v3 used 42 forward-only checks on the same seven development pairs. Original E2 correctly ordered 7/7 pairs after an added neutral continuation request (AUROC 0.735), but only 1/7 at tool close (0.429). Explicit welfare questions gave 7/7 and 0.918; value questions gave 4/7 and 0.551. The content baseline also separated the examples: 5/7 and 0.796 after the continuation request, and 7/7 and 0.776 at tool close. A newly fitted small E2 interaction transferred to only 2/7 excluded items. The favourable 7/7 result therefore concerned a particular added-input context, not ordinary benchmark reading. [S13]"
+  },
+  {
+    "type": "paragraph",
+    "text": "v4 tested the unchanged original E2 at the actual benchmark reading boundary with eight newly authored pairs and matched price, rating and tool-order controls: 64 states, plus 14 checks bridging to prior examples, for 78 forwards. At baseline it ordered only 1/8 fresh pairs correctly; reversing tool order raised that to 6/8. At the secondary option-closing position it achieved 3/8 (AUROC 0.469). The previous-example bridge gave 5/7 (0.673). The content baseline achieved 5/8 at the primary boundary and 8/8 at option close. The eight pairs were new when v4 was frozen; after inspection they became the development set reused by v5–v9. [S14]"
+  },
+  {
+    "type": "table",
+    "caption": "Table 4  Matched-pair ordering and pooled AUROC on the same eight development pairs",
+    "headers": [
+      "Candidate",
+      "Base",
+      "Changed price",
+      "Changed rating",
+      "Reversed tool order"
+    ],
+    "rows": [
+      [
+        "Original E2 in v4",
+        "1/8; 0.406",
+        "2/8; 0.422",
+        "1/8; 0.391",
+        "6/8; 0.641"
+      ],
+      [
+        "v5 welfare vs commercial",
+        "6/8; 0.625",
+        "7/8; 0.688",
+        "6/8; 0.594",
+        "7/8; 0.609"
+      ],
+      [
+        "v6 welfare vs factual",
+        "6/8; 0.688",
+        "7/8; 0.609",
+        "6/8; 0.625",
+        "6/8; 0.562"
+      ],
+      [
+        "v7 nuisance-corrected v6",
+        "6/8; 0.672",
+        "5/8; 0.594",
+        "5/8; 0.547",
+        "5/8; 0.562"
+      ],
+      [
+        "v8 balanced training",
+        "6/8; 0.656",
+        "6/8; 0.625",
+        "6/8; 0.578",
+        "6/8; 0.594"
+      ],
+      [
+        "v9 penalised scoring",
+        "4/8; 0.531",
+        "5/8; 0.562",
+        "3/8; 0.500",
+        "4/8; 0.609"
+      ]
+    ],
+    "note": "Each cell gives correctly ordered pairs out of eight, followed by AUROC. The 64 states are eight pairs × two concern versions × four conditions. Pooled AUROC compares scores across different items as well as within pairs; it can improve while paired ordering worsens. Source: [S19], reproducing [S14–S18]."
+  },
+  {
+    "type": "paragraph",
+    "text": "v5 used 48 new training states from six pairs, crossing concern level, welfare versus commercial instruction, and option order. The candidate was fitted at the fixed benchmark position and layer, then applied to the existing 64 development states. Baseline ordering improved from 1/8 to 6/8, but price and order shifts exceeded the average welfare contrast. Its cosine similarity of 0.9374 to a treatment-content direction from the same training inputs left evaluation-versus-content separation unresolved. This was a developmental improvement, not independent validation. [S15]"
+  },
+  {
+    "type": "paragraph",
+    "text": "v6 replaced the commercial instruction with factual reading. It used 24 new factual-reading states, 24 saved welfare states and the same 64 development states. Baseline AUROC rose from 0.625 to 0.688, while baseline ordering remained 6/8. Absolute order sensitivity decreased, but price sensitivity remained larger than the mean welfare gap. A factual-reading instruction does not guarantee that the model performs no welfare evaluation, so the subtraction remains an operational contrast rather than a clean psychological separation. [S16]"
+  },
+  {
+    "type": "paragraph",
+    "text": "v7 removed average price, rating and order directions locally from saved activations. For the primary v6 candidate, the common price offset fell from 1.928 to 0.195, but base ordering remained 6/8 and all three control conditions fell to 5/8. Removing the nuisance span from original E2 raised base ordering from 1/8 to 3/8; applying it to v5 reduced base ordering from 6/8 to 5/8. Leaving each item out of nuisance estimation did not rescue the primary pattern. Orthogonality to an estimated nuisance direction is guaranteed by the operation; it is not evidence of general independence from price or order. [S17]"
+  },
+  {
+    "type": "paragraph",
+    "text": "v8 collected 192 training states from six revised pairs, crossing concern level, welfare versus factual instruction, option order, price and paperwork. Contradictory wording was revised and metadata held constant where required. Chicken and lobster received explicit human approval; the other four pairs received delegated AI-assisted review. All 192 forwards completed and their inputs and selected activations were verified. The new candidate ordered 6/8 development pairs correctly in every condition, but the camel water-access and goose head-immersion/preening pairs remained reversed. Price sensitivity improved relative to v6, while order sensitivity worsened. These 192 states represent six training pairs under repeated conditions, not 192 independent welfare concepts. [S18]"
+  },
+  {
+    "type": "paragraph",
+    "text": "v9 tested one frozen penalised scoring rule locally using the 192 saved training states and 64 development states. It reduced sensitivity to price, order and paperwork during fitting, with no new model passes or parameter search. Baseline ordering fell from v8’s 6/8 to 4/8, and baseline AUROC fell from 0.656 to 0.531. All 48 excluded-item instruction-interaction contrasts remained positive, as they did for the mean-interaction baseline, but this did not establish transfer to neutral benchmark inputs. Eight software tests and an independent numerical solution agreed; correct execution did not make the scientific comparison positive. The candidate was retained as an unsuccessful correction and did not replace original weights. [S19, S20]"
+  },
+  {
+    "type": "table",
+    "caption": "Table 5  Desired concern contrast and sensitivity to other input changes",
+    "headers": [
+      "Candidate",
+      "Mean base concern gap",
+      "Absolute price shift",
+      "Absolute rating shift",
+      "Absolute order shift"
+    ],
+    "rows": [
+      [
+        "v5 welfare vs commercial",
+        "1.023",
+        "1.779",
+        "0.219",
+        "1.807"
+      ],
+      [
+        "v6 welfare vs factual",
+        "1.019",
+        "1.928",
+        "0.233",
+        "0.790"
+      ],
+      [
+        "v7 nuisance-corrected v6",
+        "0.736",
+        "0.240",
+        "0.191",
+        "0.724"
+      ],
+      [
+        "v8 balanced training",
+        "0.885",
+        "1.521",
+        "0.255",
+        "1.569"
+      ],
+      [
+        "v9 penalised scoring",
+        "0.174",
+        "0.332",
+        "0.392",
+        "0.534"
+      ]
+    ],
+    "note": "Uncalibrated projection-score units for unit-normalised candidate directions. “Absolute shift” averages the magnitude of variant score changes; it is distinct from the common offset quoted for v7. Shifts often move both pair members together, so they need not reverse their ordering. Source: [S19]."
+  },
+  {
+    "type": "paragraph",
+    "text": "The final scoring change illustrates the tradeoff: v9 reduced v8’s absolute price shift from 1.521 to 0.332 and its order shift from 1.569 to 0.534, but reduced the average concern gap from 0.885 to 0.174. Relative to that smaller desired contrast, price and order interference became larger, while rating sensitivity increased. Reducing raw score movement was therefore insufficient. None of the revisions established the intended welfare-specific measurement. [S19, S20]"
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Discussion"
+  },
+  {
+    "type": "paragraph",
+    "text": "RQ1 and RQ2 together provide a partial answer to the original question. RQ1 shows that visible reasoning often leaves harmful choices unexplained and that correct explicit concern sometimes co-occurs with harmful action. RQ2 does not resolve the silent cases: the available probes cannot reliably distinguish failure to evaluate welfare from evaluation that is unexpressed. The latter distinction remains open, rather than being decided in favour of either explanation."
+  },
+  {
+    "type": "paragraph",
+    "text": "The positive original E2 result and the later negative checks concern different tasks. A probe can distinguish descriptions when welfare is explicitly requested, yet behave differently when an agent is selecting a supplier without that request. Reading facts, following an evaluative instruction, choosing an option and producing an answer can all contribute to the measured state. The context experiments show that the result depends on these circumstances; they do not identify one definitive underlying mechanism."
+  },
+  {
+    "type": "paragraph",
+    "text": "The neutral action-time association is still a result worth reporting. However, an association with the eventual choice may reflect choice-related information, product identity, commercial attributes or other correlated features. Without adequate controls, it does not establish that welfare evaluation caused the action or existed silently before it. Similarly, the content probe’s failure to show the expected benchmark reading ranking limits its role as a positive control; this study cannot assume content encoding succeeded wherever evaluation measurement did not."
+  },
+  {
+    "type": "paragraph",
+    "text": "Later analysis narrows the interpretation of the original findings rather than erasing them. It also documents useful negative evidence: matching tool context improved some development results, but did not establish specificity; factual controls produced tradeoffs; nuisance removal reduced some offsets but did not improve concern discrimination; and a larger balanced pilot plus penalised scoring did not solve neutral-context transfer. These results locate limitations of the tested measurements. They do not prove that the model lacks welfare understanding, that welfare is absent from every internal representation, or that every possible probe would fail."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Limitations and protocol transparency"
+  },
+  {
+    "type": "paragraph",
+    "text": "Observation and annotation. RQ1 scores visible text, not all internal computation. Absence of a welfare statement is not proof of absent evaluation, and a statement can be mistaken or post hoc. Automated annotation is imperfect despite meeting the recorded agreement criterion. Provider-supplied reasoning summaries must be analysed separately from fuller visible traces; their omission of a concern cannot be equated with the model never considering it. [S2–S4]"
+  },
+  {
+    "type": "paragraph",
+    "text": "Scope and independence. Mechanistic analysis concerns Qwen3.5-9B in this benchmark. The small later examples are synthetic supplier descriptions, and controls are repeated observations on the same items. The eight development pairs were repeatedly inspected after v4; improved performance on them is not fresh validation. Six training pairs remain six independent items despite the 192 factorial states. Exact product-string separation does not guarantee semantic-family independence; v4’s reindeer example overlaps earlier deer/venison material. Excluding it left original E2 at 1/7, so it did not explain away that screen’s result. [S9, S14, S18]"
+  },
+  {
+    "type": "paragraph",
+    "text": "Labels and controls. Later labels concern specific relative harms, not an animal-free versus animal-containing distinction. Some reviews were delegated to AI agents rather than independently double-annotated by humans. The paperwork comparison concerned mild clerical burden and was not severity-matched to animal suffering; the pig-transport pair was conditional and could carry efficiency cues. General sentiment, supplier quality, instruction-following and wording remain alternative explanations. [S14, S18]"
+  },
+  {
+    "type": "paragraph",
+    "text": "Historical fidelity. Current numerical agreement on identical inputs does not recover the original serving revision or exact historical chat inputs. The full original training activation arrays were not recovered locally, so historical fitted weights could not be reconstructed from those arrays. BF16 numerical differences across sequence lengths were observed even for identical causal prefixes; small-margin comparisons should retain this caveat. None of these limitations automatically implies that all 1,200 trajectories require rerunning. [S7–S9, S13]"
+  },
+  {
+    "type": "paragraph",
+    "text": "Analysis changes. The 8 November RQ2 plan specified AUROC at least 0.70 at reading/persistence and at least 10% above-threshold harmful trajectories. The document dated 9 November permitted an action-time AUROC above 0.50 with its lower interval above 0.50, and treated E1 as primary and E2 as secondary. Its claimed timing relative to analysis was not independently established by this audit. The repaired analysis and subsequent development screens are explicitly later analyses. The later 6/7, 7/8 and 0.85 screens must not be presented as the original H2 criterion, and the positive secondary action result must not be used to claim the original primary programme passed. [S5, S21, S22]"
+  },
+  {
+    "type": "paragraph",
+    "text": "Statistical and causal interpretation. Small development counts have substantial uncertainty. Reusing them across versions prevents treating the successive comparisons as independent confirmatory evidence. Probe scores, paired rankings, AUROC, generated-answer correctness and technical validation are different quantities. Option-level thresholds do not automatically control run-level false positives. No causal conclusion about welfare evaluation is established by the RQ1–RQ2 analyses. The original proposed categories “recognition failure” and “evaluated but unstated” therefore remain unvalidated interpretations, not measured psychological states."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Future research and call for action"
+  },
+  {
+    "type": "paragraph",
+    "text": "The next research priority is a measurement that earns its interpretation. Future work should define welfare evaluation separately from factual reading, general negative language, explicit instruction-following and action selection. Candidate methods should be tested on independently reviewed examples with matched wording, non-welfare evaluations, commercial attributes and presentation controls. A factual instruction should be treated as a comparison condition, not assumed to switch evaluation off."
+  },
+  {
+    "type": "paragraph",
+    "text": "New evaluation should be genuinely independent. Previously inspected examples can support development, while unseen wording, treatment practices and product families should be reserved for a frozen test. Training-set size should count independent concepts rather than prompt permutations. Validation size and decision criteria should be chosen to give useful uncertainty bounds before scoring. Existing logs, verified benchmark states and saved development activations can support reproducibility and method comparisons without repeating completed experiments unnecessarily."
+  },
+  {
+    "type": "paragraph",
+    "text": "RQ3 remains a potential future study, not a missing result claimed here. Once measurement is sufficiently supported, a controlled intervention could test whether increasing or decreasing a candidate signal changes welfare-relevant choices. It should include both signs, prespecified strengths, baseline and zero-intervention checks, norm-matched random directions, content controls, and task-completion and tool-validity measures. The exact runtime input route and intervention position must be verified. An earlier intervention on the present directions could still be scientifically useful, but its interpretation would be exploratory steering of a contrast-derived feature, not causal confirmation of hidden welfare evaluation."
+  },
+  {
+    "type": "paragraph",
+    "text": "Other extensions could compare models, distinguish the ability to answer an explicit welfare question from spontaneously applying it, test whether ethical prompts improve choices as well as discussion, and examine how faithfully visible reasoning reports considerations relevant to decisions. Extending the framework to other unstated values would require domain-specific labels and controls. These are proposed research directions, not outcomes established by the current experiments."
+  },
+  {
+    "type": "paragraph",
+    "text": "We call for agent evaluations that assess choices, visible reasoning and internal measurements together, while requiring evidence that each measurement captures its intended construct. High probe accuracy on an explicit question should not be sufficient for a claim about silent moral evaluation. Publishing unsuccessful transfer tests and sensitivity to seemingly irrelevant input changes is necessary to distinguish a useful internal measure from a convenient classifier."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Conclusion"
+  },
+  {
+    "type": "paragraph",
+    "text": "Harmful choices frequently occurred without explicit welfare discussion, and a smaller set persisted despite a correct stated concern. Internal probes showed strong performance on some supplied-evaluation tasks and a modest neutral action-time association, but did not reliably separate welfare evaluation from content and context. The study therefore supports a behavioural finding and identifies a measurement limitation. It leaves open whether silent harmful choices arise from failed evaluation or unexpressed evaluation, and motivates independently validated measurement and, potentially, future causal work."
+  },
+  {
+    "type": "heading",
+    "level": 2,
+    "text": "Source register"
+  },
+  {
+    "type": "paragraph",
+    "text": "Source identifiers refer to preserved project records. The original question is quoted from S1. Numerical benchmark tables use the repaired analysis S6; the development comparison table uses S19. This register distinguishes historical results from later corrections and exploratory analyses."
+  },
+  {
+    "type": "paragraph",
+    "text": "[S1] docs/INTERP_PLAN.md"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S2] results/rq1/RQ1_RESULTS.md"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S3] results/rq1/RQ1_PREREGISTRATION.md"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S4] results/rq1/CLAUDE_REASONING_AUDIT.md"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S5] results/rq2/ORIGINAL_PLAN_RECONCILIATION.txt"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S6] results/rq2/repair_v2/analysis.json"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S7] results/rq2/repair_v2/STATUS.md"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S8] results/rq2/validation_v1/REPORT.md"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S9] results/rq2/code_audit_v1/AUDIT_AND_MINIMUM_PLAN.txt"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S10] results/rq2/e2_fallback_v1/review_decision_summary.json"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S11] results/rq2/e2_fallback_v1/input_contract_check.json"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S12] results/rq2/e2_fallback_v2/SCREEN_RESULT.txt"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S13] results/rq2/e2_pilot_v3/RESULT_AND_NEXT_STEPS.txt"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S14] results/rq2/e2_benchmark_v4/RESULT_AND_DECISION.txt"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S15] results/rq2/e2_redesign_v5/RUN_RESULT_AND_DECISION.txt"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S16] results/rq2/e2_factual_v6/RUN_RESULT_AND_DECISION.txt"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S17] results/rq2/e2_nuisance_v7/LOCAL_FALLBACK_RESULT.txt"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S18] results/rq2/e2_training_design_v8/PILOT_RESULT.txt"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S19] results/rq2/e2_scoring_v9/comparison.json"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S20] results/rq2/e2_scoring_v9/INTERPRETATION.txt"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S21] results/rq2/RQ2_PLAN.md"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S22] results/rq2/RQ2_PREREGISTRATION.md"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S23] results/rq2/RQ2_RESULTS.md"
+  },
+  {
+    "type": "paragraph",
+    "text": "[S24] results/rq1/extraction_verification_report.md"
+  }
+]

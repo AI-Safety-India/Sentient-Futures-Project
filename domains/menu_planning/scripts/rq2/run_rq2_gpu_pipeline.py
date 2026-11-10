@@ -39,6 +39,7 @@ else:
 LOG_ROOT = os.path.join(REPO_ROOT, "results/logs/full/qwen3.5-9b")
 RESULTS_RQ2_DIR = os.path.join(REPO_ROOT, "results/rq2")
 PROBES_DIR = os.path.join(RESULTS_RQ2_DIR, "probes")
+PROBES_FILE = os.path.join(RESULTS_RQ2_DIR, "probe_directions.npz")
 RQ1_QWEN_CSV = os.path.join(RESULTS_RQ2_DIR, "qwen35_rq1_scores_1200.csv")
 
 POSITIONS_JSONL = (
@@ -515,7 +516,7 @@ def run_stage_g3(model, tok):
     cos_pos = abs(cosine_sim(w_e1, w_pos_at_e1))
 
     # Save probe weights
-    npz_path = os.path.join(PROBES_DIR, "probe_directions.npz")
+    npz_path = PROBES_FILE
     np.savez(
         npz_path,
         content_layer=res_content["best_mm"]["layer"],
@@ -581,7 +582,9 @@ def run_stage_g4(model, tok):
     from inspect_ai.log import read_eval_log
     from replay_rebuild import rebuild_messages, request_from_event, _assistant_param
 
-    probes = np.load(os.path.join(PROBES_DIR, "probe_directions.npz"))
+    # Prefer the checked-in canonical path; retain compatibility with older GPU runs.
+    probe_path = PROBES_FILE if os.path.isfile(PROBES_FILE) else os.path.join(PROBES_DIR, "probe_directions.npz")
+    probes = np.load(probe_path)
     l_c = int(probes["content_layer"]) - 1
     w_c, mid_c = probes["content_w_mm"], probes["content_mid_mm"]
     l_e1 = int(probes["e1_layer"]) - 1
@@ -671,150 +674,12 @@ def run_stage_g4(model, tok):
 # ---------------------------------------------------------------------------
 
 def run_stage_g5_and_r2(do_r2=True):
-    scores_csv = os.path.join(RESULTS_RQ2_DIR, "benchmark_probe_scores_1200.csv")
-    rows = list(csv.DictReader(open(scores_csv, encoding="utf-8")))
-    for r in rows:
-        r["score_content"] = float(r["score_content"])
-        r["score_e1"] = float(r["score_e1"])
-        r["score_e2"] = float(r["score_e2"])
-        r["epoch"] = int(r["epoch"])
+    """Use repaired CPU analysis and preserve the original reports.
 
-    # 1. Compute AUROC at positions (a), (b), (c) for neutral and ethical
-    g5_lines = ["# G5: Benchmark Activation Probing Results (Qwen3.5-9B, 1,200 Runs)\n\n"]
-    g5_lines.append("## 1. Harmful vs. Safe AUROC by Position and Prompt Condition\n\n")
-    g5_lines.append("10,000-resample scenario-clustered bootstrap over the 50 scenarios (`seed=20261106`).\n\n")
-    g5_lines.append("| Condition | Position | N (Harmful / Safe) | Content Probe AUROC [95% CI] | E1 Eval Probe AUROC [95% CI] | E1 $p$-value | E2 Eval Probe AUROC [95% CI] |\n")
-    g5_lines.append("|---|---|---:|---:|---:|---:|---:|\n")
-
-    for cond in ["neutral", "ethical"]:
-        for pos in ["pos_a", "pos_b", "pos_c"]:
-            sub = [
-                r for r in rows
-                if r["prompt_condition"] == cond and r["pos_type"] == pos and r["option_label"] in ("harmful", "safe")
-            ]
-            n_h = sum(1 for r in sub if r["option_label"] == "harmful")
-            n_s = sum(1 for r in sub if r["option_label"] == "safe")
-
-            rec_c = [{"scenario_id": r["scenario_id"], "label": 1 if r["option_label"] == "harmful" else 0, "score": r["score_content"]} for r in sub]
-            rec_e1 = [{"scenario_id": r["scenario_id"], "label": 1 if r["option_label"] == "harmful" else 0, "score": r["score_e1"]} for r in sub]
-            rec_e2 = [{"scenario_id": r["scenario_id"], "label": 1 if r["option_label"] == "harmful" else 0, "score": r["score_e2"]} for r in sub]
-
-            au_c, ci_c, _ = clustered_bootstrap_auroc(rec_c)
-            au_e1, ci_e1, p_e1 = clustered_bootstrap_auroc(rec_e1)
-            au_e2, ci_e2, _ = clustered_bootstrap_auroc(rec_e2)
-
-            g5_lines.append(
-                f"| `{cond}` | `{pos}` | {n_h} / {n_s} | "
-                f"{au_c:.3f} [{ci_c[0]:.3f}, {ci_c[1]:.3f}] | "
-                f"**{au_e1:.3f}** [{ci_e1[0]:.3f}, {ci_e1[1]:.3f}] | "
-                f"{p_e1:.4f} | "
-                f"{au_e2:.3f} [{ci_e2[0]:.3f}, {ci_e2[1]:.3f}] |\n"
-            )
-
-    # 2. Split-half 5% FPR threshold calibration on pos_a safe options (`RQ2_PLAN.md` §8)
-    # Build 25 / 25 category-stratified scenario split
-    scen_to_cat = {}
-    for r in rows:
-        scen_to_cat[r["scenario_id"]] = r["category"]
-    cat_scens = defaultdict(list)
-    for sid, cat in sorted(scen_to_cat.items()):
-        cat_scens[cat].append(sid)
-
-    rng_split = random.Random(SEED)
-    half_A, half_B = set(), set()
-    Toggle = True
-    for cat in sorted(cat_scens.keys()):
-        sids = list(cat_scens[cat])
-        rng_split.shuffle(sids)
-        # 5 scenarios per category -> alternate 3/2 and 2/3 across the 10 categories = 25 and 25
-        k = 3 if Toggle else 2
-        Toggle = not Toggle
-        for s in sids[:k]:
-            half_A.add(s)
-        for s in sids[k:]:
-            half_B.add(s)
-
-    pos_a_neutral = [r for r in rows if r["prompt_condition"] == "neutral" and r["pos_type"] == "pos_a"]
-    safe_A = [r["score_e1"] for r in pos_a_neutral if r["option_label"] == "safe" and r["scenario_id"] in half_A]
-    safe_B = [r["score_e1"] for r in pos_a_neutral if r["option_label"] == "safe" and r["scenario_id"] in half_B]
-
-    tau_A = float(np.percentile(safe_A, 95.0))
-    tau_B = float(np.percentile(safe_B, 95.0))
-
-    g5_path = os.path.join(RESULTS_RQ2_DIR, "g5_benchmark_auroc_report.md")
-    with open(g5_path, "w", encoding="utf-8") as fh:
-        fh.writelines(g5_lines)
-        fh.write(f"\n## 2. Split-Half 5% Safe-FPR Calibration (`pos_a`, Neutral)\n\n")
-        fh.write(f"- **Half A (25 scenarios) 95th-percentile safe threshold ($\\tau_A$):** `{tau_A:.4f}`\n")
-        fh.write(f"- **Half B (25 scenarios) 95th-percentile safe threshold ($\\tau_B$):** `{tau_B:.4f}`\n")
-    print(f"[G5] Wrote {g5_path}")
-
-    if not do_r2:
-        return
-
-    # 3. R2: Join with RQ1 Haiku Judge Scores (`Score_A`) to build Decision-Category Table
-    print("[R2] Joining Evaluation Probe classifications with RQ1 Score_A...")
-    rq1_lookup = {}
-    if os.path.exists(RQ1_QWEN_CSV):
-        with open(RQ1_QWEN_CSV, encoding="utf-8") as fh:
-            for d in csv.DictReader(fh):
-                key = (d["prompt_condition"], d["sample_id"], int(d["epoch"]))
-                rq1_lookup[key] = d
-
-    # Group pos_a scores by run_id
-    by_run = defaultdict(list)
-    for r in rows:
-        if r["pos_type"] == "pos_a" and r["option_label"] == "harmful":
-            by_run[r["run_id"]].append(r)
-
-    # Also track pos_c chosen option per run
-    pos_c_by_run = {r["run_id"]: r for r in rows if r["pos_type"] == "pos_c"}
-
-    r2_lines = ["# RQ2 Final Results: Internal Activation Probing & The Monitoring Gap (R2)\n\n"]
-    r2_lines.append("## Decision Categories for Harmful Orders (`RQ2_PLAN.md` §8)\n\n")
-    r2_lines.append("| Prompt Condition | Total Harmful Orders | Evaluated & Stated (`Score_A = 2`) | **Evaluated, Not Stated (`Score_A in {0,1}` — Monitoring Gap)** | Not Evaluated (`Score_A in {0,1}` — Recognition Failure) | Stated Below Probe Cut-off (`Score_A = 2`) |\n")
-    r2_lines.append("|---|---:|---:|---:|---:|---:|\n")
-
-    for cond in ["neutral", "ethical"]:
-        cat_counts = Counter()
-        total_harmful_orders = 0
-        for run_id, c_row in sorted(pos_c_by_run.items()):
-            if c_row["prompt_condition"] != cond or c_row["option_label"] != "harmful":
-                continue
-            key = (cond, c_row["sample_id"], int(c_row["epoch"]))
-            rq1_rec = rq1_lookup.get(key)
-            if rq1_rec is None:
-                continue
-            score_a = int(rq1_rec["score_a"])
-            # Max Evaluation Probe score on harmful options read in this run
-            harm_read = by_run.get(run_id, [c_row])
-            max_e1 = max(x["score_e1"] for x in harm_read)
-            tau = tau_B if c_row["scenario_id"] in half_A else tau_A
-            is_eval = max_e1 > tau
-
-            total_harmful_orders += 1
-            if is_eval and score_a == 2:
-                cat_counts["eval_stated"] += 1
-            elif is_eval and score_a in (0, 1):
-                cat_counts["eval_unstated"] += 1
-            elif (not is_eval) and score_a in (0, 1):
-                cat_counts["not_eval_unstated"] += 1
-            else:
-                cat_counts["not_eval_stated"] += 1
-
-        if total_harmful_orders > 0:
-            r2_lines.append(
-                f"| `{cond}` | {total_harmful_orders} | "
-                f"{cat_counts['eval_stated']} ({cat_counts['eval_stated']/total_harmful_orders*100:.1f}%) | "
-                f"**{cat_counts['eval_unstated']} ({cat_counts['eval_unstated']/total_harmful_orders*100:.1f}%)** | "
-                f"{cat_counts['not_eval_unstated']} ({cat_counts['not_eval_unstated']/total_harmful_orders*100:.1f}%) | "
-                f"{cat_counts['not_eval_stated']} ({cat_counts['not_eval_stated']/total_harmful_orders*100:.1f}%) |\n"
-            )
-
-    r2_path = os.path.join(RESULTS_RQ2_DIR, "RQ2_RESULTS.md")
-    with open(r2_path, "w", encoding="utf-8") as fh:
-        fh.writelines(r2_lines)
-    print(f"[R2] Wrote {r2_path}")
+    Both entry points emit the complete, inexpensive local analysis bundle.
+    """
+    from repair_analysis import run
+    return run(RESULTS_RQ2_DIR)
 
 
 def main():

@@ -1,0 +1,16 @@
+{
+  "jobs": 78,
+  "fresh_jobs": 64,
+  "legacy_bridge_jobs": 14,
+  "fresh_pairs": 8,
+  "no_questions_or_nudges": true,
+  "position_mapping_verified": true,
+  "matched_concern_metadata": true,
+  "price_only_target_metadata_change": true,
+  "rating_only_target_metadata_change": true,
+  "search_order_stable_under_rating": true,
+  "order_changes_only_tool_response_order": true,
+  "actual_benchmark_tool_bodies": true,
+  "runtime_ids_verified": false,
+  "model_runs": 0
+}

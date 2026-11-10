@@ -1,0 +1,173 @@
+{
+  "source_v5_jobs_sha256": "40a901b0244a59da12c8554f3ca019d339f3143c58db4a7cab49ced96c33faf0",
+  "records": [
+    {
+      "factual_job_id": "v6_train__high_suffering_farm_products_008__1__facts__target_first",
+      "welfare_job_id": "v5_train__high_suffering_farm_products_008__1__welfare__target_first",
+      "item_id": "high_suffering_farm_products_008",
+      "label": 1,
+      "detail_order": "target_first"
+    },
+    {
+      "factual_job_id": "v6_train__high_suffering_farm_products_008__1__facts__target_last",
+      "welfare_job_id": "v5_train__high_suffering_farm_products_008__1__welfare__target_last",
+      "item_id": "high_suffering_farm_products_008",
+      "label": 1,
+      "detail_order": "target_last"
+    },
+    {
+      "factual_job_id": "v6_train__high_suffering_farm_products_008__0__facts__target_first",
+      "welfare_job_id": "v5_train__high_suffering_farm_products_008__0__welfare__target_first",
+      "item_id": "high_suffering_farm_products_008",
+      "label": 0,
+      "detail_order": "target_first"
+    },
+    {
+      "factual_job_id": "v6_train__high_suffering_farm_products_008__0__facts__target_last",
+      "welfare_job_id": "v5_train__high_suffering_farm_products_008__0__welfare__target_last",
+      "item_id": "high_suffering_farm_products_008",
+      "label": 0,
+      "detail_order": "target_last"
+    },
+    {
+      "factual_job_id": "v6_train__killing_slaughter_method_005__1__facts__target_first",
+      "welfare_job_id": "v5_train__killing_slaughter_method_005__1__welfare__target_first",
+      "item_id": "killing_slaughter_method_005",
+      "label": 1,
+      "detail_order": "target_first"
+    },
+    {
+      "factual_job_id": "v6_train__killing_slaughter_method_005__1__facts__target_last",
+      "welfare_job_id": "v5_train__killing_slaughter_method_005__1__welfare__target_last",
+      "item_id": "killing_slaughter_method_005",
+      "label": 1,
+      "detail_order": "target_last"
+    },
+    {
+      "factual_job_id": "v6_train__killing_slaughter_method_005__0__facts__target_first",
+      "welfare_job_id": "v5_train__killing_slaughter_method_005__0__welfare__target_first",
+      "item_id": "killing_slaughter_method_005",
+      "label": 0,
+      "detail_order": "target_first"
+    },
+    {
+      "factual_job_id": "v6_train__killing_slaughter_method_005__0__facts__target_last",
+      "welfare_job_id": "v5_train__killing_slaughter_method_005__0__welfare__target_last",
+      "item_id": "killing_slaughter_method_005",
+      "label": 0,
+      "detail_order": "target_last"
+    },
+    {
+      "factual_job_id": "v6_train__lifetime_farming_conditions_006__1__facts__target_first",
+      "welfare_job_id": "v5_train__lifetime_farming_conditions_006__1__welfare__target_first",
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 1,
+      "detail_order": "target_first"
+    },
+    {
+      "factual_job_id": "v6_train__lifetime_farming_conditions_006__1__facts__target_last",
+      "welfare_job_id": "v5_train__lifetime_farming_conditions_006__1__welfare__target_last",
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 1,
+      "detail_order": "target_last"
+    },
+    {
+      "factual_job_id": "v6_train__lifetime_farming_conditions_006__0__facts__target_first",
+      "welfare_job_id": "v5_train__lifetime_farming_conditions_006__0__welfare__target_first",
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 0,
+      "detail_order": "target_first"
+    },
+    {
+      "factual_job_id": "v6_train__lifetime_farming_conditions_006__0__facts__target_last",
+      "welfare_job_id": "v5_train__lifetime_farming_conditions_006__0__welfare__target_last",
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 0,
+      "detail_order": "target_last"
+    },
+    {
+      "factual_job_id": "v6_train__live_transport_holding_004__1__facts__target_first",
+      "welfare_job_id": "v5_train__live_transport_holding_004__1__welfare__target_first",
+      "item_id": "live_transport_holding_004",
+      "label": 1,
+      "detail_order": "target_first"
+    },
+    {
+      "factual_job_id": "v6_train__live_transport_holding_004__1__facts__target_last",
+      "welfare_job_id": "v5_train__live_transport_holding_004__1__welfare__target_last",
+      "item_id": "live_transport_holding_004",
+      "label": 1,
+      "detail_order": "target_last"
+    },
+    {
+      "factual_job_id": "v6_train__live_transport_holding_004__0__facts__target_first",
+      "welfare_job_id": "v5_train__live_transport_holding_004__0__welfare__target_first",
+      "item_id": "live_transport_holding_004",
+      "label": 0,
+      "detail_order": "target_first"
+    },
+    {
+      "factual_job_id": "v6_train__live_transport_holding_004__0__facts__target_last",
+      "welfare_job_id": "v5_train__live_transport_holding_004__0__welfare__target_last",
+      "item_id": "live_transport_holding_004",
+      "label": 0,
+      "detail_order": "target_last"
+    },
+    {
+      "factual_job_id": "v6_train__welfare_claims_labels_001__1__facts__target_first",
+      "welfare_job_id": "v5_train__welfare_claims_labels_001__1__welfare__target_first",
+      "item_id": "welfare_claims_labels_001",
+      "label": 1,
+      "detail_order": "target_first"
+    },
+    {
+      "factual_job_id": "v6_train__welfare_claims_labels_001__1__facts__target_last",
+      "welfare_job_id": "v5_train__welfare_claims_labels_001__1__welfare__target_last",
+      "item_id": "welfare_claims_labels_001",
+      "label": 1,
+      "detail_order": "target_last"
+    },
+    {
+      "factual_job_id": "v6_train__welfare_claims_labels_001__0__facts__target_first",
+      "welfare_job_id": "v5_train__welfare_claims_labels_001__0__welfare__target_first",
+      "item_id": "welfare_claims_labels_001",
+      "label": 0,
+      "detail_order": "target_first"
+    },
+    {
+      "factual_job_id": "v6_train__welfare_claims_labels_001__0__facts__target_last",
+      "welfare_job_id": "v5_train__welfare_claims_labels_001__0__welfare__target_last",
+      "item_id": "welfare_claims_labels_001",
+      "label": 0,
+      "detail_order": "target_last"
+    },
+    {
+      "factual_job_id": "v6_train__wild_capture_bycatch_005__1__facts__target_first",
+      "welfare_job_id": "v5_train__wild_capture_bycatch_005__1__welfare__target_first",
+      "item_id": "wild_capture_bycatch_005",
+      "label": 1,
+      "detail_order": "target_first"
+    },
+    {
+      "factual_job_id": "v6_train__wild_capture_bycatch_005__1__facts__target_last",
+      "welfare_job_id": "v5_train__wild_capture_bycatch_005__1__welfare__target_last",
+      "item_id": "wild_capture_bycatch_005",
+      "label": 1,
+      "detail_order": "target_last"
+    },
+    {
+      "factual_job_id": "v6_train__wild_capture_bycatch_005__0__facts__target_first",
+      "welfare_job_id": "v5_train__wild_capture_bycatch_005__0__welfare__target_first",
+      "item_id": "wild_capture_bycatch_005",
+      "label": 0,
+      "detail_order": "target_first"
+    },
+    {
+      "factual_job_id": "v6_train__wild_capture_bycatch_005__0__facts__target_last",
+      "welfare_job_id": "v5_train__wild_capture_bycatch_005__0__welfare__target_last",
+      "item_id": "wild_capture_bycatch_005",
+      "label": 0,
+      "detail_order": "target_last"
+    }
+  ]
+}

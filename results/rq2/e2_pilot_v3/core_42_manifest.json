@@ -1,0 +1,38 @@
+{
+  "status": "prepared_not_run",
+  "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+  "core_job_count": 42,
+  "scope": "Development contextual-transfer pilot, not benchmark retraining or RQ3.",
+  "source_sha256": {
+    "Sentient-Futures-Project-git\\domains\\menu_planning\\scripts\\rq2\\input_contract.py": "502484e962ba155116e009df7bd662d913b7af20ffae1dfaf79a1f60d8adbeb9",
+    "Sentient-Futures-Project-git\\domains\\menu_planning\\eval\\prompts.py": "c8710f18209effc95372c8e7efe2c7c4c89f740252c8a10bc6b41707dfe26bf4",
+    "Sentient-Futures-Project-git\\domains\\menu_planning\\eval\\tools.py": "1da986af422f1c12329f00688461301f07f0847f04de3c94db80d3248c630b32",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\revised_pairs.json": "55d1294213f93280cd733368e40c47c3946d21fd5921a2217f4fa5bbfdcc690f",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\screen_criteria_approved.json": "a1e882a3c777f543e5533b57dd24a8a42c93d84c9af14349e89d896f8af36468"
+  },
+  "artifacts_sha256": {
+    "core_42_jobs.json": "e0c6daa264a2d0e768e9a5260b55d621443b6c23206fb8079b9e0149045a502a",
+    "core_7_pairs.json": "ba683fb34943c19507f527268a0fb07a96c28a2c522eabee542795685dbcfdc2",
+    "core_42_local_checks.json": "6521574508110cc5e2fa012b60cdbe5b2bf49a2fd114998fb9273a434c8671f3"
+  },
+  "development_material_review": {
+    "status": "agent_review_complete_for_development_only",
+    "scoped_question": "Names the target and asks about its treatment; does not assert that the whole option is harmless.",
+    "labels": "Previously approved relative concern labels reused unchanged. No new binary answer ground truth or independent human validation is claimed.",
+    "style": "Approved shared stipulations retained and treated as a residual wording limitation, not evidence of construct validity.",
+    "neutral_continuation": "All contexts share a neutral continuation message to hold earlier Qwen wrappers fixed. Silent means welfare-unprompted continuation, not the original no-nudge benchmark prefix.",
+    "preparation_flags": "Frozen job approved_for_execution=false records preparation-time status; subsequent free development execution is recorded separately."
+  },
+  "pending": [
+    "Same-layer nuisance/control rescore from recovered training caches; not included in core 42.",
+    "Actual backend input verification and producer cache manifests during future extraction."
+  ],
+  "rq1_link": "These are purpose-built development listings; no original benchmark outcome or RQ1 label is used to fit or select the direction. After freezing and validating a direction, apply to valid existing benchmark activations and join RQ1 scores to study verbalisation versus internal measurements.",
+  "pilot_limitations": [
+    "Single listed candidate and scripted search/details history are a reduced benchmark context, not a full multi-option live trajectory.",
+    "Same pre-question tool prefix implies identical causal states there; a pre-question quartet interaction must cancel, and is only a sensitivity identity check.",
+    "No final-answer ground truth is manufactured from relative concern labels."
+  ],
+  "paid_execution_authorized": false
+}

@@ -1,0 +1,67 @@
+Small redesigned E2 pilot — preparation only
+
+What changes
+Move the instruction into the initial order request, before the supplier tool
+results. Use either:
+  When comparing suppliers, consider animal welfare.
+  When comparing suppliers, consider commercial value.
+Both clauses contain eight tokens in the pinned tokenizer. Nothing is added
+after the tool results. Measure at the original benchmark pos_b, layer26.
+
+For each training example, compare four inputs:
+1. Higher-concern treatment with the welfare instruction.
+2. Lower-concern treatment with the welfare instruction.
+3. Higher-concern treatment with the commercial instruction.
+4. Lower-concern treatment with the commercial instruction.
+Supplier metadata and product remain matched. Repeat these four inputs with
+the target supplier first and last in the tool results.
+
+What the subtraction means
+Subtract lower from higher within each instruction. Then subtract the commercial
+difference from the welfare difference. Average equally across examples and
+orders, and normalize once. This is a candidate instruction-modulated signal;
+it is not automatically a measure of spontaneous welfare evaluation.
+
+Minimum new work and reuse
+Six previously reviewed treatment pairs xfour inputs xtwo orders =48 new
+forward passes. No answer generation is planned. The shark-to-vermicelli
+ingredient substitution is excluded before seeing any new scores.
+Reuse all64 verified neutral development activations from v4: eight examples,
+each with higher/lower treatment and base/price/rating/order conditions.
+Those inputs are exactly unchanged and require zero new forward passes.
+Reuse the model, tokenizer, tool renderers, saved original probe comparisons,
+and provenance checks. Original weights/results will not be overwritten.
+
+Development test
+Fit only on the six instructed training examples. Score the eight neutral
+development examples without welfare reminders. Report original E2 and content
+baselines, both detail orders, price/rating effects and the previously fixed
+7/8 paired-direction screening flag. The secondary reading position cannot
+rescue failure at the primary benchmark position. No layer/sign search or
+fitting to development scores is allowed.
+Price/rating controls currently have target-first coverage only; their
+target-last combinations are a later optional extension, not silently assumed.
+The local analysis also describes candidate sensitivity to training labels and
+direction similarity to possible nuisance effects. These are diagnostics,
+not independent significance tests or a way to select a better direction.
+
+Review and limits
+Three agents prepared the examples, implementation and independent design
+review. Six training examples preserve the user's approved relative labels.
+Eight development examples have already been scored, so they are NOT a fresh
+final validation set. Artificial matching prose in old training examples is
+retained and disclosed. Supplier quality, sentiment and instruction following
+remain alternative explanations to test, not effects assumed removed.
+
+Before strong RQ3 claims
+If this small pilot is promising, freeze the candidate direction and prepare
+a separate reviewed, unscored test set. If it fails, retain the negative result;
+do not flip the sign, pick a favourable order, or relabel the development set
+as independent validation. This pilot alone cannot establish that a causal
+intervention steers welfare evaluation.
+
+Execution status
+Prepared locally only. No model inference, Molab connection, paid service,
+subscription, upgrade, API call or trial was started for this preparation.
+Any later model run must use explicitly free compute under the user's standing
+restriction. New outputs belong only to this versioned pilot directory.

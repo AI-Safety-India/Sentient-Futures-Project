@@ -1,0 +1,15 @@
+{
+  "frozen_jobs_code_source_weights_hashes_match": true,
+  "all78_inputs_retokenized_identically": true,
+  "all78_target_pos_a_identity_mapped_correctly": true,
+  "all78_pos_b_final_preamble_newline": true,
+  "no_nudge_or_question": true,
+  "all64_fresh_labels_match_frozen_descriptions": true,
+  "order_only_swaps_tool_response_order": true,
+  "all156_result_rows_match_job_labels_conditions_positions": true,
+  "layer_mapping": "hidden_states[1:] removes embedding; h[:,25] is original1-basedL26",
+  "score_sign": "Original E2 w unchanged; dot(h-mid,w), higher-minus-lower comparison. Original direction (harmful_welfare-harmful_value)-(safe_welfare-safe_value). No reversal.",
+  "precision_note": "Analyzer float64 projection versus legacy float32 projection; root can verify numerical margins on selected states.",
+  "finding": "No detected construction, target-position, label, layer or sign bug explains primary failure/order sensitivity. Order changes latest option in batch by design.",
+  "scope": "Independent read-only input/code/result audit; no inference or original changes."
+}

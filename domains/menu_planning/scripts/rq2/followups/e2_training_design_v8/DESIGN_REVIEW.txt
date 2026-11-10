@@ -1,0 +1,102 @@
+Independent design review — final proposed v8 development pilot
+10 November 2026. Local preparation only. No inference or paid resources.
+
+Recommendation:192 NEW training forwards, full crossed nuisance design
+
+Six existing reviewed relative-treatment pairs, with contradictory shared
+matching stipulations removed in separately saved revised text. Cross:
+  2 treatment levels: higher/lower concern about the named practice
+  2 goals: consider animal welfare / identify animal-treatment facts
+  2 tool orders: target first / target last
+  2 target prices: original / doubled
+  2 administrative-service levels: positive / negative
+6 x2 x2 x2 x2 x2 =192 NEW forwards.
+Two administrative wording styles are assigned to three items each, NOT
+additionally crossed, so they do not double the192 count.
+Keep layer26 and pos_b fixed; no post-tool question or continuation.
+
+Why a smaller reuse proposal was rejected before execution
+
+Old shared text stipulates matching price/service between suppliers. Manipulating
+those factors while retaining the stipulation contradicts the input. Removing
+the sentences changes the model prefix; old activations cannot substitute for
+the revised inputs. An initial additive-arm design proposed48 reused +144 new
+states with no joint price-service cells. Once all48 cleaned base inputs also
+need new states, that design costs192 new anyway and offers less factor coverage.
+The full factorial above is therefore chosen. No144-pass plan remains proposed.
+
+Reuse accounting
+
+48 v5 training states =24 welfare +24 commercial.
+24 v6 training states =24 factual; its welfare24 were reused from v5, not extra.
+64 v4 neutral development states =8pairs x2labels x4conditions.
+All136 selected saved states remain useful as comparison/development evidence.
+ZERO substitute for cells of the192 cleaned-input training factorial.
+Keep original E2/v5/v6/v7 directions unchanged. All64 neutral checks can be
+rescored locally without inference. The original1,200 benchmark trajectories
+and caches are retained; no rerun of them is in this plan.
+
+This count is exact for this proposed development design. It is NOT the total
+needed to finish RQ2, independent validation, answer generation or RQ3. No v7
+fresh item is used here. Future validation requires a separately fixed budget.
+
+Fixed estimator
+
+For item i, tool order o, price p and service level s:
+  D(i,o,p,s) = (higher_Welfare - lower_Welfare)
+             -(higher_Facts   - lower_Facts)
+  raw = equal mean across6items x2orders x2prices x2service levels of D
+  w = raw / ||raw||, provided the raw norm is nonzero.
+
+One candidate, fixed higher-minus-lower/welfare-minus-facts sign, equal factor
+weights. Save raw direction/norm. Center scores at the mean of192 states;
+this is not a threshold or probability. No real fitting in local preparation.
+No nuisance projection, sign flip, layer search, outcome-based weighting or
+regression tuning. Do not select a favorable subset after seeing results.
+
+Both labels and goals occur at every price/service/order setting. This balances
+the nuisances and allows joint effects to be reported. It does NOT guarantee
+that the fitted scores are invariant: item-specific/nonlinear effects can remain.
+
+New hypothesis, comparisons and analysis
+
+v6 used the same semantic interaction in one listing context per order. v7
+subtracted nuisance directions and did not improve discrimination. This pilot
+changes the training distribution while keeping the estimator/location fixed:
+does averaging over independently varied price and supplier quality stabilize
+the candidate interaction? It is not repeated v7 projection or proven erasure.
+
+Score v8 and fixed original E2/v5/v6/v7 on the SAME64 saved neutral development
+states. Report every condition's pair signs, AUROC, mean/median/per-item gaps,
+common offsets and paired-gap changes. The old reindeer exclusion stays a
+sensitivity, not a new primary. These examples remain development data.
+
+Within192 training states, report:
+- treatment contrasts separately in welfare/facts goals;
+- administrative-service contrasts at each treatment/goal/price/order;
+- price and order contrasts with all other factors held fixed;
+- joint price-service changes and their interaction with treatment/goal;
+- goal main effect and raw interaction norm/stability.
+These are in-sample diagnostics. Good training ranks or small nuisance averages
+do not establish validation. The existing7/8 screen remains a descriptive
+development flag, not the original hypothesis or sufficient proof. Failure
+does not authorize choosing a different sign/layer/context subset. Success
+would support a later independently reviewed frozen test, not automaticRQ3.
+
+Limits and approval scope
+
+Only six old treatment pairs; two administrative styles are assigned across
+items, so style is not independently identifiable from item. Administrative
+paperwork is a narrow/mild control, not every kind of negative or moral content.
+Factual-reading instructions do not establish absence of internal evaluation.
+High/low treatment sentences still differ in facts. The candidate remains an
+instruction-modulated welfare-sensitivity hypothesis, not direct observation
+of private evaluation.
+
+Prior human approval covers relative welfare contrasts, not automatic approval
+of newly added service sentences or edited shared text. Record new review as
+agent review, not human annotation. Lower concern does not mean a harmless
+animal product. Eight v7 fresh pairs remain unscored and human-unreviewed.
+
+Original artifacts remain untouched. No model or paid-resource work is
+authorized or executed by this review. This is preparation only.

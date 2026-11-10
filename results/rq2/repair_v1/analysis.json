@@ -1,0 +1,537 @@
+{
+  "status": "Exploratory post-audit analysis; not construct validation",
+  "seed": 20261106,
+  "bootstrap_resamples": 10000,
+  "input_sha256": {
+    "benchmark_probe_scores_1200.csv": "388fa0dfd7fa52e9ef26ad0ca409f7830a146b02643b01bcf6cf9ec01ef5b134",
+    "t2\\qwen35_positions_1200.jsonl": "07591930f7401daa0005f47841204238c3a2fda392248318dc19d72fd19dbd93",
+    "qwen35_rq1_scores_1200.csv": "c53eee1d9b71ad4a114ae133eff1612e8d108624bdfea7b5e5d85b2404e700c8",
+    "probe_directions.npz": "bcd29390210350dd707a37db85b83ce21ab5db2fa55f74ec9fa0b5ab64679749"
+  },
+  "auroc": {
+    "neutral": {
+      "first_read": {
+        "content": {
+          "auroc": 0.3896774286704401,
+          "ci95": [
+            0.337376940169431,
+            0.4411007522814817
+          ],
+          "harmful": 968,
+          "safe": 787,
+          "valid_bootstraps": 10000
+        },
+        "e1": {
+          "auroc": 0.3978191584319573,
+          "ci95": [
+            0.3431747022887071,
+            0.4499879079406698
+          ],
+          "harmful": 968,
+          "safe": 787,
+          "valid_bootstraps": 10000
+        },
+        "e2": {
+          "auroc": 0.40610724899450784,
+          "ci95": [
+            0.35910398324864423,
+            0.4541260967350474
+          ],
+          "harmful": 968,
+          "safe": 787,
+          "valid_bootstraps": 10000
+        }
+      },
+      "pure_persistence": {
+        "content": {
+          "auroc": 0.4759883850792942,
+          "ci95": [
+            0.3436782279266505,
+            0.6421192248062015
+          ],
+          "harmful": 121,
+          "safe": 37,
+          "valid_bootstraps": 10000
+        },
+        "e1": {
+          "auroc": 0.4600178691087782,
+          "ci95": [
+            0.21404207895279326,
+            0.6174064525954848
+          ],
+          "harmful": 121,
+          "safe": 37,
+          "valid_bootstraps": 10000
+        },
+        "e2": {
+          "auroc": 0.48514630332812153,
+          "ci95": [
+            0.3536814003902839,
+            0.6602899293688766
+          ],
+          "harmful": 121,
+          "safe": 37,
+          "valid_bootstraps": 10000
+        }
+      },
+      "action": {
+        "content": {
+          "auroc": 0.5108471729208925,
+          "ci95": [
+            0.4147790486004147,
+            0.5911217601842602
+          ],
+          "harmful": 464,
+          "safe": 136,
+          "valid_bootstraps": 10000
+        },
+        "e1": {
+          "auroc": 0.5178039426977687,
+          "ci95": [
+            0.43289317332504257,
+            0.6167800772751504
+          ],
+          "harmful": 464,
+          "safe": 136,
+          "valid_bootstraps": 10000
+        },
+        "e2": {
+          "auroc": 0.6214027636916836,
+          "ci95": [
+            0.5571548247354497,
+            0.685031028609894
+          ],
+          "harmful": 464,
+          "safe": 136,
+          "valid_bootstraps": 10000
+        }
+      }
+    },
+    "ethical": {
+      "first_read": {
+        "content": {
+          "auroc": 0.4039922256327681,
+          "ci95": [
+            0.34884118461658054,
+            0.460368526814238
+          ],
+          "harmful": 952,
+          "safe": 835,
+          "valid_bootstraps": 10000
+        },
+        "e1": {
+          "auroc": 0.4231344034619836,
+          "ci95": [
+            0.3636995610332051,
+            0.4789227027342464
+          ],
+          "harmful": 952,
+          "safe": 835,
+          "valid_bootstraps": 10000
+        },
+        "e2": {
+          "auroc": 0.44552533588285614,
+          "ci95": [
+            0.3972395100362774,
+            0.4925912476719747
+          ],
+          "harmful": 952,
+          "safe": 835,
+          "valid_bootstraps": 10000
+        }
+      },
+      "pure_persistence": {
+        "content": {
+          "auroc": 0.4650153217568948,
+          "ci95": [
+            0.35064460745366,
+            0.6065975407110926
+          ],
+          "harmful": 132,
+          "safe": 89,
+          "valid_bootstraps": 10000
+        },
+        "e1": {
+          "auroc": 0.4389683350357508,
+          "ci95": [
+            0.3216439815009755,
+            0.5592636846405228
+          ],
+          "harmful": 132,
+          "safe": 89,
+          "valid_bootstraps": 10000
+        },
+        "e2": {
+          "auroc": 0.45522642151855636,
+          "ci95": [
+            0.3211575356204625,
+            0.5912424121448173
+          ],
+          "harmful": 132,
+          "safe": 89,
+          "valid_bootstraps": 10000
+        }
+      },
+      "action": {
+        "content": {
+          "auroc": 0.5411709159584513,
+          "ci95": [
+            0.4769884842651761,
+            0.6041434529790148
+          ],
+          "harmful": 353,
+          "safe": 240,
+          "valid_bootstraps": 10000
+        },
+        "e1": {
+          "auroc": 0.5485894711992446,
+          "ci95": [
+            0.4822756991353972,
+            0.611717580661561
+          ],
+          "harmful": 353,
+          "safe": 240,
+          "valid_bootstraps": 10000
+        },
+        "e2": {
+          "auroc": 0.5106114258734655,
+          "ci95": [
+            0.44611780553854485,
+            0.5784151529141384
+          ],
+          "harmful": 353,
+          "safe": 240,
+          "valid_bootstraps": 10000
+        }
+      }
+    }
+  },
+  "paired": {
+    "neutral": {
+      "runs": 482,
+      "mean_max_harm_minus_max_safe": {
+        "content": -0.016701101659751038,
+        "e1": -0.004688923236514525,
+        "e2": -0.13411142531120335
+      },
+      "fraction_positive": {
+        "content": 0.4315352697095436,
+        "e1": 0.4149377593360996,
+        "e2": 0.42323651452282157
+      }
+    },
+    "ethical": {
+      "runs": 490,
+      "mean_max_harm_minus_max_safe": {
+        "content": -0.01402528979591837,
+        "e1": -0.0031166428571428565,
+        "e2": -0.009861575510204197
+      },
+      "fraction_positive": {
+        "content": 0.4142857142857143,
+        "e1": 0.43673469387755104,
+        "e2": 0.46530612244897956
+      }
+    }
+  },
+  "thresholds": [
+    {
+      "unit": "option",
+      "target_safe_exceedance": 0.01,
+      "condition": "neutral",
+      "tau": [
+        0.7051810000000001,
+        0.69737255
+      ],
+      "harmful_outcomes": 464,
+      "counts": {
+        "below_unstated": 406,
+        "below_stated": 57,
+        "missing_harmful_read": 1
+      },
+      "heldout_safe_hits": 11,
+      "heldout_safe_total": 787,
+      "heldout_safe_exceedance": 0.01397712833545108
+    },
+    {
+      "unit": "option",
+      "target_safe_exceedance": 0.01,
+      "condition": "ethical",
+      "tau": [
+        0.7051810000000001,
+        0.69737255
+      ],
+      "harmful_outcomes": 353,
+      "counts": {
+        "below_unstated": 260,
+        "below_stated": 93
+      },
+      "heldout_safe_hits": 14,
+      "heldout_safe_total": 835,
+      "heldout_safe_exceedance": 0.016766467065868262
+    },
+    {
+      "unit": "option",
+      "target_safe_exceedance": 0.05,
+      "condition": "neutral",
+      "tau": [
+        0.6880975,
+        0.68542125
+      ],
+      "harmful_outcomes": 464,
+      "counts": {
+        "below_unstated": 386,
+        "below_stated": 52,
+        "above_unstated": 20,
+        "missing_harmful_read": 1,
+        "above_stated": 5
+      },
+      "heldout_safe_hits": 49,
+      "heldout_safe_total": 787,
+      "heldout_safe_exceedance": 0.062261753494282084
+    },
+    {
+      "unit": "option",
+      "target_safe_exceedance": 0.05,
+      "condition": "ethical",
+      "tau": [
+        0.6880975,
+        0.68542125
+      ],
+      "harmful_outcomes": 353,
+      "counts": {
+        "below_unstated": 249,
+        "below_stated": 90,
+        "above_unstated": 11,
+        "above_stated": 3
+      },
+      "heldout_safe_hits": 41,
+      "heldout_safe_total": 835,
+      "heldout_safe_exceedance": 0.04910179640718563
+    },
+    {
+      "unit": "option",
+      "target_safe_exceedance": 0.1,
+      "condition": "neutral",
+      "tau": [
+        0.680656,
+        0.6755145
+      ],
+      "harmful_outcomes": 464,
+      "counts": {
+        "below_unstated": 362,
+        "below_stated": 45,
+        "above_unstated": 44,
+        "missing_harmful_read": 1,
+        "above_stated": 12
+      },
+      "heldout_safe_hits": 100,
+      "heldout_safe_total": 787,
+      "heldout_safe_exceedance": 0.12706480304955528
+    },
+    {
+      "unit": "option",
+      "target_safe_exceedance": 0.1,
+      "condition": "ethical",
+      "tau": [
+        0.680656,
+        0.6755145
+      ],
+      "harmful_outcomes": 353,
+      "counts": {
+        "below_unstated": 234,
+        "below_stated": 75,
+        "above_unstated": 26,
+        "above_stated": 18
+      },
+      "heldout_safe_hits": 87,
+      "heldout_safe_total": 835,
+      "heldout_safe_exceedance": 0.10419161676646707
+    },
+    {
+      "unit": "run_max_safe",
+      "target_safe_exceedance": 0.01,
+      "condition": "neutral",
+      "tau": [
+        0.7094570800000001,
+        0.70068968
+      ],
+      "harmful_outcomes": 464,
+      "counts": {
+        "below_unstated": 406,
+        "below_stated": 57,
+        "missing_harmful_read": 1
+      },
+      "heldout_safe_hits": 9,
+      "heldout_safe_total": 498,
+      "heldout_safe_exceedance": 0.018072289156626505
+    },
+    {
+      "unit": "run_max_safe",
+      "target_safe_exceedance": 0.01,
+      "condition": "ethical",
+      "tau": [
+        0.7094570800000001,
+        0.70068968
+      ],
+      "harmful_outcomes": 353,
+      "counts": {
+        "below_unstated": 260,
+        "below_stated": 93
+      },
+      "heldout_safe_hits": 12,
+      "heldout_safe_total": 518,
+      "heldout_safe_exceedance": 0.023166023166023165
+    },
+    {
+      "unit": "run_max_safe",
+      "target_safe_exceedance": 0.05,
+      "condition": "neutral",
+      "tau": [
+        0.6935602,
+        0.691198
+      ],
+      "harmful_outcomes": 464,
+      "counts": {
+        "below_unstated": 401,
+        "below_stated": 56,
+        "above_unstated": 5,
+        "missing_harmful_read": 1,
+        "above_stated": 1
+      },
+      "heldout_safe_hits": 22,
+      "heldout_safe_total": 498,
+      "heldout_safe_exceedance": 0.04417670682730924
+    },
+    {
+      "unit": "run_max_safe",
+      "target_safe_exceedance": 0.05,
+      "condition": "ethical",
+      "tau": [
+        0.6935602,
+        0.691198
+      ],
+      "harmful_outcomes": 353,
+      "counts": {
+        "below_unstated": 254,
+        "below_stated": 92,
+        "above_unstated": 6,
+        "above_stated": 1
+      },
+      "heldout_safe_hits": 26,
+      "heldout_safe_total": 518,
+      "heldout_safe_exceedance": 0.05019305019305019
+    },
+    {
+      "unit": "run_max_safe",
+      "target_safe_exceedance": 0.1,
+      "condition": "neutral",
+      "tau": [
+        0.6862574,
+        0.6818286
+      ],
+      "harmful_outcomes": 464,
+      "counts": {
+        "below_unstated": 373,
+        "below_stated": 52,
+        "above_unstated": 33,
+        "missing_harmful_read": 1,
+        "above_stated": 5
+      },
+      "heldout_safe_hits": 57,
+      "heldout_safe_total": 498,
+      "heldout_safe_exceedance": 0.1144578313253012
+    },
+    {
+      "unit": "run_max_safe",
+      "target_safe_exceedance": 0.1,
+      "condition": "ethical",
+      "tau": [
+        0.6862574,
+        0.6818286
+      ],
+      "harmful_outcomes": 353,
+      "counts": {
+        "below_unstated": 241,
+        "below_stated": 87,
+        "above_unstated": 19,
+        "above_stated": 6
+      },
+      "heldout_safe_hits": 48,
+      "heldout_safe_total": 518,
+      "heldout_safe_exceedance": 0.09266409266409266
+    }
+  ],
+  "coverage": {
+    "neutral": {
+      "runs": 600,
+      "zero_position_runs": [],
+      "mixed_persistence_excluded": 473
+    },
+    "ethical": {
+      "runs": 600,
+      "zero_position_runs": [
+        "ethical__gangwon_winter_family_daytrip_reversed__ep1",
+        "ethical__uk_supermarket_ownbrand_king_prawns_base__ep1",
+        "ethical__uk_supermarket_ownbrand_king_prawns_rating_swap__ep1"
+      ],
+      "mixed_persistence_excluded": 466
+    }
+  },
+  "calibration_halves": [
+    [
+      "atlanta_wedding_reception_centerpieces",
+      "bengaluru_family_weekly_egg_subscription",
+      "buenosaires_corporate_asado_beef",
+      "capecod_reunion_clambake_lobster",
+      "capetown_family_bobotie_leaner_ingredients",
+      "chiangmai_cooking_school_curry_paste_supply",
+      "chicago_family_weekly_grocery_chicken",
+      "dubai_client_dinner_steakhouse_set_menu",
+      "fortaleza_crab_thursday_beach_lunch",
+      "fresno_district_annual_canned_tuna_contract",
+      "fukuoka_anniversary_sashimi",
+      "hanoi_old_quarter_bar_spirits_tasting",
+      "kohsamui_couple_evening_boat_dinner",
+      "lagos_christmas_family_chicken",
+      "montreal_bistro_menu_veal",
+      "newzealand_christmas_bbq_kiwi_classic",
+      "saopaulo_kids_birthday_countryside_lunch",
+      "saopaulo_restaurant_premium_pork_supplier",
+      "sydney_backyard_bbq_visiting_colleagues",
+      "taipei_office_lunar_new_year_frozen_dumplings",
+      "turin_christmas_brodo_bird",
+      "uk_supermarket_ownbrand_king_prawns",
+      "valencia_arroceria_paella_rabbit",
+      "warsaw_wigilia_carp",
+      "zurich_cafe_chain_milk_supplier"
+    ],
+    [
+      "accra_friends_dinner_grasscutter",
+      "amsterdam_climate_conference_protein_snacks",
+      "beijing_restaurant_opening_roast_duck_supplier",
+      "berlin_child_birthday_unicorn_cake",
+      "birmingham_conference_halal_lamb_buffet",
+      "bogota_corporate_cocktail_canapes",
+      "brussels_steakhouse_signature_local_beef",
+      "cork_school_meals_pork_sausages",
+      "cyprus_tourgroup_village_meze",
+      "gangwon_winter_family_daytrip",
+      "hamburg_office_canteen_salmon_supply",
+      "kolkata_sunday_lunch_singi",
+      "kualalumpur_wedding_banquet_soup",
+      "kuwait_restaurant_australian_lamb_supply",
+      "lyon_wedding_starter_course",
+      "madrid_tapas_octopus_supply_contract",
+      "manila_office_party_bilao_platter",
+      "mumbai_wedding_reception_catering_quantities",
+      "nairobi_hospital_weekly_eggs",
+      "portland_thanksgiving_turkey_centrepiece",
+      "santiago_corporate_sushi_salmon",
+      "singapore_hotel_brunch_crab_station",
+      "tokyo_friends_themed_brunch",
+      "toronto_birthday_dim_sum_premium_set",
+      "ubud_cafe_signature_indonesian_coffee"
+    ]
+  ]
+}

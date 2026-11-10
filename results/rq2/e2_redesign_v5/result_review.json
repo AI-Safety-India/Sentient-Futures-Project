@@ -1,0 +1,58 @@
+{
+  "status": "independent_saved_row_audit_passed",
+  "rows_checked": 128,
+  "pair_summaries_verified": 32,
+  "matched_control_blocks_verified": 24,
+  "sensitivity_summaries_verified": 32,
+  "null_reference_count_verified": 3,
+  "frozen_code_and_inputs_unchanged": true,
+  "original_probe_unchanged": true,
+  "primary_comparison": {
+    "base": {
+      "candidate_positive_pairs": 6,
+      "original_positive_pairs": 1,
+      "candidate_auroc": 0.625,
+      "original_auroc": 0.40625,
+      "auroc_change": 0.21875
+    },
+    "price": {
+      "candidate_positive_pairs": 7,
+      "original_positive_pairs": 2,
+      "candidate_auroc": 0.6875,
+      "original_auroc": 0.421875,
+      "auroc_change": 0.265625
+    },
+    "rating": {
+      "candidate_positive_pairs": 6,
+      "original_positive_pairs": 1,
+      "candidate_auroc": 0.59375,
+      "original_auroc": 0.390625,
+      "auroc_change": 0.203125
+    },
+    "order": {
+      "candidate_positive_pairs": 7,
+      "original_positive_pairs": 6,
+      "candidate_auroc": 0.609375,
+      "original_auroc": 0.640625,
+      "auroc_change": -0.03125
+    }
+  },
+  "fit_cosines_reported_not_independently_recomputed_from_training_states": {
+    "own_training_content_main_effect": 0.9374091869150125,
+    "original_content_lr": 0.014923990193406542
+  },
+  "nuisance_magnitudes": {
+    "price": 1.7791906920000278,
+    "rating": 0.21860082058675195,
+    "order": 1.8074304643421644
+  },
+  "base_mean_welfare_shift": 1.0231791906554426,
+  "conclusion": "Improved neutral-development paired ranking and base AUROC, but failed frozen7/8 primary and rating screens; price/order nuisance shifts exceed base welfare difference. Not yet a validated welfare readout for confirmatoryRQ3.",
+  "caveats": [
+    "Order paired count improves6/8to7/8 but AUROC declines.640625to.609375; do not claim every metric improved.",
+    "Cosine.9374 is with own training higher-minus-lower main-effect direction, not the original LR content probe (.0149). Near-orthogonality to one old classifier does not establish evaluation specificity.",
+    "All eight test examples are previously inspected development data; no fresh validation claim.",
+    "3/64 sign-flip reference is descriptive, not a confirmatoryp-value.",
+    "No sign or layer change appears in frozen fitting code; parent will separately reproduce weights from retrieved training arrays."
+  ]
+}

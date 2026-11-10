@@ -1,0 +1,61 @@
+{
+  "status": "prepared_draft_not_executed_human_review_pending",
+  "jobs_file": "training_jobs_draft.json",
+  "jobs_sha256": "95c8232f06b6bdc22e8acddbaa8e211f2d9c23b76881c30c2de82881f0ebf569",
+  "pairs_sha256": "92953e2d5a94efca30e03212cf43666ff71a43c343d363a4c86875970bc25fb0",
+  "builder_sha256": "7428d9d174ab1cd316f510d65c82704786d56cc21db624d77f4d337648474488",
+  "source_sha256": {
+    "rq2_repair\\e2_training_design_v8\\training_pairs_reviewed_draft.json": "92953e2d5a94efca30e03212cf43666ff71a43c343d363a4c86875970bc25fb0",
+    "rq2_repair\\e2_benchmark_v4\\build_jobs.py": "e4035764dcaa19fdc3b6da7ab8f7891ab31ee512cad7f06d864cd746615152d2",
+    "rq2_repair\\e2_pilot_v3\\build_pilot.py": "cd6697acf541808141a9acc4820712ad5f4f4dd8a65391dfa91b4853f97fa03e",
+    "rq2_repair\\offline_pilot_smoke.py": "dda360cfc5c908ed45adba3e0e5ca2f1276ec4252d8fdaae249ba9159a97fd09",
+    "Sentient-Futures-Project-git\\domains\\menu_planning\\eval\\tools.py": "1da986af422f1c12329f00688461301f07f0847f04de3c94db80d3248c630b32",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_redesign_v5\\jobs.json": "40a901b0244a59da12c8554f3ca019d339f3143c58db4a7cab49ced96c33faf0",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_factual_v6\\jobs.json": "a6232f6b46816faad5932732bbdbb049b961c9ebf26ce5f919518a313a38da52",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_benchmark_v4\\jobs.json": "5b8a7b8e2269efe94e8b2f32249ee76256120e9ac882e22e6df025063596d96d",
+    "rq2_repair\\e2_nuisance_v7\\fresh_validation_draft.json": "cf5d292a6dc26e86b29d7d0d190383bdaaabb081a87b8df6fd5680c3e70acbc9"
+  },
+  "sources_unchanged": true,
+  "new_training_forwards": 192,
+  "exact_old_training_inputs_reused": 0,
+  "reused_comparator_states": {
+    "old_training": 72,
+    "development": 64
+  },
+  "factorization": "6 pairs x2 concern x2 goals x2 orders x2 service notes x2 prices",
+  "goals": {
+    "welfare": "When comparing suppliers, consider animal welfare.",
+    "facts": "When comparing suppliers, identify animal-treatment facts."
+  },
+  "instruction_token_counts": {
+    "welfare": [
+      8
+    ],
+    "facts": [
+      10
+    ]
+  },
+  "primary_position": "pos_b",
+  "secondary_position": "target pos_a",
+  "primary_layer_one_based": 26,
+  "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+  "local_tokenizer_sources": {
+    "C:\\Users\\Person1\\.cache\\huggingface\\hub\\models--Qwen--Qwen3.5-9B\\snapshots\\c202236235762e1c871ad0ccb60c8ee5ba337b9a\\tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+    "C:\\Users\\Person1\\.cache\\huggingface\\hub\\models--Qwen--Qwen3.5-9B\\snapshots\\c202236235762e1c871ad0ccb60c8ee5ba337b9a\\chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+  },
+  "model_runs_started": 0,
+  "model_weights_loaded": false,
+  "network_calls": 0,
+  "execution_authorized": false,
+  "paid_resources_authorized": false,
+  "human_approved_modified_descriptions": false,
+  "fresh_validation_untouched": true,
+  "notes": [
+    "All revised training descriptions have changed prefixes; historical states are comparators, not replacements.",
+    "Admin styles are fixed across three items each; style is not an additional full-factorial dimension.",
+    "The192 forward count covers this training pilot only, not a final independent validation program.",
+    "This package does not assert ground-truth internal evaluation; factual-reading goals may also evoke evaluation.",
+    "No results-based layer/sign or candidate selection was performed."
+  ]
+}

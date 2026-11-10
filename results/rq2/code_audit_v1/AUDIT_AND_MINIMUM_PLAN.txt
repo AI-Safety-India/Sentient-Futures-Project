@@ -1,0 +1,105 @@
+E1/E2 code audit and minimum redesign — 10 November 2026
+
+Scope: current repository and work-copy code, saved contrast JSONL, pinned
+local tokenizer, saved probe weights. No network/model/GPU runs. Original
+code, probe weights, examples and results were not changed by this audit.
+Reproducible local checks: rq2_repair/audit_probe_code.py; local_audit.json.
+
+WHAT PASSED
+1. Difference-of-means uses positive minus negative. E2 implements exactly
+   (harmful welfare - harmful value) - (safe welfare - safe value).
+2. Synthetic tests verify E2 formula/sign and one-based layer convention.
+   Changing synthetic test activations does not change fitted weights/layer.
+3. Benchmark code drops embedding state, then uses saved layer minus one.
+   Recent screen uses hidden_states[26] directly: the equivalent layer.
+4. All stored lengths/primary positions match the cached audited tokenizer:
+   1,176 content, 1,176 E1, 2,352 E2 and 1,176 random-control rows.
+   E1 reads the final judgement period; E2 reads the newline after <think>.
+5. 588 E1 pairs have identical text except the supplied judgement phrase.
+   All 588 E2 groups have the four correct combinations in one split.
+   Exact product_type strings do not cross train/val/test boundaries.
+   This is not proof that semantically related product families never cross.
+6. Saved directions are finite and unit norm: content L3, E1 L1, E2 L26.
+   Four training/scoring helper functions are identical in repo/work copies.
+
+CONFIRMED ISSUES (not all are explanations of the observed failure)
+A. Context mismatch: complete_t6_and_build_splits.py:365 builds E2 as a
+   plain system/user question, without tools. All 2,352 saved E2 rows lack
+   tool_response, unlike the tool-context specification. E1/content do use it.
+B. Selection objective: run_rq2_gpu_pipeline.py:425-448 selects E2 using
+   harmful/safe separation only under the explicit welfare question. It does
+   not select/test silent-context transfer or held-out interaction specificity.
+   The interaction formula is correct; its validation is narrower than the claim.
+C. Extra changing cue: complete_t6_and_build_splits.py:67 appends a
+   condition-specific tag. Tags differ in all 588 harmful/safe and all 588
+   harmful/neutral pairs, in addition to description changes. This undermines
+   the one-changed-span rationale and can provide a shortcut.
+D. Inadequate answer check: pipeline:317-332 compares capitalized Yes/No
+   next-token logits at the start of <think>, before reasoning. The resulting
+   e2_yes_probs is not used in the report. It is not final-answer accuracy.
+E. Missing E2 controls and enforcement: pipeline:500 onward computes price,
+   rating and position cosines at E1's layer only. Failed E1 separation is
+   printed, not enforced as a stop; main can continue into G4/G5 regardless.
+F. Report bug: pipeline:291 prints exact token-count matches without actually
+   comparing logged counts in that function. Separate T1/T2 evidence must be
+   consulted; this line alone is not a successful fidelity check.
+G. Cache/provenance risk: pipeline:621 loads existing cache states without
+   checking input IDs, positions or model revision. The generic loader is not
+   revision-pinned. Reuse the newer pinned input/repair helpers, not an
+   unrestricted rerun of this legacy pipeline.
+H. Minor preregistration deviation: strict greater-than selection keeps the
+   earliest layer on tied AUROC, rather than the documented accuracy/middle-
+   layer tie-break. No evidence here that this accounts for the E2 failure.
+
+WHAT WE CANNOT VERIFY LOCALLY
+The full original G3 training activation arrays are absent from the local
+probes directory. We cannot reconstruct the historical fitted weights from
+those arrays, or certify the exact historical execution version. Synthetic
+tests and source agreement are not a substitute for that provenance check.
+The saved weights' hash is unchanged. No discovered sign/index error currently
+explains away the negative transfer results.
+
+MINIMUM REDESIGN, SEQUENCED TO AVOID WASTED WORK
+1. Recover any existing original G3 activation cache/manifest before doing
+   new extraction. If available, reproduce weights and layer selection locally.
+   If absent, record the limitation rather than automatically retrain everything.
+2. Make a versioned small development pilot using already-reviewed items.
+   Keep product metadata/tags identical, vary only the intended factual span,
+   and use realistic tool-result context. Retain E1 as a polarity baseline,
+   not the primary candidate; add matched commercial-polarity examples.
+   Freeze the scoped welfare labels and limitations before scoring.
+3. Rebuild the E2 quartet in matched tool context and ALSO collect a genuinely
+   unprompted reading condition for each listing. Use separate development
+   examples to evaluate whether a candidate transfers beyond asked judgement.
+   At two listing variants, each item needs four question-context forwards and
+   two silent forwards (six), plus controls. Start small; do not redo 588 items.
+   Merely moving the extraction point before a later question cannot work:
+   identical causal prefixes have identical states, so that quartet interaction
+   would cancel. Context matching is a hypothesis to test, not a promised fix.
+4. Score content and evaluation candidates at the SAME layer/position on both
+   silent and question contexts. Include price/rating/position controls at the
+   candidate layer and held-out welfare-vs-value interaction checks. Harmful vs
+   safer separation alone does not establish evaluation beyond content.
+   Generate full answers only where needed to check labels; keep truncations
+   unresolved and choose an adequate generation budget before running.
+5. If the small development pilot gives no content-distinct transfer, STOP
+   scaling this design. Reconsider the operational definition of evaluation;
+   do not add endless layer/sign/prompt searches to the same held-out test.
+6. If promising, freeze direction, layer, positions, criteria and analysis;
+   validate on NEW reviewed product families/wordings not inspected during
+   development. Define the sample size from uncertainty/power needs; a tiny
+   pilot does not certify the construct. Existing inspected test examples are
+   development evidence now, not a fresh confirmatory holdout.
+7. Only then interpret RQ3 as welfare-evaluation steering. Before a pilot,
+   verify live hook position/fire count, exact input IDs, zero-strength identity,
+   and tool completion. Use baseline, both signs, prespecified strengths and
+   matched random/content controls. If measurement remains inconclusive, any
+   steering remains explicitly exploratory.
+
+REUSE AND COST
+Reuse original benchmark logs, RQ1 results, valid all-layer activation caches,
+saved E1/E2 baselines, reviewed items for development, pinned tokenizer/input
+contract and repaired analysis. New prompts require new activations only for
+those prompts; a newly fitted compatible direction can be projected onto valid
+existing benchmark caches locally. No automatic 1,200-run rerun.
+This audit started no model runs, subscriptions, paid services or upgrades.

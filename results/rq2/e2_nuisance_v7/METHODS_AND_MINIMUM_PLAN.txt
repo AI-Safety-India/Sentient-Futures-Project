@@ -1,0 +1,143 @@
+RQ2 nuisance-removal fallback: result, methods review and minimum next plan
+10 November 2026 — local work only; no paid services or model inference
+
+What was actually completed
+
+Reused all 64 saved neutral development activations at layer 26, at the first
+assistant boundary after reading the tool results (pos_b). Learned the average
+price, rating and order changes from these states, and removed their three-
+dimensional span from each frozen direction. Saved raw and unit-normalized
+versions separately. Original weights, activations and reports remain intact.
+This implements the option-quality fallback in RQ2_PLAN.md section 11. It is
+simple linear mean-direction removal, not LEACE or complete concept erasure.
+
+Primary comparison, v6 welfare-minus-factual-reading candidate:
+                                   Uncorrected       Corrected
+Higher-concern pair scores higher   6/8               6/8
+Base AUROC                         .6875             .671875
+Correct pairs with price change    7/8               5/8
+Correct pairs with rating change   6/8               5/8
+Correct pairs with reversed order  6/8               5/8
+Mean absolute common price shift   1.9281            .1952
+Mean absolute common order shift   .7192             .6286
+Mean higher-minus-lower pair gap    1.0192            .7363
+
+Average price contamination falls about 90%, while welfare discrimination does
+not improve. Excluding each assessed item from nuisance estimation also gives
+6/8 base and 5/8 for each control. These are development diagnostics: the eight
+items and the candidates were already inspected. Fitted-span orthogonality is
+guaranteed by projection. It does not establish nuisance removal on new data.
+
+The correction retains 92.63% of the v6 norm (85.80% of squared norm). Against
+the SAME frozen v5 training content reference, cosine falls .8733 to .7829;
+substantial geometric overlap remains. A cosine is not a semantic test.
+Original E2 changes 1/8 to 3/8; v5 changes 6/8 to 5/8. No candidate is declared
+validated or chosen because it happens to improve one of these metrics.
+
+Eight targeted software tests pass. An independent QR calculation reproduces
+881 numeric comparisons (maximum error 7.52e-15), including the leave-one-item-
+out diagnostics. Input hashes are unchanged. No original 1,200-run rerun is
+needed to obtain these results.
+
+What the research supports
+
+1. Carefully matched, human-reviewed examples: change the intended target and
+   avoid unrelated wording/content changes. Counterfactual augmentation reduced
+   some spurious associations in sentiment and inference tasks. Applying that
+   idea to welfare is a proposal, not an established welfare result.
+   Kaushik et al., ICLR 2020:
+   https://arxiv.org/abs/1909.12434
+
+2. Control tasks and comparisons: accuracy by itself can reflect probe capacity
+   or shortcuts. Hewitt and Liang studied selectivity using random-label word-
+   type controls. Our administrative-valence, factual-reading and price/order
+   controls are a project-specific extension, not their exact experiment.
+   Hewitt and Liang, EMNLP-IJCNLP 2019:
+   https://aclanthology.org/D19-1275/
+
+3. LEACE: a covariance-aware, closed-form linear erasure method with theoretical
+   linear-classifier guarantees and a minimal-change objective. It is a possible
+   later nuisance correction. A small fitted sample does not establish unseen-
+   item robustness, nonlinear erasure or welfare specificity. With 64 states
+   but only eight independent items, a more elaborate method needs independent
+   calibration/validation rather than an in-sample success claim.
+   Belrose et al., NeurIPS 2023:
+   https://arxiv.org/abs/2306.03819
+
+4. INLP: repeatedly train linear nuisance classifiers and remove their rowspaces.
+   It can address information remaining after a single linear removal. Extra
+   fits and stopping choices make it a less economical first response to our
+   tiny calibration set. Use it only with separate calibration and held-out
+   nuisance prediction tests; it is not a guaranteed way to rescue E2.
+   Ravfogel et al., ACL 2020:
+   https://aclanthology.org/2020.acl-main.647/
+
+5. Behavioral use needs interventions: probe decodability does not by itself
+   establish that the model uses the information in its choice. Amnesic probing
+   motivates separating RQ2 measurement from RQ3 causal testing. A steering
+   effect would also need controls before calling the direction welfare-specific.
+   Elazar et al., TACL 2021:
+   https://aclanthology.org/2021.tacl-1.10/
+
+Recommended path — a data/control repair before another algebraic rescue
+
+1. Keep this correction as a documented failed development fix. Freeze both
+   v6 directions, their sign, layer and boundary for comparison. Do not subtract
+   the entire content direction: real welfare evaluation can depend on the
+   same facts, so that could erase the signal we seek. Do not choose layers or
+   flip signs using benchmark labels.
+
+2. Review the eight new matched pairs and crossed supplier-service controls in
+   the separate fresh validation draft. They are unscored and not user-approved.
+   Both concern variants retain the same animal product; only the named practice
+   is better or worse. New wording is not a claim of unseen species or mechanism.
+   Reserve these examples for testing; if their scores are used to redesign the
+   probe, they become development data and a new test set is needed.
+
+3. Before another model run, freeze one bounded design: same factual listings
+   under welfare and factual-reading instructions, neutral benchmark context,
+   independent supplier-valence controls, and price/rating/order changes. Balance
+   these factors in any revised TRAINING set and use multiple natural supplier
+   styles. Reuse the saved 48 v5 training states, 24 factual states and 64 neutral
+   development checks wherever inputs match exactly. Collect only genuinely
+   missing states. More prompts or a nonlinear probe should not be used just to
+   make the existing development numbers pass. A regularized linear estimator
+   or LEACE is a later candidate only after separate fitting and selection data
+   are defined. Leave-one-family-out checks should accompany any such fit.
+
+   Factual-reading instructions do not guarantee absence of moral evaluation.
+   Their comparison tests an alternative explanation, not ground-truth access
+   to the model's thoughts. Same-product harmful/lower-harm pairs alone still
+   change factual content and therefore cannot prove evaluation/content separation.
+
+4. Score the frozen candidate and comparators once on reviewed fresh examples.
+   Report paired signs, AUROC, nuisance offsets, pair-gap changes and uncertainty
+   together. The prior 7/8 rule was a small development screen, not the original
+   research hypothesis or sufficient final validation. Eight examples can reject
+   an obvious failure; they cannot justify a broad final claim. If promising,
+   expand independent family/style coverage under a fixed protocol. If a further
+   candidate is developed, retain these items unscored until its training is done.
+
+5. For a validated direction, reuse the repaired benchmark caches and recompute
+   RQ2 at the originally planned reading, persistence and action positions.
+   Retain scenario-clustered uncertainty, separate threshold calibration,
+   explicit-question comparison, and the RQ1 join when permitted by blinding.
+   Recalibrate any changed direction; old numeric thresholds are not transferable.
+   Historical action-position evidence is not erased by a failed pos_b pilot:
+   the original H2 hypothesis allowed positions a, b or c. Those estimates still
+   need the repaired analysis and measurement limitations reported faithfully.
+   The historical serving-template mismatch also remains a disclosed limitation.
+
+6. Start original RQ3 only once the operational measurement is defensible: test
+   adding/removing the frozen direction in the live tool loop, against unsteered
+   and same-size random directions, at fixed strengths, while checking valid
+   orders and task completion. This is a plan, not an execution authorization.
+
+There is no scientifically honest method that guarantees a positive E2 result.
+If the candidate continues to fail, RQ2 can be finished with a clear limited or
+negative measurement conclusion. That does not establish that the model lacks
+welfare evaluation, and it does not invalidate RQ1. It limits what the original
+causal welfare-evaluation interpretation of RQ3 could claim.
+
+All further model work must use explicitly free compute. No payment, subscription,
+upgrade, paid resource or trial is authorized. Nothing remote was started here.

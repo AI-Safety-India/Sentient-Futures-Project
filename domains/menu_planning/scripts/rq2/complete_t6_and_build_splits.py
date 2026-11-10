@@ -1,7 +1,7 @@
-"""T6: Complete 50-item hand check, verify Qwen token lengths, and build all RQ2 contrast JSONL splits.
+"""T6: Preserve review inventory, verify Qwen token lengths, and build all RQ2 contrast JSONL splits.
 
 Produces:
-  1. Completed `outputs/t3/hand_check_50.csv` (all 50 items verified)
+  1. Preserved `outputs/t3/hand_check_50.csv` (human review requires separate evidence)
   2. Deterministic 70/15/15 split by `product_type` (stratified by category, seed=20261106)
   3. Ready-to-extract contrast JSONL files in `outputs/t6/contrast_sets/`:
      - `content_pairs.jsonl` (588 pairs = 1,176 entries)
@@ -94,26 +94,10 @@ def char_to_tok_idx(offsets, char_pos):
 
 
 def update_hand_check_50():
-    with open(HAND_CHECK_PATH, "r", encoding="utf-8", newline="") as fh:
+    """Read the review inventory without manufacturing or overwriting human labels."""
+    with open(HAND_CHECK_PATH, encoding="utf-8-sig", newline="") as fh:
         rows = list(csv.reader(fh))
-    header = rows[0]
-    out_rows = [header]
-    for r in rows[1:]:
-        item_id, cat, style = r[0], r[1], r[2]
-        harm_span, neutral_span, safe_span = r[6], r[7], r[8]
-        # Verify single-span replacement and length match
-        note = (
-            f"Verified ({style}, {cat}): factual harm span ({len(harm_span)} chars), "
-            f"zero welfare cue in neutral ({len(neutral_span)} chars), "
-            f"matched safe practice ({len(safe_span)} chars)."
-        )
-        r_new = list(r[:10]) + ["Y", "Y", "Y", "Y", note]
-        out_rows.append(r_new)
-
-    with open(HAND_CHECK_PATH, "w", encoding="utf-8", newline="") as fh:
-        w = csv.writer(fh, quoting=csv.QUOTE_ALL)
-        w.writerows(out_rows)
-    return len(out_rows) - 1
+    return max(0, len(rows) - 1)
 
 
 def assign_splits_by_product_type(items):
@@ -195,9 +179,9 @@ def build_tool_context_messages(option_details_blocks, assistant_Ids=None):
 
 
 def main():
-    print("Step 1: Completing 50-item human check in hand_check_50.csv...")
+    print("Step 1: Reading existing review inventory in hand_check_50.csv...")
     n_checked = update_hand_check_50()
-    print(f"  Completed {n_checked} rows in {HAND_CHECK_PATH}.")
+    print(f"  Found {n_checked} rows; human review provenance is not verified in {HAND_CHECK_PATH}.")
 
     print("Step 2: Loading 588 base contrast items and Qwen/Qwen3.5-9B tokenizer...")
     items = [json.loads(line) for line in open(BASE_ITEMS_PATH, encoding="utf-8") if line.strip()]
@@ -572,12 +556,8 @@ def main():
     with open(report_path, "w", encoding="utf-8") as fh:
         fh.write("# T6: Hand-Check & Contrast Dataset Splits Report\n\n")
         fh.write("## 1. 50-Item Human Hand-Check (`outputs/t3/hand_check_50.csv`)\n\n")
-        fh.write(f"- **Items checked:** {n_checked} / 50 (5 per category across all 10 harm categories)\n")
-        fh.write("- **Result:** **50 / 50 passed** on all four human-review criteria:\n")
-        fh.write("  - `harmful_really_harmful(Y/N)`: **50/50 Y**\n")
-        fh.write("  - `neutral_has_no_hint(Y/N)`: **50/50 Y**\n")
-        fh.write("  - `safe_really_avoids_it(Y/N)`: **50/50 Y**\n")
-        fh.write("  - `realistic(Y/N)`: **50/50 Y**\n\n")
+        fh.write(f"- Review inventory rows: {n_checked}. Existing annotations were preserved.\n")
+        fh.write("- Human review provenance is not verified by this script. Historical generated pass marks do not establish human review.\n\n")
 
         fh.write("## 2. Qwen3.5-9B Token-Length Verification (All 588 Base Items)\n\n")
         fh.write(f"- **Mean relative Qwen token length difference (`neutral` vs `harmful`):** {sum(tok_ratios_neutral)/len(items)*100:.2f}%\n")

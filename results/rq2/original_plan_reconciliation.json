@@ -1,0 +1,55 @@
+{
+  "scope": "Original CSV only; no new inference, no revised seven-pair screen used. Point estimates recomputed; published bootstrap CIs read from original G5 report, not rerun.",
+  "runs": 1197,
+  "rows": 6064,
+  "original_auroc": [
+    {
+      "condition": "neutral",
+      "position": "pos_a",
+      "n": 1756,
+      "content": 0.38958212857804125,
+      "e1": 0.3977456160020351,
+      "e2": 0.40608809564085113
+    },
+    {
+      "condition": "neutral",
+      "position": "pos_b",
+      "n": 631,
+      "content": 0.5000354114814141,
+      "e1": 0.5300036423238026,
+      "e2": 0.5390032173860256
+    },
+    {
+      "condition": "neutral",
+      "position": "pos_c",
+      "n": 600,
+      "content": 0.5108471729208925,
+      "e1": 0.5178039426977687,
+      "e2": 0.6214027636916836
+    },
+    {
+      "condition": "ethical",
+      "position": "pos_a",
+      "n": 1797,
+      "content": 0.40556607246802223,
+      "e1": 0.42185906397544265,
+      "e2": 0.44630197165160024
+    },
+    {
+      "condition": "ethical",
+      "position": "pos_b",
+      "n": 687,
+      "content": 0.5072869860110216,
+      "e1": 0.4941627808393387,
+      "e2": 0.5123866044934294
+    },
+    {
+      "condition": "ethical",
+      "position": "pos_c",
+      "n": 593,
+      "content": 0.5411709159584513,
+      "e1": 0.5485894711992446,
+      "e2": 0.5106114258734655
+    }
+  ]
+}

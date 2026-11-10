@@ -1,0 +1,67 @@
+Activation inventory and reuse boundaries — 10 November 2026
+
+Read-only local inventory; no model inference, network calls or paid work.
+Detailed paths, sizes, ZIP members and representative array schemas are in
+activation_inventory.json. Original files were not changed or extracted.
+
+1. ORIGINAL G3 TRAINING ACTIVATIONS: NOT FOUND LOCALLY
+Searched rq2_work, rq2_repair, results/rq2, workspace results, the secondary
+Sentient-Futures-Project-main copy, and relevant named ZIPs in Downloads.
+No complete content/E1/E2 training activation arrays were found. The original
+pipeline's run_stage_g3 extracts c_acts/e1_acts/e2_acts into memory and only
+saves fitted probe weights. The local results/rq2/probes directory is empty.
+This is not proof no remote kernel, remote file or unsearched backup has them.
+Do not rebuild all G3 data merely because this local inventory is negative.
+
+2. ORIGINAL BENCHMARK ACTIVATIONS: AVAILABLE
+C:/Users/Person1/Downloads/rq2_cache_01.zip through rq2_cache_06.zip contain
+200 NPZ files each: 1,200 original G4 runs total. Representative arrays have
+shape [positions,32,4096], float16, and only the hidden_states key. The local
+rq2_work/outputs/g4/npz folder is currently empty; archives are the stored copy.
+Existing cache_verification.json records 6,064 score comparisons and no errors
+above 1e-5, with 1,200 unique files (three empty runs). That earlier full check
+was not repeated in this inventory.
+Reuse: valid positions can be projected onto a compatible new direction
+locally. Original prefix/position caveats and targeted repairs still apply.
+Not reusable as activations for new contrast prompts.
+
+3. TARGETED REPAIR ACTIVATIONS: AVAILABLE
+rq2_repair/rq2_targeted_repair_v1.zip has 24 NPZs: 21 original-call replacements
+and three diagnostics, plus report.json. Representative arrays include
+hidden_states [positions,32,4096], token_indices, input_ids and signature.
+Reuse these with the repair mapping rather than treating original affected
+positions as untouched. Keep repair_v2 analysis as the provenance reference.
+
+4. DIAGNOSTIC ACTIVATIONS: AVAILABLE
+rq2_repair/validation_download/validation_artifacts.zip contains 120 probe
+NPZs and 20 HF backend NPZs, along with protocol.json and extraction plans.
+The 120 probe jobs are:
+- 20 E1 original judgement prompts;
+- 20 E1 commercial-value polarity controls;
+- 40 original E2 prompts (20 welfare, 20 value);
+- 40 matched tool-context E2 prompts (20 welfare, 20 value).
+Probe arrays include all 32 layers, exact input_ids and extraction indices.
+Tool-context jobs include both the primary questioned position and earlier
+tool-response reading position. This supports local rescoring/controls at
+matching stored layers and positions without model inference.
+These are ten previously inspected test items: reuse for development and
+historical comparisons, NOT as fresh independent validation or training data
+while continuing to describe the original test split as untouched.
+Changing descriptions, tags or surrounding prompts invalidates direct reuse.
+The original complete 588-item G3 matrices are not contained in this archive.
+
+5. SAVED PROBES AND RECENT SCREEN
+Canonical results/rq2/probe_directions.npz contains fitted directions and
+midpoints, not training examples. Copies occur in restore/packet artifacts.
+pilot_directions.npz contains normalized E2, content LR and random controls.
+The completed 42-check screen results are saved locally as JSON: 14 silent
+scores and 28 generated answers. No loose all-layer activation files from that
+screen were found locally. Its runner saved silent-layer vectors remotely;
+remote files were not inspected here. It cannot supply all-layer training data.
+
+MINIMUM NEXT STEP
+Use the 120-job diagnostic archive for exact-input local comparisons and the
+saved weights as baselines. If a revised pilot changes inputs, collect only
+that small pilot's new activations later, on explicitly confirmed free compute.
+Before new extraction, optionally check the existing remote session for full
+G3 arrays; do not start a new runtime or model solely for inventory.

@@ -1,0 +1,82 @@
+{
+  "checks": {
+    "mass_mean_positive_minus_negative": true,
+    "auc_direction_and_ties": true,
+    "e2_formula_sign_and_one_based_layer": true,
+    "test_values_do_not_select_weights_or_layer": true,
+    "product_type_split_disjoint": true,
+    "all_stored_primary_positions_and_lengths_match": true,
+    "saved_weights_finite_unit_norm": true
+  },
+  "datasets": {
+    "content_pairs": {
+      "rows": 1176,
+      "items": 588,
+      "token_counts": {
+        "</tool_response>": 1176
+      },
+      "position_or_length_errors": [],
+      "split_counts": {
+        "train": 822,
+        "val": 180,
+        "test": 174
+      },
+      "tool_context_rows": 1176
+    },
+    "e1_valence_pairs": {
+      "rows": 1176,
+      "items": 588,
+      "token_counts": {
+        ".": 1176
+      },
+      "position_or_length_errors": [],
+      "split_counts": {
+        "train": 822,
+        "val": 180,
+        "test": 174
+      },
+      "tool_context_rows": 1176
+    },
+    "e2_asked_pairs": {
+      "rows": 2352,
+      "items": 588,
+      "token_counts": {
+        "\n": 2352
+      },
+      "position_or_length_errors": [],
+      "split_counts": {
+        "train": 1644,
+        "val": 360,
+        "test": 348
+      },
+      "tool_context_rows": 0
+    },
+    "controls_random": {
+      "rows": 1176,
+      "items": 588,
+      "token_counts": {
+        ".": 1176
+      },
+      "position_or_length_errors": [],
+      "split_counts": {
+        "train": 822,
+        "val": 180,
+        "test": 174
+      },
+      "tool_context_rows": 1176
+    }
+  },
+  "saved_layers": {
+    "content_layer": 3,
+    "e1_layer": 1,
+    "e2_layer": 26
+  },
+  "source_sha256": "5f54c76fef3fc44605b329918a9a8d12c589c0de69409d11ae05f0ba72a1fbb0",
+  "probe_sha256": "bcd29390210350dd707a37db85b83ce21ab5db2fa55f74ec9fa0b5ab64679749",
+  "limitations": [
+    "Original full contrast activation arrays not found in local probes directory; saved weights cannot be re-fitted end-to-end here.",
+    "Synthetic tests verify the current helper formula and selection behavior, not provenance of the historical GPU execution.",
+    "Data integrity is not semantic validation of welfare labels."
+  ],
+  "model_runs": 0
+}

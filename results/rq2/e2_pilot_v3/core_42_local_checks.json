@@ -1,0 +1,15 @@
+{
+  "job_count": 42,
+  "pair_count": 7,
+  "actual_benchmark_system_prompt": true,
+  "actual_four_tool_schemas": true,
+  "actual_search_and_details_tool_bodies": true,
+  "no_model_or_order_execution": true,
+  "condition_tags_removed": true,
+  "metadata_and_search_identical_within_pairs": true,
+  "only_description_changes_within_context": true,
+  "quartet_causal_prefix_equality_verified": true,
+  "primary_and_sensitivity_tokens_verified": true,
+  "runtime_token_ids_verified": false,
+  "models_run": 0
+}

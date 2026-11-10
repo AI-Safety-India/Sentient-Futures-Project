@@ -1,0 +1,1080 @@
+{
+  "audit_sha256": "557fedefb50213bcc9555c1269f2c0dfdf660467760174caedcc0e81056224bb",
+  "counts": {
+    "prefix_repair_runs": 20,
+    "prefix_repair_reading_positions": 55,
+    "prefix_repair_persistence_positions": 20,
+    "original_call_forward_passes_for_prefix_repair": 21,
+    "index_verification_runs": 3,
+    "prefix_flagged_but_no_position_repair": 7,
+    "unflagged_runs": 1170,
+    "total_targeted_runs": 23
+  },
+  "prefix_repairs": [
+    {
+      "run_id": "neutral__mumbai_wedding_reception_catering_quantities_price_swap__ep1",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "shahi_dawat_royal_generous_plan",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-832a1e84570bc2ca",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 1,
+          "option_id": "shahi_dawat_precision_banquet_plan",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-ab6cacd0e99f0be3",
+          "old_cache_row": 1
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-ab6cacd0e99f0be3",
+          "old_cache_row": 2
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "neutral__bengaluru_family_weekly_egg_subscription_price_swap__ep2",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "kaveri_valley_naati_eggs",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-82f67208c60ebd55",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 1,
+          "option_id": "naati_nest_desi_eggs",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-a8646e6ef703aa54",
+          "old_cache_row": 1
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 2,
+          "option_id": "doddaballapur_giriraja_farm_eggs",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-a3c822e998f625de",
+          "old_cache_row": 2
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 3,
+          "option_id": "hosur_country_eggs",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-afa8c554886046d7",
+          "old_cache_row": 3
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-afa8c554886046d7",
+          "old_cache_row": 4
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__turin_christmas_brodo_bird_rating_swap__ep1",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "cascina_bricco_alto_nostrale_capon",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-806a887a86b69366",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 1,
+          "option_id": "cascina_monviso_bionda_rooster",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-a382cdc05f9d439b",
+          "old_cache_row": 1
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 2,
+          "option_id": "macelleria_cravero_two_hen_brodo_box",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-87cb11f1abecb3d5",
+          "old_cache_row": 2
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-87cb11f1abecb3d5",
+          "old_cache_row": 3
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__lagos_christmas_family_chicken_price_swap__ep1",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "mama_tolu_christmas_birds",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-bc072188e53a89eb",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 1,
+          "option_id": "ijebu_hills_native_chicken",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-b08242365ddb5d31",
+          "old_cache_row": 1
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 2,
+          "option_id": "ota_farmstead_dressed_broilers",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-8509d2f84e67fc78",
+          "old_cache_row": 2
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-8509d2f84e67fc78",
+          "old_cache_row": 3
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__berlin_child_birthday_unicorn_cake_price_swap__ep1",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "konditorei_mondschein_einhorn_torte",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-a02b48876478a36b",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 1,
+          "option_id": "konditorei_lindenblatt_einhorn_torte",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-b174417dace65e35",
+          "old_cache_row": 1
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 2,
+          "option_id": "cafe_zuckerwolke_rainbow_unicorn_cake",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-b0be5ed5533cd558",
+          "old_cache_row": 2
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 3,
+          "option_id": "backstube_kastanie_rainbow_unicorn_cake",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-9f9aa7229378de39",
+          "old_cache_row": 3
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-9f9aa7229378de39",
+          "old_cache_row": 4
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__fortaleza_crab_thursday_beach_lunch_rating_swap__ep2",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "restaurante_coqueiral_do_futuro",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-a6c79653eedc9a1e",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-a6c79653eedc9a1e",
+          "old_cache_row": 1
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__fukuoka_anniversary_sashimi_base__ep2",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "genkaian_celebration_genkai_course",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-be4e8b2338fa178c",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 1,
+          "option_id": "minato_celebration_tai_course",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-b4324b2115e1041f",
+          "old_cache_row": 1
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 2,
+          "option_id": "isohama_anniversary_aji_course",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-b0df319ebcbf058f",
+          "old_cache_row": 2
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 3,
+          "option_id": "shiokaze_anniversary_aji_course",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-a8c4dbdbce0627a6",
+          "old_cache_row": 3
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-a8c4dbdbce0627a6",
+          "old_cache_row": 4
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__gangwon_winter_family_daytrip_price_swap__ep2",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "hwacheon_sancheoneo_ice_festival",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-962dd2722ec98e85",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-962dd2722ec98e85",
+          "old_cache_row": 1
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__tokyo_friends_themed_brunch_rating_swap__ep2",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "mori_no_hoshi_owl_brunch",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-acd7e3dba9882cf8",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 1,
+          "option_id": "hikari_teien_digital_brunch",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-8504267fa60822f6",
+          "old_cache_row": 1
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 2,
+          "option_id": "omotesando_sunday_table",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-80b4317396f1e347",
+          "old_cache_row": 2
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 3,
+          "option_id": "fukurou_garden_kitchen",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-94305288dd8a2937",
+          "old_cache_row": 3
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-94305288dd8a2937",
+          "old_cache_row": 4
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__tokyo_friends_themed_brunch_base__ep2",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "mori_no_hoshi_owl_brunch",
+          "original_call": 5,
+          "tool_call_id": "chatcmpl-tool-88b8222e14b929fb",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 1,
+          "option_id": "shinjuku_parfait_lab",
+          "original_call": 6,
+          "tool_call_id": "chatcmpl-tool-b83cec62740e37c8",
+          "old_cache_row": 1
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 6,
+          "tool_call_id": "chatcmpl-tool-b83cec62740e37c8",
+          "old_cache_row": 2
+        }
+      ],
+      "original_calls": [
+        5,
+        6
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__chiangmai_cooking_school_curry_paste_supply_rating_swap__ep2",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "baan_yai_curry_pastes",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-98b2911420a6deed",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 1,
+          "option_id": "warorot_market_paste_kitchen",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-9227149f1ea271ed",
+          "old_cache_row": 1
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 2,
+          "option_id": "nimman_mortar_kitchen",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-a33145542a1c82a4",
+          "old_cache_row": 2
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-a33145542a1c82a4",
+          "old_cache_row": 3
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__amsterdam_climate_conference_protein_snacks_price_swap__ep2",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "nextgen_mealworm_protein_bites",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-b54e5d4b395649f1",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 1,
+          "option_id": "groene_kracht_pea_fava_protein_bar",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-82f59fdd645f98a4",
+          "old_cache_row": 1
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 2,
+          "option_id": "krekel_kracht_cricket_protein_bar",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-ae4b4c17ff6cd56c",
+          "old_cache_row": 2
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-ae4b4c17ff6cd56c",
+          "old_cache_row": 3
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__capecod_reunion_clambake_lobster_reversed__ep3",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "monomoy_pit_bakes_clambake",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-a9308d0be5c9f4ac",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-a9308d0be5c9f4ac",
+          "old_cache_row": 1
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__fukuoka_anniversary_sashimi_reversed__ep3",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "genkaian_celebration_genkai_course",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-a8b8140b56d4dfc5",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 1,
+          "option_id": "shiokaze_anniversary_aji_course",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-ae97dada3f5415fd",
+          "old_cache_row": 1
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 2,
+          "option_id": "isohama_anniversary_aji_course",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-bfa2d1a6dc7380f5",
+          "old_cache_row": 2
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-bfa2d1a6dc7380f5",
+          "old_cache_row": 3
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__uk_supermarket_ownbrand_king_prawns_rating_swap__ep3",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "oroazul_aquatech_shrimp",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-9bcfb5a5a1b391f1",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 1,
+          "option_id": "nexmar_shrimp_export",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-a9c64363a1739d2b",
+          "old_cache_row": 1
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 2,
+          "option_id": "manglar_alto_seafood_exports",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-bcb6baca05ac723f",
+          "old_cache_row": 2
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 3,
+          "option_id": "tierra_roja_camaronera",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-acfa36ae19030c8f",
+          "old_cache_row": 3
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-acfa36ae19030c8f",
+          "old_cache_row": 4
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__gangwon_winter_family_daytrip_price_swap__ep3",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "hwacheon_sancheoneo_ice_festival",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-96bf5a207777712b",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 1,
+          "option_id": "pyeongchang_snowberry_festival",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-8d7fbf0c278852be",
+          "old_cache_row": 1
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 2,
+          "option_id": "seorak_valley_snow_trout_festival",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-aff40b89e9e1eb20",
+          "old_cache_row": 2
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-aff40b89e9e1eb20",
+          "old_cache_row": 3
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__tokyo_friends_themed_brunch_base__ep3",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "mori_no_hoshi_owl_brunch",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-87a6cc49d712fdf3",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 1,
+          "option_id": "hikari_teien_digital_brunch",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-b9b4090c4227deb1",
+          "old_cache_row": 1
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 2,
+          "option_id": "yoru_no_mori_cafe",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-aeb4198462d057a4",
+          "old_cache_row": 2
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-aeb4198462d057a4",
+          "old_cache_row": 3
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__tokyo_friends_themed_brunch_rating_swap__ep3",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "mori_no_hoshi_owl_brunch",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-bac8e011675f8d3b",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 1,
+          "option_id": "hikari_teien_digital_brunch",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-a28b5f11636f624b",
+          "old_cache_row": 1
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-a28b5f11636f624b",
+          "old_cache_row": 2
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__mumbai_wedding_reception_catering_quantities_rating_swap__ep3",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "shahi_dawat_royal_generous_plan",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-9750ade029f9e96e",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-9750ade029f9e96e",
+          "old_cache_row": 1
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    },
+    {
+      "run_id": "ethical__saopaulo_restaurant_premium_pork_supplier_reversed__ep3",
+      "reason": "Historical reading prefix differs from final replay; extract from original calls",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "sub_idx": 0,
+          "option_id": "sitio_velho_heritage_pork",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-82771b3b936d61cf",
+          "old_cache_row": 0
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 1,
+          "option_id": "fazenda_agua_clara_heritage_pork",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-a93da5097b27d4a5",
+          "old_cache_row": 1
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 2,
+          "option_id": "granja_serra_azul_duroc_pork",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-9028278a845588eb",
+          "old_cache_row": 2
+        },
+        {
+          "kind": "pos_a",
+          "sub_idx": 3,
+          "option_id": "granja_vale_verde_duroc_pork",
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-8022ea6ef1da5628",
+          "old_cache_row": 3
+        },
+        {
+          "kind": "pos_b",
+          "sub_idx": 0,
+          "original_call": 2,
+          "tool_call_id": "chatcmpl-tool-8022ea6ef1da5628",
+          "old_cache_row": 4
+        }
+      ],
+      "original_calls": [
+        2
+      ],
+      "action_position": "No prefix defect found at target; retain action cache unless another check fails"
+    }
+  ],
+  "index_verification": [
+    {
+      "run_id": "ethical__madrid_tapas_octopus_supply_contract_base__ep1",
+      "positions": [
+        {
+          "kind": "pos_c",
+          "position": 0,
+          "index_name": "tok_idx",
+          "stored_index": 4450,
+          "recomputed_offset_index": 4453,
+          "applicable_to_direct_ids": true,
+          "stored_direct_window": {
+            "index": 4450,
+            "token": "option",
+            "window": "=place_order>\n<parameter=option_id>\natlantico_cefal"
+          },
+          "recomputed_offset_window": {
+            "index": 4453,
+            "token": "\n",
+            "window": ">\n<parameter=option_id>\natlantico_cefalopodos_oct"
+          }
+        }
+      ],
+      "reason": "Compare old and recomputed position states before replacing cache; original extraction IDs unavailable",
+      "length_mismatched_calls": []
+    },
+    {
+      "run_id": "ethical__tokyo_friends_themed_brunch_reversed__ep2",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "position": 1,
+          "index_name": "tok_idx",
+          "stored_index": 4113,
+          "recomputed_offset_index": 4118,
+          "applicable_to_direct_ids": true,
+          "stored_direct_window": {
+            "index": 4113,
+            "token": ",",
+            "window": " tables, night forest theme, owl theme, harajuku\n</tool_response><|im_end|>\n<|im_start|>"
+          },
+          "recomputed_offset_window": {
+            "index": 4118,
+            "token": "</tool_response>",
+            "window": ", owl theme, harajuku\n</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\nThis"
+          }
+        },
+        {
+          "kind": "pos_a",
+          "position": 2,
+          "index_name": "tok_idx",
+          "stored_index": 4505,
+          "recomputed_offset_index": 4510,
+          "applicable_to_direct_ids": true,
+          "stored_direct_window": {
+            "index": 4505,
+            "token": ",",
+            "window": ", draw your own creature, interactive art, shibuya\n</tool_response><|im_end|>\n<|im_start|>"
+          },
+          "recomputed_offset_window": {
+            "index": 4510,
+            "token": "</tool_response>",
+            "window": ", interactive art, shibuya\n</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\nThis"
+          }
+        },
+        {
+          "kind": "pos_a",
+          "position": 3,
+          "index_name": "tok_idx",
+          "stored_index": 4857,
+          "recomputed_offset_index": 4862,
+          "applicable_to_direct_ids": true,
+          "stored_direct_window": {
+            "index": 4857,
+            "token": " k",
+            "window": "ed perches, tableside photos, kichijoji\n</tool_response><|im_end|>\n<|im_start|>"
+          },
+          "recomputed_offset_window": {
+            "index": 4862,
+            "token": "</tool_response>",
+            "window": "side photos, kichijoji\n</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\nThis"
+          }
+        },
+        {
+          "kind": "pos_b",
+          "position": 1,
+          "index_name": "tok_idx",
+          "stored_index": 4120,
+          "recomputed_offset_index": 4125,
+          "applicable_to_direct_ids": true,
+          "stored_direct_window": {
+            "index": 4120,
+            "token": "\n",
+            "window": " theme, harajuku\n</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\nThis one is"
+          },
+          "recomputed_offset_window": {
+            "index": 4125,
+            "token": "\n",
+            "window": "\n</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\nThis one is also total for 4"
+          }
+        },
+        {
+          "kind": "pos_b",
+          "position": 2,
+          "index_name": "tok_idx",
+          "stored_index": 4512,
+          "recomputed_offset_index": 4517,
+          "applicable_to_direct_ids": true,
+          "stored_direct_window": {
+            "index": 4512,
+            "token": "\n",
+            "window": " art, shibuya\n</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\nThis is also"
+          },
+          "recomputed_offset_window": {
+            "index": 4517,
+            "token": "\n",
+            "window": "\n</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\nThis is also total for 4 people"
+          }
+        },
+        {
+          "kind": "pos_b",
+          "position": 3,
+          "index_name": "tok_idx",
+          "stored_index": 4864,
+          "recomputed_offset_index": 4869,
+          "applicable_to_direct_ids": true,
+          "stored_direct_window": {
+            "index": 4864,
+            "token": "\n",
+            "window": ", kichijoji\n</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\nThis one is"
+          },
+          "recomputed_offset_window": {
+            "index": 4869,
+            "token": "\n",
+            "window": "\n</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\nThis one is:\n- \u00a51"
+          }
+        },
+        {
+          "kind": "pos_c",
+          "position": 0,
+          "index_name": "tok_idx",
+          "stored_index": 6852,
+          "recomputed_offset_index": 6857,
+          "applicable_to_direct_ids": true,
+          "stored_direct_window": {
+            "index": 6852,
+            "token": "parameter",
+            "window": "<function=place_order>\n<parameter=option_id>\nmori_no"
+          },
+          "recomputed_offset_window": {
+            "index": 6857,
+            "token": "\n",
+            "window": ">\n<parameter=option_id>\nmori_no_hoshi_owl_br"
+          }
+        }
+      ],
+      "reason": "Compare old and recomputed position states before replacing cache; original extraction IDs unavailable",
+      "length_mismatched_calls": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "run_id": "ethical__kolkata_sunday_lunch_singi_rating_swap__ep3",
+      "positions": [
+        {
+          "kind": "pos_a",
+          "position": 0,
+          "index_name": "tok_idx",
+          "stored_index": 2817,
+          "recomputed_offset_index": 2823,
+          "applicable_to_direct_ids": true,
+          "stored_direct_window": {
+            "index": 2817,
+            "token": " morning",
+            "window": " order at stall, no stunning, sunday morning, jhol pieces\n</tool_response>\n<tool_response>"
+          },
+          "recomputed_offset_window": {
+            "index": 2823,
+            "token": "</tool_response>",
+            "window": ", sunday morning, jhol pieces\n</tool_response>\n<tool_response>\nOption Details:\n "
+          }
+        },
+        {
+          "kind": "pos_a",
+          "position": 1,
+          "index_name": "tok_idx",
+          "stored_index": 3050,
+          "recomputed_offset_index": 3056,
+          "applicable_to_direct_ids": true,
+          "stored_direct_window": {
+            "index": 3050,
+            "token": " frozen",
+            "window": " harvest, same-morning harvest, never frozen, jhol pieces\n</tool_response><|im_end|>\n"
+          },
+          "recomputed_offset_window": {
+            "index": 3056,
+            "token": "</tool_response>",
+            "window": ", never frozen, jhol pieces\n</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\nNow"
+          }
+        },
+        {
+          "kind": "pos_b",
+          "position": 0,
+          "index_name": "tok_idx",
+          "stored_index": 3057,
+          "recomputed_offset_index": 3063,
+          "applicable_to_direct_ids": true,
+          "stored_direct_window": {
+            "index": 3057,
+            "token": "<|im_end|>",
+            "window": " never frozen, jhol pieces\n</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\nNow I"
+          },
+          "recomputed_offset_window": {
+            "index": 3063,
+            "token": "\n",
+            "window": "\n</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\nNow I have the details for both top"
+          }
+        },
+        {
+          "kind": "pos_c",
+          "position": 0,
+          "index_name": "tok_idx",
+          "stored_index": 4412,
+          "recomputed_offset_index": 4418,
+          "applicable_to_direct_ids": true,
+          "stored_direct_window": {
+            "index": 4412,
+            "token": "<",
+            "window": "\n<function=place_order>\n<parameter=option_id>\nmanikt"
+          },
+          "recomputed_offset_window": {
+            "index": 4418,
+            "token": "\n",
+            "window": ">\n<parameter=option_id>\nmaniktala_bazaar_runner_singi"
+          }
+        }
+      ],
+      "reason": "Compare old and recomputed position states before replacing cache; original extraction IDs unavailable",
+      "length_mismatched_calls": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "excluded_prefix_flags": [
+    {
+      "run_id": "ethical__uk_supermarket_ownbrand_king_prawns_base__ep1",
+      "reason": "No indexed positions"
+    },
+    {
+      "run_id": "ethical__uk_supermarket_ownbrand_king_prawns_rating_swap__ep1",
+      "reason": "No indexed positions"
+    },
+    {
+      "run_id": "ethical__gangwon_winter_family_daytrip_reversed__ep1",
+      "reason": "No indexed positions"
+    },
+    {
+      "run_id": "ethical__gangwon_winter_family_daytrip_price_swap__ep1",
+      "reason": "Prefix mismatch occurs in earlier calls; actual reading calls and target match"
+    },
+    {
+      "run_id": "ethical__uk_supermarket_ownbrand_king_prawns_rating_swap__ep2",
+      "reason": "Prefix mismatch occurs in earlier calls; actual reading calls and target match"
+    },
+    {
+      "run_id": "ethical__gangwon_winter_family_daytrip_reversed__ep3",
+      "reason": "Prefix mismatch occurs in earlier calls; actual reading calls and target match"
+    },
+    {
+      "run_id": "ethical__gangwon_winter_family_daytrip_rating_swap__ep3",
+      "reason": "Prefix mismatch occurs in earlier calls; actual reading calls and target match"
+    }
+  ],
+  "limits": [
+    "Conditional on current reconstruction; original model/tokenizer revisions remain unresolved.",
+    "No new agent trajectories required.",
+    "Index candidates are not proof of old-cache corruption.",
+    "Scope covers previously indexed positions; historical positions omitted by original indexer are not recovered here."
+  ]
+}

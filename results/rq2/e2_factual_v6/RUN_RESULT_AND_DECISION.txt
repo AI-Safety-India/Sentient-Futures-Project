@@ -1,0 +1,88 @@
+Factual-reading control — completed 10 November 2026
+
+Answer
+Mixed improvement, not a validated fix. Factual attention raises baseline AUROC
+and reduces order-related score offsets, but baseline paired ranking remains
+6/8 and price sensitivity remains large. The frozen development criteria fail;
+the direction is not ready to be described as welfare-evaluation steering in
+confirmatory RQ3. All eight evaluation pairs are inspected development examples.
+
+Execution and reuse
+24 new factual-reading forward passes, using the existing explicitly free
+Molab runtime. Reused24 saved welfare-instruction activations and64 exact
+neutral development caches. No answer generation or benchmark orders.
+The instruction changes only in the initial request before tools. Factual
+clause10tokens versus welfare8 is disclosed, with no artificial padding.
+Fixed original pos_b and layer26. Equal-weight six-item/two-order interaction:
+(higher_welfare-lower_welfare) minus (higher_facts-lower_facts), normalized once.
+No sign flip, layer selection, nuisance projection or fit to development scores.
+
+Comparison at the primary benchmark position
+Condition             Previous v5 pairs/AUROC      Factual v6 pairs/AUROC
+Base                  6/8   0.625000               6/8   0.687500
+Double target price   7/8   0.687500               7/8   0.609375
+Raise target rating   6/8   0.593750               6/8   0.625000
+Reverse option order  7/8   0.609375               6/8   0.562500
+
+Correct-pair counts compare each higher-concern description with its matched
+lower-concern description. AUROC compares scores across all higher and lower
+examples. Report both: improvement on one does not imply improvement on the
+other. These are not benchmark-wide accuracy estimates.
+
+Price/order diagnostics
+New average welfare pair gap:1.0192 score units.
+Mean absolute variant shifts:price1.9281; rating0.2326; order0.7905.
+For v5, price/order were1.7792/1.8074. Thus order's absolute-shift flag now
+passes, while price still fails. Smaller absolute order effects do not imply
+better paired accuracy: order paired count declined7→6.
+New mean absolute common offsets:price1.9281; rating0.2118; order0.7192.
+New mean absolute changes in the paired gap:price0.3443; rating0.1925;
+order0.4781. Price changes one pair sign relative to the new base; rating and
+order change none. Much nuisance movement is common to both concern versions.
+Offsets still matter for single-state thresholds and interpretation.
+
+Frozen decision flags
+Primary base7/8 minimum:FAIL(6/8).
+Price paired robustness:PASS(7/8); rating:FAIL(6/8); order:FAIL(6/8).
+Nuisance-magnitude flags:priceFAIL, ratingPASS, orderPASS.
+Secondary positions and sensitivity subsets do not rescue primary failure.
+
+Content-versus-evaluation interpretation
+The v6 within-training content-main-effect cosine is0.777, versus v5's0.937,
+but those use different references (welfare+facts versus welfare+commercial).
+A separate descriptive comparison using the SAME frozen v5 content reference
+gives v5=0.9374 andv6=0.8733. Overlap is somewhat lower but still high; this
+does not establish a distinct evaluation feature. The fixed-reference check
+was performed after results as a diagnostic, not used to fit/select weights.
+The factual instruction controls animal-topic attention, but instruction
+following, task wording, sentiment and supplier-quality cues remain possible.
+
+Verification
+All24 new and24 reused welfare cache/input identities were verified; all64
+neutral caches and prior baseline scores reproduced. Local fitting reproduced
+new direction and center exactly;128 candidate scores matched within3.56e-15.
+Independent audit reproduced128 rows,40pair summaries,30control comparisons
+and40sensitivity summaries. Original weights, previous results and source
+hashes remain unchanged. New weights use their own v6 filename.
+An expected-template fingerprint typo was caught before model loading and
+corrected before any forward pass. A regression test was added;13tests passed.
+Inputs, actual tokenizer and analysis plan were unchanged; only24 passes ran.
+
+Decision
+Keep v5 andv6 as separate development candidates; do not label v6 a successful
+replacement based on baseline AUROC alone. This run does not justify a full
+1200-case rerun, or a claim that the model lacks welfare evaluation.
+The outstanding issues are price-related calibration/specificity and lack of
+independent construct validation. Any further revision needs a frozen plan
+and ultimately a fresh, reviewed, unscored test set; do not keep adjusting the
+same inspected examples until they pass. No additional model runs were started.
+
+Artifacts
+Local:factual_analysis.json,candidate_v6_direction.npz,training_pos_b_l26.npz,
+selected_training_manifest.json,local_reproduction.json,result_review.json,
+fixed_reference_content_diagnostic.json, and frozen inputs/protocol.
+Full new all-layer caches:/marimo/e2_factual_v6/activations/
+Full remote archive:/marimo/e2_factual_v6/full_v6_results.zip (9,925,225bytes).
+Local arrays preserve exact primary-layer values needed to reproduce the fit.
+
+No paid service, subscription, upgrade, inference API or trial was started.

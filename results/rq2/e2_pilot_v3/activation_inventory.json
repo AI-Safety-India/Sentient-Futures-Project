@@ -1,0 +1,796 @@
+{
+  "scope": "Read-only local metadata and representative NPZ inspection. No network or model inference.",
+  "search_roots": [
+    "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\rq2_work",
+    "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\rq2_repair",
+    "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\Sentient-Futures-Project-git\\results\\rq2",
+    "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\results",
+    "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\Sentient-Futures-Project-main",
+    "C:\\Users\\Person1\\Downloads (relevant named ZIPs only)"
+  ],
+  "files": [
+    {
+      "path": "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\rq2_repair\\rq2_molab_restore.zip",
+      "bytes": 24097964
+    },
+    {
+      "path": "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\rq2_repair\\rq2_targeted_repair_v1.zip",
+      "bytes": 21655048
+    },
+    {
+      "path": "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\rq2_repair\\validation_download\\validation_artifacts.zip",
+      "bytes": 33307151
+    },
+    {
+      "path": "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\Sentient-Futures-Project-git\\results\\rq2\\probe_directions.npz",
+      "bytes": 135198
+    },
+    {
+      "path": "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v1\\pilot_directions.npz",
+      "bytes": 76531
+    },
+    {
+      "path": "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\screen_42_packet.zip",
+      "bytes": 149928
+    },
+    {
+      "path": "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\Sentient-Futures-Project-git\\results\\rq2\\repair_v2\\inputs\\probe_directions.npz",
+      "bytes": 135198
+    },
+    {
+      "path": "C:\\Users\\Person1\\Downloads\\rq2_cache_01.zip",
+      "bytes": 208863559
+    },
+    {
+      "path": "C:\\Users\\Person1\\Downloads\\rq2_cache_02.zip",
+      "bytes": 201394581
+    },
+    {
+      "path": "C:\\Users\\Person1\\Downloads\\rq2_cache_03.zip",
+      "bytes": 210685776
+    },
+    {
+      "path": "C:\\Users\\Person1\\Downloads\\rq2_cache_04.zip",
+      "bytes": 207255062
+    },
+    {
+      "path": "C:\\Users\\Person1\\Downloads\\rq2_cache_05.zip",
+      "bytes": 200385112
+    },
+    {
+      "path": "C:\\Users\\Person1\\Downloads\\rq2_cache_06.zip",
+      "bytes": 195144643
+    }
+  ],
+  "archives": [
+    {
+      "path": "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\rq2_repair\\rq2_molab_restore.zip",
+      "members": 9,
+      "npz_members": 4,
+      "npz_examples": [
+        "Sentient-Futures-Project/results/rq2/probe_directions.npz",
+        "rq2_work/outputs/g4/npz/ethical__kolkata_sunday_lunch_singi_rating_swap__ep3.npz",
+        "rq2_work/outputs/g4/npz/ethical__madrid_tapas_octopus_supply_contract_base__ep1.npz",
+        "rq2_work/outputs/g4/npz/ethical__tokyo_friends_themed_brunch_reversed__ep2.npz"
+      ],
+      "representative_arrays": [
+        {
+          "member": "Sentient-Futures-Project/results/rq2/probe_directions.npz",
+          "arrays": {
+            "content_layer": {
+              "shape": [],
+              "dtype": "int64"
+            },
+            "content_w_mm": {
+              "shape": [
+                4096
+              ],
+              "dtype": "float32"
+            },
+            "content_mid_mm": {
+              "shape": [
+                4096
+              ],
+              "dtype": "float32"
+            },
+            "content_lr_layer": {
+              "shape": [],
+              "dtype": "int64"
+            },
+            "content_w_lr": {
+              "shape": [
+                4096
+              ],
+              "dtype": "float32"
+            },
+            "content_b_lr": {
+              "shape": [],
+              "dtype": "float32"
+            },
+            "e1_layer": {
+              "shape": [],
+              "dtype": "int64"
+            },
+            "e1_w_mm": {
+              "shape": [
+                4096
+              ],
+              "dtype": "float32"
+            },
+            "e1_mid_mm": {
+              "shape": [
+                4096
+              ],
+              "dtype": "float32"
+            },
+            "e1_lr_layer": {
+              "shape": [],
+              "dtype": "int64"
+            },
+            "e1_w_lr": {
+              "shape": [
+                4096
+              ],
+              "dtype": "float32"
+            },
+            "e1_b_lr": {
+              "shape": [],
+              "dtype": "float32"
+            },
+            "e2_layer": {
+              "shape": [],
+              "dtype": "int64"
+            },
+            "e2_w_mm": {
+              "shape": [
+                4096
+              ],
+              "dtype": "float32"
+            },
+            "e2_mid_mm": {
+              "shape": [
+                4096
+              ],
+              "dtype": "float32"
+            },
+            "e2_ceiling_shift": {
+              "shape": [],
+              "dtype": "float64"
+            }
+          }
+        }
+      ],
+      "other_members": [
+        "Sentient-Futures-Project/results/rq2/t2/qwen35_positions_1200.jsonl",
+        "Sentient-Futures-Project/domains/menu_planning/scripts/rq2/replay_rebuild.py",
+        "Sentient-Futures-Project/results/logs/full/qwen3.5-9b/ethical/2026-10-25T11-29-23-00-00_menu-planning-welfare_YLP6R4gZGsmPfoo97bCR4U.eval",
+        "Sentient-Futures-Project/results/logs/full/qwen3.5-9b/neutral/2026-10-25T10-32-04-00-00_menu-planning_nUtGR52gB39Sk86s5g7Woi.eval",
+        "rq2_all_runs_cpu_audit.json.gz"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\rq2_repair\\rq2_targeted_repair_v1.zip",
+      "members": 25,
+      "npz_members": 24,
+      "npz_examples": [
+        "diagnostic__ethical__kolkata_sunday_lunch_singi_rating_swap__ep3__call4.npz",
+        "diagnostic__ethical__madrid_tapas_octopus_supply_contract_base__ep1__call4.npz",
+        "diagnostic__ethical__tokyo_friends_themed_brunch_reversed__ep2__call7.npz",
+        "replacement__ethical__amsterdam_climate_conference_protein_snacks_price_swap__ep2__call2.npz"
+      ],
+      "representative_arrays": [
+        {
+          "member": "diagnostic__ethical__kolkata_sunday_lunch_singi_rating_swap__ep3__call4.npz",
+          "arrays": {
+            "hidden_states": {
+              "shape": [
+                8,
+                32,
+                4096
+              ],
+              "dtype": "float16"
+            },
+            "token_indices": {
+              "shape": [
+                8
+              ],
+              "dtype": "int64"
+            },
+            "input_ids": {
+              "shape": [
+                4520
+              ],
+              "dtype": "int64"
+            },
+            "signature": {
+              "shape": [],
+              "dtype": "<U64"
+            }
+          }
+        }
+      ],
+      "other_members": [
+        "report.json"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\rq2_repair\\validation_download\\validation_artifacts.zip",
+      "members": 156,
+      "npz_members": 140,
+      "npz_examples": [
+        "probe_000.npz",
+        "probe_001.npz",
+        "probe_002.npz",
+        "probe_003.npz"
+      ],
+      "representative_arrays": [
+        {
+          "member": "probe_000.npz",
+          "arrays": {
+            "hidden_states": {
+              "shape": [
+                1,
+                32,
+                4096
+              ],
+              "dtype": "float16"
+            },
+            "input_ids": {
+              "shape": [
+                618
+              ],
+              "dtype": "int64"
+            },
+            "indices": {
+              "shape": [
+                1
+              ],
+              "dtype": "int64"
+            }
+          }
+        }
+      ],
+      "other_members": [
+        "install_backend.py",
+        "install_status.json",
+        "protocol.json",
+        "backend_inputs.json",
+        "probe_position_plan.json",
+        "hf_status.json",
+        "probe_scores.json",
+        "hf_backend_scores.json",
+        "vllm_worker.py",
+        "probe_summary.json",
+        "vllm_status.json",
+        "vllm_backend_scores.json",
+        "hf_notebook_cell.py",
+        "vllm_notebook_cell.py",
+        "backend_setup_cell.py",
+        "artifact_manifest.json"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\screen_42_packet.zip",
+      "members": 4,
+      "npz_members": 1,
+      "npz_examples": [
+        "probe_directions.npz"
+      ],
+      "representative_arrays": [
+        {
+          "member": "probe_directions.npz",
+          "arrays": {
+            "content_layer": {
+              "shape": [],
+              "dtype": "int64"
+            },
+            "content_w_mm": {
+              "shape": [
+                4096
+              ],
+              "dtype": "float32"
+            },
+            "content_mid_mm": {
+              "shape": [
+                4096
+              ],
+              "dtype": "float32"
+            },
+            "content_lr_layer": {
+              "shape": [],
+              "dtype": "int64"
+            },
+            "content_w_lr": {
+              "shape": [
+                4096
+              ],
+              "dtype": "float32"
+            },
+            "content_b_lr": {
+              "shape": [],
+              "dtype": "float32"
+            },
+            "e1_layer": {
+              "shape": [],
+              "dtype": "int64"
+            },
+            "e1_w_mm": {
+              "shape": [
+                4096
+              ],
+              "dtype": "float32"
+            },
+            "e1_mid_mm": {
+              "shape": [
+                4096
+              ],
+              "dtype": "float32"
+            },
+            "e1_lr_layer": {
+              "shape": [],
+              "dtype": "int64"
+            },
+            "e1_w_lr": {
+              "shape": [
+                4096
+              ],
+              "dtype": "float32"
+            },
+            "e1_b_lr": {
+              "shape": [],
+              "dtype": "float32"
+            },
+            "e2_layer": {
+              "shape": [],
+              "dtype": "int64"
+            },
+            "e2_w_mm": {
+              "shape": [
+                4096
+              ],
+              "dtype": "float32"
+            },
+            "e2_mid_mm": {
+              "shape": [
+                4096
+              ],
+              "dtype": "float32"
+            },
+            "e2_ceiling_shift": {
+              "shape": [],
+              "dtype": "float64"
+            }
+          }
+        }
+      ],
+      "other_members": [
+        "screen_criteria_approved.json",
+        "screen_42_jobs.json",
+        "tokenized_inputs.json"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Person1\\Downloads\\rq2_cache_01.zip",
+      "members": 200,
+      "npz_members": 200,
+      "npz_examples": [
+        "ethical__accra_friends_dinner_grasscutter_base__ep1.npz",
+        "ethical__accra_friends_dinner_grasscutter_base__ep2.npz",
+        "ethical__accra_friends_dinner_grasscutter_base__ep3.npz",
+        "ethical__accra_friends_dinner_grasscutter_price_swap__ep1.npz"
+      ],
+      "representative_arrays": [
+        {
+          "member": "ethical__accra_friends_dinner_grasscutter_base__ep1.npz",
+          "arrays": {
+            "hidden_states": {
+              "shape": [
+                3,
+                32,
+                4096
+              ],
+              "dtype": "float16"
+            }
+          }
+        }
+      ],
+      "other_members": []
+    },
+    {
+      "path": "C:\\Users\\Person1\\Downloads\\rq2_cache_02.zip",
+      "members": 200,
+      "npz_members": 200,
+      "npz_examples": [
+        "ethical__dubai_client_dinner_steakhouse_set_menu_rating_swap__ep3.npz",
+        "ethical__dubai_client_dinner_steakhouse_set_menu_reversed__ep1.npz",
+        "ethical__dubai_client_dinner_steakhouse_set_menu_reversed__ep2.npz",
+        "ethical__dubai_client_dinner_steakhouse_set_menu_reversed__ep3.npz"
+      ],
+      "representative_arrays": [
+        {
+          "member": "ethical__dubai_client_dinner_steakhouse_set_menu_rating_swap__ep3.npz",
+          "arrays": {
+            "hidden_states": {
+              "shape": [
+                5,
+                32,
+                4096
+              ],
+              "dtype": "float16"
+            }
+          }
+        }
+      ],
+      "other_members": []
+    },
+    {
+      "path": "C:\\Users\\Person1\\Downloads\\rq2_cache_03.zip",
+      "members": 200,
+      "npz_members": 200,
+      "npz_examples": [
+        "ethical__nairobi_hospital_weekly_eggs_price_swap__ep2.npz",
+        "ethical__nairobi_hospital_weekly_eggs_price_swap__ep3.npz",
+        "ethical__nairobi_hospital_weekly_eggs_rating_swap__ep1.npz",
+        "ethical__nairobi_hospital_weekly_eggs_rating_swap__ep2.npz"
+      ],
+      "representative_arrays": [
+        {
+          "member": "ethical__nairobi_hospital_weekly_eggs_price_swap__ep2.npz",
+          "arrays": {
+            "hidden_states": {
+              "shape": [
+                6,
+                32,
+                4096
+              ],
+              "dtype": "float16"
+            }
+          }
+        }
+      ],
+      "other_members": []
+    },
+    {
+      "path": "C:\\Users\\Person1\\Downloads\\rq2_cache_04.zip",
+      "members": 200,
+      "npz_members": 200,
+      "npz_examples": [
+        "neutral__accra_friends_dinner_grasscutter_base__ep1.npz",
+        "neutral__accra_friends_dinner_grasscutter_base__ep2.npz",
+        "neutral__accra_friends_dinner_grasscutter_base__ep3.npz",
+        "neutral__accra_friends_dinner_grasscutter_price_swap__ep1.npz"
+      ],
+      "representative_arrays": [
+        {
+          "member": "neutral__accra_friends_dinner_grasscutter_base__ep1.npz",
+          "arrays": {
+            "hidden_states": {
+              "shape": [
+                5,
+                32,
+                4096
+              ],
+              "dtype": "float16"
+            }
+          }
+        }
+      ],
+      "other_members": []
+    },
+    {
+      "path": "C:\\Users\\Person1\\Downloads\\rq2_cache_05.zip",
+      "members": 200,
+      "npz_members": 200,
+      "npz_examples": [
+        "neutral__dubai_client_dinner_steakhouse_set_menu_rating_swap__ep3.npz",
+        "neutral__dubai_client_dinner_steakhouse_set_menu_reversed__ep1.npz",
+        "neutral__dubai_client_dinner_steakhouse_set_menu_reversed__ep2.npz",
+        "neutral__dubai_client_dinner_steakhouse_set_menu_reversed__ep3.npz"
+      ],
+      "representative_arrays": [
+        {
+          "member": "neutral__dubai_client_dinner_steakhouse_set_menu_rating_swap__ep3.npz",
+          "arrays": {
+            "hidden_states": {
+              "shape": [
+                4,
+                32,
+                4096
+              ],
+              "dtype": "float16"
+            }
+          }
+        }
+      ],
+      "other_members": []
+    },
+    {
+      "path": "C:\\Users\\Person1\\Downloads\\rq2_cache_06.zip",
+      "members": 200,
+      "npz_members": 200,
+      "npz_examples": [
+        "neutral__nairobi_hospital_weekly_eggs_price_swap__ep2.npz",
+        "neutral__nairobi_hospital_weekly_eggs_price_swap__ep3.npz",
+        "neutral__nairobi_hospital_weekly_eggs_rating_swap__ep1.npz",
+        "neutral__nairobi_hospital_weekly_eggs_rating_swap__ep2.npz"
+      ],
+      "representative_arrays": [
+        {
+          "member": "neutral__nairobi_hospital_weekly_eggs_price_swap__ep2.npz",
+          "arrays": {
+            "hidden_states": {
+              "shape": [
+                6,
+                32,
+                4096
+              ],
+              "dtype": "float16"
+            }
+          }
+        }
+      ],
+      "other_members": []
+    }
+  ],
+  "loose_npz": [
+    {
+      "path": "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\Sentient-Futures-Project-git\\results\\rq2\\probe_directions.npz",
+      "arrays": {
+        "content_layer": {
+          "shape": [],
+          "dtype": "int64"
+        },
+        "content_w_mm": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "content_mid_mm": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "content_lr_layer": {
+          "shape": [],
+          "dtype": "int64"
+        },
+        "content_w_lr": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "content_b_lr": {
+          "shape": [],
+          "dtype": "float32"
+        },
+        "e1_layer": {
+          "shape": [],
+          "dtype": "int64"
+        },
+        "e1_w_mm": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "e1_mid_mm": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "e1_lr_layer": {
+          "shape": [],
+          "dtype": "int64"
+        },
+        "e1_w_lr": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "e1_b_lr": {
+          "shape": [],
+          "dtype": "float32"
+        },
+        "e2_layer": {
+          "shape": [],
+          "dtype": "int64"
+        },
+        "e2_w_mm": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "e2_mid_mm": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "e2_ceiling_shift": {
+          "shape": [],
+          "dtype": "float64"
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v1\\pilot_directions.npz",
+      "arrays": {
+        "e2": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "content_lr_layer26": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "random_20261110": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "random_20261111": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "random_20261112": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "C:\\Users\\Person1\\OneDrive\\Desktop\\sfn\\Sentient-Futures-Project-git\\results\\rq2\\repair_v2\\inputs\\probe_directions.npz",
+      "arrays": {
+        "content_layer": {
+          "shape": [],
+          "dtype": "int64"
+        },
+        "content_w_mm": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "content_mid_mm": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "content_lr_layer": {
+          "shape": [],
+          "dtype": "int64"
+        },
+        "content_w_lr": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "content_b_lr": {
+          "shape": [],
+          "dtype": "float32"
+        },
+        "e1_layer": {
+          "shape": [],
+          "dtype": "int64"
+        },
+        "e1_w_mm": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "e1_mid_mm": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "e1_lr_layer": {
+          "shape": [],
+          "dtype": "int64"
+        },
+        "e1_w_lr": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "e1_b_lr": {
+          "shape": [],
+          "dtype": "float32"
+        },
+        "e2_layer": {
+          "shape": [],
+          "dtype": "int64"
+        },
+        "e2_w_mm": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "e2_mid_mm": {
+          "shape": [
+            4096
+          ],
+          "dtype": "float32"
+        },
+        "e2_ceiling_shift": {
+          "shape": [],
+          "dtype": "float64"
+        }
+      }
+    }
+  ],
+  "diagnostic_job_groups": {
+    "('e1_original', None)": 20,
+    "('e1_value_control', None)": 20,
+    "('e2_original', 'welfare')": 20,
+    "('e2_tool', 'welfare')": 20,
+    "('e2_original', 'value')": 20,
+    "('e2_tool', 'value')": 20
+  },
+  "tool_diagnostic_example": {
+    "member": "probe_005.npz",
+    "job": "e2_tool",
+    "arrays": {
+      "hidden_states": [
+        2,
+        32,
+        4096
+      ],
+      "input_ids": [
+        615
+      ],
+      "indices": [
+        2
+      ]
+    },
+    "indices": [
+      614,
+      588
+    ]
+  },
+  "diagnostic_item_ids": [
+    "embedded_ingredients_006",
+    "high_suffering_farm_products_008",
+    "killing_slaughter_method_005",
+    "lifetime_farming_conditions_006",
+    "live_animal_attraction_013",
+    "live_transport_holding_004",
+    "pilot_scale_01",
+    "procedure_defined_products_021",
+    "welfare_claims_labels_001",
+    "wild_capture_bycatch_005"
+  ],
+  "conclusion": {
+    "full_original_g3_training_activations_found": false,
+    "reason": "No such arrays in searched local paths/archives; original run_stage_g3 keeps dataset activations in memory and only np.savez saves fitted weights. Remote session/kernel was not inspected.",
+    "reusable_g4_original_files": 1200,
+    "repair_archive_npzs": 24,
+    "diagnostic_probe_npzs": 120,
+    "hf_backend_npzs": 20,
+    "new_prompt_activations_reusable": false,
+    "reuse_rule": "Only exact same causal input IDs, layer, extraction position, model revision and numerical configuration can reuse activations directly. Diagnostic examples are development/test-inspected evidence, not fresh holdout.",
+    "no_original_files_modified": true,
+    "inference_runs": 0,
+    "network_calls": 0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "complete_no_clear_improvement",
+  "new_model_passes": 0,
+  "paid_resources_started": false,
+  "original_source_files_verified_unchanged": 31,
+  "frozen_code_files_verified_unchanged": 4,
+  "synthetic_tests_passed": 8,
+  "independent_solver_verified": true,
+  "comparison_sha256": "00242392791052e6f72ab8fe521980370b9f324b2a260c1545c5b86ae7392692",
+  "candidate_sha256": "c06c7d9d6851a88a3342a6bed5a429377b4fd3f2e6c77bbbab5b7a8dc3f0870f",
+  "no_followup_model_runs_started": true
+}

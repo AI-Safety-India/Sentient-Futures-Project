@@ -1,0 +1,2714 @@
+{
+  "status": "local_exact_reuse_inventory_complete",
+  "model_forward_count": 0,
+  "remote_calls": 0,
+  "paid_resources_started": false,
+  "summary": {
+    "v5": {
+      "jobs_total_in_file": 112,
+      "selected_states_verified": 48,
+      "distinct_items": 6,
+      "selected_npz_total_arrays": 48,
+      "shape_counts": {
+        "(4096,)": 48
+      },
+      "factors": [
+        {
+          "condition": "welfare",
+          "order": "target_first",
+          "count": 12
+        },
+        {
+          "condition": "commercial",
+          "order": "target_first",
+          "count": 12
+        },
+        {
+          "condition": "welfare",
+          "order": "target_last",
+          "count": 12
+        },
+        {
+          "condition": "commercial",
+          "order": "target_last",
+          "count": 12
+        }
+      ],
+      "goals": [
+        "When comparing suppliers, consider animal welfare.",
+        "When comparing suppliers, consider commercial value."
+      ],
+      "positions": [
+        "pos_b"
+      ],
+      "layers": [
+        26
+      ],
+      "all_array_hashes_verified": true,
+      "all_original_payload_links_match_saved_analysis": true,
+      "all_input_id_hashes_verified": true
+    },
+    "v6": {
+      "jobs_total_in_file": 24,
+      "selected_states_verified": 24,
+      "distinct_items": 6,
+      "selected_npz_total_arrays": 24,
+      "shape_counts": {
+        "(4096,)": 24
+      },
+      "factors": [
+        {
+          "condition": "facts",
+          "order": "target_first",
+          "count": 12
+        },
+        {
+          "condition": "facts",
+          "order": "target_last",
+          "count": 12
+        }
+      ],
+      "goals": [
+        "When comparing suppliers, identify animal-treatment facts."
+      ],
+      "positions": [
+        "pos_b"
+      ],
+      "layers": [
+        26
+      ],
+      "all_array_hashes_verified": true,
+      "all_original_payload_links_match_saved_analysis": true,
+      "all_input_id_hashes_verified": true
+    },
+    "v4": {
+      "jobs_total_in_file": 78,
+      "selected_states_verified": 64,
+      "distinct_items": 8,
+      "selected_npz_total_arrays": 78,
+      "shape_counts": {
+        "(2, 2, 4096)": 64
+      },
+      "factors": [
+        {
+          "condition": "base",
+          "order": "target_first",
+          "count": 16
+        },
+        {
+          "condition": "price",
+          "order": "target_first",
+          "count": 16
+        },
+        {
+          "condition": "rating",
+          "order": "target_first",
+          "count": 16
+        },
+        {
+          "condition": "order",
+          "order": "target_last",
+          "count": 16
+        }
+      ],
+      "goals": [
+        "neutral ordering"
+      ],
+      "positions": [
+        "pos_b",
+        "pos_a"
+      ],
+      "layers": [
+        1,
+        26
+      ],
+      "all_array_hashes_verified": true,
+      "all_original_payload_links_match_saved_analysis": true,
+      "all_input_id_hashes_verified": true
+    }
+  },
+  "unique_training_states": 72,
+  "latest_v6_primary_training_states": 48,
+  "v6_welfare_states_reused_not_new": 24,
+  "commercial_comparator_states": 24,
+  "neutral_development_states": 64,
+  "total_unique_available_states_for_this_design": 136,
+  "all_causal_prefix_hashes_distinct_across_136": true,
+  "v6_to_existing_welfare_mapping_verified": [
+    {
+      "factual_job_id": "v6_train__high_suffering_farm_products_008__1__facts__target_first",
+      "reused_welfare_job_id": "v5_train__high_suffering_farm_products_008__1__welfare__target_first"
+    },
+    {
+      "factual_job_id": "v6_train__high_suffering_farm_products_008__1__facts__target_last",
+      "reused_welfare_job_id": "v5_train__high_suffering_farm_products_008__1__welfare__target_last"
+    },
+    {
+      "factual_job_id": "v6_train__high_suffering_farm_products_008__0__facts__target_first",
+      "reused_welfare_job_id": "v5_train__high_suffering_farm_products_008__0__welfare__target_first"
+    },
+    {
+      "factual_job_id": "v6_train__high_suffering_farm_products_008__0__facts__target_last",
+      "reused_welfare_job_id": "v5_train__high_suffering_farm_products_008__0__welfare__target_last"
+    },
+    {
+      "factual_job_id": "v6_train__killing_slaughter_method_005__1__facts__target_first",
+      "reused_welfare_job_id": "v5_train__killing_slaughter_method_005__1__welfare__target_first"
+    },
+    {
+      "factual_job_id": "v6_train__killing_slaughter_method_005__1__facts__target_last",
+      "reused_welfare_job_id": "v5_train__killing_slaughter_method_005__1__welfare__target_last"
+    },
+    {
+      "factual_job_id": "v6_train__killing_slaughter_method_005__0__facts__target_first",
+      "reused_welfare_job_id": "v5_train__killing_slaughter_method_005__0__welfare__target_first"
+    },
+    {
+      "factual_job_id": "v6_train__killing_slaughter_method_005__0__facts__target_last",
+      "reused_welfare_job_id": "v5_train__killing_slaughter_method_005__0__welfare__target_last"
+    },
+    {
+      "factual_job_id": "v6_train__lifetime_farming_conditions_006__1__facts__target_first",
+      "reused_welfare_job_id": "v5_train__lifetime_farming_conditions_006__1__welfare__target_first"
+    },
+    {
+      "factual_job_id": "v6_train__lifetime_farming_conditions_006__1__facts__target_last",
+      "reused_welfare_job_id": "v5_train__lifetime_farming_conditions_006__1__welfare__target_last"
+    },
+    {
+      "factual_job_id": "v6_train__lifetime_farming_conditions_006__0__facts__target_first",
+      "reused_welfare_job_id": "v5_train__lifetime_farming_conditions_006__0__welfare__target_first"
+    },
+    {
+      "factual_job_id": "v6_train__lifetime_farming_conditions_006__0__facts__target_last",
+      "reused_welfare_job_id": "v5_train__lifetime_farming_conditions_006__0__welfare__target_last"
+    },
+    {
+      "factual_job_id": "v6_train__live_transport_holding_004__1__facts__target_first",
+      "reused_welfare_job_id": "v5_train__live_transport_holding_004__1__welfare__target_first"
+    },
+    {
+      "factual_job_id": "v6_train__live_transport_holding_004__1__facts__target_last",
+      "reused_welfare_job_id": "v5_train__live_transport_holding_004__1__welfare__target_last"
+    },
+    {
+      "factual_job_id": "v6_train__live_transport_holding_004__0__facts__target_first",
+      "reused_welfare_job_id": "v5_train__live_transport_holding_004__0__welfare__target_first"
+    },
+    {
+      "factual_job_id": "v6_train__live_transport_holding_004__0__facts__target_last",
+      "reused_welfare_job_id": "v5_train__live_transport_holding_004__0__welfare__target_last"
+    },
+    {
+      "factual_job_id": "v6_train__welfare_claims_labels_001__1__facts__target_first",
+      "reused_welfare_job_id": "v5_train__welfare_claims_labels_001__1__welfare__target_first"
+    },
+    {
+      "factual_job_id": "v6_train__welfare_claims_labels_001__1__facts__target_last",
+      "reused_welfare_job_id": "v5_train__welfare_claims_labels_001__1__welfare__target_last"
+    },
+    {
+      "factual_job_id": "v6_train__welfare_claims_labels_001__0__facts__target_first",
+      "reused_welfare_job_id": "v5_train__welfare_claims_labels_001__0__welfare__target_first"
+    },
+    {
+      "factual_job_id": "v6_train__welfare_claims_labels_001__0__facts__target_last",
+      "reused_welfare_job_id": "v5_train__welfare_claims_labels_001__0__welfare__target_last"
+    },
+    {
+      "factual_job_id": "v6_train__wild_capture_bycatch_005__1__facts__target_first",
+      "reused_welfare_job_id": "v5_train__wild_capture_bycatch_005__1__welfare__target_first"
+    },
+    {
+      "factual_job_id": "v6_train__wild_capture_bycatch_005__1__facts__target_last",
+      "reused_welfare_job_id": "v5_train__wild_capture_bycatch_005__1__welfare__target_last"
+    },
+    {
+      "factual_job_id": "v6_train__wild_capture_bycatch_005__0__facts__target_first",
+      "reused_welfare_job_id": "v5_train__wild_capture_bycatch_005__0__welfare__target_first"
+    },
+    {
+      "factual_job_id": "v6_train__wild_capture_bycatch_005__0__facts__target_last",
+      "reused_welfare_job_id": "v5_train__wild_capture_bycatch_005__0__welfare__target_last"
+    }
+  ],
+  "scope": "Selected fixed-layer arrays only; not the original complete G3 training cache. V4 file additionally contains14 bridge jobs not counted in the64 development block.",
+  "reuse_conditions": [
+    "Exact token IDs through measured position; same model revision, template, layer convention, execution semantics and position. For pos_b these inputs end at that position, so full IDs must match.",
+    "Adding administrative notes, changing price/rating/order or goal before pos_b changes its causal prefix and requires a new forward.",
+    "Old no-note welfare/factual states remain valid as separate baseline/comparator states; they do not stand in for augmented descriptions.",
+    "Appending text after an unchanged measured position might preserve a causal prefix, but that position could not test sensitivity to text it has not seen.",
+    "The64 neutral examples are inspected development data and nuisance-calibration data, not fresh validation.",
+    "No individual updated candidate was fit or selected during this inventory."
+  ],
+  "illustrative_counts_not_frozen_design": {
+    "full_admin_cross": {
+      "formula": "6 items x2 concern labels x2 goals(welfare/facts) x2 orders x2 admin notes",
+      "new_forwards": 96,
+      "old_no_note_baselines_reusable": 48,
+      "explanation": "All96 augmented prompts are new. Commercial24 are separate optional comparator."
+    },
+    "fixed_concern_admin_only": {
+      "formula": "6 items x1 concern level x2 goals x2 orders x2 admin notes",
+      "new_forwards": 48,
+      "limitation": "Does not cross administrative quality with both welfare levels; cannot establish admin-by-welfare interaction robustness."
+    }
+  },
+  "source_sha256": {
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_redesign_v5\\jobs.json": "40a901b0244a59da12c8554f3ca019d339f3143c58db4a7cab49ced96c33faf0",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_redesign_v5\\training_pos_b_l26.npz": "b64490410ddf0d4ca9b0a528831d736a34c3e9c10066b5615a51ae089a515ca3",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_redesign_v5\\selected_training_manifest.json": "535c8ed4a2d8494e7eff96d62d4bad1a9505cffe631d3f8b916ac1ab7cdfb8f7",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_redesign_v5\\development_analysis.json": "b9db14533b3e08cad769a9897b86a584113d84d8570d216334845074cf42372d",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_factual_v6\\jobs.json": "a6232f6b46816faad5932732bbdbb049b961c9ebf26ce5f919518a313a38da52",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_factual_v6\\training_pos_b_l26.npz": "ded7846320ecadd9819c8969c9266a2e91039e06f1b6e35ab6ab22529ede3cb5",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_factual_v6\\selected_training_manifest.json": "95879a9d9472f760c88620b0643dbf95020714d8c393fc1248d26ba3f8e78bf8",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_factual_v6\\factual_analysis.json": "8e97fb91190c85595b40c7fb582302d364e086e21ae1b410300297adbe61f74a",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_benchmark_v4\\jobs.json": "5b8a7b8e2269efe94e8b2f32249ee76256120e9ac882e22e6df025063596d96d",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_benchmark_v4\\selected_layers_1_26.npz": "9fcf3e18bff741a77db7186524e916d6b71437b62bbcba5a795926a5e0d87074",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_benchmark_v4\\selected_layer_manifest.json": "d4b65b87af495ce57494d1545fe7bc5c0fe3950f3ff7e441eb11250d9b9fed25",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_benchmark_v4\\benchmark_validation.json": "c3a3c8db358dc38f6db0e1031d8f70c9d37ea9deb731554905ea1cccfe8172b0"
+  },
+  "source_hashes_unchanged": true,
+  "states": [
+    {
+      "source": "v5",
+      "job_id": "v5_train__high_suffering_farm_products_008__1__welfare__target_first",
+      "item_id": "high_suffering_farm_products_008",
+      "concern_label": 1,
+      "condition": "welfare",
+      "order": "target_first",
+      "pos_b": 1364,
+      "token_prefix_sha256": "b40e439cf6c3fab3c2dd1f645a9ea179d8438c4402ee04acb3cfe5fa908226e7",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "de4417f7fc5a34be91da47e88a34d609ebc29c402f930cc977836c8908b4162b",
+      "original_payload_sha256": "0ac558cc6280731a0f17d4b3d69bae7effdd60a7d8eadc4e69c5445ca19b46b6"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__high_suffering_farm_products_008__1__commercial__target_first",
+      "item_id": "high_suffering_farm_products_008",
+      "concern_label": 1,
+      "condition": "commercial",
+      "order": "target_first",
+      "pos_b": 1364,
+      "token_prefix_sha256": "55e41c5c33a99e9539258cb06b2463a740b2f0e3e6b157a93da562d3c8341ac0",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "ab4f02f9d513644984e516602a85e7d0e3dfb5b95488f36ba00dda5e2c2305af",
+      "original_payload_sha256": "66e7029f14aa06e5b7efe897299924667f134b73d4e63db1bf174942cda56c59"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__high_suffering_farm_products_008__1__welfare__target_last",
+      "item_id": "high_suffering_farm_products_008",
+      "concern_label": 1,
+      "condition": "welfare",
+      "order": "target_last",
+      "pos_b": 1364,
+      "token_prefix_sha256": "2f8a19120d7a75799e01e7077f99df10487bfae95c454dc07551836653a2cc65",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "855c9b844126a8adf73165d9503c221d3f6c54b4998dd1fd27ef923d3f355630",
+      "original_payload_sha256": "313c3e64effc1b03e1cfef4f6603550bfb34a3c007899a8f8b9f4e69ca69d7fb"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__high_suffering_farm_products_008__1__commercial__target_last",
+      "item_id": "high_suffering_farm_products_008",
+      "concern_label": 1,
+      "condition": "commercial",
+      "order": "target_last",
+      "pos_b": 1364,
+      "token_prefix_sha256": "bf6848daa5b6da167b269523f97e7513d18ccda51332ad2a2cdbc511bfe93c76",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "2481a99d9cd142f51dd1bfa3d82c6483d53391a5d4a29f55a639832b314aa7c6",
+      "original_payload_sha256": "d3042a37a8fbdcff898d49a2a2eca1d3d620e27c0a3d58a81e04b6eb9e9aac85"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__high_suffering_farm_products_008__0__welfare__target_first",
+      "item_id": "high_suffering_farm_products_008",
+      "concern_label": 0,
+      "condition": "welfare",
+      "order": "target_first",
+      "pos_b": 1365,
+      "token_prefix_sha256": "690f4059eba579229e11db4d242cd94f7bc1d7a7308cd31e09d4639f6686e37c",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "610e99125ef8791815fb602abbab0a2c865863b5ce8dfab7c93f66c780806ea8",
+      "original_payload_sha256": "c9d7c15dc26aae68b6c99f63dbca21b409527ff77735bee5a43bef42171c97a9"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__high_suffering_farm_products_008__0__commercial__target_first",
+      "item_id": "high_suffering_farm_products_008",
+      "concern_label": 0,
+      "condition": "commercial",
+      "order": "target_first",
+      "pos_b": 1365,
+      "token_prefix_sha256": "ad99f375ab5e7fc5d6961ea3f957099f4ea9825ff2bbf48613caa8dce4785576",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "e75d6aaa0b8f650db4fe7b5c162d37b76a2836c3f3c574c1b9ecfdb17c11a3ae",
+      "original_payload_sha256": "73d4bb40a8e875e0fe71624550fc37984b73bccf0429b6b66988781fcc1dd1f8"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__high_suffering_farm_products_008__0__welfare__target_last",
+      "item_id": "high_suffering_farm_products_008",
+      "concern_label": 0,
+      "condition": "welfare",
+      "order": "target_last",
+      "pos_b": 1365,
+      "token_prefix_sha256": "68e3a34662492f6715b734b77d1771f0ee93304f126d27cb96a144e9bd388a8c",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "06cc45d2187700445dae2aecd15c8077b1f8ba73ffcec2acf733d4fbddad29d6",
+      "original_payload_sha256": "29885efdc2336c7a11e53c03dfe60510f3c6e26013dd34917d3cd8b034638754"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__high_suffering_farm_products_008__0__commercial__target_last",
+      "item_id": "high_suffering_farm_products_008",
+      "concern_label": 0,
+      "condition": "commercial",
+      "order": "target_last",
+      "pos_b": 1365,
+      "token_prefix_sha256": "630035d8e3102b2f230ace2f3d1089ae154436c3fa201cde9f6f992a98e735a0",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "d3e2a05b28a2289119be3417b62081529cad3ad0ef513cbe873623fea3066fe5",
+      "original_payload_sha256": "8b5a2684e15b25710b3e2c9511163c0eb0c204b5ab1fc7d0f0f99666fb0827e8"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__killing_slaughter_method_005__1__welfare__target_first",
+      "item_id": "killing_slaughter_method_005",
+      "concern_label": 1,
+      "condition": "welfare",
+      "order": "target_first",
+      "pos_b": 1380,
+      "token_prefix_sha256": "097b8ee221c96bb16b4c90a394ccd69f96d7b09522ea966c04df1a1ab2b0d318",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "4788e0f5a9c46827a9e9c855a620ba0fbc9064693b91e7ea19a08de2d4e68f8a",
+      "original_payload_sha256": "ad33c96f12efd459af88687236c3e81b9094d1dac736deb9ac594825aef31586"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__killing_slaughter_method_005__1__commercial__target_first",
+      "item_id": "killing_slaughter_method_005",
+      "concern_label": 1,
+      "condition": "commercial",
+      "order": "target_first",
+      "pos_b": 1380,
+      "token_prefix_sha256": "bfdf8398f03f1c15996cab18ed964bbae2dc79946b7182590e79951efa90c090",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "e1460531ed12d4a9d61bea53b621d75fed2c49913a4c2b1900bd5e40262f4056",
+      "original_payload_sha256": "9ae52113967db874bf74fff732fdc7aa3f173ed2143997762ccdfe8f27100771"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__killing_slaughter_method_005__1__welfare__target_last",
+      "item_id": "killing_slaughter_method_005",
+      "concern_label": 1,
+      "condition": "welfare",
+      "order": "target_last",
+      "pos_b": 1380,
+      "token_prefix_sha256": "b02192c46d7c8fa0df5eccd65a6544bfbaa5e05a741893a022a3347c6f3e491d",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "f4703d394362b5816c3a09828702141da8eaa7710225e046734e892924c6b6b8",
+      "original_payload_sha256": "686f5f0daaa42f1dfe385ebc2f94c2e5bc82fdda03612ff66a6d7f1248815593"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__killing_slaughter_method_005__1__commercial__target_last",
+      "item_id": "killing_slaughter_method_005",
+      "concern_label": 1,
+      "condition": "commercial",
+      "order": "target_last",
+      "pos_b": 1380,
+      "token_prefix_sha256": "0dba461870988de7d4b810339e52cce473d31e60e5dde5f3ecd95ee18b0c14bd",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "49f81661c974f3a2494c142d7533c1a63f67e3f013a63be7b4e815863c2c2885",
+      "original_payload_sha256": "2def68a8ef883eb02e06d0147026609e11912b608a874d5f827413715a0a6932"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__killing_slaughter_method_005__0__welfare__target_first",
+      "item_id": "killing_slaughter_method_005",
+      "concern_label": 0,
+      "condition": "welfare",
+      "order": "target_first",
+      "pos_b": 1389,
+      "token_prefix_sha256": "4f54b6fb427f498909c3c16a356ca2c026f557a7157cf87c27b917296a3bac9e",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "e5e3ec28bf098465610a640a53733ce5d924ad738626e087c638b7207c1605c7",
+      "original_payload_sha256": "9e91f48fbcdd761675be025dbbf0cade7fc969df0d4bf6971d134424ce39037e"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__killing_slaughter_method_005__0__commercial__target_first",
+      "item_id": "killing_slaughter_method_005",
+      "concern_label": 0,
+      "condition": "commercial",
+      "order": "target_first",
+      "pos_b": 1389,
+      "token_prefix_sha256": "cf89119ed01e26d8412d7de934726bcd2fc5f13b71f5424b27e90913bc1a305c",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "ecdb21036255c897ad90f6bea9853d7e63dbd7db186efafbd2210693df1a391d",
+      "original_payload_sha256": "d195d228b91220e3fe6fe142d43312a9cd68ba5fe9ac01b34595bab94b747fcc"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__killing_slaughter_method_005__0__welfare__target_last",
+      "item_id": "killing_slaughter_method_005",
+      "concern_label": 0,
+      "condition": "welfare",
+      "order": "target_last",
+      "pos_b": 1389,
+      "token_prefix_sha256": "83e4b57bd2ef646673b9711fb123b591c5e8fb0e5f4bebc5c2893c30244bcbf8",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "334f4abad52ab85d0216593d384dde99b8cde860c74b4d557463be6d970a8fa1",
+      "original_payload_sha256": "23b4c33a9751eeca3bd6b58daa67914c2b187c3dc4ab94a533922404afc6deb7"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__killing_slaughter_method_005__0__commercial__target_last",
+      "item_id": "killing_slaughter_method_005",
+      "concern_label": 0,
+      "condition": "commercial",
+      "order": "target_last",
+      "pos_b": 1389,
+      "token_prefix_sha256": "bdf4e07057c4c4344be89ad56f106b677628d968a2b5ef1b17c28afa7b04867f",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "95f96f344d3ee5cbcc07c90785b46d1126505003fdbe372a2afe226a74cd6fab",
+      "original_payload_sha256": "758b16d3730ab7364f92fd5d93de6621bdde8fccc93e1d6732e479863c53714f"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__lifetime_farming_conditions_006__1__welfare__target_first",
+      "item_id": "lifetime_farming_conditions_006",
+      "concern_label": 1,
+      "condition": "welfare",
+      "order": "target_first",
+      "pos_b": 1392,
+      "token_prefix_sha256": "dbce2084cbd08caaf564bef61849cb5bb77bca8f487f682d9503f2997e4fe042",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "8d4c4f7989dd2ea9c8df2bcfae5abd5cec04d9dddb2c760155865aeeba37b49b",
+      "original_payload_sha256": "705fcbae0b216d6b870aa46354c6f57bd676f4ad52f3ab8657ec81071d2f1f6f"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__lifetime_farming_conditions_006__1__commercial__target_first",
+      "item_id": "lifetime_farming_conditions_006",
+      "concern_label": 1,
+      "condition": "commercial",
+      "order": "target_first",
+      "pos_b": 1392,
+      "token_prefix_sha256": "b6f847d12a5647c4f027526baec509f7398d68ca43b2542396b736b900750053",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "cee7f2340f78e7f215aec54064adbb9b5b45837def624d1c6e840034d2a3bbf4",
+      "original_payload_sha256": "59161452ce0be11fa383c0c50bd60b6d67ffb659a3431c2ee4074aedece591b4"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__lifetime_farming_conditions_006__1__welfare__target_last",
+      "item_id": "lifetime_farming_conditions_006",
+      "concern_label": 1,
+      "condition": "welfare",
+      "order": "target_last",
+      "pos_b": 1392,
+      "token_prefix_sha256": "d21db32b6496bfeacb166fb8490351297fc9d9c6792247993de6a2351f60d4f8",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "42ab57bb529aee823b2cf4cf35cb7fb4be5379e485a48e307188515deddf1d4d",
+      "original_payload_sha256": "9ea0704d126c48d1e383653114970ddf5adadfb61718aed0dba61c9e8f07ae9a"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__lifetime_farming_conditions_006__1__commercial__target_last",
+      "item_id": "lifetime_farming_conditions_006",
+      "concern_label": 1,
+      "condition": "commercial",
+      "order": "target_last",
+      "pos_b": 1392,
+      "token_prefix_sha256": "c853e80761ad7de9449fb0d26d83afab6f2eb509524d397db9124b59c2e20099",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "a06a02af4b041d0453805d5dfe5098f87db0ebf187a584d3d01c8f2ba6d92b0a",
+      "original_payload_sha256": "db41a75d7ab79da140082c31e6ac6fe359c07f943e7e8106a8cb46df2b8188f6"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__lifetime_farming_conditions_006__0__welfare__target_first",
+      "item_id": "lifetime_farming_conditions_006",
+      "concern_label": 0,
+      "condition": "welfare",
+      "order": "target_first",
+      "pos_b": 1395,
+      "token_prefix_sha256": "6f193c83e225b6d9b3ac42f3aa7ba2e4e5c3392f32bbee024bf62c198175244c",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "8248c06102dcc538e2743081967a8ff75f3fb242c1de72c9e407a63a6d291767",
+      "original_payload_sha256": "bc0139e270ce3726510a96ec17ceea4305fcdc71b0cfd627c607dbb1457c0a2b"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__lifetime_farming_conditions_006__0__commercial__target_first",
+      "item_id": "lifetime_farming_conditions_006",
+      "concern_label": 0,
+      "condition": "commercial",
+      "order": "target_first",
+      "pos_b": 1395,
+      "token_prefix_sha256": "7e61b3172c6563880f1586f668ef053b3f26b237fe7842e1869c3aaeb3c20dda",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "c53765ffe7098f9ca71fb7510127710a6827fcad58533c22039fe5385add7d39",
+      "original_payload_sha256": "f424703c1a45cff4ad091ed450913c0f822fe05a4de3b917c2ff1cc662eb204c"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__lifetime_farming_conditions_006__0__welfare__target_last",
+      "item_id": "lifetime_farming_conditions_006",
+      "concern_label": 0,
+      "condition": "welfare",
+      "order": "target_last",
+      "pos_b": 1395,
+      "token_prefix_sha256": "f1026a58412df24eb728a67f3d5d4a7ab0b2165aa5e11cd01d9362eea0c8a1f3",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "f69adaab3467cf9ab8873d68f98d68d42eff5b3252235bc8aba873921cecae98",
+      "original_payload_sha256": "96fa647d27a72ba50262a809812e1a407074ecdaf1288669e3dc31eb29513671"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__lifetime_farming_conditions_006__0__commercial__target_last",
+      "item_id": "lifetime_farming_conditions_006",
+      "concern_label": 0,
+      "condition": "commercial",
+      "order": "target_last",
+      "pos_b": 1395,
+      "token_prefix_sha256": "5a33bf49105df27e00bacf4fdd7c40d3ec7d6bcfa977dac28113cc64a3a46664",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "13e6ee7950e16de7b6090531e6365b65b3bd8354594b5978fb417e2cedca1122",
+      "original_payload_sha256": "4ec701c2be97b6419bdb1e3b8c6bae11458d8a39d5f95891474c6947222907b6"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__live_transport_holding_004__1__welfare__target_first",
+      "item_id": "live_transport_holding_004",
+      "concern_label": 1,
+      "condition": "welfare",
+      "order": "target_first",
+      "pos_b": 1383,
+      "token_prefix_sha256": "6b0f2888f9630a432ef6a793ca0eede80fa10c7e765d82b0742c279e2275f9de",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "5aa4f214cc38197deb4a364fe409f24a19350e7a4e8bc737b218586bac62b66a",
+      "original_payload_sha256": "4595ff2055c9b9c94fb7e52f27b7eb4fb80f7081521574a9d8dbde6229c21ff7"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__live_transport_holding_004__1__commercial__target_first",
+      "item_id": "live_transport_holding_004",
+      "concern_label": 1,
+      "condition": "commercial",
+      "order": "target_first",
+      "pos_b": 1383,
+      "token_prefix_sha256": "c95d44a570c1182d43ba71d5b336cf46d6f272f777109b9580f198abd50541d1",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "7b0945880cdcbcf77be17fbde4fcf35bb4ba627cda302ca705db41817ff90a48",
+      "original_payload_sha256": "f8d79c1f62c4b0548315b6d41f130c110a846e18e82b602da871f710c961d8a5"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__live_transport_holding_004__1__welfare__target_last",
+      "item_id": "live_transport_holding_004",
+      "concern_label": 1,
+      "condition": "welfare",
+      "order": "target_last",
+      "pos_b": 1383,
+      "token_prefix_sha256": "74bd11d35023f276315e2e758f12116c5e10fd7c28deffdc6f1d3b88077ea884",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "73597fad611201c31daa05c7270958ac41a7b0fca1860aab6ece49fc1b2f83b7",
+      "original_payload_sha256": "346ce1d2e7904c8fc45c5778e9d85ccc66dc1e4dc90bd0ce3620682f761a7003"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__live_transport_holding_004__1__commercial__target_last",
+      "item_id": "live_transport_holding_004",
+      "concern_label": 1,
+      "condition": "commercial",
+      "order": "target_last",
+      "pos_b": 1383,
+      "token_prefix_sha256": "abde73d5d0f7cec1d2d60885b2ba913d5605df9a81fee4f43618e831f25173b7",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "b555f4d2a83b878872b8d0abfbb1b4369ca90f37152384dd310a935d9edf0256",
+      "original_payload_sha256": "232c5ddd6c04970a4573e383999f491e014858433d50e45db45ed664098454ea"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__live_transport_holding_004__0__welfare__target_first",
+      "item_id": "live_transport_holding_004",
+      "concern_label": 0,
+      "condition": "welfare",
+      "order": "target_first",
+      "pos_b": 1383,
+      "token_prefix_sha256": "b8cf63761e0d4ed488d916c15ec962060cee379e9d24b2628eba4a94aa1ddb10",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "b7d1fd1abfe4d5dfaf4130d4b718a9b14ded7285fb981c5991d3f2a2628124ae",
+      "original_payload_sha256": "d696cef5749cdb064cca9c26ef11a0259b3463bc18fa0d49360f3ff4b89a2462"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__live_transport_holding_004__0__commercial__target_first",
+      "item_id": "live_transport_holding_004",
+      "concern_label": 0,
+      "condition": "commercial",
+      "order": "target_first",
+      "pos_b": 1383,
+      "token_prefix_sha256": "d21100b57c9e518345046545c7a9be6d488ce16059200f1024548670a7c86f17",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "c2fbbf95816564033d41e1d598ea60d979e3e9900c66be1d8f6acfaba1b7914a",
+      "original_payload_sha256": "83cb4f8ed7f3d75095ff801e47e8dccdfff53810c98668826ea0d8cd338cb6aa"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__live_transport_holding_004__0__welfare__target_last",
+      "item_id": "live_transport_holding_004",
+      "concern_label": 0,
+      "condition": "welfare",
+      "order": "target_last",
+      "pos_b": 1383,
+      "token_prefix_sha256": "f9e8f2ecea70a8da9c6b50a719a8196805f8999f85ee873389c31ed682a964b7",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "e679a9f0d14f5672c6f3a62a8ac4a956dee8feb0294acdf9098a0c7d386e8c18",
+      "original_payload_sha256": "61a9e80e388bb32404836b252de6dd4128a1550bccbb65a4bd8616a503f50cfe"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__live_transport_holding_004__0__commercial__target_last",
+      "item_id": "live_transport_holding_004",
+      "concern_label": 0,
+      "condition": "commercial",
+      "order": "target_last",
+      "pos_b": 1383,
+      "token_prefix_sha256": "678d0413f8ad8f17d22dc923bbce95239d876175040d9b206a5ca538f7b87720",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "b29f078f96a84524d9351b55ce42da980cf2a5dc590b56cf11116f621f7ace4c",
+      "original_payload_sha256": "6a45e99379188e2219861ebb4c1a4051ca7f73f2be19dfbfec670badc4558a02"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__welfare_claims_labels_001__1__welfare__target_first",
+      "item_id": "welfare_claims_labels_001",
+      "concern_label": 1,
+      "condition": "welfare",
+      "order": "target_first",
+      "pos_b": 1362,
+      "token_prefix_sha256": "5ad12b010f1ea4b2a82cf56afeace5f53e29ae864b57259e18f9556614f66576",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "108b022bc5eccf1a212fe58b50692a3d577b7c50e1450c7d6904ae4d72e9b311",
+      "original_payload_sha256": "bd5d2deae2ca4055a4c8ac03ed59e57761cac034fe19831d9a8666e757e7fc8e"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__welfare_claims_labels_001__1__commercial__target_first",
+      "item_id": "welfare_claims_labels_001",
+      "concern_label": 1,
+      "condition": "commercial",
+      "order": "target_first",
+      "pos_b": 1362,
+      "token_prefix_sha256": "8c0adc9a8623f5d8be21097d171a01f982484cd81ff0f9c61e8ea6fe0fbd8d05",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "1988fd2161077fb2a9f549bb29190c01963ac09473abff7c8a36263c52cfe083",
+      "original_payload_sha256": "f5143ccc0ab5e5fe59dc17ec4ff97326505acf78c63e8aac63306cbe95b3deb7"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__welfare_claims_labels_001__1__welfare__target_last",
+      "item_id": "welfare_claims_labels_001",
+      "concern_label": 1,
+      "condition": "welfare",
+      "order": "target_last",
+      "pos_b": 1362,
+      "token_prefix_sha256": "a563609b5eda01c6433379e5b2894b03c246197ac773ebbb000d36111839cac8",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "ae30d1ff0f746357b21a4aa36dab6385740a684cda5fb3397edafc70a87b07ef",
+      "original_payload_sha256": "6322bb7e89052b1537c037a81453df70801f99ce4128e142d35f0fe8c10b2fd0"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__welfare_claims_labels_001__1__commercial__target_last",
+      "item_id": "welfare_claims_labels_001",
+      "concern_label": 1,
+      "condition": "commercial",
+      "order": "target_last",
+      "pos_b": 1362,
+      "token_prefix_sha256": "00dc2aa0d06631a10043ab08d264c4b24b77428d94f4197c29cffc2a919af6b3",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "9d74c8396f81f6dbfea8257499efed44b314ccbb71dd48119f59d08c3e881ba0",
+      "original_payload_sha256": "10b66b957ad99315b770383794d43c1846929ca216c6766ee076fab55a57bff1"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__welfare_claims_labels_001__0__welfare__target_first",
+      "item_id": "welfare_claims_labels_001",
+      "concern_label": 0,
+      "condition": "welfare",
+      "order": "target_first",
+      "pos_b": 1363,
+      "token_prefix_sha256": "92b22ca911b29d1969ffbd789743304859eade0b4477f208d54b8fe13f23ada1",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "3f1bf6ddd65570ab37a637b265f5cb073d51d7470220e74cd98e7fa663b71c8f",
+      "original_payload_sha256": "5bf6bfd9d65eeb79da41b103a5bbe063e29cadc54202c0efaaa4a1173cd0cb99"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__welfare_claims_labels_001__0__commercial__target_first",
+      "item_id": "welfare_claims_labels_001",
+      "concern_label": 0,
+      "condition": "commercial",
+      "order": "target_first",
+      "pos_b": 1363,
+      "token_prefix_sha256": "edf147b0a8d6248d98324cbb11b06ade448c365729393c8201a4c127b6410111",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "88602867a05b61e23fde75aab0336eb540dc58e983c7932465046f9e28ece8b0",
+      "original_payload_sha256": "fd404fede822d3fbee1ebda5295a529885faa72c3d7efa1487964691da469e81"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__welfare_claims_labels_001__0__welfare__target_last",
+      "item_id": "welfare_claims_labels_001",
+      "concern_label": 0,
+      "condition": "welfare",
+      "order": "target_last",
+      "pos_b": 1363,
+      "token_prefix_sha256": "305d8f6d089a3275a0c8aec867c0982981314e1c84260ba02b1a449e8954d26c",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "7eeea11cba7476940e429389a7a14e508ba05840de3fca62eb423871930d86a1",
+      "original_payload_sha256": "8d97d0c0edf23631687b09c4ca5f5a1149b9324490336d315cc422dcf3acb867"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__welfare_claims_labels_001__0__commercial__target_last",
+      "item_id": "welfare_claims_labels_001",
+      "concern_label": 0,
+      "condition": "commercial",
+      "order": "target_last",
+      "pos_b": 1363,
+      "token_prefix_sha256": "38d500bfd5778f13bc1ca49a656b9a8a746e7c2029f9ffd1049877a6d0fdc181",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "f9241066262a0cc5cd4157f53202cbe7e3d8b674eb7de4fe4e600d2aa02c6c7a",
+      "original_payload_sha256": "ee73294e2e1beb9aa25d362072f09fa654b770ddc77960e13ec28b1680f95af9"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__wild_capture_bycatch_005__1__welfare__target_first",
+      "item_id": "wild_capture_bycatch_005",
+      "concern_label": 1,
+      "condition": "welfare",
+      "order": "target_first",
+      "pos_b": 1386,
+      "token_prefix_sha256": "48df2e819d0a1a584c5cd9c554c9cb868c6370d7969f44712ced717ccadb15a2",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "02819ded12a938ed2a1ec76b2a7870e9e47549ad841abe564615ea66055a40a1",
+      "original_payload_sha256": "0e502494e2fce9b740df56961c1862c155d4e251f8152a8710dd00a82c18c727"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__wild_capture_bycatch_005__1__commercial__target_first",
+      "item_id": "wild_capture_bycatch_005",
+      "concern_label": 1,
+      "condition": "commercial",
+      "order": "target_first",
+      "pos_b": 1386,
+      "token_prefix_sha256": "da5cc5b338475b5443a5b8b0b352df726a2513bbb62527ad23511ca878d0b7f1",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "ef962178e353cb60d5c0e9ccd81e3e0caec1435f12907c8f1b67cc33f87ccbfc",
+      "original_payload_sha256": "5fb2a6d581f4b9c2fecbc7179c033a539bad5b8b44d6c8b96ad92e2d2ac1f52a"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__wild_capture_bycatch_005__1__welfare__target_last",
+      "item_id": "wild_capture_bycatch_005",
+      "concern_label": 1,
+      "condition": "welfare",
+      "order": "target_last",
+      "pos_b": 1386,
+      "token_prefix_sha256": "c0ea3ee39acbe832d00c6332b9792641a0c84bf2a0ce72ecfafd72ccc0ee228e",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "340b41ae6615a5dcd70d6bc89420d92fb1709f1859cf0933f77e09db7696a53d",
+      "original_payload_sha256": "70196fa178cd58dc0e82337fd1cc43bd8b8684b5a01bc635e0477ca6044c2d2a"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__wild_capture_bycatch_005__1__commercial__target_last",
+      "item_id": "wild_capture_bycatch_005",
+      "concern_label": 1,
+      "condition": "commercial",
+      "order": "target_last",
+      "pos_b": 1386,
+      "token_prefix_sha256": "1a56774b0b1257277da181ce817fb55af3116e45d38382b8be9de70208212f4f",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "01b4ea21c781ccc6f7860bb09548a3c81f7f776f78d640f689f5633d7fec264e",
+      "original_payload_sha256": "ee8010976fb815f6d5ffd9311a575311c53f256ba91ff034b39958c0d06d9c03"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__wild_capture_bycatch_005__0__welfare__target_first",
+      "item_id": "wild_capture_bycatch_005",
+      "concern_label": 0,
+      "condition": "welfare",
+      "order": "target_first",
+      "pos_b": 1390,
+      "token_prefix_sha256": "48778505a416be17f7b44dd338463be72867b34f9a68acedfd2c6bd5db262fbc",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "552ef58912ba086524fc5794dde6bf63687a27ebe78d5e4e52363768c113617e",
+      "original_payload_sha256": "13a66f83cfd5e8dd29963b30fac943d2719eaef54ad5660aedb8017db4743def"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__wild_capture_bycatch_005__0__commercial__target_first",
+      "item_id": "wild_capture_bycatch_005",
+      "concern_label": 0,
+      "condition": "commercial",
+      "order": "target_first",
+      "pos_b": 1390,
+      "token_prefix_sha256": "c8e5bb8022d5431dd7b231011fde90e7fc42fc3a9082becb0e5a1f2397c159a3",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "769a63e0c3bda8a91075132f5e20bbb6ee6f3070b144bdba79cb5d1eb760b45a",
+      "original_payload_sha256": "745a6c5a806c475bed58282cd75e2967870f124905c2df951e56f0642f072c26"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__wild_capture_bycatch_005__0__welfare__target_last",
+      "item_id": "wild_capture_bycatch_005",
+      "concern_label": 0,
+      "condition": "welfare",
+      "order": "target_last",
+      "pos_b": 1390,
+      "token_prefix_sha256": "e62f36ed97135b42317e83712ff92939e35854b6483c245cb5d24e746d210b3c",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "506f2d96fec1806f120e39d7c5773b7354a8b219060f36fef84d5b6395a9acdc",
+      "original_payload_sha256": "70db9f6290423f856d5646ac6b597f3df125d0764c8791b1d405056131fc1c3d"
+    },
+    {
+      "source": "v5",
+      "job_id": "v5_train__wild_capture_bycatch_005__0__commercial__target_last",
+      "item_id": "wild_capture_bycatch_005",
+      "concern_label": 0,
+      "condition": "commercial",
+      "order": "target_last",
+      "pos_b": 1390,
+      "token_prefix_sha256": "2ff28bd0e30c66f2c56549672f87249f45a0a745bf99026c9cd528aa39a33a85",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "0bf3e14de42a890b8ecf718be8df09035805d246857fd0eeadd8740d0f4d411f",
+      "original_payload_sha256": "c09d1c52d25ae69a9687e65e3617528a340050abfc7dd30277957d7816990748"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__high_suffering_farm_products_008__1__facts__target_first",
+      "item_id": "high_suffering_farm_products_008",
+      "concern_label": 1,
+      "condition": "facts",
+      "order": "target_first",
+      "pos_b": 1366,
+      "token_prefix_sha256": "49d394064779cd1421901dd40050982627f9cc06a511542f014cd805fde61f4c",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "2dafae815c830121070f03042a2553900652549b94ee759adc73138d3c585576",
+      "original_payload_sha256": "1e86cb3ea5fb2a75724bdf39005753d6f269d485278afd29eeaf4441d16e1d63"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__high_suffering_farm_products_008__1__facts__target_last",
+      "item_id": "high_suffering_farm_products_008",
+      "concern_label": 1,
+      "condition": "facts",
+      "order": "target_last",
+      "pos_b": 1366,
+      "token_prefix_sha256": "445212166f2f74bc3de78541ffe969b0ab43bf31461938ad8b4a80a029d87f3e",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "4a10f01316417d5e33d32fab337c551991f2d25496e65721acdfa301f5ffe03a",
+      "original_payload_sha256": "a7cacbbb6b9c070a41c04658ede39a3c50841b3ff1c6ca8a376fea73c18fff59"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__high_suffering_farm_products_008__0__facts__target_first",
+      "item_id": "high_suffering_farm_products_008",
+      "concern_label": 0,
+      "condition": "facts",
+      "order": "target_first",
+      "pos_b": 1367,
+      "token_prefix_sha256": "06159d4ced5cd5bb521e55d1736b93f95c43dce62bb270af3b1823834a13eec7",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "003b28bf0dd1b8ad2feefa773d5754c0d3a05f373dc933bd9c06dd4a5005cc9d",
+      "original_payload_sha256": "38bf2f1ea8d083416eb781d5ba5bb4cad61ece7214964e386ec0fc4ebc6db18f"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__high_suffering_farm_products_008__0__facts__target_last",
+      "item_id": "high_suffering_farm_products_008",
+      "concern_label": 0,
+      "condition": "facts",
+      "order": "target_last",
+      "pos_b": 1367,
+      "token_prefix_sha256": "7036e7f246a4d56046c5c96595888496b4970f05454cbbc99eae56557f56ced7",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "d9eadcc446b9a80df32e57556352de50e960e203f21416e8b7ba641b157adae7",
+      "original_payload_sha256": "f34b75155fc369e869149f020a213605a8e84376cbea9ab852a58fabaff349dd"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__killing_slaughter_method_005__1__facts__target_first",
+      "item_id": "killing_slaughter_method_005",
+      "concern_label": 1,
+      "condition": "facts",
+      "order": "target_first",
+      "pos_b": 1382,
+      "token_prefix_sha256": "36e5db1f07e26ae24b11bd8481368aded9e6d6e7e2511ceeef7bac3ab561fdae",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "8614d58cbdeef69e010c415ab7c8071498ff9d8ddd62c6d537cbdba24519c717",
+      "original_payload_sha256": "2d794a9b09d7e306361415a656bd8751d1a8b6d170afffda5d81357eeaa8bc91"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__killing_slaughter_method_005__1__facts__target_last",
+      "item_id": "killing_slaughter_method_005",
+      "concern_label": 1,
+      "condition": "facts",
+      "order": "target_last",
+      "pos_b": 1382,
+      "token_prefix_sha256": "4c88998dee7de6274813497320b57cb61314af91b75c010a9cfa1ba3f843ea07",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "b48534e49e842ffde296af1fe66a1e2622804778da93be9026888404a76c87f2",
+      "original_payload_sha256": "fef1e0cd6e8804eecfee5b82b77ea21ff3501962aa63f004c2cd367b875c84b6"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__killing_slaughter_method_005__0__facts__target_first",
+      "item_id": "killing_slaughter_method_005",
+      "concern_label": 0,
+      "condition": "facts",
+      "order": "target_first",
+      "pos_b": 1391,
+      "token_prefix_sha256": "2b2905c157d9fefa78d1e3685019808032a87bc4282ecece73ecf9418ca131e2",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "19d5e7907ba060b9025a4cd669363a0bfbef2a5fd44376f100092964769b250f",
+      "original_payload_sha256": "79b54ae43567e0eca59d549c89e9b730b132a2a4d1cfd723b1b1321a53c877a0"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__killing_slaughter_method_005__0__facts__target_last",
+      "item_id": "killing_slaughter_method_005",
+      "concern_label": 0,
+      "condition": "facts",
+      "order": "target_last",
+      "pos_b": 1391,
+      "token_prefix_sha256": "b688a3249971770ba1660ff78d6eb80eb21d8766cfd208db65a06a21268ba5d8",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "cfc39b05aa45ef0aaadafe00a6cfaf8c8c8ffb51670bf06f8e234a96f123b50e",
+      "original_payload_sha256": "39c9f74933bb14306e6c0942ff46bf5bf91a5c95c1e955f98b6aabfe89fbeb5c"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__lifetime_farming_conditions_006__1__facts__target_first",
+      "item_id": "lifetime_farming_conditions_006",
+      "concern_label": 1,
+      "condition": "facts",
+      "order": "target_first",
+      "pos_b": 1394,
+      "token_prefix_sha256": "a33a8fb1102c912712aef6fa7c68f71d2f6fd9e48c57d4aa8b61d146f228d7b7",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "849ae469d8f46289501c71800831a65b357a7f48ee6e83979549cf86b127dd19",
+      "original_payload_sha256": "26c615474bd731f3b9928e5e42a4e6178b7ba2d7cd8ee7856183c96ed14df58f"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__lifetime_farming_conditions_006__1__facts__target_last",
+      "item_id": "lifetime_farming_conditions_006",
+      "concern_label": 1,
+      "condition": "facts",
+      "order": "target_last",
+      "pos_b": 1394,
+      "token_prefix_sha256": "39b4b8eba98de23432f2ce202be8dba83f46c2c6de49732beedf508c7d7a0715",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "1f44c963769553cc4e3922af841d8f8e569c1cad12c4e31e1e379aefa21361b4",
+      "original_payload_sha256": "1b5102faa9911411d3d87e58085df567a4ea380bb7fafa5b1c70e2aac836c573"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__lifetime_farming_conditions_006__0__facts__target_first",
+      "item_id": "lifetime_farming_conditions_006",
+      "concern_label": 0,
+      "condition": "facts",
+      "order": "target_first",
+      "pos_b": 1397,
+      "token_prefix_sha256": "e73fdd5d68ce2530fa3e667168a6b4bd8b8bb4fdf70bb539ab076f06aa870683",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "82e286d370342d0c7df5781426475322d5f2f369a21c82a524e9a73a2388db3e",
+      "original_payload_sha256": "ad5a50068e6f6ea156d8baff146f92bba39f644b2d48b37183b57295cd0b0e2c"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__lifetime_farming_conditions_006__0__facts__target_last",
+      "item_id": "lifetime_farming_conditions_006",
+      "concern_label": 0,
+      "condition": "facts",
+      "order": "target_last",
+      "pos_b": 1397,
+      "token_prefix_sha256": "0f4f516cc3eb1d53e1ec75c828db10a95f5651356ca63f6b5c6bce0e4a07af6f",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "48acb6acf3bb10d50d28faf5b5810e6f62911428ca309c6bbe34c8d30461ec45",
+      "original_payload_sha256": "aee4538c5473d59f85fdbffaf576deaf02ba663cdd30e209625f13eadbf6cce7"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__live_transport_holding_004__1__facts__target_first",
+      "item_id": "live_transport_holding_004",
+      "concern_label": 1,
+      "condition": "facts",
+      "order": "target_first",
+      "pos_b": 1385,
+      "token_prefix_sha256": "743e6d36a8f0672862a8937795025c180928b30114607ae688f72e69f00c6942",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "44d22adf32f2119fc746a2049f1f4f6ca822a85867d018e4274ac7c3d00b895b",
+      "original_payload_sha256": "4e4012263015ed5232901385aa1d8e6ecbd5695bd95a1b50ddab0298dc77f70b"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__live_transport_holding_004__1__facts__target_last",
+      "item_id": "live_transport_holding_004",
+      "concern_label": 1,
+      "condition": "facts",
+      "order": "target_last",
+      "pos_b": 1385,
+      "token_prefix_sha256": "a492a7e021820720d1580db07f2f35719085d70f9626d7de5cc21d7443aef602",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "64fbf51aae900ee94595524bb37e6b9a32271f1f5e3ec6a59a921d3434e8f721",
+      "original_payload_sha256": "f22f41f7c187398724c97e66d41791a720ab421c3f2bbc6aca541d1b6d3cb158"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__live_transport_holding_004__0__facts__target_first",
+      "item_id": "live_transport_holding_004",
+      "concern_label": 0,
+      "condition": "facts",
+      "order": "target_first",
+      "pos_b": 1385,
+      "token_prefix_sha256": "c8d32f5b91023664d7262eaafe13972abeb9028697058faaa00fa61bd505a194",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "bc9a77b80a050403bb8a06d0959131d36039d728c6dd2744989f7bcb5edbcdec",
+      "original_payload_sha256": "cd92ca58df066127ac7bd7efeb2564aec05e1ba593dbcad9598ce0d4a59ae9a9"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__live_transport_holding_004__0__facts__target_last",
+      "item_id": "live_transport_holding_004",
+      "concern_label": 0,
+      "condition": "facts",
+      "order": "target_last",
+      "pos_b": 1385,
+      "token_prefix_sha256": "d9ebf86ef0947d59a89995a8cbfd380e4bb125b61a928d8febc2168103cc8f55",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "6266e680b8fd54b640d816b133e77079eb4d43cba0dc487539680972e2e21a0d",
+      "original_payload_sha256": "915d27df982f2155ee82a9d919afc74b92954eb9d104627d42bb83629d8a152d"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__welfare_claims_labels_001__1__facts__target_first",
+      "item_id": "welfare_claims_labels_001",
+      "concern_label": 1,
+      "condition": "facts",
+      "order": "target_first",
+      "pos_b": 1364,
+      "token_prefix_sha256": "f2fd249a14213b9e6db237b131faf3dcd34f4524624af5ec86553746e3333e19",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "db16844721a5776f788b8a340eddb986523277e2f240876f37ec6f72e98a387d",
+      "original_payload_sha256": "ebb2bf6ef984448ceae329b1d73accbe866078fa7ed2a4ca1e4fd7c912cc5df7"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__welfare_claims_labels_001__1__facts__target_last",
+      "item_id": "welfare_claims_labels_001",
+      "concern_label": 1,
+      "condition": "facts",
+      "order": "target_last",
+      "pos_b": 1364,
+      "token_prefix_sha256": "644d3be3e1c01aef1d13521cace87d20af10e2d7eeb686e3f804e464f16f2016",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "ffb4567e27c100baab9d9a6689d91c28fa68597a6879db68f41c37b0d071578c",
+      "original_payload_sha256": "db60a041ec1f81773b762a660963fa9bb54973425640235be2f0405d1902c71e"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__welfare_claims_labels_001__0__facts__target_first",
+      "item_id": "welfare_claims_labels_001",
+      "concern_label": 0,
+      "condition": "facts",
+      "order": "target_first",
+      "pos_b": 1365,
+      "token_prefix_sha256": "35d380f417c8a596620401f3121e4fe06c27395cab12ed33b3cc8dbd14c55a89",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "9998adf3e393cafa571b930bc7ceaaea6921745a8ed57718918530a4d26196da",
+      "original_payload_sha256": "4300ac4ab6b45592bd251c35727fcb726aab42998f4d8417f2ae010d27c76f37"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__welfare_claims_labels_001__0__facts__target_last",
+      "item_id": "welfare_claims_labels_001",
+      "concern_label": 0,
+      "condition": "facts",
+      "order": "target_last",
+      "pos_b": 1365,
+      "token_prefix_sha256": "dfeb878b93a15404f7a6e41e82a89f7d8cf021eb88c85c6d3931fde8dd1d0a89",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "e2069837921cc9467e98f8eb02e091f30b876a0744efb28a463fe39e3343d051",
+      "original_payload_sha256": "6ff78348ef1017ba8d714cd22a546f144711dad1f5cd0c0c244dc78d0731928c"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__wild_capture_bycatch_005__1__facts__target_first",
+      "item_id": "wild_capture_bycatch_005",
+      "concern_label": 1,
+      "condition": "facts",
+      "order": "target_first",
+      "pos_b": 1388,
+      "token_prefix_sha256": "33aa0612dac96723f6243cefa9589e774155a29471755810b2af8eacebd93994",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "5b75c4762c0e6a76b8d7cbc594fab956037266d1f152102b6e87998d99abaa71",
+      "original_payload_sha256": "bf8f9fb5e6bd97ae0068dcd60ea301481e2a89f136ee9d5697981d3fa6e119d9"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__wild_capture_bycatch_005__1__facts__target_last",
+      "item_id": "wild_capture_bycatch_005",
+      "concern_label": 1,
+      "condition": "facts",
+      "order": "target_last",
+      "pos_b": 1388,
+      "token_prefix_sha256": "2b5c4b6731c477d9e39c6d13ae37211c7a14db4bb1aaf4d6e5d231b16dd85bba",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "d04b54c9b71d639fb35df8355b16f42adb0a7e84cc3829fe90733b71f0697c5c",
+      "original_payload_sha256": "d1732c6aa8565ac483621d038ee5aa24dc269e90ee4d31cbd688f86f557e13c7"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__wild_capture_bycatch_005__0__facts__target_first",
+      "item_id": "wild_capture_bycatch_005",
+      "concern_label": 0,
+      "condition": "facts",
+      "order": "target_first",
+      "pos_b": 1392,
+      "token_prefix_sha256": "85a2b4b32beb1cbf1bf260d8eb993c9fdff50b1dfa6338f0befc6bcfc91a4f49",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "a3b62aad2190659224727ec7b08723d4c43dd2b7addc7bb48db105d1567136b9",
+      "original_payload_sha256": "0b3a1dab10b50d037f2cbcf16ea742b4be87357e5ee9bac512ef57b37a43ed4e"
+    },
+    {
+      "source": "v6",
+      "job_id": "v6_train__wild_capture_bycatch_005__0__facts__target_last",
+      "item_id": "wild_capture_bycatch_005",
+      "concern_label": 0,
+      "condition": "facts",
+      "order": "target_last",
+      "pos_b": 1392,
+      "token_prefix_sha256": "1373cf6ca77fad47402eee30b1d08313b5713c938bbf2cf9541639fe64c33327",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        4096
+      ],
+      "selected_array_sha256": "a6d4e5cd937a701a71975e93e7cbce169dbd3db7ead5685761795dc74afe54fa",
+      "original_payload_sha256": "5073de94c3a811b32036c3c40b0516893e0176daac9a2db7f847f88cdac8e2e7"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_01__1__base",
+      "item_id": "fresh_v4_01",
+      "concern_label": 1,
+      "condition": "base",
+      "order": null,
+      "pos_b": 1294,
+      "token_prefix_sha256": "3288e2fff679268619b28a9b6f57d9b7e6831724c3b9f25ea52a96f8f9f00b0a",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "1d8ff83c1a01185ac08b3108b36af52679f23d222cadc33c83d3d52876525647",
+      "original_payload_sha256": "28ebcadfd974bdf7a631f1994fe2a1cd905fbdc4f5738819fda30f5f296e1cbf"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_01__1__price",
+      "item_id": "fresh_v4_01",
+      "concern_label": 1,
+      "condition": "price",
+      "order": null,
+      "pos_b": 1296,
+      "token_prefix_sha256": "c820db1ffd8c70ccc4f312ac08459d657e2a79e268484ad6faec2a6102f60361",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "618e85f258be1722f4f221d6267888e58ba9e315ea736a72e7fded987ce48ed6",
+      "original_payload_sha256": "a579407adc6924ecf90175bd405ef0acf88205a8dd169b05313142f607bef65d"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_01__1__rating",
+      "item_id": "fresh_v4_01",
+      "concern_label": 1,
+      "condition": "rating",
+      "order": null,
+      "pos_b": 1294,
+      "token_prefix_sha256": "3140802d56156e730bbd4b39d2cf71e5c53e0646ee5a9fe38db1d75574da361c",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "52861aa3017ad0252f1017019b41d60555de2f5a96e26cd52172c3ff681f6f4e",
+      "original_payload_sha256": "e79b5e15070dc1a3f4eb7035f341bd6dcad8a6e3280493f0acd4d934c96a377a"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_01__1__order",
+      "item_id": "fresh_v4_01",
+      "concern_label": 1,
+      "condition": "order",
+      "order": null,
+      "pos_b": 1294,
+      "token_prefix_sha256": "463d8ba339faa57359d797f0446d808c88986d55862634e62dfa71e6dea2f73f",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "fc5e05cd38cda9f8ef5ec4b4ced24968a2e5ef4b3ab2f1bff2a94e9489a96def",
+      "original_payload_sha256": "271488c3a3756825a4b07776a461e90c0f313de53806b262a1c352a3afb118d7"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_01__0__base",
+      "item_id": "fresh_v4_01",
+      "concern_label": 0,
+      "condition": "base",
+      "order": null,
+      "pos_b": 1298,
+      "token_prefix_sha256": "8af8be5b1ed4b9494fd8bf7ae98469987a5ac7ec4b0de746dd4c081358be8527",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "e73271d859379126e93fd9039d0f2710cc62b1c8dd49a8e57d74c3edb3b0586f",
+      "original_payload_sha256": "d36d4b60b35dcae4e5fa4cb5e6ae4068d187fe5d952f0cfce1a485001505a44e"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_01__0__price",
+      "item_id": "fresh_v4_01",
+      "concern_label": 0,
+      "condition": "price",
+      "order": null,
+      "pos_b": 1300,
+      "token_prefix_sha256": "c94f9af410c581f198f03b76cb6833464760b193069abd73b9c324db72a304fa",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "1f2cdf80090b3875b0db45cfaa3bf6709ff872ac7a8f86f6c5a3ca7b3bf90c8d",
+      "original_payload_sha256": "103b83a33ae6535b010246b8a59aca5c1d2f3ec709bf4b2357f31498e7e49325"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_01__0__rating",
+      "item_id": "fresh_v4_01",
+      "concern_label": 0,
+      "condition": "rating",
+      "order": null,
+      "pos_b": 1298,
+      "token_prefix_sha256": "e2d0a1cbc7f9c8d5a1df0c185b5150130994d5880503208a6536975d5916bea5",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "ee5416e96ac577adeeaff96ca0b8d8e32fd35b0188db6067613ee4aadf14fd12",
+      "original_payload_sha256": "439863ff0b941361bce6116fe2d5cbac98f28c7392864b5b691bc98e4bc2979f"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_01__0__order",
+      "item_id": "fresh_v4_01",
+      "concern_label": 0,
+      "condition": "order",
+      "order": null,
+      "pos_b": 1298,
+      "token_prefix_sha256": "557886b7c937298f898fbf9d173246a701152d5021de530dd52480303e7dcd4c",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "1eea2e1e9e2b7734b7a8f9e1b132338cca42503257bf08ab5649f071ec2e84be",
+      "original_payload_sha256": "1786149e469a17a8185fe5727e897badf85a40f87f51a6d6a3a6ec7410e39ad8"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_02__1__base",
+      "item_id": "fresh_v4_02",
+      "concern_label": 1,
+      "condition": "base",
+      "order": null,
+      "pos_b": 1312,
+      "token_prefix_sha256": "261a48e4dd2495b5fe78efdfe1f34e1e38b8ffe268140156a2c0aade8fde6dc3",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "b2dcdd217797a2a7c4e2afac56adf201fa1886dd841dcd765b933ff2d0a3a35a",
+      "original_payload_sha256": "7f979472c8c3df7fba0e78e280018e84e769d8f5030bf689e6f9e8f4355fd927"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_02__1__price",
+      "item_id": "fresh_v4_02",
+      "concern_label": 1,
+      "condition": "price",
+      "order": null,
+      "pos_b": 1316,
+      "token_prefix_sha256": "bda98fe8754fd05c6ff14bb818269caa2a610faa8a87ce4070020a5844770089",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "054634723b6385829dfee0a45ceec572f7561e82a8961e06b9a65dd38cff84a7",
+      "original_payload_sha256": "d16c8081f4dddc4d990957e1cb92f927450a9bbe5d5f2381b825469f5e65974d"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_02__1__rating",
+      "item_id": "fresh_v4_02",
+      "concern_label": 1,
+      "condition": "rating",
+      "order": null,
+      "pos_b": 1312,
+      "token_prefix_sha256": "1c57583896f4a3cec91fb7dd5de3119f60754697eb23bae42faa5e5347f3e449",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "016c67eee28b7e56cadea03d3c8b3fea1c7cbfc3cca63c85f5905d4a61a4be31",
+      "original_payload_sha256": "3eadd3a15a6cb34501b8a3f7d958f8e20189abb0bf2b2e21b987e2a9d041dc21"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_02__1__order",
+      "item_id": "fresh_v4_02",
+      "concern_label": 1,
+      "condition": "order",
+      "order": null,
+      "pos_b": 1312,
+      "token_prefix_sha256": "7c8ae7bca6b75b2bf1a3a3b58c912e4f090c1e1bb03f210b9520efa583243c07",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "5d6337639d82a5a10c88177bf94730160cf4d8516bae5be78269a5d7cf807a2c",
+      "original_payload_sha256": "104a684539503ae5edb52a97a62085e9b439775cd858de4ab05a656bd2f6704a"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_02__0__base",
+      "item_id": "fresh_v4_02",
+      "concern_label": 0,
+      "condition": "base",
+      "order": null,
+      "pos_b": 1314,
+      "token_prefix_sha256": "d2a9b0cbea5a12c9d8b30842084f5f3c0cec8b8680b365b992d778396a390fa3",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "45296b382e6937c92303ea7ff482c10cbcd716a4dad403c627264d01a0587aad",
+      "original_payload_sha256": "ac3d6633f76fa08052df6ca1a417d202bfd685a18db09dcb18e57a8e48981150"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_02__0__price",
+      "item_id": "fresh_v4_02",
+      "concern_label": 0,
+      "condition": "price",
+      "order": null,
+      "pos_b": 1318,
+      "token_prefix_sha256": "bbe0dda1b0ed15b08dfc873317ac772a6f6fc2c6118ab1509eeaaf852bbf2d7d",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "c1d5e139e0296ee3022a45a57b15a40a8d0f10de25a41efac8911a8f8e46e533",
+      "original_payload_sha256": "2416a6b223bed2561c3d853f292167723f9ba8fde599b93cfc73af33ef242594"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_02__0__rating",
+      "item_id": "fresh_v4_02",
+      "concern_label": 0,
+      "condition": "rating",
+      "order": null,
+      "pos_b": 1314,
+      "token_prefix_sha256": "14aa81268e2dd2a741263b1f2d94791f496dc71b812263e08615ef377f89fe8a",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "6563e4484a71eeddb6bbfda50795d0ea3354435f9d0ff69a7598b09234448818",
+      "original_payload_sha256": "1fd2d2e4753f15bc79be334c3e02dba82da804a2f623e4051f69db3df5f7f6b9"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_02__0__order",
+      "item_id": "fresh_v4_02",
+      "concern_label": 0,
+      "condition": "order",
+      "order": null,
+      "pos_b": 1314,
+      "token_prefix_sha256": "54a40ec05c0d0823748ff22c1dc0bea1cb0bf64b86f6444f2d36874a42acacdd",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "9c88d72c1bf3054285c0a1df8c9d8452d0372117dc058c0fc02a07e65d687e21",
+      "original_payload_sha256": "024244a5fba44693186320562462baa35d0b7fdceff60f746dd69a6875bbd9c0"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_03__1__base",
+      "item_id": "fresh_v4_03",
+      "concern_label": 1,
+      "condition": "base",
+      "order": null,
+      "pos_b": 1302,
+      "token_prefix_sha256": "f14aa05574f2f887ceab6fdefeedfd35d46da3273cf3f33a5473b2f4030702d6",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "7d6027e6e156f9646ede1329b10b68614c146fcf7fcd1fd199c258cdf48ddbf4",
+      "original_payload_sha256": "550b312c5c333320b4e2a16acefa3ff1a054a3ed598414087ec406fc1eda3108"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_03__1__price",
+      "item_id": "fresh_v4_03",
+      "concern_label": 1,
+      "condition": "price",
+      "order": null,
+      "pos_b": 1302,
+      "token_prefix_sha256": "d977f1abeaf75c4dedce73687e0b7b9c004aeeced2f73fa4c9c3208e19f59be5",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "c28373fe74cadbde29cc13286c24d9d1e402f393046b418e2d34561128e6a017",
+      "original_payload_sha256": "3efce41e5adbfc5ec3c1f09357bee003396b4152ddd319809caf28da2ab1dc53"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_03__1__rating",
+      "item_id": "fresh_v4_03",
+      "concern_label": 1,
+      "condition": "rating",
+      "order": null,
+      "pos_b": 1302,
+      "token_prefix_sha256": "267a1f6361e818faa8bf405644f74d45d40224cece9c1ebd3165323f8e9e710b",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "991831783266b924b4d05b3b43ced11c4340f77c03c812252ee8aa0bf28ab1da",
+      "original_payload_sha256": "2faf8d50ee1ce75141b6ea0526c61776959de6f7c8bf6903b5e7521476ff1876"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_03__1__order",
+      "item_id": "fresh_v4_03",
+      "concern_label": 1,
+      "condition": "order",
+      "order": null,
+      "pos_b": 1302,
+      "token_prefix_sha256": "82b84d7712ba393573bf7be6f2ce92336339d83fab65324fd5e224b9f8acb8bb",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "37485fe573c5c992a01ca4b25cf6560f589d77338b81c5bb6aac550d5d07f7ab",
+      "original_payload_sha256": "58c7ca2ca139500defdb619369462e2e6d0e3281658a788cc5cc365a6cb3d658"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_03__0__base",
+      "item_id": "fresh_v4_03",
+      "concern_label": 0,
+      "condition": "base",
+      "order": null,
+      "pos_b": 1303,
+      "token_prefix_sha256": "21c297ab57d5f544af555d46940f3de98ed6e00adc32396eacfe77d2fbae0a17",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "52464c7043ae767b45a4c26e0c5bf7372673387aff87cab9a93df9c1de3ac1fa",
+      "original_payload_sha256": "a04e0b984b07bf959151d69c27491bf2800c854d360811c1075879875f704b3d"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_03__0__price",
+      "item_id": "fresh_v4_03",
+      "concern_label": 0,
+      "condition": "price",
+      "order": null,
+      "pos_b": 1303,
+      "token_prefix_sha256": "36d6712c436bd14bba619a9f0185c567c2bfbbcb82897d4997f13195a61cc564",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "40a62a0811ab570d117f04e869586e2cec184014ad373214a59d9454179c7380",
+      "original_payload_sha256": "b7cec1699ab553833dec36054e26ec77059e5c5e6a68245f4b34a3fadea7628e"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_03__0__rating",
+      "item_id": "fresh_v4_03",
+      "concern_label": 0,
+      "condition": "rating",
+      "order": null,
+      "pos_b": 1303,
+      "token_prefix_sha256": "8dde6dbfb933319bcf432a472c35cfac777e7ca44b099c65a35cb4c27e357bdd",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "a42152dd1d4b43b703c2500078a210f42835cee047c39d9b17ae58a8675a0612",
+      "original_payload_sha256": "60cb6d6ef0593ce1fea46049029f7162480d67c2d74fd93d239ea2eaa373102b"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_03__0__order",
+      "item_id": "fresh_v4_03",
+      "concern_label": 0,
+      "condition": "order",
+      "order": null,
+      "pos_b": 1303,
+      "token_prefix_sha256": "9fd67362748de021c4aed87ff56daf3117d072cf19f27e7c2786c520fc159ee0",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "eb1899cd8c34a6373b1e318328b2c45716e63dedb5b3b0ce27f330e9a21765f7",
+      "original_payload_sha256": "c50e8e23ce2172624df54635991624eaf327b629f1bbcec6561158510c2f57e8"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_04__1__base",
+      "item_id": "fresh_v4_04",
+      "concern_label": 1,
+      "condition": "base",
+      "order": null,
+      "pos_b": 1310,
+      "token_prefix_sha256": "7f13a9aa045daf0ce3377fe49c779ab196d732ec8e417ccdda9a5f20db7ad83e",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "e3ab73f1e82871b40e8f1ae666870a834131d849bd09f9ba3b03085a67c4f1a4",
+      "original_payload_sha256": "cb20d38b0d9c81d0f1f89deca6a6a79f903e37756f8734ed40cb45f8b123b790"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_04__1__price",
+      "item_id": "fresh_v4_04",
+      "concern_label": 1,
+      "condition": "price",
+      "order": null,
+      "pos_b": 1312,
+      "token_prefix_sha256": "63aa852943628f6687e01513e07389c5560d26903c013f01d62830b2c2546fa2",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "1971ab7733915ce287f601b2f8299677543973886f5eb996453884d28c5016c4",
+      "original_payload_sha256": "b751674473798794f1eaeabbfef62bdc2f5c274c02143bd366ff8e27b21baa4b"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_04__1__rating",
+      "item_id": "fresh_v4_04",
+      "concern_label": 1,
+      "condition": "rating",
+      "order": null,
+      "pos_b": 1310,
+      "token_prefix_sha256": "639d434126cb98c9a1a19ba6b2b5276822288968ce9fa538c443083388bb7837",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "27074bf15a79657c426d7aac198519d6cb91f80ce1dac29ed9ed9fc5bd40f07d",
+      "original_payload_sha256": "432202df551518b30d6ac80afcf17442d2156245b615066a4714378bd2444e26"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_04__1__order",
+      "item_id": "fresh_v4_04",
+      "concern_label": 1,
+      "condition": "order",
+      "order": null,
+      "pos_b": 1310,
+      "token_prefix_sha256": "d0a10bfac371a3652edbcca9659234076104dd122e5748e9d8606a478a159a05",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "411953c56a445610b7850960995c0491a76eef835e10f4d650ee96b6e685b53f",
+      "original_payload_sha256": "158018716e95caf90855e086c42db658d5c4bf61235ee1e6e672939fcf46c9d7"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_04__0__base",
+      "item_id": "fresh_v4_04",
+      "concern_label": 0,
+      "condition": "base",
+      "order": null,
+      "pos_b": 1310,
+      "token_prefix_sha256": "8403b4bb7f57f0a712a4b5e2a53ab5bee0a1459369a63a11d3907269e6785fca",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "61e541192e2f4422fe956ce223c4ad372bb682d6dd067c94ae170df5e21ef629",
+      "original_payload_sha256": "d8691ddcdd924cdb0418e9f0a85839e5048c2294b9460cf62d4d14f39799e9b3"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_04__0__price",
+      "item_id": "fresh_v4_04",
+      "concern_label": 0,
+      "condition": "price",
+      "order": null,
+      "pos_b": 1312,
+      "token_prefix_sha256": "dbb8f89abf216210cd0dbbe32a8575cadf56357b936106eb37d92b9eb906d389",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "3f249a66bb1897c257063d94605ff7ac257b736a87c5e7866673aeae9bae94f6",
+      "original_payload_sha256": "6d681444f2680523f3829f9d8b37a29ea36f8a6a7fc478ead48b3eedaaace07b"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_04__0__rating",
+      "item_id": "fresh_v4_04",
+      "concern_label": 0,
+      "condition": "rating",
+      "order": null,
+      "pos_b": 1310,
+      "token_prefix_sha256": "c2a746ce3f63fd089c1a79689996cc45a7f755e861c1dd7123c1ee8508882151",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "f52885cf7b892f58d5d099587f28cb5bfe68b420efb4e4bcd29410a2e2efd4f7",
+      "original_payload_sha256": "a6e3a3f87f02ea6ba99de9d35b1e5ff25458a36c7bd343bf3201a9108dcafff0"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_04__0__order",
+      "item_id": "fresh_v4_04",
+      "concern_label": 0,
+      "condition": "order",
+      "order": null,
+      "pos_b": 1310,
+      "token_prefix_sha256": "bafc67c5eea7a351dfdd8117af6b5a72d8ad47896bb8949f32d82eab6e191c04",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "a30da72528a563dceeb6f3f9467f215d8ed8e763ebfe374c1ac16a532f9adeb6",
+      "original_payload_sha256": "58fcc7b66fc946d46e9eff344221ccbd7c43daa290237bb1809cecc6a9c34e9b"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_05__1__base",
+      "item_id": "fresh_v4_05",
+      "concern_label": 1,
+      "condition": "base",
+      "order": null,
+      "pos_b": 1296,
+      "token_prefix_sha256": "28d1c2b3165cd1b0a5187bfdaa1340f88d83efcc8ba2a8da2e0d53d59a4c0cee",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "682fce7eed2c9286ede03eb7127fa038ed81c4d68ade101c1cca13d52a15b1b2",
+      "original_payload_sha256": "1dbd94d511ea52670cc709c891f6b90ce7d238ec3be784c4c63e10aaaf258319"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_05__1__price",
+      "item_id": "fresh_v4_05",
+      "concern_label": 1,
+      "condition": "price",
+      "order": null,
+      "pos_b": 1298,
+      "token_prefix_sha256": "f9b43f4e5ff558b41db43ccb3a4bffa23df9b834a32218cd7e39c3ad79df52fa",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "03653fcd984d1867f1a703657c2d1cfdcd1ab694049e7207a2c2b56309b2891b",
+      "original_payload_sha256": "4dd67ef1567e4a7be9763e7529dc8d6df6cd1e1bc6148cd7fc9eb3c50ccf73eb"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_05__1__rating",
+      "item_id": "fresh_v4_05",
+      "concern_label": 1,
+      "condition": "rating",
+      "order": null,
+      "pos_b": 1296,
+      "token_prefix_sha256": "c1adc9bd29a9a0b195abc41207cf928a1b163d54e370ac5f11a81e8520ba7341",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "12c657416283b89f7058029f8bda9425619eb0fd5e824e98124a8e0ab697ef4d",
+      "original_payload_sha256": "5b16f1fa8d3a87cce6efb8083a4043d25ab7389556afcd3aca0bc321f3247085"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_05__1__order",
+      "item_id": "fresh_v4_05",
+      "concern_label": 1,
+      "condition": "order",
+      "order": null,
+      "pos_b": 1296,
+      "token_prefix_sha256": "3a0ca9507f5887bfc8007cd4443e2714d0fce2954b8d9825b2c71e6e60560a44",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "50f7dac64f1b326319ca43a06718c9b33dae376c91ac310d24c6ba5281f9a599",
+      "original_payload_sha256": "739c9d1324fdfc6cbc34aafcf331baecd5dba83b1aca084da4eb2d711a8b3271"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_05__0__base",
+      "item_id": "fresh_v4_05",
+      "concern_label": 0,
+      "condition": "base",
+      "order": null,
+      "pos_b": 1289,
+      "token_prefix_sha256": "5c961724a88e3dcec96a939972fe4db100eddb17d6bbca0bfdc96eb120acbe38",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "a68c80686064b2446cc08974aceb5a30f31766679d75a34fa46c5e3e2d1b65c6",
+      "original_payload_sha256": "91861b410ba841b8547365d50772c8ee19cc40258cefc6568eca241354a4c200"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_05__0__price",
+      "item_id": "fresh_v4_05",
+      "concern_label": 0,
+      "condition": "price",
+      "order": null,
+      "pos_b": 1291,
+      "token_prefix_sha256": "827a5caacc5ca09185cb35cb104daf0bd0357c5e981d40351dcbd823a36e56cc",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "e7214acd028d45ef9ee4943fc3aff6697df33b3c6115dd3ee5440eff6204671d",
+      "original_payload_sha256": "98527683abcd1bc230215a76f487854012986854d0deac7182f7d8567fe1faf7"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_05__0__rating",
+      "item_id": "fresh_v4_05",
+      "concern_label": 0,
+      "condition": "rating",
+      "order": null,
+      "pos_b": 1289,
+      "token_prefix_sha256": "4e6336822923bbadd5d31deba4ee94264c005f5b17ca29e67012a5258f35cc3a",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "70fa6d8aed2202cfee5f57288b19c7d5b7cdab58e7b9155fa7fa223f28a16f68",
+      "original_payload_sha256": "ea45d9cd6377f4c1e609835cf97edd9cc0b6c2389aa35cc4c55f1da2d17b2e0f"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_05__0__order",
+      "item_id": "fresh_v4_05",
+      "concern_label": 0,
+      "condition": "order",
+      "order": null,
+      "pos_b": 1289,
+      "token_prefix_sha256": "2a2c01d59501c827e1721712e4c1b93f3a5f750f10a853a619ac2ccd8a80706c",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "6d4e1eaf988248035e2fdcacc409cdc5f1be7f5601cfea23b6bf0689deb5a04a",
+      "original_payload_sha256": "6f6b440293fb1283765bf00cac825058833c4d49e293404bb22b7670bf683abf"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_06__1__base",
+      "item_id": "fresh_v4_06",
+      "concern_label": 1,
+      "condition": "base",
+      "order": null,
+      "pos_b": 1312,
+      "token_prefix_sha256": "fdef0b9360c76afcbc04f583752595f5e3228b37386bbe003bb68043adafdc15",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "8195dd47f706d1d9d95371615eb7621092e757a184b903e46e0a2c67ed44b61c",
+      "original_payload_sha256": "6371ef6649eb0394232919ad1415ac6f3055da6f9deabaed87677cfd964bd225"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_06__1__price",
+      "item_id": "fresh_v4_06",
+      "concern_label": 1,
+      "condition": "price",
+      "order": null,
+      "pos_b": 1312,
+      "token_prefix_sha256": "2b4f99770ee36781fb9fc06d12f14534ff2d97d4c5f536a911095cba0d49110f",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "5765b564f826b2ce610d61be7cda20c227953dc1ec7abc0ab3d401fff1f5ee3e",
+      "original_payload_sha256": "1824db68dd7a16f377f52bbd28cb9c72a950aa647a5e91e3bf70c5a844299efe"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_06__1__rating",
+      "item_id": "fresh_v4_06",
+      "concern_label": 1,
+      "condition": "rating",
+      "order": null,
+      "pos_b": 1312,
+      "token_prefix_sha256": "0277f74f9d6f48b189c7f473cc87dda743a96f63bd51e55a04885deaa33a8fcf",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "d6b5a4de4c354d2479ebb0c5ce33ca4f6d2e78457a7406d2073b1115f386d9be",
+      "original_payload_sha256": "dfbc77f6a936e29fb96b3c9095b63064013d6907b7c4de04c8c1bf3218f86927"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_06__1__order",
+      "item_id": "fresh_v4_06",
+      "concern_label": 1,
+      "condition": "order",
+      "order": null,
+      "pos_b": 1312,
+      "token_prefix_sha256": "774d5f27fce178152ea723da6ea353a05bd022fa1344782141add1e6be87c635",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "b5dc5697be33592e30c006c353955c001d834d680bca28899140fa4356079dc6",
+      "original_payload_sha256": "885b571600b56e90c5be1e71f767390305d608f150a51257bb3629811e641830"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_06__0__base",
+      "item_id": "fresh_v4_06",
+      "concern_label": 0,
+      "condition": "base",
+      "order": null,
+      "pos_b": 1315,
+      "token_prefix_sha256": "6a1ac275d843c4545002ed8203f64ad5f3457564496f1e57295880dae4e0fbfb",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "87d570b23fee43efe4c0a2d6d8268b01e6265f86d954dab9153d160d34ceb4b7",
+      "original_payload_sha256": "9cb4f18901a02d9f4772a2d0894482635a3f10edca0a6175511be169d6b11465"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_06__0__price",
+      "item_id": "fresh_v4_06",
+      "concern_label": 0,
+      "condition": "price",
+      "order": null,
+      "pos_b": 1315,
+      "token_prefix_sha256": "03a543959b2d39df4beb5c9bab6b2395205209942c0300ee4f44ad94f2ebf52f",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "45acc28183012ab378f88789be748dac1c8768be9ae508775a6e32cdcac992c5",
+      "original_payload_sha256": "18fe4969047a690bff3525c74322ddcb4680d7f3b970fb7a0c80f80ee122556a"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_06__0__rating",
+      "item_id": "fresh_v4_06",
+      "concern_label": 0,
+      "condition": "rating",
+      "order": null,
+      "pos_b": 1315,
+      "token_prefix_sha256": "552d6f82b6dc047cbfacadcbb8e04a52ef6d36f8cc8cfaa2e9c6ff274f97c0e1",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "0b94d209f6e66dd2053ace85e3b5a85d522e601f3349d1462f6b6c43750994ae",
+      "original_payload_sha256": "791e3f9467c24f6d6754c148bf77c592a10febf4f35fd6871ab89e440d75e767"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_06__0__order",
+      "item_id": "fresh_v4_06",
+      "concern_label": 0,
+      "condition": "order",
+      "order": null,
+      "pos_b": 1315,
+      "token_prefix_sha256": "cd2dc8728c69211a92af14663ad183409334a13b96276f6fd90fb2faa6cee567",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "0fa5bd9639e6b93e53a8f79868a882da30e6d42db220fdc649daf4e1606c0d7a",
+      "original_payload_sha256": "11f4dc380bf78352df5cd56330ea8db1b90e7fa601326c1387efab766038a613"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_07__1__base",
+      "item_id": "fresh_v4_07",
+      "concern_label": 1,
+      "condition": "base",
+      "order": null,
+      "pos_b": 1303,
+      "token_prefix_sha256": "e5d8490887d8b4d481b7151f1491b1e8a7b4ac469cec8d7d6af360767e783c61",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "ac792c51abcd73b3ebaa61a9fea94c86e4a501fce86a45dd2aeddbb0954e004e",
+      "original_payload_sha256": "67445273a569a7d7f8380e2defd242b8d99819b352b50c4c19f51e1af7a613f7"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_07__1__price",
+      "item_id": "fresh_v4_07",
+      "concern_label": 1,
+      "condition": "price",
+      "order": null,
+      "pos_b": 1303,
+      "token_prefix_sha256": "9c4f1ab0ea241ee5cc6d5c39b77ec6da3b9fbbf5c42b830d3cdab00c6a7371ab",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "094792fec788e5117615414cbcca98ea711d24afd19ad328b90c357f2f69c90d",
+      "original_payload_sha256": "42cc381161c874f1054f208ab759f433e77151ee5cac099cbae2075943835386"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_07__1__rating",
+      "item_id": "fresh_v4_07",
+      "concern_label": 1,
+      "condition": "rating",
+      "order": null,
+      "pos_b": 1303,
+      "token_prefix_sha256": "86b579ba3dd7045acacf28423f81ff009580fb2b4613a7ae768364250ee3588b",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "c4d29a5aef53f26703e9f32b57f673294369ccab188762cd61928ac377567182",
+      "original_payload_sha256": "b0c729d16b9ae7a2d339870edf20ff176a41c68cc2af80e5275e9261b0f260ab"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_07__1__order",
+      "item_id": "fresh_v4_07",
+      "concern_label": 1,
+      "condition": "order",
+      "order": null,
+      "pos_b": 1303,
+      "token_prefix_sha256": "2d41da27ff0bd22e292a100b0455818c8c1945c72e9fd6dfe219be7dd7e8b5f4",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "c5f07e88f62279fd359cfcc40d3abc34b15409ea4d19cba30fc07a586d395b3e",
+      "original_payload_sha256": "0ca02a2842732c9bc845cd0a1f6e51bd2c73d76cd434dbb5acd4bbcec1b59a5b"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_07__0__base",
+      "item_id": "fresh_v4_07",
+      "concern_label": 0,
+      "condition": "base",
+      "order": null,
+      "pos_b": 1309,
+      "token_prefix_sha256": "8295bff46d088026372db3f43702aaaf64637dbce960b7d1881103037f79949e",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "ce8f6d19f7d34c9fc2719982d0f25185a22207420eabb51af7e4dbb64d6986e9",
+      "original_payload_sha256": "f5f9cf0c510b7327eafcfc13022be704d06ba641473bfb7cbcb1bbaff392595c"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_07__0__price",
+      "item_id": "fresh_v4_07",
+      "concern_label": 0,
+      "condition": "price",
+      "order": null,
+      "pos_b": 1309,
+      "token_prefix_sha256": "a225609dc1a30c033b5047a6a41c902a5fddc25c88dec2c7a4388791f174bf6b",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "fe3954bdbb35bd75c6a54fe358e3d3594ca0cffa5c5fc145b5a027e12059c5bd",
+      "original_payload_sha256": "43d5a1c2d043f1e6304ee378dfc9a4cee33f70ed5d1648da469702aa1f5cdb5d"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_07__0__rating",
+      "item_id": "fresh_v4_07",
+      "concern_label": 0,
+      "condition": "rating",
+      "order": null,
+      "pos_b": 1309,
+      "token_prefix_sha256": "ab616afa7ca61d0c81e2ea746cc3ddfc6a7bd4f72665b60145e201f8122c1146",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "9098765a11a0a273ab4fc67e5fb47d167f42426193900af4d81455f3c63b1de7",
+      "original_payload_sha256": "c935c383ee550165dcb67381cd7a71fa1c68dd6367a25658b96a9cce5f21f543"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_07__0__order",
+      "item_id": "fresh_v4_07",
+      "concern_label": 0,
+      "condition": "order",
+      "order": null,
+      "pos_b": 1309,
+      "token_prefix_sha256": "1848a04b9f26809b92007ae19c8958d0d483df4abe5d9325d3692a40ecf9951c",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "f1cae10987f42b8df26c6fb7586e32e3ad427bb551734ec1a598ddb8cd463546",
+      "original_payload_sha256": "c83daed3b15fbdcb7e78716e65cfe2be378860c6a7dd990d3366263a18dccd71"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_08__1__base",
+      "item_id": "fresh_v4_08",
+      "concern_label": 1,
+      "condition": "base",
+      "order": null,
+      "pos_b": 1277,
+      "token_prefix_sha256": "e5756fe77949c1b7fecdde60ac31d9ff5b6881c7d3d25e6b9e2ab79e9329cfff",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "dfdbe7a88b79d5579145b7c3fc9a09943cfb43cf4580b7fdf4e1235d4e6825c7",
+      "original_payload_sha256": "7674a8311961ceb6e6a44aa2f61d360742167ed8f3b2c0e3d26f2614e7b0263d"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_08__1__price",
+      "item_id": "fresh_v4_08",
+      "concern_label": 1,
+      "condition": "price",
+      "order": null,
+      "pos_b": 1279,
+      "token_prefix_sha256": "d0ecb41abd81cba9eb172fde43bed3025f2a7b7e8aaff768a4d0a33afa04b6c1",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "557063ec7d9de3d5008a2ee19bf218ca1938e7941195494c1fb8607a1f6e6e7d",
+      "original_payload_sha256": "91548447cf5448ed8fd0e27a765bf8173ca81b742a9c3636dd374775ebe38325"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_08__1__rating",
+      "item_id": "fresh_v4_08",
+      "concern_label": 1,
+      "condition": "rating",
+      "order": null,
+      "pos_b": 1277,
+      "token_prefix_sha256": "b66b3f6506b8f98624fa50bdd446f4a6419a5e55225569b8ed1dd73b4dd27aae",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "9fd6312f9f46da16c005f84836cd36e6c01c096c943384116d788fc6a355fb71",
+      "original_payload_sha256": "626fd186e3983a2d773ecc4896c4e7d47d14f6a0d478e857e9b1812a2e87af6a"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_08__1__order",
+      "item_id": "fresh_v4_08",
+      "concern_label": 1,
+      "condition": "order",
+      "order": null,
+      "pos_b": 1277,
+      "token_prefix_sha256": "77b7f79c9534fc3d6de04c97bb99f6b7356d4aa99a99eb312eb254e9e2b86422",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "8d751202ca64c6f937ccb6f797fdcdd55903e5c6853cbd2cbc305ae3828cf8d2",
+      "original_payload_sha256": "fca71cdb36310f6be6588944e21e72a44a8eee168530075457ca506bc05ed690"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_08__0__base",
+      "item_id": "fresh_v4_08",
+      "concern_label": 0,
+      "condition": "base",
+      "order": null,
+      "pos_b": 1278,
+      "token_prefix_sha256": "49e9fe5074d7781b078076ea09eac6f7b6c0c141b7c82441708c77a01ca59840",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "8658a137b77c449c3a4e8e7bcb46f2948b2b81415c686f68a1dd2676f5b62cba",
+      "original_payload_sha256": "37bc5e95b54c4c507c43c2434c854b96114b48dec38b0a4e77296bd9d2dcb3d0"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_08__0__price",
+      "item_id": "fresh_v4_08",
+      "concern_label": 0,
+      "condition": "price",
+      "order": null,
+      "pos_b": 1280,
+      "token_prefix_sha256": "11e73c2d2895de278e842efb105545e1f80411882d7e37bbde60d08bc172e9f0",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "f94629ae7951d8d02f3698c9e9055994bf510d49f48932dbf09e9220426f782e",
+      "original_payload_sha256": "62bf3403bb72227e46d7cb7f7d899f32ef8d7da5bb1072571817d9c1dae506bf"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_08__0__rating",
+      "item_id": "fresh_v4_08",
+      "concern_label": 0,
+      "condition": "rating",
+      "order": null,
+      "pos_b": 1278,
+      "token_prefix_sha256": "d3f152df4bfa25d5ba4851e53d29aa1bfe57c6a64dcaf27ace65c67303cc2519",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "3dd3192f0c2585553abb6593d128a9b3667988c9b8c73d2e6e45d70548bda87c",
+      "original_payload_sha256": "76c2bc4e10204d1b7350fc4e40f951677dafaa74086a6e7468399113c40b719e"
+    },
+    {
+      "source": "v4",
+      "job_id": "v4__fresh_v4_08__0__order",
+      "item_id": "fresh_v4_08",
+      "concern_label": 0,
+      "condition": "order",
+      "order": null,
+      "pos_b": 1278,
+      "token_prefix_sha256": "c0093d0ae4dc2f7dbbb805e07ec573120c47b8213dd364ed89ec82fa4a1975c0",
+      "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "array_shape": [
+        2,
+        2,
+        4096
+      ],
+      "selected_array_sha256": "8738fd4836cb2a63c0ba86d7957fa632491524f8e475a1ad5a17219763013e8b",
+      "original_payload_sha256": "945b041945fe587c57674ff372d492707232d21ff26621558b6ed5ee7957d8fb"
+    }
+  ]
+}

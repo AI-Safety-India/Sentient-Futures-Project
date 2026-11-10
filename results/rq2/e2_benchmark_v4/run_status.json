@@ -1,0 +1,15 @@
+{
+  "state": "complete",
+  "completed": 78,
+  "total": 78,
+  "jobs_sha256": "5b8a7b8e2269efe94e8b2f32249ee76256120e9ac882e22e6df025063596d96d",
+  "generation_calls": 0,
+  "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "backend_versions": {
+    "torch": "2.11.0",
+    "transformers": "5.14.1",
+    "numpy": "2.4.6",
+    "model_dtype": "bfloat16",
+    "attention": "sdpa"
+  }
+}

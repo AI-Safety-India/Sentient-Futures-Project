@@ -1,0 +1,12 @@
+{
+  "items": 10,
+  "silent_jobs": 20,
+  "comparative_jobs": 40,
+  "unique_ids": true,
+  "assistant_boundary_suffix_checked": true,
+  "original_v1_files_unchanged": true,
+  "model_inference_runs": 0,
+  "token_ids_verified": false,
+  "human_validation_complete": false,
+  "rq3_ready": false
+}

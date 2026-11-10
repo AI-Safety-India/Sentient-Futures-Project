@@ -1,0 +1,51 @@
+RQ2 v8 pilot: completed, but E2 is not yet validated
+
+Review completed
+Chicken and lobster were explicitly approved by the user. Catfish, pig transport,
+hen housing and shrimp/turtle-risk pairs were reviewed on the user's behalf.
+Lower concern never means harmless. The paperwork controls describe mild clerical
+burden; they are not matched in severity to animal suffering. Pig transport is a
+conditional comparison with possible efficiency cues. All qualifications are in
+review_release_v8.json and delegated_remaining_review.json.
+
+Execution
+192 of192 new teacher-forced model passes completed on the Molab runtime that the
+user explicitly confirmed free. Exactly one attempt per input; no repeated
+forwards, no answer generation and no fresh-validation model calls. Independent
+producer review verified the selected activations, input records, pinned model
+and tokenizer. Original data, probes and frozen input wording remain unchanged.
+
+Result on the64 reused development states (eight pairs)
+                         Original E2     Previous v6     New v8
+Base paired ordering          1/8             6/8          6/8
+Changed price                 2/8             7/8          6/8
+Changed rating                1/8             6/8          6/8
+Reversed tool order           6/8             6/8          6/8
+Base pooled AUROC           0.406           0.688        0.656
+
+The same two v8 pairs remain reversed throughout: camel water access and goose
+head immersion/preening. The other six retain their ordering under the tested
+changes, although the emu price-condition gap nearly disappears.
+
+Average base welfare contrast:0.885. Average absolute price-induced score
+shift:1.521; order-induced shift:1.569. These shifts mainly move both members of a
+pair together; they are not six new pair reversals. Compared with v6, price
+sensitivity falls about21%, while order sensitivity rises about99%.
+
+Interpretation and stopping decision
+The execution worked; the proposed measurement repair did not meet its stated
+development screens. This is not evidence that the labels are wrong, that the
+lower versions are harmless, that RQ1 is disproved, or that the model has no
+welfare understanding. The eight pairs were already inspected during earlier
+development, so these results are not independent validation. Training success
+and geometric probe cosines do not establish welfare/content separation.
+
+Stop this pilot as specified. Do not flip its sign, select another layer, or use
+the reserved fresh set to rescue it. This candidate does not clear the planned
+RQ3 measurement requirement. No further model runs were started.
+
+Saved locally
+All192 primary L26/pos_b activation vectors, exact input and label manifests,
+execution ledger, model identity, independent verification and numerical analysis.
+Full32-layer states at both measured positions remain on Molab as additional
+caches; the local primary-vector backup is enough to reproduce this fixed result.

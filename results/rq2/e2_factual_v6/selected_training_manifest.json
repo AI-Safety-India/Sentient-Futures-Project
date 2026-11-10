@@ -1,0 +1,128 @@
+{
+  "position": "pos_b",
+  "layer_one_based": 26,
+  "jobs_sha256": "a6232f6b46816faad5932732bbdbb049b961c9ebf26ce5f919518a313a38da52",
+  "selected_npz_sha256": "ded7846320ecadd9819c8969c9266a2e91039e06f1b6e35ab6ab22529ede3cb5",
+  "records": [
+    {
+      "job_id": "v6_train__high_suffering_farm_products_008__1__facts__target_first",
+      "original_npz_sha256": "1e86cb3ea5fb2a75724bdf39005753d6f269d485278afd29eeaf4441d16e1d63",
+      "selected_array_sha256": "2dafae815c830121070f03042a2553900652549b94ee759adc73138d3c585576"
+    },
+    {
+      "job_id": "v6_train__high_suffering_farm_products_008__1__facts__target_last",
+      "original_npz_sha256": "a7cacbbb6b9c070a41c04658ede39a3c50841b3ff1c6ca8a376fea73c18fff59",
+      "selected_array_sha256": "4a10f01316417d5e33d32fab337c551991f2d25496e65721acdfa301f5ffe03a"
+    },
+    {
+      "job_id": "v6_train__high_suffering_farm_products_008__0__facts__target_first",
+      "original_npz_sha256": "38bf2f1ea8d083416eb781d5ba5bb4cad61ece7214964e386ec0fc4ebc6db18f",
+      "selected_array_sha256": "003b28bf0dd1b8ad2feefa773d5754c0d3a05f373dc933bd9c06dd4a5005cc9d"
+    },
+    {
+      "job_id": "v6_train__high_suffering_farm_products_008__0__facts__target_last",
+      "original_npz_sha256": "f34b75155fc369e869149f020a213605a8e84376cbea9ab852a58fabaff349dd",
+      "selected_array_sha256": "d9eadcc446b9a80df32e57556352de50e960e203f21416e8b7ba641b157adae7"
+    },
+    {
+      "job_id": "v6_train__killing_slaughter_method_005__1__facts__target_first",
+      "original_npz_sha256": "2d794a9b09d7e306361415a656bd8751d1a8b6d170afffda5d81357eeaa8bc91",
+      "selected_array_sha256": "8614d58cbdeef69e010c415ab7c8071498ff9d8ddd62c6d537cbdba24519c717"
+    },
+    {
+      "job_id": "v6_train__killing_slaughter_method_005__1__facts__target_last",
+      "original_npz_sha256": "fef1e0cd6e8804eecfee5b82b77ea21ff3501962aa63f004c2cd367b875c84b6",
+      "selected_array_sha256": "b48534e49e842ffde296af1fe66a1e2622804778da93be9026888404a76c87f2"
+    },
+    {
+      "job_id": "v6_train__killing_slaughter_method_005__0__facts__target_first",
+      "original_npz_sha256": "79b54ae43567e0eca59d549c89e9b730b132a2a4d1cfd723b1b1321a53c877a0",
+      "selected_array_sha256": "19d5e7907ba060b9025a4cd669363a0bfbef2a5fd44376f100092964769b250f"
+    },
+    {
+      "job_id": "v6_train__killing_slaughter_method_005__0__facts__target_last",
+      "original_npz_sha256": "39c9f74933bb14306e6c0942ff46bf5bf91a5c95c1e955f98b6aabfe89fbeb5c",
+      "selected_array_sha256": "cfc39b05aa45ef0aaadafe00a6cfaf8c8c8ffb51670bf06f8e234a96f123b50e"
+    },
+    {
+      "job_id": "v6_train__lifetime_farming_conditions_006__1__facts__target_first",
+      "original_npz_sha256": "26c615474bd731f3b9928e5e42a4e6178b7ba2d7cd8ee7856183c96ed14df58f",
+      "selected_array_sha256": "849ae469d8f46289501c71800831a65b357a7f48ee6e83979549cf86b127dd19"
+    },
+    {
+      "job_id": "v6_train__lifetime_farming_conditions_006__1__facts__target_last",
+      "original_npz_sha256": "1b5102faa9911411d3d87e58085df567a4ea380bb7fafa5b1c70e2aac836c573",
+      "selected_array_sha256": "1f44c963769553cc4e3922af841d8f8e569c1cad12c4e31e1e379aefa21361b4"
+    },
+    {
+      "job_id": "v6_train__lifetime_farming_conditions_006__0__facts__target_first",
+      "original_npz_sha256": "ad5a50068e6f6ea156d8baff146f92bba39f644b2d48b37183b57295cd0b0e2c",
+      "selected_array_sha256": "82e286d370342d0c7df5781426475322d5f2f369a21c82a524e9a73a2388db3e"
+    },
+    {
+      "job_id": "v6_train__lifetime_farming_conditions_006__0__facts__target_last",
+      "original_npz_sha256": "aee4538c5473d59f85fdbffaf576deaf02ba663cdd30e209625f13eadbf6cce7",
+      "selected_array_sha256": "48acb6acf3bb10d50d28faf5b5810e6f62911428ca309c6bbe34c8d30461ec45"
+    },
+    {
+      "job_id": "v6_train__live_transport_holding_004__1__facts__target_first",
+      "original_npz_sha256": "4e4012263015ed5232901385aa1d8e6ecbd5695bd95a1b50ddab0298dc77f70b",
+      "selected_array_sha256": "44d22adf32f2119fc746a2049f1f4f6ca822a85867d018e4274ac7c3d00b895b"
+    },
+    {
+      "job_id": "v6_train__live_transport_holding_004__1__facts__target_last",
+      "original_npz_sha256": "f22f41f7c187398724c97e66d41791a720ab421c3f2bbc6aca541d1b6d3cb158",
+      "selected_array_sha256": "64fbf51aae900ee94595524bb37e6b9a32271f1f5e3ec6a59a921d3434e8f721"
+    },
+    {
+      "job_id": "v6_train__live_transport_holding_004__0__facts__target_first",
+      "original_npz_sha256": "cd92ca58df066127ac7bd7efeb2564aec05e1ba593dbcad9598ce0d4a59ae9a9",
+      "selected_array_sha256": "bc9a77b80a050403bb8a06d0959131d36039d728c6dd2744989f7bcb5edbcdec"
+    },
+    {
+      "job_id": "v6_train__live_transport_holding_004__0__facts__target_last",
+      "original_npz_sha256": "915d27df982f2155ee82a9d919afc74b92954eb9d104627d42bb83629d8a152d",
+      "selected_array_sha256": "6266e680b8fd54b640d816b133e77079eb4d43cba0dc487539680972e2e21a0d"
+    },
+    {
+      "job_id": "v6_train__welfare_claims_labels_001__1__facts__target_first",
+      "original_npz_sha256": "ebb2bf6ef984448ceae329b1d73accbe866078fa7ed2a4ca1e4fd7c912cc5df7",
+      "selected_array_sha256": "db16844721a5776f788b8a340eddb986523277e2f240876f37ec6f72e98a387d"
+    },
+    {
+      "job_id": "v6_train__welfare_claims_labels_001__1__facts__target_last",
+      "original_npz_sha256": "db60a041ec1f81773b762a660963fa9bb54973425640235be2f0405d1902c71e",
+      "selected_array_sha256": "ffb4567e27c100baab9d9a6689d91c28fa68597a6879db68f41c37b0d071578c"
+    },
+    {
+      "job_id": "v6_train__welfare_claims_labels_001__0__facts__target_first",
+      "original_npz_sha256": "4300ac4ab6b45592bd251c35727fcb726aab42998f4d8417f2ae010d27c76f37",
+      "selected_array_sha256": "9998adf3e393cafa571b930bc7ceaaea6921745a8ed57718918530a4d26196da"
+    },
+    {
+      "job_id": "v6_train__welfare_claims_labels_001__0__facts__target_last",
+      "original_npz_sha256": "6ff78348ef1017ba8d714cd22a546f144711dad1f5cd0c0c244dc78d0731928c",
+      "selected_array_sha256": "e2069837921cc9467e98f8eb02e091f30b876a0744efb28a463fe39e3343d051"
+    },
+    {
+      "job_id": "v6_train__wild_capture_bycatch_005__1__facts__target_first",
+      "original_npz_sha256": "bf8f9fb5e6bd97ae0068dcd60ea301481e2a89f136ee9d5697981d3fa6e119d9",
+      "selected_array_sha256": "5b75c4762c0e6a76b8d7cbc594fab956037266d1f152102b6e87998d99abaa71"
+    },
+    {
+      "job_id": "v6_train__wild_capture_bycatch_005__1__facts__target_last",
+      "original_npz_sha256": "d1732c6aa8565ac483621d038ee5aa24dc269e90ee4d31cbd688f86f557e13c7",
+      "selected_array_sha256": "d04b54c9b71d639fb35df8355b16f42adb0a7e84cc3829fe90733b71f0697c5c"
+    },
+    {
+      "job_id": "v6_train__wild_capture_bycatch_005__0__facts__target_first",
+      "original_npz_sha256": "0b3a1dab10b50d037f2cbcf16ea742b4be87357e5ee9bac512ef57b37a43ed4e",
+      "selected_array_sha256": "a3b62aad2190659224727ec7b08723d4c43dd2b7addc7bb48db105d1567136b9"
+    },
+    {
+      "job_id": "v6_train__wild_capture_bycatch_005__0__facts__target_last",
+      "original_npz_sha256": "5073de94c3a811b32036c3c40b0516893e0176daac9a2db7f847f88cdac8e2e7",
+      "selected_array_sha256": "a6d4e5cd937a701a71975e93e7cbce169dbd3db7ead5685761795dc74afe54fa"
+    }
+  ]
+}

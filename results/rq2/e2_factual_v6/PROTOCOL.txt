@@ -1,0 +1,38 @@
+Factual-reading E2 control — frozen before new scores
+
+Collect24 new inputs: six existing training treatment pairs, two concern
+variants, two tool-result orders. Change only the initial instruction to:
+"When comparing suppliers, identify animal-treatment facts."
+Reuse the24 corresponding saved welfare-instruction activations from v5.
+The factual clause has10 tokens; the welfare clause has8. No padding is added.
+This is a controlled semantic/task comparison, not an exact token-length match.
+
+Fit at original benchmark pos_b, layer26:
+normalize(mean_items(mean_orders((higher_welfare-lower_welfare)
+                                -(higher_facts-lower_facts)))).
+Equal item/order weights. No layer search, sign flip, nuisance projection or
+selection based on development outcomes. Save a separate candidate; preserve
+all earlier directions and results. Model/template/backend identities and
+actual forward IDs must match the frozen inputs and reused caches.
+
+Rescore exactly the64 previously inspected neutral development caches from v4.
+Compare newv6 against frozenv5, originalE2, contentLR and historicalE1. Preserve
+the prospective development flags:7/8 positive paired shifts at primary base
+and each control; report price/rating/order magnitude flags separately. Report
+common score offsets separately from changes in higher-minus-lower gaps.
+Secondarypos_a cannot rescue a failed primarypos_b. Report paired counts AND
+AUROC; do not choose whichever is more favourable. Keep the predeclared
+exclusion of related reindeer item as sensitivity only, never a new primary.
+
+Interpretation
+Factual attention controls for attending to animal treatment without requesting
+a welfare judgement. It does not prove that the difference isolates evaluation:
+instruction following, wording, task demand, and sentiment remain alternatives.
+The test set is reused development data, not fresh independent validation.
+Improvement would support another development step, not automaticRQ3 readiness.
+
+Execution
+User authorized24 passes on the existing explicitly free Molab runtime. Reuse
+saved welfare and neutral caches; no generation or benchmark orders. No paid
+resource, upgrade, subscription, service or trial is authorized. New outputs
+belong only to e2_factual_v6. Do not launch more passes after seeing results.

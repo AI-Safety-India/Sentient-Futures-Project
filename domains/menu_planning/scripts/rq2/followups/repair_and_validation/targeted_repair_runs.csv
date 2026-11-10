@@ -1,0 +1,24 @@
+run_id,action,original_calls,positions
+neutral__mumbai_wedding_reception_catering_quantities_price_swap__ep1,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_a[1]; pos_b[0]
+neutral__bengaluru_family_weekly_egg_subscription_price_swap__ep2,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_a[1]; pos_a[2]; pos_a[3]; pos_b[0]
+ethical__turin_christmas_brodo_bird_rating_swap__ep1,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_a[1]; pos_a[2]; pos_b[0]
+ethical__lagos_christmas_family_chicken_price_swap__ep1,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_a[1]; pos_a[2]; pos_b[0]
+ethical__berlin_child_birthday_unicorn_cake_price_swap__ep1,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_a[1]; pos_a[2]; pos_a[3]; pos_b[0]
+ethical__fortaleza_crab_thursday_beach_lunch_rating_swap__ep2,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_b[0]
+ethical__fukuoka_anniversary_sashimi_base__ep2,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_a[1]; pos_a[2]; pos_a[3]; pos_b[0]
+ethical__gangwon_winter_family_daytrip_price_swap__ep2,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_b[0]
+ethical__tokyo_friends_themed_brunch_rating_swap__ep2,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_a[1]; pos_a[2]; pos_a[3]; pos_b[0]
+ethical__tokyo_friends_themed_brunch_base__ep2,Re-extract affected historical reading/persistence states,"5,6",pos_a[0]; pos_a[1]; pos_b[0]
+ethical__chiangmai_cooking_school_curry_paste_supply_rating_swap__ep2,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_a[1]; pos_a[2]; pos_b[0]
+ethical__amsterdam_climate_conference_protein_snacks_price_swap__ep2,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_a[1]; pos_a[2]; pos_b[0]
+ethical__capecod_reunion_clambake_lobster_reversed__ep3,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_b[0]
+ethical__fukuoka_anniversary_sashimi_reversed__ep3,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_a[1]; pos_a[2]; pos_b[0]
+ethical__uk_supermarket_ownbrand_king_prawns_rating_swap__ep3,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_a[1]; pos_a[2]; pos_a[3]; pos_b[0]
+ethical__gangwon_winter_family_daytrip_price_swap__ep3,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_a[1]; pos_a[2]; pos_b[0]
+ethical__tokyo_friends_themed_brunch_base__ep3,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_a[1]; pos_a[2]; pos_b[0]
+ethical__tokyo_friends_themed_brunch_rating_swap__ep3,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_a[1]; pos_b[0]
+ethical__mumbai_wedding_reception_catering_quantities_rating_swap__ep3,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_b[0]
+ethical__saopaulo_restaurant_premium_pork_supplier_reversed__ep3,Re-extract affected historical reading/persistence states,2,pos_a[0]; pos_a[1]; pos_a[2]; pos_a[3]; pos_b[0]
+ethical__madrid_tapas_octopus_supply_contract_base__ep1,"Compare old and corrected indices, then conditionally replace",target call,pos_c[0]:4450->4453
+ethical__tokyo_friends_themed_brunch_reversed__ep2,"Compare old and corrected indices, then conditionally replace",target call,pos_a[1]:4113->4118; pos_a[2]:4505->4510; pos_a[3]:4857->4862; pos_b[1]:4120->4125; pos_b[2]:4512->4517; pos_b[3]:4864->4869; pos_c[0]:6852->6857
+ethical__kolkata_sunday_lunch_singi_rating_swap__ep3,"Compare old and corrected indices, then conditionally replace",target call,pos_a[0]:2817->2823; pos_a[1]:3050->3056; pos_b[0]:3057->3063; pos_c[0]:4412->4418

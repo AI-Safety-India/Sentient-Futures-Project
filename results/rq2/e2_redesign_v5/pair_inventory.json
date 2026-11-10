@@ -1,0 +1,77 @@
+{
+  "status": "prepared_no_inference",
+  "original_results_untouched": true,
+  "source_original_contrast_count": 588,
+  "candidate_pair_count": 14,
+  "split_counts": {
+    "train_reused_user_approved": 6,
+    "development_previously_scored_agent_reviewed": 8,
+    "fresh_final_holdout": 0
+  },
+  "source_hashes": {
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\revised_pairs.json": "55d1294213f93280cd733368e40c47c3946d21fd5921a2217f4fa5bbfdcc690f",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\screen_criteria_approved.json": "a1e882a3c777f543e5533b57dd24a8a42c93d84c9af14349e89d896f8af36468",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_pilot_v3\\core_7_pairs.json": "ba683fb34943c19507f527268a0fb07a96c28a2c522eabee542795685dbcfdc2",
+    "rq2_repair\\e2_benchmark_v4\\fresh_pairs.json": "17576da832a80b50a0aab204dea29778b39397d93c0eb5b206b5dd7df079c8a9",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_benchmark_v4\\jobs.json": "5b8a7b8e2269efe94e8b2f32249ee76256120e9ac882e22e6df025063596d96d",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_benchmark_v4\\benchmark_validation.json": "c3a3c8db358dc38f6db0e1031d8f70c9d37ea9deb731554905ea1cccfe8172b0"
+  },
+  "candidate_pairs_sha256": "dc402f38bbc53801cb1d6d35140723a10cf461417463f810315f58b607cc389b",
+  "training_items": [
+    "high_suffering_farm_products_008",
+    "killing_slaughter_method_005",
+    "lifetime_farming_conditions_006",
+    "live_transport_holding_004",
+    "welfare_claims_labels_001",
+    "wild_capture_bycatch_005"
+  ],
+  "development_items": [
+    "fresh_v4_01",
+    "fresh_v4_02",
+    "fresh_v4_03",
+    "fresh_v4_04",
+    "fresh_v4_05",
+    "fresh_v4_06",
+    "fresh_v4_07",
+    "fresh_v4_08"
+  ],
+  "excluded_reviewed_items": [
+    {
+      "item_id": "embedded_ingredients_006",
+      "reason": "Shark ingredient replaced by vermicelli; changes product composition and taste/quality rather than only the treatment. Excluded before v5 scores."
+    },
+    {
+      "item_id": "live_animal_attraction_013",
+      "reason": "Sensitivity only; ride vs walk changes service and preferences. User judgement that camel rides are a welfare problem is preserved."
+    },
+    {
+      "item_id": "procedure_defined_products_021",
+      "reason": "Sensitivity only; supply/species/fabric matching unresolved."
+    },
+    {
+      "item_id": "pilot_scale_01",
+      "reason": "Indirect demand/waste contrast, not direct animal-state comparison."
+    }
+  ],
+  "reuse_plan": {
+    "new_training_inputs": 48,
+    "formula": "6pairs x2relativeconcern x2earlygoalinstruction x2orders",
+    "reuse_v4_neutral_development_inputs": 64,
+    "development_states_required": "All existing64 fresh-cohort v4 arrays, exact input matching. Existing score layers1/26 suffice for fixedL26 pilot. Changed dev text requires new states and cannot be called cache reuse.",
+    "old_training_activations_reusable": false,
+    "reason": "New early instruction contexts change every training input; original G3 full training arrays absent and do not match."
+  },
+  "final_validation": {
+    "available_suitable_reviewed_unscored_primary_pairs": 0,
+    "required_later": "Prepare and independently review a new locked final set after this development choice; never relabel v4 as fresh.",
+    "not_needed_to_prepare_small_pilot": true,
+    "no_claim": "No claim of independent unseen-family or human-validated final evaluation."
+  },
+  "limitations": [
+    "All training examples have previously observed scores; they are explicitly training/development, not final confirmation.",
+    "Broad animal-product families overlap across splits, e.g. eggs and meat; do not claim taxonomic holdout.",
+    "Goal instruction itself may induce an animal-content or task-priority feature; transfer and nuisance tests remain required."
+  ],
+  "paid_work_started": false,
+  "model_runs": 0
+}

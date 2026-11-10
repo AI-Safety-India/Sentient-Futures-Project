@@ -1,0 +1,20 @@
+{
+  "status": "DRAFT_FROZEN_FOR_REVIEW_NOT_LOCKED_TEST",
+  "files": [
+    {
+      "path": "fresh_validation_draft.json",
+      "sha256": "cf5d292a6dc26e86b29d7d0d190383bdaaabb081a87b8df6fd5680c3e70acbc9"
+    },
+    {
+      "path": "novelty_audit.json",
+      "sha256": "6629cb74130fcd7759796eaed88657fdabe648a10f4cc5ea92735ae1b8b56bdd"
+    },
+    {
+      "path": "fresh_validation_review.txt",
+      "sha256": "60fa26fb69d48a242e0b7b9d6ef976ad226197c2ed1572d1de6ceb399ebfcc23"
+    }
+  ],
+  "requires_human_review": true,
+  "inference_started": false,
+  "next_revision_policy": "Preserve this draft; save reviewed changes as a separately named file with a new hash before any validation run."
+}

@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-10",
+  "items": 10,
+  "revise": 10,
+  "passed": 0,
+  "individual_user_decisions": 6,
+  "delegated_ai_assessments": 4,
+  "independent_human_validation_complete": false,
+  "existing_prompt_assets_approved_for_inference": false,
+  "note": "Decisions and evidence notes updated only. Original descriptions, cached activations and prepared prompts remain unchanged; revise/version descriptions and labels before new validation.",
+  "decisions": [
+    {
+      "item_id": "embedded_ingredients_006",
+      "decision": "revise",
+      "provenance": "individual user decision"
+    },
+    {
+      "item_id": "high_suffering_farm_products_008",
+      "decision": "revise",
+      "provenance": "individual user decision"
+    },
+    {
+      "item_id": "killing_slaughter_method_005",
+      "decision": "revise",
+      "provenance": "individual user decision"
+    },
+    {
+      "item_id": "lifetime_farming_conditions_006",
+      "decision": "revise",
+      "provenance": "individual user decision"
+    },
+    {
+      "item_id": "live_animal_attraction_013",
+      "decision": "revise",
+      "provenance": "individual user decision"
+    },
+    {
+      "item_id": "live_transport_holding_004",
+      "decision": "revise",
+      "provenance": "individual user decision"
+    },
+    {
+      "item_id": "procedure_defined_products_021",
+      "decision": "revise",
+      "provenance": "AI-assisted delegated assessment"
+    },
+    {
+      "item_id": "pilot_scale_01",
+      "decision": "revise",
+      "provenance": "AI-assisted delegated assessment"
+    },
+    {
+      "item_id": "welfare_claims_labels_001",
+      "decision": "revise",
+      "provenance": "AI-assisted delegated assessment"
+    },
+    {
+      "item_id": "wild_capture_bycatch_005",
+      "decision": "revise",
+      "provenance": "AI-assisted delegated assessment"
+    }
+  ]
+}

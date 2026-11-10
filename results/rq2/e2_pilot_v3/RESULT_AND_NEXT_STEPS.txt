@@ -1,0 +1,72 @@
+Revised E2 pilot result — 10 November 2026
+
+Completed on the user's existing confirmed free Molab runtime:
+42/42 forward passes, zero generated answers, 84 saved positions, all32 layers.
+All42 rendered prompts, tokenizer IDs, actual input tensors, producer manifests
+and cache payloads verified.15 local code tests and12 independent structural
+review checks passed. Original results and probe weights were not changed.
+
+Results (seven previously inspected development pairs)
+
+Measurement                          Correct pair order    AUROC
+Original E2, neutral continuation     7/7                   0.735
+Content L26, neutral continuation     5/7                   0.796
+Original E2, tool close               1/7                   0.429
+Content L26, tool close               7/7                   0.776
+Original E2, welfare question         7/7                   0.918
+Original E2, value question           4/7                   0.551
+New E2, leave-one-item-out transfer   2/7                   not pooled
+
+Correct pair order compares each higher-concern description with its own
+lower-concern counterpart. AUROC compares all seven higher and seven lower
+scores, so 7/7 paired comparisons does not imply AUROC1.0. Different E2
+directions are fitted in each held-out fold; pooling their score levels into
+one AUROC would be misleading. No sign flipping or layer search occurred.
+
+Interpretation
+The old E2 probe has a promising signal in this particular continuation
+context. The small newly fitted interaction does not transfer reliably.
+Changing measurement context/position changes the result substantially.
+Neither finding proves that the agent recognises welfare and ignores it.
+The content baseline also separates these examples. Seven previously seen
+pairs cannot establish independent generalisation or construct specificity.
+This pilot is NOT a blanket failure of RQ2, and it is NOT an RQ3 readiness pass.
+
+Numerical sensitivity
+Shared causal input prefixes match exactly. BF16 hidden values nevertheless
+vary across full sequence lengths: maximum layer26 relative L2 difference
+2.30%, minimum cosine0.999737. The largest absolute difference across all32
+layers is1.5. The cause has not been isolated with a precision/backend rerun.
+Do not interpret this as future text causally affecting earlier tokens. Keep
+this caveat when discussing small margins or comparing different contexts.
+
+Minimum next steps
+1. Keep original E2 as the existing candidate; do not replace it with the
+   unsuccessful seven-item refit or repeat all1200 benchmark runs.
+2. Freeze the exact original benchmark reading boundary and test the same
+   descriptions there without the neutral nudge. Include matched nuisance
+   controls (price/rating/position) and the content baseline. Do not silently
+   select whichever boundary gives the most favourable score.
+3. Review fresh examples from unused product families, then validate the
+   frozen candidate/context once. Keep final-answer behavioural validation
+   separate from the forward-only measurements; this pilot generated none.
+4. If measurement supports the intended interpretation, reuse valid original
+   benchmark activations to join the internal scores to existing RQ1 records.
+   Then run a small controlled RQ3 intervention pilot, with direction/sign/dose
+   and random-direction controls plus task-performance checks. If measurement
+   does not validate, an RQ3 experiment can only be described as exploratory
+   steering of a candidate feature, not proven welfare evaluation.
+
+Reuse and storage
+Original120 diagnostic caches were rescored without GPU inference. Original
+G3 training arrays were not recovered; saved probe weights and archived1200
+benchmark caches remain available with their existing repair/provenance limits.
+New all-layer caches and archive are saved on Molab:
+/marimo/e2_pilot_v3/activations/
+/marimo/e2_pilot_v3/completed_core_pilot.zip (18,772,335 bytes)
+The report is saved locally as pilot_analysis.json. Local selected-layer arrays
+are an analysis subset, not a substitute for the full remote producer caches.
+The full archive transfer was interrupted because the pairing text transport
+was too slow; the remote archive itself remains intact.
+
+No paid service, resource upgrade, subscription, API or trial was started.

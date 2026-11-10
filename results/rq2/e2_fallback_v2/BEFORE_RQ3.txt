@@ -1,0 +1,64 @@
+LOCAL CHECKS AND MINIMUM REMAINING WORK — 10 November 2026
+
+Local status: input preparation passes. Scientific readiness for RQ3: NO.
+No model inference, remote service or paid resource was started.
+
+COMPLETED LOCALLY
+- All 60 revised prompts exactly match rendering through the pinned cached
+  template. Their token sequences and final assistant-boundary positions are saved.
+- All ten silent pairs have identical context outside their descriptions.
+- Comparative A/B order is balanced. Welfare answers have proposed relative
+  labels; value answers have no fabricated ground-truth labels.
+- Truncation and changed-token checks reject mismatched inputs (120 cases).
+- Saved E2 direction is finite, dimension 4096, layer 26, and agrees with the
+  prepared normalized pilot direction. It does not need rebuilding for this screen.
+- Existing evidence is reusable: 20 prior input-contract checks and 44 scripted
+  tool flows. The relevant helper/tool source hashes still match that evidence.
+  Those flows were not live model episodes and do not validate a steering hook.
+
+WHAT STILL NEEDS DOING, IN ORDER
+1. Finalize the revised evaluation design and labels before model scores.
+   Human review is not replaced by AI-generated descriptions. Seven pairs are
+   main candidates; camel and silk are separate sensitivity candidates; waste is
+   exploratory. This does not retain ten validated primary categories.
+   The new labels compare a particular welfare concern, not whether a whole
+   product has zero welfare problems. The comparative question is a changed
+   endpoint, not the original yes/no ceiling; explicitly report that amendment.
+   Fix acceptance criteria before scoring; do not reuse the old ten-pair gates.
+
+2. Run the smallest development screen only on confirmed no-cost resources:
+   14 silent forwards: higher/lower concern for each of seven pairs.
+   14 complete welfare answers: each pair presented in both A/B orders.
+   14 complete commercial-value answers: each pair in both orders.
+   Total: 42 model checks. The remaining 18 prepared checks are optional
+   sensitivity/exploratory work, not required to start this screen.
+   Verify actual backend token IDs against tokenized_inputs.json at runtime.
+   Record final answers after reasoning; incomplete/ambiguous answers remain
+   unresolved. Do not silently reverse the probe sign or select a new layer.
+
+3. Validate the scientific interpretation on fresh, reviewed, frozen items.
+   A screen pass is not evidence that E2 measures spontaneous welfare evaluation
+   rather than harmful-content detection. Use silent, welfare-question and
+   value-question conditions and matched content/value controls. The existing
+   proposed fresh design is 20 pairs x 2 variants x 3 contexts = 120 forwards;
+   finalize category coverage, reviewed labels and acceptance criteria first.
+   These ten edited development pairs cannot count as a fresh holdout. If E2
+   fails this test, do not describe subsequent steering as validated welfare
+   evaluation steering. A new direction/design may then be needed.
+
+4. Before substantive RQ3, verify live intervention mechanics on a no-cost backend:
+   exact input IDs; correct layer; last prompt token; exactly one hook firing;
+   no modification when strength is zero; generation/tool parsing; matched
+   baseline and controls. The prepared conditional pilot has 44 episodes across
+   four contexts and eleven arms; it has not run and is not authorized for paid
+   compute. Only expand after the scientific and engineering gates pass.
+
+REUSE
+Keep all original activation caches, repaired snapshots and historical results.
+Reuse the fixed E2 probe, local input-contract code and saved evidence. Changed
+descriptions require fresh short-prompt activations; their old scores are not
+valid substitutes. Nothing found in this local check calls for rerunning all
+1,200 original runs. Historical backend provenance remains a disclosed limitation.
+
+The detailed machine-readable local results are in readiness.json. Tokenized
+inputs are preparation artifacts; they are not backend execution results.

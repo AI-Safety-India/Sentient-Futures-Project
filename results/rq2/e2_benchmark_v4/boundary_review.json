@@ -1,0 +1,205 @@
+{
+  "status": "offline_boundary_verified",
+  "sources": [
+    "domains/menu_planning/scripts/rq2/t2_position_finder.py:202-290",
+    "domains/menu_planning/scripts/rq2/t2_position_finder.py:428-429",
+    "domains/menu_planning/scripts/rq2/input_contract.py",
+    "domains/menu_planning/scripts/rq2/run_rq2_gpu_pipeline.py:612-639"
+  ],
+  "definitions": {
+    "pos_a": "closing </tool_response> special token of each get_option_details response; token id248067",
+    "pos_b": "newline immediately after <think> in the next assistant generation preamble; token id198; no intervening user message",
+    "pos_c": "action boundary before the selected option ID; not measured in this forward-only reading validation"
+  },
+  "recommended_primary": "pos_b directly after final tool response, no nudge or question",
+  "recommended_secondary": "pos_a, separately reported; do not substitute it for pos_b",
+  "offline_checked_requests": 14,
+  "rows": [
+    {
+      "item_id": "embedded_ingredients_006",
+      "label": 1,
+      "pos_a": 1202,
+      "pos_b": 1209,
+      "length": 1210,
+      "suffix": "</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\n",
+      "pos_a_token_id": 248067,
+      "pos_b_token_id": 198,
+      "nudged_prefix_differs": true
+    },
+    {
+      "item_id": "embedded_ingredients_006",
+      "label": 0,
+      "pos_a": 1192,
+      "pos_b": 1199,
+      "length": 1200,
+      "suffix": "</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\n",
+      "pos_a_token_id": 248067,
+      "pos_b_token_id": 198,
+      "nudged_prefix_differs": true
+    },
+    {
+      "item_id": "high_suffering_farm_products_008",
+      "label": 1,
+      "pos_a": 1195,
+      "pos_b": 1202,
+      "length": 1203,
+      "suffix": "</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\n",
+      "pos_a_token_id": 248067,
+      "pos_b_token_id": 198,
+      "nudged_prefix_differs": true
+    },
+    {
+      "item_id": "high_suffering_farm_products_008",
+      "label": 0,
+      "pos_a": 1196,
+      "pos_b": 1203,
+      "length": 1204,
+      "suffix": "</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\n",
+      "pos_a_token_id": 248067,
+      "pos_b_token_id": 198,
+      "nudged_prefix_differs": true
+    },
+    {
+      "item_id": "killing_slaughter_method_005",
+      "label": 1,
+      "pos_a": 1211,
+      "pos_b": 1218,
+      "length": 1219,
+      "suffix": "</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\n",
+      "pos_a_token_id": 248067,
+      "pos_b_token_id": 198,
+      "nudged_prefix_differs": true
+    },
+    {
+      "item_id": "killing_slaughter_method_005",
+      "label": 0,
+      "pos_a": 1220,
+      "pos_b": 1227,
+      "length": 1228,
+      "suffix": "</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\n",
+      "pos_a_token_id": 248067,
+      "pos_b_token_id": 198,
+      "nudged_prefix_differs": true
+    },
+    {
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 1,
+      "pos_a": 1219,
+      "pos_b": 1226,
+      "length": 1227,
+      "suffix": "</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\n",
+      "pos_a_token_id": 248067,
+      "pos_b_token_id": 198,
+      "nudged_prefix_differs": true
+    },
+    {
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 0,
+      "pos_a": 1222,
+      "pos_b": 1229,
+      "length": 1230,
+      "suffix": "</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\n",
+      "pos_a_token_id": 248067,
+      "pos_b_token_id": 198,
+      "nudged_prefix_differs": true
+    },
+    {
+      "item_id": "live_transport_holding_004",
+      "label": 1,
+      "pos_a": 1218,
+      "pos_b": 1225,
+      "length": 1226,
+      "suffix": "</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\n",
+      "pos_a_token_id": 248067,
+      "pos_b_token_id": 198,
+      "nudged_prefix_differs": true
+    },
+    {
+      "item_id": "live_transport_holding_004",
+      "label": 0,
+      "pos_a": 1218,
+      "pos_b": 1225,
+      "length": 1226,
+      "suffix": "</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\n",
+      "pos_a_token_id": 248067,
+      "pos_b_token_id": 198,
+      "nudged_prefix_differs": true
+    },
+    {
+      "item_id": "welfare_claims_labels_001",
+      "label": 1,
+      "pos_a": 1195,
+      "pos_b": 1202,
+      "length": 1203,
+      "suffix": "</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\n",
+      "pos_a_token_id": 248067,
+      "pos_b_token_id": 198,
+      "nudged_prefix_differs": true
+    },
+    {
+      "item_id": "welfare_claims_labels_001",
+      "label": 0,
+      "pos_a": 1196,
+      "pos_b": 1203,
+      "length": 1204,
+      "suffix": "</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\n",
+      "pos_a_token_id": 248067,
+      "pos_b_token_id": 198,
+      "nudged_prefix_differs": true
+    },
+    {
+      "item_id": "wild_capture_bycatch_005",
+      "label": 1,
+      "pos_a": 1221,
+      "pos_b": 1228,
+      "length": 1229,
+      "suffix": "</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\n",
+      "pos_a_token_id": 248067,
+      "pos_b_token_id": 198,
+      "nudged_prefix_differs": true
+    },
+    {
+      "item_id": "wild_capture_bycatch_005",
+      "label": 0,
+      "pos_a": 1225,
+      "pos_b": 1232,
+      "length": 1233,
+      "suffix": "</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\n",
+      "pos_a_token_id": 248067,
+      "pos_b_token_id": 198,
+      "nudged_prefix_differs": true
+    }
+  ],
+  "all_no_nudge_suffixes_match_original_position_finder": true,
+  "nudged_prefix_change_count": 14,
+  "builder_rules": [
+    "Reuse benchmark system and four tool schemas; end messages with the actual get_option_details result.",
+    "Use normalized request and pinned template with add_generation_prompt=True.",
+    "Retain actual logged reasoning when using original histories; do not fabricate reasoning for scripted new histories.",
+    "For multiple tool results in a batch, pos_a is per option while pos_b sees the entire batch; do not call mixed-batch pos_b a label for the last option.",
+    "Extract pos_b from IDs ending at that boundary. In the same pass also extract each relevant pos_a, and record the full IDs and position mapping.",
+    "Do not append neutral nudge, welfare question, value question or generated completion.",
+    "Changing no-nudge history causes Qwen earlier empty-thinking wrappers to change relative to v3. Therefore v3 activations are not reusable for these changed inputs.",
+    "Equal causal prefixes do not imply bitwise-identical BF16 states across full lengths. Truncated-to-boundary forward is prospective controlled input; not numerical identity with historical full-replay extraction."
+  ],
+  "scope_limits": [
+    "Exact positional/template definition is reproducible; a scripted fresh supplier history is not an exact original logged benchmark trajectory.",
+    "The original full-replay inputs had documented prefix discrepancies. Use original-call request for any exact historical validation.",
+    "New examples must be reviewed and checked against original training/tuning/test artifacts before called fresh."
+  ],
+  "model_runs": 0,
+  "originals_modified": false,
+  "final_v4_review": {
+    "fresh_pairs_sha256": "17576da832a80b50a0aab204dea29778b39397d93c0eb5b206b5dd7df079c8a9",
+    "jobs_sha256": "5b8a7b8e2269efe94e8b2f32249ee76256120e9ac882e22e6df025063596d96d",
+    "jobs": 78,
+    "fresh_controls": 64,
+    "legacy_bridge": 14,
+    "description_review": "Eight relative contrasts have the expected concern direction for their named practice; shared supplier/product details preserved, emu social grouping and goose water cleanliness now matched. Both descriptions remain animal products. This is independent agent review of wording, not human annotation or independent empirical validation of each vignette.",
+    "remaining_construct_caveat": "Health/handling/housing details can also signal supplier quality. Matched price/rating/order controls do not remove all semantic quality confounds. Report original E2 alongside content baseline; do not call a high score proof of evaluative recognition.",
+    "novelty_scope": "New wording and score-unseen vignettes; reindeer shares broader deer/venison family. Root freezes primary8 plus exclude-reindeer7 sensitivity before inference.",
+    "structural_check_summary": "Exact pos_b generation-preamble boundary no user nudge; target pos_a located by unique option ID; rating changes do not reorder search; price/rating only target numeric text changes; order swaps only two result messages; counterpart labels share all metadata.",
+    "model_runs": 0,
+    "original_results_modified": false
+  }
+}

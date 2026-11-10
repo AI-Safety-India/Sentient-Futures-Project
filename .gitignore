@@ -2,3 +2,19 @@
 .venv/
 __pycache__/
 .DS_Store
+
+# RQ2 local runtime/session material and full cache exports.
+# Small, explicitly reviewed result arrays are published separately.
+.env.*
+**/molab_pairing*.txt
+**/*connection*.log
+**/*connection*.txt
+**/upload_*.remote.py
+**/stage_part_*.remote.py
+**/*.safetensors
+/rq2_repair/
+/outputs/g4/npz/
+/results/rq2/**/activations/
+/results/rq2/**/full_cache/
+/results/rq2/**/*.zip
+/results/rq2/**/*.tar.gz

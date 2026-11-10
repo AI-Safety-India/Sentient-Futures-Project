@@ -1,0 +1,32 @@
+{
+  "jobs_sha256": "5b8a7b8e2269efe94e8b2f32249ee76256120e9ac882e22e6df025063596d96d",
+  "development_only": true,
+  "paid_resources_authorized": false,
+  "execution_authority": "User requested tests on existing confirmed-free runtime; no new resources permitted.",
+  "expected_jobs": 78,
+  "primary": "Original saved E2 L26 at original pos_b definition",
+  "screen_minimum_positive_pairs": 7,
+  "screen_total_pairs": 8,
+  "secondary_cannot_rescue_primary": true,
+  "predeclared_novelty_sensitivity_exclude": "fresh_v4_07",
+  "independent_human_labels": false,
+  "original_probe_sha256": "bcd29390210350dd707a37db85b83ce21ab5db2fa55f74ec9fa0b5ab64679749",
+  "code_sha256": {
+    "run_checks.py": "61ef2c73a5e9a29e821c03563d52263683d9b4debb0b238c3246ee92e42d1d65",
+    "analyze.py": "b01474bb18d959e028f730485da5f080275bba45f7770942cd72e203d1c5ece2",
+    "build_jobs.py": "e4035764dcaa19fdc3b6da7ab8f7891ab31ee512cad7f06d864cd746615152d2",
+    "fresh_pairs.json": "17576da832a80b50a0aab204dea29778b39397d93c0eb5b206b5dd7df079c8a9",
+    "novelty_review.json": "f54c6fb5e19c1f28c7839af5b78c190601bf4514a35e1bc369058195fad788e1",
+    "boundary_review.json": "e7bc2fcdf04f8830d59b1cf7fa8bcf373733c77fabec69ba433b343d082b87ad",
+    "protocolproposal.txt": "16bf75f314c19fccd23a1f0ed421c7fb5c2df09dc989027925fb305d44133e7d"
+  },
+  "source_sha256": {
+    "Sentient-Futures-Project-git\\domains\\menu_planning\\scripts\\rq2\\input_contract.py": "502484e962ba155116e009df7bd662d913b7af20ffae1dfaf79a1f60d8adbeb9",
+    "Sentient-Futures-Project-git\\domains\\menu_planning\\eval\\prompts.py": "c8710f18209effc95372c8e7efe2c7c4c89f740252c8a10bc6b41707dfe26bf4",
+    "Sentient-Futures-Project-git\\domains\\menu_planning\\eval\\tools.py": "1da986af422f1c12329f00688461301f07f0847f04de3c94db80d3248c630b32",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\revised_pairs.json": "55d1294213f93280cd733368e40c47c3946d21fd5921a2217f4fa5bbfdcc690f",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\screen_criteria_approved.json": "a1e882a3c777f543e5533b57dd24a8a42c93d84c9af14349e89d896f8af36468"
+  },
+  "structural_negative_tests_passed": 3,
+  "analysis_tests_passed": 6
+}

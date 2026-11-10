@@ -1,0 +1,117 @@
+{
+  "schema": "rq2_v8_review_release_v1",
+  "review_date_local": "2026-11-10",
+  "timezone": "Asia/Calcutta",
+  "user_message": "yes approve the lobster pair and paperwork control with those qualifications. lower concern still doesnt mean harmless. lets review the next pair, dont start anything paid, review the rmeangng pairs for me aslwelland ontnuely directlyt othe pilot",
+  "source_files": {
+    "training_pairs_reviewed_draft.json": "92953e2d5a94efca30e03212cf43666ff71a43c343d363a4c86875970bc25fb0",
+    "training_jobs_draft.json": "95c8232f06b6bdc22e8acddbaa8e211f2d9c23b76881c30c2de82881f0ebf569"
+  },
+  "prior_chicken_review_sha256": "df9420facee203cd98665fa446fccd6b9bec4fbaeb2db281be3142db3b9e7fff",
+  "delegated_review_sha256": "b49e00de10ac2b31af804d3b0b688acae1023eead6324a2c97c59110af1df152",
+  "explicit_human_approved_items": 2,
+  "delegated_agent_accepted_items": 4,
+  "remaining_label_reviews": 0,
+  "all_six_human_annotated": false,
+  "items": [
+    {
+      "item_id": "high_suffering_farm_products_008",
+      "decision": "approved",
+      "full_wording_and_control_approved": true,
+      "reviewed_input_sha256": "0c1bbd1ea17361efcca9591e772bf1d30e84729f92d5108ea3f1eb252c5a6d24",
+      "scope": "Relative concern about the named treatment only; lower concern does not mean harmless.",
+      "approval_source": "User explicitly approved the chicken pair and its paperwork control in this chat.",
+      "review_type": "explicit_user_approval",
+      "human_annotation": true
+    },
+    {
+      "item_id": "killing_slaughter_method_005",
+      "decision": "approved",
+      "full_wording_and_control_approved": true,
+      "reviewed_input_sha256": "cfc337a7704f24b4e801cee2a28f81916b5a81b22c6c5c16c848a16e0cd3f09e",
+      "scope": "Relative concern about the named treatment only; lower concern does not mean harmless.",
+      "approval_source": "User explicitly approved the revised lobster pair and paperwork control with the stated qualifications in this chat.",
+      "review_type": "explicit_user_approval",
+      "human_annotation": true,
+      "qualifications": [
+        "The lower version stipulates an effective stun and no recovery of sensibility before death.",
+        "This is a hypothetical treatment comparison, not a verified claim about a real supplier or stunning device.",
+        "Killing and other lobster-related harms remain; lower concern does not mean harmless."
+      ]
+    },
+    {
+      "item_id": "lifetime_farming_conditions_006",
+      "decision": "accepted_for_bounded_pilot_by_delegated_agent",
+      "full_wording_and_control_approved": false,
+      "reviewed_input_sha256": "f09be6ce8db8c64acdb9df0f054c1022674e864a5e7fbb01ab9d4b579df927ae",
+      "scope": "Relative concern about the named treatment only; lower concern does not mean harmless.",
+      "approval_source": "User delegated remaining-pair review and continuation to the pilot; see delegated_remaining_review.json.",
+      "full_wording_and_control_reviewed": true,
+      "review_type": "user_authorized_agent_review",
+      "human_annotation": false,
+      "qualifications": [
+        "African sharptooth catfish can breathe air; low dissolved oxygen alone is not used to infer distress.",
+        "The veterinary protocol, observations and respiratory distress are stipulated fictional facts, not independently verified farm records or a universal numerical oxygen threshold.",
+        "The contrast bundles oxygen conditions, observed distress and response. Absence of observed respiratory distress does not imply absence of all suffering."
+      ]
+    },
+    {
+      "item_id": "live_transport_holding_004",
+      "decision": "accepted_for_bounded_pilot_by_delegated_agent",
+      "full_wording_and_control_approved": false,
+      "reviewed_input_sha256": "0552feb426ff4b06a0e6a939e17bdbf3ccc7f051e629b3b7027ff4edc8ca98db",
+      "scope": "Relative concern about the named treatment only; lower concern does not mean harmless.",
+      "approval_source": "User delegated remaining-pair review and continuation to the pilot; see delegated_remaining_review.json.",
+      "full_wording_and_control_reviewed": true,
+      "review_type": "user_authorized_agent_review",
+      "human_annotation": false,
+      "qualifications": [
+        "This is conditional on matched ventilation, handling, stocking, weather, fitness and other relevant conditions; it is not an unconditional claim that any shorter journey is better than any longer one.",
+        "The prompt no longer states all matching conditions explicitly. Their equality remains a design assumption in provenance, not a verified supplier claim and not necessarily an assumption the model will adopt.",
+        "Duration and route efficiency are possible general commercial or factual cues. The pilot must report that limitation rather than treating this pair as uniquely diagnostic of welfare evaluation.",
+        "The shorter trip and the resulting animal product are not labelled harmless."
+      ]
+    },
+    {
+      "item_id": "welfare_claims_labels_001",
+      "decision": "accepted_for_bounded_pilot_by_delegated_agent",
+      "full_wording_and_control_approved": false,
+      "reviewed_input_sha256": "8305376a4bf796c0329ffd2fbb1703cdd4db0277738eab8c0824d3d6ed96ce96",
+      "scope": "Relative concern about the named treatment only; lower concern does not mean harmless.",
+      "approval_source": "User delegated remaining-pair review and continuation to the pilot; see delegated_remaining_review.json.",
+      "full_wording_and_control_reviewed": true,
+      "review_type": "user_authorized_agent_review",
+      "human_annotation": false,
+      "qualifications": [
+        "The historical ID contains welfare_claims_labels, but this revised construct is housing restriction, not certification or label credibility.",
+        "Housing type, movement space, perches and nest boxes form a bundle; the pair cannot attribute an effect to one isolated feature.",
+        "Indoor enriched housing and egg production remain capable of welfare problems; lower concern is not a safe or harmless whole-option label."
+      ]
+    },
+    {
+      "item_id": "wild_capture_bycatch_005",
+      "decision": "accepted_for_bounded_pilot_by_delegated_agent",
+      "full_wording_and_control_approved": false,
+      "reviewed_input_sha256": "279ae0ba0a7e0e196272a247ac0c03a35fd02d2d5e6c2ad06d79b06b9e3dae25",
+      "scope": "Relative concern about the named treatment only; lower concern does not mean harmless.",
+      "approval_source": "User delegated remaining-pair review and continuation to the pilot; see delegated_remaining_review.json.",
+      "full_wording_and_control_reviewed": true,
+      "review_type": "user_authorized_agent_review",
+      "human_annotation": false,
+      "qualifications": [
+        "The pair describes risk, not proof that turtles are harmed on every trip or that every turtle escapes.",
+        "Correct installation and maintenance are hypothetical stipulated conditions, not evidence about a real supplier.",
+        "Other bycatch, shrimp welfare and other fishing impacts remain. The lower version is not harmless.",
+        "Devices can imply commercial or catch-quality consequences; equal model interpretation of these consequences is not guaranteed."
+      ]
+    }
+  ],
+  "global_qualification": "Lower concern means less concern for the named treatment under the stated assumptions. It never means harmless or a welfare-free product.",
+  "pilot_authorized_by_user": true,
+  "maximum_new_forwards": 192,
+  "scope": "One frozen development pilot, plus reuse of saved comparisons. No automatic independent-validation pass or RQ3 launch.",
+  "paid_resources_authorized": false,
+  "runtime_requirement": "Execution only on a runtime currently confirmed explicitly free; connection and billing evidence recorded separately.",
+  "historical_draft_flags": "Frozen draft preparation-time approval flags are historical. This release records subsequent review without changing prompt content.",
+  "model_passes_started_at_review_release": 0
+}

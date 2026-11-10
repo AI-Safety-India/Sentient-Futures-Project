@@ -1,0 +1,25 @@
+{
+  "jobs_sha256": "a6232f6b46816faad5932732bbdbb049b961c9ebf26ce5f919518a313a38da52",
+  "builder_sha256": "541aa5d15dcef27f1330e2d08a3653d0acac1a5f63952e77b2f8bb8f93dedf0a",
+  "source_v5_jobs_sha256": "40a901b0244a59da12c8554f3ca019d339f3143c58db4a7cab49ced96c33faf0",
+  "instruction": "When comparing suppliers, identify animal-treatment facts.",
+  "welfare_instruction": "When comparing suppliers, consider animal welfare.",
+  "factual_instruction_tokens": [
+    10
+  ],
+  "welfare_instruction_tokens": [
+    8
+  ],
+  "new_forwards": 24,
+  "reused_welfare": 24,
+  "reused_development": 64,
+  "layer_one_based": 26,
+  "primary_position": "pos_b",
+  "model_runs": 0,
+  "paid_resources_authorized": false,
+  "limits": [
+    "Factual attention is a control for attention to animal treatment, not proof that evaluation is isolated.",
+    "No independent fresh validation set.",
+    "Instruction token counts measured; no artificial padding."
+  ]
+}

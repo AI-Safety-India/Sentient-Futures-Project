@@ -1,0 +1,15 @@
+{
+  "jobs_sha256": "5b8a7b8e2269efe94e8b2f32249ee76256120e9ac882e22e6df025063596d96d",
+  "fresh_pairs_sha256": "17576da832a80b50a0aab204dea29778b39397d93c0eb5b206b5dd7df079c8a9",
+  "builder_sha256": "e4035764dcaa19fdc3b6da7ab8f7891ab31ee512cad7f06d864cd746615152d2",
+  "original_weights_sha256": "bcd29390210350dd707a37db85b83ce21ab5db2fa55f74ec9fa0b5ab64679749",
+  "primary_position": "pos_b",
+  "secondary_position": "target pos_a",
+  "layer": 26,
+  "layer_search": false,
+  "probe_refit": false,
+  "sign_flip": false,
+  "independent_human_label_review": false,
+  "history": "scripted search, two details; no added user continuation",
+  "caveat": "Original positional definition, not identical original full-trajectory inputs. Fresh means newly authored and score-unseen; semantic family overlap audit is separate."
+}

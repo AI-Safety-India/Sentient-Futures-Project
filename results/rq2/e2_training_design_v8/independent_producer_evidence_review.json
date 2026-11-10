@@ -1,0 +1,30 @@
+{
+  "status": "producer_evidence_verified",
+  "jobs": 192,
+  "unique_forward_jobs": 192,
+  "attempts_total": 192,
+  "repeated_attempts": 0,
+  "all_ledger_entries_complete": true,
+  "selected_shape": [
+    192,
+    4096
+  ],
+  "selected_dtype": "float16",
+  "all_selected_vectors_finite": true,
+  "selected_vector_hashes_verified": 192,
+  "exact_runtime_input_records_verified": 192,
+  "position": "pos_b",
+  "layer_one_based": 26,
+  "generation_calls_recorded": 0,
+  "runner_sha256": "161c2b23bf31c61e3335ea2924b83f06900eab02bf1c2c7167ec3b2c9b5b9eea",
+  "selected_payload_sha256": "e45162fb630f453030275b5c7ad9d49c2557c6aeacc079bc7b9ce6b8dbdc714b",
+  "model_identity_verified_against_local_pinned_config_and_tokenizer": true,
+  "weight_index_local_check": "not_available_locally",
+  "paid_resources_authorized": false,
+  "fresh_validation_authorized": false,
+  "new_model_calls_during_this_review": 0,
+  "limitations": [
+    "Full all-layer cache payloads and per-job sidecar files were not in this selected export; their producer hashes are retained but were not recomputed locally.",
+    "Counts verify the bounded runner ledger and final producer artifacts; they do not audit unrelated notebook activity."
+  ]
+}

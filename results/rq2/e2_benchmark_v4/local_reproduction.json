@@ -1,0 +1,12 @@
+{
+  "verified_selected_arrays": 78,
+  "reproduced_positions": 156,
+  "reproduced_probe_scores": 468,
+  "max_score_error": 5.329070518200751e-15,
+  "max_float32_e2_difference": 1.748408370971788e-06,
+  "float32_pair_signs_identical": true,
+  "original_source_hashes_unchanged": true,
+  "frozen_code_hashes_unchanged": true,
+  "full_archive_location": "/marimo/e2_benchmark_v4/full_v4_results.zip",
+  "full_archive_local": false
+}

@@ -1,0 +1,84 @@
+Redesigned E2 pilot — completed 10 November 2026
+
+Answer
+The redesigned candidate improves paired ranking on the inspected development
+examples. It does not pass the full frozen development screen and is not yet
+a validated welfare-evaluation measurement for confirmatory RQ3.
+
+What ran
+48 new forward passes on the user's existing explicitly free Molab runtime.
+Six reviewed treatment pairs x2 concern variants x2 earlier instructions
+(welfare/commercial) x2 option orders. Fixed original benchmark pos_b, layer26.
+The mean interaction was fitted only from these48 states, with equal weight
+for examples and orders. No sign flip, layer search or development-label fit.
+All64 exact neutral v4 development caches were reused; zero new development
+forwards, generated answers or orders. The eight development examples are
+previously inspected, not a fresh independent holdout.
+
+Primary benchmark-position results
+Condition             Original E2 pairs/AUROC       Redesigned pairs/AUROC
+Base                  1/8   0.40625                 6/8   0.62500
+Double target price   2/8   0.421875                7/8   0.68750
+Raise target rating   1/8   0.390625                6/8   0.59375
+Reverse option order  6/8   0.640625                7/8   0.609375
+
+Pair count compares each higher-concern description with its own lower-concern
+counterpart. AUROC compares all higher scores with all lower scores. Thus the
+order condition improves in paired count but declines in AUROC; not every
+metric improved. These are small development-set results, not benchmark-wide
+accuracy estimates. Original content LR base is5/8, AUROC0.5625.
+
+Frozen criteria
+Base needed at least7/8 positive pairs:FAIL(6/8).
+Rating robustness needed at least7/8:FAIL(6/8).
+Price/order paired robustness reach7/8, but their nuisance magnitude flags fail.
+The secondary position cannot rescue the primary screen. Excluding the
+predeclared related deer/venison example leaves base5/7, AUROC0.61224.
+
+Remaining measurement problems
+Within the new candidate, the average higher-minus-lower welfare shift is
+1.0232 score units. Mean absolute score changes due to price alone are1.7792;
+order alone1.8074; rating alone0.2186. These are uncalibrated score units, not
+probabilities. Price/order effects are larger than the desired average shift.
+
+The candidate has cosine0.9374 with the ordinary higher/lower treatment
+difference averaged over its own training instructions. That high overlap
+leaves content-versus-evaluation interpretation unresolved. It does not prove
+the candidate is only content, but the interaction subtraction has not clearly
+isolated evaluation. Cosine with the older content LR is only0.0149; that older
+probe uses a different learned comparison, so these facts are not contradictory
+and the latter does not establish construct separation.
+Training interaction directions from the two option orders have cosine0.8787.
+The64 training-label sign-flip references are descriptive diagnostics only;
+none was selected, and their ranking is not a confirmatory p-value.
+
+Verification and preservation
+All48 training input IDs and full cache identities were verified at production.
+All64 development input/cache identities and baseline scores were verified.
+Local recomputation reproduced the direction (maxdifference3.47e-17), center
+(exact), and128 candidate scores (maxdifference1.43e-14).
+Independent review reproduced128 rows,32pair summaries,24control blocks and
+32novelty-sensitivity summaries. Original source, weights and frozen code hashes
+remain unchanged. Original E2 is retained; this candidate has its own filename.
+
+Decision
+Retain this as a useful developmental improvement and a documented limitation.
+Do not start confirmatory RQ3 interpreting this direction as established welfare
+evaluation. The next measurement work must address price/order contamination
+and distinguish evaluation from treatment-content differences. Do not silently
+project nuisance directions out, flip signs, or choose favourable cases after
+observing these results. Any further design needs a new frozen protocol and
+eventually a genuinely unscored reviewed test set. No full1200-case rerun is
+indicated by this pilot.
+
+Saved artifacts
+Local: development_analysis.json, candidate_v5_direction.npz,
+training_pos_b_l26.npz, selected_training_manifest.json, local_reproduction.json,
+result_review.json, plus frozen inputs/protocols.
+Remote full48 all-layer caches: /marimo/e2_redesign_v5/activations/
+Remote full archive: /marimo/e2_redesign_v5/full_v5_results.zip (19,980,289 bytes).
+Local training arrays preserve the exact pos_b/L26 values needed for the fit;
+the full all-layer archive remains on Molab.
+
+No paid service, subscription, upgrade, inference API or trial was started.
+No further model passes were launched after seeing these results.

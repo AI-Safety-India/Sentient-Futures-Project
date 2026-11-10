@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "archive_sha256": "c0666b9bebc01ea0b40effdc1308f8eb32e3dc70876380c3d72a2201143552f0",
+  "jobs": 24,
+  "score_comparisons": 225,
+  "maximum_projection_difference": 2.86102294921875e-06
+}

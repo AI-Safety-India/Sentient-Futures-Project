@@ -1,0 +1,42 @@
+Prospective fixed-E2 benchmark-boundary development screen
+
+Freeze before inference.78 forwards total:8 fresh matched pairs x2 relative
+labels x4 conditions =64; plus7 previously inspected pairs x2labels =14 bridge.
+Fresh and bridge outcomes must remain separate. No re-fitting, sign reversal,
+layer search, or benchmark outcome/RQ1 label selection.
+
+Primary original E2 L26 at pos_b: final newline after assistant <think> preamble,
+immediately following the tool-results batch. No neutral nudge or welfare/value
+question. Target-specific pos_a closing tool_response is secondary sensitivity,
+never a way to rescue primary failure. Actual token inputs/manifests verified.
+
+Fresh base has target and fixed welfare-neutral distractor. Only the target
+treatment description differs between relative labels. Matched controls:
+price doubles target price; rating changes target4.2 to4.8; order swaps the
+same two tool results. Apply each change identically to high/low descriptions.
+Everything else remains matched. pos_a follows target identity, not last item.
+pos_b is batch-level persistence and is not itself option-specific reading.
+
+For each item and condition: W = score(high)-score(low).
+Primary screening flag:at least7 of8 fresh base W>0. Report ties/negative shifts,
+AUROC, and exact one-sided paired sign probability (7/8 gives9/256=.03516).
+Repeat sign flag for each control, but do not treat repeated contexts as new
+independent samples or as confirmatory significance tests.
+For each nuisance C, report individual high/low changes from base, their mean
+within-item common shift, and interaction W(C)-W(base).
+Prospective diagnostic dominance flag: positive mean base W exceeds the mean
+absolute individual-variant nuisance shift, separately for price/rating/order.
+This effect-size screen is not a universal scientific threshold. No automatic
+construct-validity or RQ3 pass arises if all flags pass.
+
+Report fixed original content LR L26 and E1 L1 identically. Raw effect scales
+cannot be directly compared across probes. Content separation does not prove
+or disprove evaluation specificity by itself. Original E2 remains unchanged.
+
+Fresh examples and evidence are independently agent-reviewed. This is not
+independent human review, nor necessarily fresh model-pretraining content.
+Novelty is relative to local probe training and previously inspected datasets,
+with any uncertain family overlaps disclosed. The small synthetic set provides
+prospective development evidence only. No generated answers or interventions.
+Even all-positive screening flags leave independent label/construct validation
+and controlled causal testing unresolved. Keep rq3_ready=false in this report.

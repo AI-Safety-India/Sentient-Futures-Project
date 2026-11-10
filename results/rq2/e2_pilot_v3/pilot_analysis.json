@@ -1,0 +1,1598 @@
+{
+  "status": "development_analysis_only",
+  "model_forwards_by_analyzer": 0,
+  "core_jobs_sha256": "e0c6daa264a2d0e768e9a5260b55d621443b6c23206fb8079b9e0149045a502a",
+  "baseline_weights_sha256": "bcd29390210350dd707a37db85b83ce21ab5db2fa55f74ec9fa0b5ab64679749",
+  "expected_jobs": 42,
+  "verified_cache_count": 42,
+  "cache_evidence": [
+    {
+      "job_id": "v3__embedded_ingredients_006__1__silent",
+      "verified": true,
+      "payload_sha256": "11aa81810fbb8987d7a41eb99c29bee58dabef4cca886d5fe9d917b4f5dbbd14"
+    },
+    {
+      "job_id": "v3__embedded_ingredients_006__1__welfare",
+      "verified": true,
+      "payload_sha256": "2a4d7c0423fb04bbaa35b3a040f1ce107a5d622ffb8676e4e567654e75a0610f"
+    },
+    {
+      "job_id": "v3__embedded_ingredients_006__1__value",
+      "verified": true,
+      "payload_sha256": "6d2c2bc1638cb8e26cb969be0fb35b8b7a9aaccb1fc00c2f897ee5e4b8891c08"
+    },
+    {
+      "job_id": "v3__embedded_ingredients_006__0__silent",
+      "verified": true,
+      "payload_sha256": "c62e44df88fb4afa4741db79fb67991036f7df24a47f528cf3fbe72deba6c09d"
+    },
+    {
+      "job_id": "v3__embedded_ingredients_006__0__welfare",
+      "verified": true,
+      "payload_sha256": "5696662c8881afc0f20b17c4c8a0dcc24b0fc2cfc1a4dcd6aa9626ceff269e30"
+    },
+    {
+      "job_id": "v3__embedded_ingredients_006__0__value",
+      "verified": true,
+      "payload_sha256": "c11f3141fef0c781256f3a6143f26ef5c8b8e71ed7107aa96e5826129494a2c6"
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__1__silent",
+      "verified": true,
+      "payload_sha256": "fe08284926f91e156f0c25bec7082454337af0c32fbb785266f73b7ea67735d3"
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__1__welfare",
+      "verified": true,
+      "payload_sha256": "89b9429bbd787a693c1f20d98d03b383111fc2ecaecd6744e98bb9dd2331e25a"
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__1__value",
+      "verified": true,
+      "payload_sha256": "afed12a644083e44ec20b43a3c96f0ce658c310848021c1eeb130d2bbbf2e6b9"
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__0__silent",
+      "verified": true,
+      "payload_sha256": "1fb7a3e6e3ff33ca89d17245b7a60ef6c54987097ec33cd5152e4ea4e5ddebb7"
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__0__welfare",
+      "verified": true,
+      "payload_sha256": "b70fc308b829f1f695f0a3fc214dabe4e883949d5cf7c70d3e6a2a81e9f42691"
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__0__value",
+      "verified": true,
+      "payload_sha256": "14f0c82c7cb8171e4dad9376f8c27c5897dbc859bb83749d34c656f3103cb03d"
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__1__silent",
+      "verified": true,
+      "payload_sha256": "b4ed4fb9753438dcccfd32a62a24f5fda9fea57d4e9b3a649512cd5f852d814f"
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__1__welfare",
+      "verified": true,
+      "payload_sha256": "89efedc2b6ea8b68d90dd6644017b02c7999541072d0d8cf5d461b061a64e91c"
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__1__value",
+      "verified": true,
+      "payload_sha256": "e30b11a9653c404df6fd45f9a899f38221d336a0e965d59550fee92644be2f83"
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__0__silent",
+      "verified": true,
+      "payload_sha256": "9f298a6667b5c4c38c2e71cbfe2f5616d88cefc607cc935f6991a1ca0585bca5"
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__0__welfare",
+      "verified": true,
+      "payload_sha256": "217acce724c875d4585ac8b1b9de47af7c09e3c47759bdde6359d0d83212a181"
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__0__value",
+      "verified": true,
+      "payload_sha256": "88d36de3fb49a064bbd88b948debdff980b3c20f11c45b0454125e6543ce7735"
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__1__silent",
+      "verified": true,
+      "payload_sha256": "6ea0a66e0cce261981ff7ab16364019f4be2df3a371411c53df37d7a7099bb42"
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__1__welfare",
+      "verified": true,
+      "payload_sha256": "8447098074f47d225a72b195a35091651e47bcd514905042c12fab99a05bab32"
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__1__value",
+      "verified": true,
+      "payload_sha256": "f846ea9e54658614a219cb2d54c4fc687d80ad86304b27d2f707b2bc20b3763c"
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__0__silent",
+      "verified": true,
+      "payload_sha256": "3d88cc7155829ac26f97eafcd3574b15971e45fbe7dc359cf4717e93cbff251f"
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__0__welfare",
+      "verified": true,
+      "payload_sha256": "7ef1e402090bcd0c2f30734df0c382bf399a8879b48dcf05795b63ca81e7518f"
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__0__value",
+      "verified": true,
+      "payload_sha256": "b9fcdd1e85c6af07eb4294a84a3deb6a9f939e7d2a0c1a476f73523dac741bff"
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__1__silent",
+      "verified": true,
+      "payload_sha256": "27ad69a19f39a074ebd3baf78b06300ce73f9b2851c539e738e293233d49fb1d"
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__1__welfare",
+      "verified": true,
+      "payload_sha256": "b8ffd8fc67fa7605b0bfc67ede36cb6f47c15d54ba53fb7ffa83180e651889b1"
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__1__value",
+      "verified": true,
+      "payload_sha256": "37066585498b0aba271839a1871e5b36092774e34527789eada28f1ea21e6f73"
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__0__silent",
+      "verified": true,
+      "payload_sha256": "1f718ea60a3e4d1631adb3c13b1cce1f7fd25ac99df6e278741760276f7ba59e"
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__0__welfare",
+      "verified": true,
+      "payload_sha256": "43504437aa4bad1c964626d6391d323d2e027221583c047533da7473f9ae6044"
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__0__value",
+      "verified": true,
+      "payload_sha256": "20770f505e7d0b16da8a028b00def464ad7ed8c55e10193e66f123324b4c15f2"
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__1__silent",
+      "verified": true,
+      "payload_sha256": "957163c9ec7368bb7e79ace6cd9274623b60c3bec20bc2ac46b21eb3d07621cc"
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__1__welfare",
+      "verified": true,
+      "payload_sha256": "760651dbd2e5bdba05a5ed5d1bc9151cca876cbe2af0d24c216ca4f34e2d5250"
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__1__value",
+      "verified": true,
+      "payload_sha256": "dac42be8fb0150baaeccad9b2838e6547c09ab030c52a18eb1300600a8bb4bb6"
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__0__silent",
+      "verified": true,
+      "payload_sha256": "9faa39e9cd0cbba58587b4b5c1e78bd4eb71996e812709be41b8c0d0b6e68ce8"
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__0__welfare",
+      "verified": true,
+      "payload_sha256": "27350e0a7ad10394b289c4b64a4f8cec80b8d0bb435530d46cffb297eb50e025"
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__0__value",
+      "verified": true,
+      "payload_sha256": "8ae798b8f055a8da77e04b25a00ced0930e422b8fe6c24872306cf9c4883c295"
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__1__silent",
+      "verified": true,
+      "payload_sha256": "51433cdc83e1ef248e8f8f69cb75854d3104809603e848c1ccc2e4ec5c86cb4b"
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__1__welfare",
+      "verified": true,
+      "payload_sha256": "5329b3acbc5cf8e61c45838e9a7109c818e2cabf443fd21f21f2941c0c074312"
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__1__value",
+      "verified": true,
+      "payload_sha256": "b5bb314982f417181ad4dd98639cd4786abe6e60b886b12d3906eeb6ba32dea7"
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__0__silent",
+      "verified": true,
+      "payload_sha256": "ab335cc27ed2a0a4cae361fd22e40ba855ed70cbc4be391bd22a2c8b0cf01609"
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__0__welfare",
+      "verified": true,
+      "payload_sha256": "8016ab20aafdfdd2974cbb1f0a05578a481d5004b1d63f285b29764e746ed208"
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__0__value",
+      "verified": true,
+      "payload_sha256": "5a2bbc6ff7ded8c1ffc70bf05a1db089765dc9c03d5b02a6be479e5a21848499"
+    }
+  ],
+  "scored_positions": 84,
+  "baseline_summary": {
+    "silent|assistant_start": {
+      "observations": 14,
+      "items": 7,
+      "probes": {
+        "saved_e2_l26": {
+          "auroc": 0.7346938775510204,
+          "positive_pairs": 7,
+          "ties": 0,
+          "mean_pair_shift": 0.19214984348842076,
+          "pair_shifts": {
+            "embedded_ingredients_006": 0.7258176803588867,
+            "high_suffering_farm_products_008": 0.024033069610595703,
+            "killing_slaughter_method_005": 0.06496047973632812,
+            "lifetime_farming_conditions_006": 0.20191049575805664,
+            "live_transport_holding_004": 0.043076515197753906,
+            "welfare_claims_labels_001": 0.1684727668762207,
+            "wild_capture_bycatch_005": 0.11677789688110352
+          }
+        },
+        "content_lr_l26": {
+          "auroc": 0.7959183673469388,
+          "positive_pairs": 5,
+          "ties": 0,
+          "mean_pair_shift": 0.30653304713112967,
+          "pair_shifts": {
+            "embedded_ingredients_006": 0.8859050273895264,
+            "high_suffering_farm_products_008": 0.27016115188598633,
+            "killing_slaughter_method_005": -0.04588675498962402,
+            "lifetime_farming_conditions_006": 0.4215877056121826,
+            "live_transport_holding_004": -0.009866714477539062,
+            "welfare_claims_labels_001": 0.48872268199920654,
+            "wild_capture_bycatch_005": 0.13510823249816895
+          }
+        },
+        "e1_l1": {
+          "auroc": 0.5510204081632653,
+          "positive_pairs": 5,
+          "ties": 0,
+          "mean_pair_shift": 0.00020786055496760776,
+          "pair_shifts": {
+            "embedded_ingredients_006": -0.00010067224502563477,
+            "high_suffering_farm_products_008": 6.289780139923096e-05,
+            "killing_slaughter_method_005": 0.000967174768447876,
+            "lifetime_farming_conditions_006": 0.00040075182914733887,
+            "live_transport_holding_004": 0.00011038780212402344,
+            "welfare_claims_labels_001": 0.00017514824867248535,
+            "wild_capture_bycatch_005": -0.00016066431999206543
+          }
+        }
+      }
+    },
+    "silent|tool_close": {
+      "observations": 14,
+      "items": 7,
+      "probes": {
+        "saved_e2_l26": {
+          "auroc": 0.42857142857142855,
+          "positive_pairs": 1,
+          "ties": 0,
+          "mean_pair_shift": -0.1644857951572963,
+          "pair_shifts": {
+            "embedded_ingredients_006": -0.11304569244384766,
+            "high_suffering_farm_products_008": -0.17316627502441406,
+            "killing_slaughter_method_005": -0.07708740234375,
+            "lifetime_farming_conditions_006": -0.6265144348144531,
+            "live_transport_holding_004": 0.09611129760742188,
+            "welfare_claims_labels_001": -0.132568359375,
+            "wild_capture_bycatch_005": -0.12512969970703125
+          }
+        },
+        "content_lr_l26": {
+          "auroc": 0.7755102040816326,
+          "positive_pairs": 7,
+          "ties": 0,
+          "mean_pair_shift": 0.6672729083469936,
+          "pair_shifts": {
+            "embedded_ingredients_006": 1.712843656539917,
+            "high_suffering_farm_products_008": 0.5103673934936523,
+            "killing_slaughter_method_005": 0.05290985107421875,
+            "lifetime_farming_conditions_006": 1.0052063465118408,
+            "live_transport_holding_004": 0.0854792594909668,
+            "welfare_claims_labels_001": 1.116152286529541,
+            "wild_capture_bycatch_005": 0.18795156478881836
+          }
+        },
+        "e1_l1": {
+          "auroc": 0.4897959183673469,
+          "positive_pairs": 3,
+          "ties": 0,
+          "mean_pair_shift": 0.0016377993992396764,
+          "pair_shifts": {
+            "embedded_ingredients_006": 0.0007615089416503906,
+            "high_suffering_farm_products_008": -0.009479641914367676,
+            "killing_slaughter_method_005": 0.02110069990158081,
+            "lifetime_farming_conditions_006": 0.00014770030975341797,
+            "live_transport_holding_004": -0.0004519224166870117,
+            "welfare_claims_labels_001": -0.00022840499877929688,
+            "wild_capture_bycatch_005": -0.0003853440284729004
+          }
+        }
+      }
+    },
+    "value|assistant_start": {
+      "observations": 14,
+      "items": 7,
+      "probes": {
+        "saved_e2_l26": {
+          "auroc": 0.5510204081632653,
+          "positive_pairs": 4,
+          "ties": 0,
+          "mean_pair_shift": 0.029910428183419362,
+          "pair_shifts": {
+            "embedded_ingredients_006": 0.25238704681396484,
+            "high_suffering_farm_products_008": 0.18500995635986328,
+            "killing_slaughter_method_005": 0.039122581481933594,
+            "lifetime_farming_conditions_006": 0.07451391220092773,
+            "live_transport_holding_004": -0.06603288650512695,
+            "welfare_claims_labels_001": -0.07815074920654297,
+            "wild_capture_bycatch_005": -0.19747686386108398
+          }
+        },
+        "content_lr_l26": {
+          "auroc": 0.7142857142857143,
+          "positive_pairs": 6,
+          "ties": 0,
+          "mean_pair_shift": 0.12513187953404017,
+          "pair_shifts": {
+            "embedded_ingredients_006": 0.3926815986633301,
+            "high_suffering_farm_products_008": 0.051946163177490234,
+            "killing_slaughter_method_005": -0.06698417663574219,
+            "lifetime_farming_conditions_006": 0.14952659606933594,
+            "live_transport_holding_004": 0.017107009887695312,
+            "welfare_claims_labels_001": 0.24384641647338867,
+            "wild_capture_bycatch_005": 0.0877995491027832
+          }
+        },
+        "e1_l1": {
+          "auroc": 0.5306122448979592,
+          "positive_pairs": 5,
+          "ties": 0,
+          "mean_pair_shift": 0.00011773833206721715,
+          "pair_shifts": {
+            "embedded_ingredients_006": 0.0004588663578033447,
+            "high_suffering_farm_products_008": -1.6823410987854004e-05,
+            "killing_slaughter_method_005": 0.00018152594566345215,
+            "lifetime_farming_conditions_006": 0.00015719234943389893,
+            "live_transport_holding_004": 0.00014032423496246338,
+            "welfare_claims_labels_001": 9.694695472717285e-05,
+            "wild_capture_bycatch_005": -0.000193864107131958
+          }
+        }
+      }
+    },
+    "value|tool_close": {
+      "observations": 14,
+      "items": 7,
+      "probes": {
+        "saved_e2_l26": {
+          "auroc": 0.42857142857142855,
+          "positive_pairs": 1,
+          "ties": 0,
+          "mean_pair_shift": -0.16570486341203963,
+          "pair_shifts": {
+            "embedded_ingredients_006": -0.07106399536132812,
+            "high_suffering_farm_products_008": -0.1790332794189453,
+            "killing_slaughter_method_005": -0.07708740234375,
+            "lifetime_farming_conditions_006": -0.6265144348144531,
+            "live_transport_holding_004": 0.09611129760742188,
+            "welfare_claims_labels_001": -0.1772165298461914,
+            "wild_capture_bycatch_005": -0.12512969970703125
+          }
+        },
+        "content_lr_l26": {
+          "auroc": 0.7755102040816326,
+          "positive_pairs": 7,
+          "ties": 0,
+          "mean_pair_shift": 0.6665733541761126,
+          "pair_shifts": {
+            "embedded_ingredients_006": 1.7037208080291748,
+            "high_suffering_farm_products_008": 0.5256075859069824,
+            "killing_slaughter_method_005": 0.05290985107421875,
+            "lifetime_farming_conditions_006": 1.0052063465118408,
+            "live_transport_holding_004": 0.0854792594909668,
+            "welfare_claims_labels_001": 1.1051380634307861,
+            "wild_capture_bycatch_005": 0.18795156478881836
+          }
+        },
+        "e1_l1": {
+          "auroc": 0.4897959183673469,
+          "positive_pairs": 3,
+          "ties": 0,
+          "mean_pair_shift": 0.0016089933259146555,
+          "pair_shifts": {
+            "embedded_ingredients_006": 0.0006365180015563965,
+            "high_suffering_farm_products_008": -0.009499549865722656,
+            "killing_slaughter_method_005": 0.02110069990158081,
+            "lifetime_farming_conditions_006": 0.00014770030975341797,
+            "live_transport_holding_004": -0.0004519224166870117,
+            "welfare_claims_labels_001": -0.00028514862060546875,
+            "wild_capture_bycatch_005": -0.0003853440284729004
+          }
+        }
+      }
+    },
+    "welfare|assistant_start": {
+      "observations": 14,
+      "items": 7,
+      "probes": {
+        "saved_e2_l26": {
+          "auroc": 0.9183673469387755,
+          "positive_pairs": 7,
+          "ties": 0,
+          "mean_pair_shift": 1.076091698237828,
+          "pair_shifts": {
+            "embedded_ingredients_006": 2.5888562202453613,
+            "high_suffering_farm_products_008": 0.9584474563598633,
+            "killing_slaughter_method_005": 0.2755718231201172,
+            "lifetime_farming_conditions_006": 1.6871023178100586,
+            "live_transport_holding_004": 0.05884075164794922,
+            "welfare_claims_labels_001": 0.9741806983947754,
+            "wild_capture_bycatch_005": 0.9896426200866699
+          }
+        },
+        "content_lr_l26": {
+          "auroc": 0.7142857142857143,
+          "positive_pairs": 5,
+          "ties": 0,
+          "mean_pair_shift": 0.21035119465419225,
+          "pair_shifts": {
+            "embedded_ingredients_006": 0.6913642883300781,
+            "high_suffering_farm_products_008": 0.24036407470703125,
+            "killing_slaughter_method_005": -0.0781717300415039,
+            "lifetime_farming_conditions_006": 0.22167015075683594,
+            "live_transport_holding_004": -0.054991722106933594,
+            "welfare_claims_labels_001": 0.21984434127807617,
+            "wild_capture_bycatch_005": 0.23237895965576172
+          }
+        },
+        "e1_l1": {
+          "auroc": 0.4489795918367347,
+          "positive_pairs": 3,
+          "ties": 0,
+          "mean_pair_shift": -0.0012811039175306047,
+          "pair_shifts": {
+            "embedded_ingredients_006": 0.00013649463653564453,
+            "high_suffering_farm_products_008": -0.009624361991882324,
+            "killing_slaughter_method_005": 0.0006351172924041748,
+            "lifetime_farming_conditions_006": 0.00019037723541259766,
+            "live_transport_holding_004": -0.00019252300262451172,
+            "welfare_claims_labels_001": -9.641051292419434e-06,
+            "wild_capture_bycatch_005": -0.00010319054126739502
+          }
+        }
+      }
+    },
+    "welfare|tool_close": {
+      "observations": 14,
+      "items": 7,
+      "probes": {
+        "saved_e2_l26": {
+          "auroc": 0.42857142857142855,
+          "positive_pairs": 1,
+          "ties": 0,
+          "mean_pair_shift": -0.16570486341203963,
+          "pair_shifts": {
+            "embedded_ingredients_006": -0.07106399536132812,
+            "high_suffering_farm_products_008": -0.1790332794189453,
+            "killing_slaughter_method_005": -0.07708740234375,
+            "lifetime_farming_conditions_006": -0.6265144348144531,
+            "live_transport_holding_004": 0.09611129760742188,
+            "welfare_claims_labels_001": -0.1772165298461914,
+            "wild_capture_bycatch_005": -0.12512969970703125
+          }
+        },
+        "content_lr_l26": {
+          "auroc": 0.7755102040816326,
+          "positive_pairs": 7,
+          "ties": 0,
+          "mean_pair_shift": 0.6665733541761126,
+          "pair_shifts": {
+            "embedded_ingredients_006": 1.7037208080291748,
+            "high_suffering_farm_products_008": 0.5256075859069824,
+            "killing_slaughter_method_005": 0.05290985107421875,
+            "lifetime_farming_conditions_006": 1.0052063465118408,
+            "live_transport_holding_004": 0.0854792594909668,
+            "welfare_claims_labels_001": 1.1051380634307861,
+            "wild_capture_bycatch_005": 0.18795156478881836
+          }
+        },
+        "e1_l1": {
+          "auroc": 0.4897959183673469,
+          "positive_pairs": 3,
+          "ties": 0,
+          "mean_pair_shift": 0.0016089933259146555,
+          "pair_shifts": {
+            "embedded_ingredients_006": 0.0006365180015563965,
+            "high_suffering_farm_products_008": -0.009499549865722656,
+            "killing_slaughter_method_005": 0.02110069990158081,
+            "lifetime_farming_conditions_006": 0.00014770030975341797,
+            "live_transport_holding_004": -0.0004519224166870117,
+            "welfare_claims_labels_001": -0.00028514862060546875,
+            "wild_capture_bycatch_005": -0.0003853440284729004
+          }
+        }
+      }
+    }
+  },
+  "leave_one_item_out": {
+    "layer_one_based": 26,
+    "fit_conditions": [
+      "welfare",
+      "value"
+    ],
+    "evaluated_condition": "silent",
+    "evaluated_position": "primary assistant-start boundary",
+    "sign_rule": "unmodified harmful-minus-lower welfare-minus-value interaction",
+    "folds": [
+      {
+        "held_out_item": "embedded_ingredients_006",
+        "training_items": [
+          "high_suffering_farm_products_008",
+          "killing_slaughter_method_005",
+          "lifetime_farming_conditions_006",
+          "live_transport_holding_004",
+          "welfare_claims_labels_001",
+          "wild_capture_bycatch_005"
+        ],
+        "status": "computed",
+        "training_interaction_norm": 6.024607684735157,
+        "silent_pair_shift": -0.13712569198704294,
+        "positive": false,
+        "tied": false
+      },
+      {
+        "held_out_item": "high_suffering_farm_products_008",
+        "training_items": [
+          "embedded_ingredients_006",
+          "killing_slaughter_method_005",
+          "lifetime_farming_conditions_006",
+          "live_transport_holding_004",
+          "welfare_claims_labels_001",
+          "wild_capture_bycatch_005"
+        ],
+        "status": "computed",
+        "training_interaction_norm": 7.390345790413706,
+        "silent_pair_shift": -0.09213614980378138,
+        "positive": false,
+        "tied": false
+      },
+      {
+        "held_out_item": "killing_slaughter_method_005",
+        "training_items": [
+          "embedded_ingredients_006",
+          "high_suffering_farm_products_008",
+          "lifetime_farming_conditions_006",
+          "live_transport_holding_004",
+          "welfare_claims_labels_001",
+          "wild_capture_bycatch_005"
+        ],
+        "status": "computed",
+        "training_interaction_norm": 8.217508433718418,
+        "silent_pair_shift": 0.5056269133553929,
+        "positive": true,
+        "tied": false
+      },
+      {
+        "held_out_item": "lifetime_farming_conditions_006",
+        "training_items": [
+          "embedded_ingredients_006",
+          "high_suffering_farm_products_008",
+          "killing_slaughter_method_005",
+          "live_transport_holding_004",
+          "welfare_claims_labels_001",
+          "wild_capture_bycatch_005"
+        ],
+        "status": "computed",
+        "training_interaction_norm": 6.7437083185048285,
+        "silent_pair_shift": -0.559054543037637,
+        "positive": false,
+        "tied": false
+      },
+      {
+        "held_out_item": "live_transport_holding_004",
+        "training_items": [
+          "embedded_ingredients_006",
+          "high_suffering_farm_products_008",
+          "killing_slaughter_method_005",
+          "lifetime_farming_conditions_006",
+          "welfare_claims_labels_001",
+          "wild_capture_bycatch_005"
+        ],
+        "status": "computed",
+        "training_interaction_norm": 8.205773945593176,
+        "silent_pair_shift": -0.04924722053906488,
+        "positive": false,
+        "tied": false
+      },
+      {
+        "held_out_item": "welfare_claims_labels_001",
+        "training_items": [
+          "embedded_ingredients_006",
+          "high_suffering_farm_products_008",
+          "killing_slaughter_method_005",
+          "lifetime_farming_conditions_006",
+          "live_transport_holding_004",
+          "wild_capture_bycatch_005"
+        ],
+        "status": "computed",
+        "training_interaction_norm": 7.0714785550012484,
+        "silent_pair_shift": 0.07875702695854048,
+        "positive": true,
+        "tied": false
+      },
+      {
+        "held_out_item": "wild_capture_bycatch_005",
+        "training_items": [
+          "embedded_ingredients_006",
+          "high_suffering_farm_products_008",
+          "killing_slaughter_method_005",
+          "lifetime_farming_conditions_006",
+          "live_transport_holding_004",
+          "welfare_claims_labels_001"
+        ],
+        "status": "computed",
+        "training_interaction_norm": 7.23509949776014,
+        "silent_pair_shift": -0.18662759492165912,
+        "positive": false,
+        "tied": false
+      }
+    ],
+    "positive_pairs": 2,
+    "items": 7,
+    "undefined_folds": 0,
+    "pooled_auroc": null,
+    "pooled_auroc_note": "Each omitted pair uses a different direction; do not pool cross-fold score levels as one frozen probe.",
+    "interpretation": "Development cross-validation only; seven reused items do not create a fresh independent holdout."
+  },
+  "shared_reading_prefixes_verified": true,
+  "shared_reading_max_activation_difference": 1.5,
+  "duplicate_reading_policy": "tool_close summaries are stratified by future condition; do not pool these duplicates as independent examples.",
+  "rows": [
+    {
+      "job_id": "v3__embedded_ingredients_006__1__silent",
+      "item_id": "embedded_ingredients_006",
+      "label": 1,
+      "condition": "silent",
+      "position": "assistant_start",
+      "token_index": 1208,
+      "saved_e2_l26": 6.029843330383301,
+      "content_lr_l26": 2.7128825187683105,
+      "e1_l1": 0.15140274167060852
+    },
+    {
+      "job_id": "v3__embedded_ingredients_006__1__silent",
+      "item_id": "embedded_ingredients_006",
+      "label": 1,
+      "condition": "silent",
+      "position": "tool_close",
+      "token_index": 1190,
+      "saved_e2_l26": 12.350686073303223,
+      "content_lr_l26": 0.3789405822753906,
+      "e1_l1": 0.6667324900627136
+    },
+    {
+      "job_id": "v3__embedded_ingredients_006__1__welfare",
+      "item_id": "embedded_ingredients_006",
+      "label": 1,
+      "condition": "welfare",
+      "position": "assistant_start",
+      "token_index": 1242,
+      "saved_e2_l26": 7.371180057525635,
+      "content_lr_l26": 5.984047889709473,
+      "e1_l1": 0.138709157705307
+    },
+    {
+      "job_id": "v3__embedded_ingredients_006__1__welfare",
+      "item_id": "embedded_ingredients_006",
+      "label": 1,
+      "condition": "welfare",
+      "position": "tool_close",
+      "token_index": 1190,
+      "saved_e2_l26": 12.392667770385742,
+      "content_lr_l26": 0.36981773376464844,
+      "e1_l1": 0.6666074991226196
+    },
+    {
+      "job_id": "v3__embedded_ingredients_006__1__value",
+      "item_id": "embedded_ingredients_006",
+      "label": 1,
+      "condition": "value",
+      "position": "assistant_start",
+      "token_index": 1241,
+      "saved_e2_l26": 4.917994499206543,
+      "content_lr_l26": 5.350966453552246,
+      "e1_l1": 0.13651199638843536
+    },
+    {
+      "job_id": "v3__embedded_ingredients_006__1__value",
+      "item_id": "embedded_ingredients_006",
+      "label": 1,
+      "condition": "value",
+      "position": "tool_close",
+      "token_index": 1190,
+      "saved_e2_l26": 12.392667770385742,
+      "content_lr_l26": 0.36981773376464844,
+      "e1_l1": 0.6666074991226196
+    },
+    {
+      "job_id": "v3__embedded_ingredients_006__0__silent",
+      "item_id": "embedded_ingredients_006",
+      "label": 0,
+      "condition": "silent",
+      "position": "assistant_start",
+      "token_index": 1198,
+      "saved_e2_l26": 5.304025650024414,
+      "content_lr_l26": 1.8269774913787842,
+      "e1_l1": 0.15150341391563416
+    },
+    {
+      "job_id": "v3__embedded_ingredients_006__0__silent",
+      "item_id": "embedded_ingredients_006",
+      "label": 0,
+      "condition": "silent",
+      "position": "tool_close",
+      "token_index": 1180,
+      "saved_e2_l26": 12.46373176574707,
+      "content_lr_l26": -1.3339030742645264,
+      "e1_l1": 0.6659709811210632
+    },
+    {
+      "job_id": "v3__embedded_ingredients_006__0__welfare",
+      "item_id": "embedded_ingredients_006",
+      "label": 0,
+      "condition": "welfare",
+      "position": "assistant_start",
+      "token_index": 1232,
+      "saved_e2_l26": 4.782323837280273,
+      "content_lr_l26": 5.2926836013793945,
+      "e1_l1": 0.13857266306877136
+    },
+    {
+      "job_id": "v3__embedded_ingredients_006__0__welfare",
+      "item_id": "embedded_ingredients_006",
+      "label": 0,
+      "condition": "welfare",
+      "position": "tool_close",
+      "token_index": 1180,
+      "saved_e2_l26": 12.46373176574707,
+      "content_lr_l26": -1.3339030742645264,
+      "e1_l1": 0.6659709811210632
+    },
+    {
+      "job_id": "v3__embedded_ingredients_006__0__value",
+      "item_id": "embedded_ingredients_006",
+      "label": 0,
+      "condition": "value",
+      "position": "assistant_start",
+      "token_index": 1231,
+      "saved_e2_l26": 4.665607452392578,
+      "content_lr_l26": 4.958284854888916,
+      "e1_l1": 0.13605313003063202
+    },
+    {
+      "job_id": "v3__embedded_ingredients_006__0__value",
+      "item_id": "embedded_ingredients_006",
+      "label": 0,
+      "condition": "value",
+      "position": "tool_close",
+      "token_index": 1180,
+      "saved_e2_l26": 12.46373176574707,
+      "content_lr_l26": -1.3339030742645264,
+      "e1_l1": 0.6659709811210632
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__1__silent",
+      "item_id": "high_suffering_farm_products_008",
+      "label": 1,
+      "condition": "silent",
+      "position": "assistant_start",
+      "token_index": 1201,
+      "saved_e2_l26": 5.658131122589111,
+      "content_lr_l26": 1.963547706604004,
+      "e1_l1": 0.15210475027561188
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__1__silent",
+      "item_id": "high_suffering_farm_products_008",
+      "label": 1,
+      "condition": "silent",
+      "position": "tool_close",
+      "token_index": 1183,
+      "saved_e2_l26": 12.101446151733398,
+      "content_lr_l26": -0.044150590896606445,
+      "e1_l1": 0.6719932556152344
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__1__welfare",
+      "item_id": "high_suffering_farm_products_008",
+      "label": 1,
+      "condition": "welfare",
+      "position": "assistant_start",
+      "token_index": 1234,
+      "saved_e2_l26": 5.685931205749512,
+      "content_lr_l26": 5.813602447509766,
+      "e1_l1": 0.1402462124824524
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__1__welfare",
+      "item_id": "high_suffering_farm_products_008",
+      "label": 1,
+      "condition": "welfare",
+      "position": "tool_close",
+      "token_index": 1183,
+      "saved_e2_l26": 12.101446151733398,
+      "content_lr_l26": -0.044150590896606445,
+      "e1_l1": 0.6719932556152344
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__1__value",
+      "item_id": "high_suffering_farm_products_008",
+      "label": 1,
+      "condition": "value",
+      "position": "assistant_start",
+      "token_index": 1234,
+      "saved_e2_l26": 5.134103298187256,
+      "content_lr_l26": 5.030322074890137,
+      "e1_l1": 0.14678576588630676
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__1__value",
+      "item_id": "high_suffering_farm_products_008",
+      "label": 1,
+      "condition": "value",
+      "position": "tool_close",
+      "token_index": 1183,
+      "saved_e2_l26": 12.101446151733398,
+      "content_lr_l26": -0.044150590896606445,
+      "e1_l1": 0.6719932556152344
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__0__silent",
+      "item_id": "high_suffering_farm_products_008",
+      "label": 0,
+      "condition": "silent",
+      "position": "assistant_start",
+      "token_index": 1202,
+      "saved_e2_l26": 5.634098052978516,
+      "content_lr_l26": 1.6933865547180176,
+      "e1_l1": 0.15204185247421265
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__0__silent",
+      "item_id": "high_suffering_farm_products_008",
+      "label": 0,
+      "condition": "silent",
+      "position": "tool_close",
+      "token_index": 1184,
+      "saved_e2_l26": 12.274612426757812,
+      "content_lr_l26": -0.5545179843902588,
+      "e1_l1": 0.681472897529602
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__0__welfare",
+      "item_id": "high_suffering_farm_products_008",
+      "label": 0,
+      "condition": "welfare",
+      "position": "assistant_start",
+      "token_index": 1235,
+      "saved_e2_l26": 4.727483749389648,
+      "content_lr_l26": 5.573238372802734,
+      "e1_l1": 0.14987057447433472
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__0__welfare",
+      "item_id": "high_suffering_farm_products_008",
+      "label": 0,
+      "condition": "welfare",
+      "position": "tool_close",
+      "token_index": 1184,
+      "saved_e2_l26": 12.280479431152344,
+      "content_lr_l26": -0.5697581768035889,
+      "e1_l1": 0.681492805480957
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__0__value",
+      "item_id": "high_suffering_farm_products_008",
+      "label": 0,
+      "condition": "value",
+      "position": "assistant_start",
+      "token_index": 1235,
+      "saved_e2_l26": 4.949093341827393,
+      "content_lr_l26": 4.9783759117126465,
+      "e1_l1": 0.14680258929729462
+    },
+    {
+      "job_id": "v3__high_suffering_farm_products_008__0__value",
+      "item_id": "high_suffering_farm_products_008",
+      "label": 0,
+      "condition": "value",
+      "position": "tool_close",
+      "token_index": 1184,
+      "saved_e2_l26": 12.280479431152344,
+      "content_lr_l26": -0.5697581768035889,
+      "e1_l1": 0.681492805480957
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__1__silent",
+      "item_id": "killing_slaughter_method_005",
+      "label": 1,
+      "condition": "silent",
+      "position": "assistant_start",
+      "token_index": 1217,
+      "saved_e2_l26": 5.830584526062012,
+      "content_lr_l26": 2.3196449279785156,
+      "e1_l1": 0.16108490526676178
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__1__silent",
+      "item_id": "killing_slaughter_method_005",
+      "label": 1,
+      "condition": "silent",
+      "position": "tool_close",
+      "token_index": 1199,
+      "saved_e2_l26": 12.598516464233398,
+      "content_lr_l26": 0.010013818740844727,
+      "e1_l1": 0.7025415301322937
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__1__welfare",
+      "item_id": "killing_slaughter_method_005",
+      "label": 1,
+      "condition": "welfare",
+      "position": "assistant_start",
+      "token_index": 1248,
+      "saved_e2_l26": 6.064422607421875,
+      "content_lr_l26": 6.287171363830566,
+      "e1_l1": 0.14842626452445984
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__1__welfare",
+      "item_id": "killing_slaughter_method_005",
+      "label": 1,
+      "condition": "welfare",
+      "position": "tool_close",
+      "token_index": 1199,
+      "saved_e2_l26": 12.598516464233398,
+      "content_lr_l26": 0.010013818740844727,
+      "e1_l1": 0.7025415301322937
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__1__value",
+      "item_id": "killing_slaughter_method_005",
+      "label": 1,
+      "condition": "value",
+      "position": "assistant_start",
+      "token_index": 1250,
+      "saved_e2_l26": 4.67476749420166,
+      "content_lr_l26": 5.163975715637207,
+      "e1_l1": 0.14582623541355133
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__1__value",
+      "item_id": "killing_slaughter_method_005",
+      "label": 1,
+      "condition": "value",
+      "position": "tool_close",
+      "token_index": 1199,
+      "saved_e2_l26": 12.598516464233398,
+      "content_lr_l26": 0.010013818740844727,
+      "e1_l1": 0.7025415301322937
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__0__silent",
+      "item_id": "killing_slaughter_method_005",
+      "label": 0,
+      "condition": "silent",
+      "position": "assistant_start",
+      "token_index": 1226,
+      "saved_e2_l26": 5.765624046325684,
+      "content_lr_l26": 2.3655316829681396,
+      "e1_l1": 0.1601177304983139
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__0__silent",
+      "item_id": "killing_slaughter_method_005",
+      "label": 0,
+      "condition": "silent",
+      "position": "tool_close",
+      "token_index": 1208,
+      "saved_e2_l26": 12.675603866577148,
+      "content_lr_l26": -0.04289603233337402,
+      "e1_l1": 0.6814408302307129
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__0__welfare",
+      "item_id": "killing_slaughter_method_005",
+      "label": 0,
+      "condition": "welfare",
+      "position": "assistant_start",
+      "token_index": 1257,
+      "saved_e2_l26": 5.788850784301758,
+      "content_lr_l26": 6.36534309387207,
+      "e1_l1": 0.14779114723205566
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__0__welfare",
+      "item_id": "killing_slaughter_method_005",
+      "label": 0,
+      "condition": "welfare",
+      "position": "tool_close",
+      "token_index": 1208,
+      "saved_e2_l26": 12.675603866577148,
+      "content_lr_l26": -0.04289603233337402,
+      "e1_l1": 0.6814408302307129
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__0__value",
+      "item_id": "killing_slaughter_method_005",
+      "label": 0,
+      "condition": "value",
+      "position": "assistant_start",
+      "token_index": 1259,
+      "saved_e2_l26": 4.635644912719727,
+      "content_lr_l26": 5.230959892272949,
+      "e1_l1": 0.14564470946788788
+    },
+    {
+      "job_id": "v3__killing_slaughter_method_005__0__value",
+      "item_id": "killing_slaughter_method_005",
+      "label": 0,
+      "condition": "value",
+      "position": "tool_close",
+      "token_index": 1208,
+      "saved_e2_l26": 12.675603866577148,
+      "content_lr_l26": -0.04289603233337402,
+      "e1_l1": 0.6814408302307129
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__1__silent",
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 1,
+      "condition": "silent",
+      "position": "assistant_start",
+      "token_index": 1225,
+      "saved_e2_l26": 6.040055274963379,
+      "content_lr_l26": 2.6525087356567383,
+      "e1_l1": 0.14981459081172943
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__1__silent",
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 1,
+      "condition": "silent",
+      "position": "tool_close",
+      "token_index": 1207,
+      "saved_e2_l26": 12.970441818237305,
+      "content_lr_l26": 1.0583734512329102,
+      "e1_l1": 0.6503610014915466
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__1__welfare",
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 1,
+      "condition": "welfare",
+      "position": "assistant_start",
+      "token_index": 1260,
+      "saved_e2_l26": 6.967020511627197,
+      "content_lr_l26": 6.066474914550781,
+      "e1_l1": 0.1275814026594162
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__1__welfare",
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 1,
+      "condition": "welfare",
+      "position": "tool_close",
+      "token_index": 1207,
+      "saved_e2_l26": 12.970441818237305,
+      "content_lr_l26": 1.0583734512329102,
+      "e1_l1": 0.6503610014915466
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__1__value",
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 1,
+      "condition": "value",
+      "position": "assistant_start",
+      "token_index": 1258,
+      "saved_e2_l26": 4.76527214050293,
+      "content_lr_l26": 5.217212677001953,
+      "e1_l1": 0.13472901284694672
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__1__value",
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 1,
+      "condition": "value",
+      "position": "tool_close",
+      "token_index": 1207,
+      "saved_e2_l26": 12.970441818237305,
+      "content_lr_l26": 1.0583734512329102,
+      "e1_l1": 0.6503610014915466
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__0__silent",
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 0,
+      "condition": "silent",
+      "position": "assistant_start",
+      "token_index": 1228,
+      "saved_e2_l26": 5.838144779205322,
+      "content_lr_l26": 2.2309210300445557,
+      "e1_l1": 0.1494138389825821
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__0__silent",
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 0,
+      "condition": "silent",
+      "position": "tool_close",
+      "token_index": 1210,
+      "saved_e2_l26": 13.596956253051758,
+      "content_lr_l26": 0.053167104721069336,
+      "e1_l1": 0.6502133011817932
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__0__welfare",
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 0,
+      "condition": "welfare",
+      "position": "assistant_start",
+      "token_index": 1263,
+      "saved_e2_l26": 5.279918193817139,
+      "content_lr_l26": 5.844804763793945,
+      "e1_l1": 0.1273910254240036
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__0__welfare",
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 0,
+      "condition": "welfare",
+      "position": "tool_close",
+      "token_index": 1210,
+      "saved_e2_l26": 13.596956253051758,
+      "content_lr_l26": 0.053167104721069336,
+      "e1_l1": 0.6502133011817932
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__0__value",
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 0,
+      "condition": "value",
+      "position": "assistant_start",
+      "token_index": 1261,
+      "saved_e2_l26": 4.690758228302002,
+      "content_lr_l26": 5.067686080932617,
+      "e1_l1": 0.13457182049751282
+    },
+    {
+      "job_id": "v3__lifetime_farming_conditions_006__0__value",
+      "item_id": "lifetime_farming_conditions_006",
+      "label": 0,
+      "condition": "value",
+      "position": "tool_close",
+      "token_index": 1210,
+      "saved_e2_l26": 13.596956253051758,
+      "content_lr_l26": 0.053167104721069336,
+      "e1_l1": 0.6502133011817932
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__1__silent",
+      "item_id": "live_transport_holding_004",
+      "label": 1,
+      "condition": "silent",
+      "position": "assistant_start",
+      "token_index": 1224,
+      "saved_e2_l26": 5.843244552612305,
+      "content_lr_l26": 2.3151965141296387,
+      "e1_l1": 0.15009361505508423
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__1__silent",
+      "item_id": "live_transport_holding_004",
+      "label": 1,
+      "condition": "silent",
+      "position": "tool_close",
+      "token_index": 1206,
+      "saved_e2_l26": 12.358114242553711,
+      "content_lr_l26": 0.6604409217834473,
+      "e1_l1": 0.6373627185821533
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__1__welfare",
+      "item_id": "live_transport_holding_004",
+      "label": 1,
+      "condition": "welfare",
+      "position": "assistant_start",
+      "token_index": 1258,
+      "saved_e2_l26": 5.3320536613464355,
+      "content_lr_l26": 5.862923622131348,
+      "e1_l1": 0.13758647441864014
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__1__welfare",
+      "item_id": "live_transport_holding_004",
+      "label": 1,
+      "condition": "welfare",
+      "position": "tool_close",
+      "token_index": 1206,
+      "saved_e2_l26": 12.358114242553711,
+      "content_lr_l26": 0.6604409217834473,
+      "e1_l1": 0.6373627185821533
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__1__value",
+      "item_id": "live_transport_holding_004",
+      "label": 1,
+      "condition": "value",
+      "position": "assistant_start",
+      "token_index": 1257,
+      "saved_e2_l26": 4.863945960998535,
+      "content_lr_l26": 5.163475036621094,
+      "e1_l1": 0.13541971147060394
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__1__value",
+      "item_id": "live_transport_holding_004",
+      "label": 1,
+      "condition": "value",
+      "position": "tool_close",
+      "token_index": 1206,
+      "saved_e2_l26": 12.358114242553711,
+      "content_lr_l26": 0.6604409217834473,
+      "e1_l1": 0.6373627185821533
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__0__silent",
+      "item_id": "live_transport_holding_004",
+      "label": 0,
+      "condition": "silent",
+      "position": "assistant_start",
+      "token_index": 1224,
+      "saved_e2_l26": 5.800168037414551,
+      "content_lr_l26": 2.3250632286071777,
+      "e1_l1": 0.1499832272529602
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__0__silent",
+      "item_id": "live_transport_holding_004",
+      "label": 0,
+      "condition": "silent",
+      "position": "tool_close",
+      "token_index": 1206,
+      "saved_e2_l26": 12.262002944946289,
+      "content_lr_l26": 0.5749616622924805,
+      "e1_l1": 0.6378146409988403
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__0__welfare",
+      "item_id": "live_transport_holding_004",
+      "label": 0,
+      "condition": "welfare",
+      "position": "assistant_start",
+      "token_index": 1258,
+      "saved_e2_l26": 5.273212909698486,
+      "content_lr_l26": 5.917915344238281,
+      "e1_l1": 0.13777899742126465
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__0__welfare",
+      "item_id": "live_transport_holding_004",
+      "label": 0,
+      "condition": "welfare",
+      "position": "tool_close",
+      "token_index": 1206,
+      "saved_e2_l26": 12.262002944946289,
+      "content_lr_l26": 0.5749616622924805,
+      "e1_l1": 0.6378146409988403
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__0__value",
+      "item_id": "live_transport_holding_004",
+      "label": 0,
+      "condition": "value",
+      "position": "assistant_start",
+      "token_index": 1257,
+      "saved_e2_l26": 4.929978847503662,
+      "content_lr_l26": 5.146368026733398,
+      "e1_l1": 0.13527938723564148
+    },
+    {
+      "job_id": "v3__live_transport_holding_004__0__value",
+      "item_id": "live_transport_holding_004",
+      "label": 0,
+      "condition": "value",
+      "position": "tool_close",
+      "token_index": 1206,
+      "saved_e2_l26": 12.262002944946289,
+      "content_lr_l26": 0.5749616622924805,
+      "e1_l1": 0.6378146409988403
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__1__silent",
+      "item_id": "welfare_claims_labels_001",
+      "label": 1,
+      "condition": "silent",
+      "position": "assistant_start",
+      "token_index": 1201,
+      "saved_e2_l26": 6.372494220733643,
+      "content_lr_l26": 2.4430174827575684,
+      "e1_l1": 0.15016308426856995
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__1__silent",
+      "item_id": "welfare_claims_labels_001",
+      "label": 1,
+      "condition": "silent",
+      "position": "tool_close",
+      "token_index": 1183,
+      "saved_e2_l26": 12.175983428955078,
+      "content_lr_l26": 0.3950355052947998,
+      "e1_l1": 0.6425927877426147
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__1__welfare",
+      "item_id": "welfare_claims_labels_001",
+      "label": 1,
+      "condition": "welfare",
+      "position": "assistant_start",
+      "token_index": 1235,
+      "saved_e2_l26": 6.672313213348389,
+      "content_lr_l26": 6.000816822052002,
+      "e1_l1": 0.1384921669960022
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__1__welfare",
+      "item_id": "welfare_claims_labels_001",
+      "label": 1,
+      "condition": "welfare",
+      "position": "tool_close",
+      "token_index": 1183,
+      "saved_e2_l26": 12.175983428955078,
+      "content_lr_l26": 0.3950355052947998,
+      "e1_l1": 0.6425927877426147
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__1__value",
+      "item_id": "welfare_claims_labels_001",
+      "label": 1,
+      "condition": "value",
+      "position": "assistant_start",
+      "token_index": 1234,
+      "saved_e2_l26": 5.107917785644531,
+      "content_lr_l26": 5.471160411834717,
+      "e1_l1": 0.14535699784755707
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__1__value",
+      "item_id": "welfare_claims_labels_001",
+      "label": 1,
+      "condition": "value",
+      "position": "tool_close",
+      "token_index": 1183,
+      "saved_e2_l26": 12.175983428955078,
+      "content_lr_l26": 0.3950355052947998,
+      "e1_l1": 0.6425927877426147
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__0__silent",
+      "item_id": "welfare_claims_labels_001",
+      "label": 0,
+      "condition": "silent",
+      "position": "assistant_start",
+      "token_index": 1202,
+      "saved_e2_l26": 6.204021453857422,
+      "content_lr_l26": 1.9542948007583618,
+      "e1_l1": 0.14998793601989746
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__0__silent",
+      "item_id": "welfare_claims_labels_001",
+      "label": 0,
+      "condition": "silent",
+      "position": "tool_close",
+      "token_index": 1184,
+      "saved_e2_l26": 12.308551788330078,
+      "content_lr_l26": -0.7211167812347412,
+      "e1_l1": 0.642821192741394
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__0__welfare",
+      "item_id": "welfare_claims_labels_001",
+      "label": 0,
+      "condition": "welfare",
+      "position": "assistant_start",
+      "token_index": 1236,
+      "saved_e2_l26": 5.698132514953613,
+      "content_lr_l26": 5.780972480773926,
+      "e1_l1": 0.13850180804729462
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__0__welfare",
+      "item_id": "welfare_claims_labels_001",
+      "label": 0,
+      "condition": "welfare",
+      "position": "tool_close",
+      "token_index": 1184,
+      "saved_e2_l26": 12.35319995880127,
+      "content_lr_l26": -0.7101025581359863,
+      "e1_l1": 0.6428779363632202
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__0__value",
+      "item_id": "welfare_claims_labels_001",
+      "label": 0,
+      "condition": "value",
+      "position": "assistant_start",
+      "token_index": 1235,
+      "saved_e2_l26": 5.186068534851074,
+      "content_lr_l26": 5.227313995361328,
+      "e1_l1": 0.1452600508928299
+    },
+    {
+      "job_id": "v3__welfare_claims_labels_001__0__value",
+      "item_id": "welfare_claims_labels_001",
+      "label": 0,
+      "condition": "value",
+      "position": "tool_close",
+      "token_index": 1184,
+      "saved_e2_l26": 12.35319995880127,
+      "content_lr_l26": -0.7101025581359863,
+      "e1_l1": 0.6428779363632202
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__1__silent",
+      "item_id": "wild_capture_bycatch_005",
+      "label": 1,
+      "condition": "silent",
+      "position": "assistant_start",
+      "token_index": 1227,
+      "saved_e2_l26": 5.683917045593262,
+      "content_lr_l26": 2.245030641555786,
+      "e1_l1": 0.15044334530830383
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__1__silent",
+      "item_id": "wild_capture_bycatch_005",
+      "label": 1,
+      "condition": "silent",
+      "position": "tool_close",
+      "token_index": 1209,
+      "saved_e2_l26": 12.771063804626465,
+      "content_lr_l26": 0.5743086338043213,
+      "e1_l1": 0.6601705551147461
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__1__welfare",
+      "item_id": "wild_capture_bycatch_005",
+      "label": 1,
+      "condition": "welfare",
+      "position": "assistant_start",
+      "token_index": 1262,
+      "saved_e2_l26": 5.865736961364746,
+      "content_lr_l26": 6.281572341918945,
+      "e1_l1": 0.1483650803565979
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__1__welfare",
+      "item_id": "wild_capture_bycatch_005",
+      "label": 1,
+      "condition": "welfare",
+      "position": "tool_close",
+      "token_index": 1209,
+      "saved_e2_l26": 12.771063804626465,
+      "content_lr_l26": 0.5743086338043213,
+      "e1_l1": 0.6601705551147461
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__1__value",
+      "item_id": "wild_capture_bycatch_005",
+      "label": 1,
+      "condition": "value",
+      "position": "assistant_start",
+      "token_index": 1260,
+      "saved_e2_l26": 4.705145835876465,
+      "content_lr_l26": 5.062869548797607,
+      "e1_l1": 0.13557219505310059
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__1__value",
+      "item_id": "wild_capture_bycatch_005",
+      "label": 1,
+      "condition": "value",
+      "position": "tool_close",
+      "token_index": 1209,
+      "saved_e2_l26": 12.771063804626465,
+      "content_lr_l26": 0.5743086338043213,
+      "e1_l1": 0.6601705551147461
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__0__silent",
+      "item_id": "wild_capture_bycatch_005",
+      "label": 0,
+      "condition": "silent",
+      "position": "assistant_start",
+      "token_index": 1231,
+      "saved_e2_l26": 5.567139148712158,
+      "content_lr_l26": 2.109922409057617,
+      "e1_l1": 0.1506040096282959
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__0__silent",
+      "item_id": "wild_capture_bycatch_005",
+      "label": 0,
+      "condition": "silent",
+      "position": "tool_close",
+      "token_index": 1213,
+      "saved_e2_l26": 12.896193504333496,
+      "content_lr_l26": 0.38635706901550293,
+      "e1_l1": 0.660555899143219
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__0__welfare",
+      "item_id": "wild_capture_bycatch_005",
+      "label": 0,
+      "condition": "welfare",
+      "position": "assistant_start",
+      "token_index": 1266,
+      "saved_e2_l26": 4.876094341278076,
+      "content_lr_l26": 6.049193382263184,
+      "e1_l1": 0.1484682708978653
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__0__welfare",
+      "item_id": "wild_capture_bycatch_005",
+      "label": 0,
+      "condition": "welfare",
+      "position": "tool_close",
+      "token_index": 1213,
+      "saved_e2_l26": 12.896193504333496,
+      "content_lr_l26": 0.38635706901550293,
+      "e1_l1": 0.660555899143219
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__0__value",
+      "item_id": "wild_capture_bycatch_005",
+      "label": 0,
+      "condition": "value",
+      "position": "assistant_start",
+      "token_index": 1264,
+      "saved_e2_l26": 4.902622699737549,
+      "content_lr_l26": 4.975069999694824,
+      "e1_l1": 0.13576605916023254
+    },
+    {
+      "job_id": "v3__wild_capture_bycatch_005__0__value",
+      "item_id": "wild_capture_bycatch_005",
+      "label": 0,
+      "condition": "value",
+      "position": "tool_close",
+      "token_index": 1213,
+      "saved_e2_l26": 12.896193504333496,
+      "content_lr_l26": 0.38635706901550293,
+      "e1_l1": 0.660555899143219
+    }
+  ],
+  "rq3_ready": false,
+  "measurement_validated": false,
+  "limitations": [
+    "These seven revised examples are development items. No fresh heldout validation claim.",
+    "Saved probes retain their original training-context limitations. L26 content comparison matches measurement layer, not all training conditions.",
+    "E1 L1 is a supplied-polarity baseline, not a same-layer control.",
+    "No final-answer generation or price/rating/position extension is included in these 42 forwards.",
+    "Larger or better scores do not by themselves establish welfare evaluation distinct from content.",
+    "LOO uses six items per fold and does not provide a single independently validated steering vector."
+  ]
+}

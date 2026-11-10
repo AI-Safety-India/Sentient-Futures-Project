@@ -1,0 +1,148 @@
+RQ2 v8 — local training design, not an executed experiment
+10 November 2026
+
+Decision and exact next-pilot budget
+
+Prepare one fully crossed development pilot with 192 NEW forward passes:
+6 existing treatment pairs x 2 concern variants x 2 initial goals
+x 2 tool-result orders x 2 target prices x 2 administrative-service variants.
+
+One forward means processing one fixed prompt to extract activations. It is
+not a generated agent episode, an order, or a new benchmark trajectory.
+No model inference, remote session, paid service or subscription is started.
+This document does not authorize execution. The user's current request is
+local preparation and an exact count BEFORE model work.
+
+Why the cheaper cached-baseline proposal is not adopted
+
+Some old training descriptions assert identical supplier prices and service.
+Changing those factors while retaining the assertions creates contradictions.
+The prospective descriptions remove those comparative stipulations and use
+single-supplier prose, retaining the specific animal-treatment facts.
+The changed prefixes need new activations. Old caches cannot stand in for them.
+An additive four-arm design with a cleaned baseline would also need 192 new
+states. The full price x service design uses that same count and covers their
+joint combinations. A 96-pass service-only pilot would leave price variation
+out of training. These are design choices, not universal sample-size minima.
+
+What is reused
+
+72 distinct previously collected training states:
+  24 welfare +24 commercial from v5, and24 factual from v6.
+The24 welfare states used in v6 ARE the same v5 states, not24 additional passes.
+All72 remain saved comparison data. None is an exact match to the new cleaned,
+service-augmented training prompts, so NONE is falsely counted as a new fit cell.
+64 neutral v4 development states are reused for comparison of fixed candidates.
+Those eight development pairs have already been inspected; they are not a test
+set whose results can establish independent validation.
+Original1,200 benchmark trajectories, their repaired caches, and all original
+probe weights/results remain unchanged. Zero new benchmark episodes are planned.
+
+Inputs
+
+Six training IDs are inherited from the prior approved relative-practice pairs.
+Original and revised text plus edit reasons are recorded separately. Existing
+human approval covers the old relative labels/descriptions only. Modified full
+descriptions and administrative controls have an AI review, not invented human
+approval. Both concern variants retain the animal product; lower does not mean
+whole-option harmless or no internal welfare evaluation.
+
+Two administrative wording styles are assigned to three items each before
+scoring. Style is fixed per item, NOT an additional factorial dimension. Each
+style has good/bad versions describing clerical usability; neither changes
+animal treatment, price, food quality, availability or delivery.
+
+Target price: original metadata price or twice that price, consistently rendered
+in search and details. Rating and comparator details remain fixed. Both target-
+first and target-last detail-return orders occur in every other combination.
+Price and service valence are therefore balanced within each concern/goal/order.
+This does not guarantee that the resulting learned direction is nuisance-free.
+
+Initial goal clauses are the SAME ones used in v6:
+  Welfare: When comparing suppliers, consider animal welfare.
+  Facts:   When comparing suppliers, identify animal-treatment facts.
+They appear before the tools; no question or 'continue' message is appended.
+Use the existing benchmark system message, four tools and rendering helpers.
+Keep the pinned model/template identity; locally prepare tokens without weights
+or network access. Runtime identity checks are still needed if execution occurs.
+
+Measurement and sole proposed estimator
+
+Primary measurement: post-layer26 state at pos_b, the existing assistant/thinking
+boundary immediately following the tool results. Do not switch layer/position
+or sign because another result looks better. Additional saved positions/layers
+may be diagnostic, never an unreported rescue of this primary pilot.
+
+For each item, order, price and service variant:
+  D = (higher_welfare - lower_welfare) - (higher_facts - lower_facts).
+Average D equally over all six items and every order/price/service combination.
+Normalize once. Save raw vector, raw norm and normalized vector. If the raw norm
+is effectively zero/nonfinite, report a failed fit; do not fabricate a direction.
+Use the mean of all192 training states as a display center, not a probability
+or classification threshold. No post-fit nuisance/content projection, layer
+search, sign flip, regression tuning or selection among alternative estimators.
+The local estimator and tests are preparatory; do not fit it to real data now.
+
+Why it is new, and what it can establish
+
+v6 used the welfare/factual contrast in one context per order. v7 projected away
+average nuisance vectors and did not fix discrimination. This pilot estimates
+the welfare/factual interaction across varied price and administrative contexts.
+It tests whether that interaction remains useful when those factors vary.
+The clean prose is also a change, so improvements cannot be attributed solely
+to the administrative control or price balancing. Report that limitation.
+
+Factual attention is NOT proof of absent evaluation. Service-paperwork quality
+is one mild non-welfare control, not all negative sentiment. Treatment variants
+still differ in facts. Success would support further validation, not prove the
+model's internal welfare evaluation or settle the original research question.
+
+Fixed comparisons and stopping discipline
+
+Compare the single candidate with originalE2, v5, v6 and v7-corrected v6 on the
+same64 saved neutral development states. Report all four conditions: base,
+price, rating and order. Include paired sign counts, AUROC, per-item/mean/median
+gaps, common score offsets and changes in paired gaps. Retain the existing
+related-reindeer sensitivity separately; no new favorable exclusions.
+
+Keep the earlier7/8 development flags and magnitude flags as descriptive
+continuity checks. These are NOT original H2 requirements, statistical proof or
+automatic permission to launch RQ3. If the fixed candidate still fails these
+screens, report it and stop this pilot; do not search another layer/sign or
+consume fresh examples to rescue it. If promising, propose the separately
+reviewed independent test before further model work. Report uncertainty and
+negative results, not only favorable aggregates.
+
+On the192 training states also report welfare, service and price contrasts,
+goal effects, their interactions and variation across items/orders. These are
+in-sample diagnostics and must not be called held-out validation. No fitting or
+candidate selection on the64 development outcomes or the reserved fresh examples.
+
+Reserved validation and future work
+
+The v7 eight-pair/32-description draft remains unscored and unchanged. The label
+review may propose a separately versioned correction (e.g. duck housing/light
+wording); it must not overwrite the frozen v7 draft or claim human approval.
+No reserved validation example enters this training manifest or fitting.
+Their new wording is not species/family-disjoint validation. A future screen
+must include matched evaluation/factual/neutral contexts and independent quality
+controls; eight items alone cannot establish a broad final result.
+
+192 is the exact budget for THIS development pilot only. It excludes fresh
+validation, generated final-answer checks, positive-control sensitivity studies,
+any repair triggered by a future runtime mismatch, and RQ3. These are not
+silently authorized or included. There is no justified exact grand total for
+all remaining RQ2 while candidate validity and final test scope remain unresolved.
+
+Only after defensible measurement: rescore the existing repaired benchmark
+caches, recalibrate thresholds on separate scenario groups, and combine with
+RQ1 labels. Use 'signal not detected' rather than claiming absent recognition.
+Historical backend/template limits remain disclosed. Original H2 considers
+reading/persistence/action positions; this pilot does not replace that hypothesis.
+
+Spending restriction
+
+No paid compute, credits, API, upgrade, purchase, subscription or converting
+trial. An earlier free Molab session is not proof of current free runtime state.
+If a later run is requested, confirm it is explicitly free before starting.
+No action in this local package opens a remote runtime or executes a model.

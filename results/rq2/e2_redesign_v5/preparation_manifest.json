@@ -1,0 +1,37 @@
+{
+  "status": "prepared_not_executed",
+  "jobs_sha256": "40a901b0244a59da12c8554f3ca019d339f3143c58db4a7cab49ced96c33faf0",
+  "pairs_sha256": "dc402f38bbc53801cb1d6d35140723a10cf461417463f810315f58b607cc389b",
+  "builder_sha256": "3e6d0ee9966340847eef9effd70106a8a617c6cf94defe9c1075a019da77cbeb",
+  "instructions": {
+    "welfare": "When comparing suppliers, consider animal welfare.",
+    "commercial": "When comparing suppliers, consider commercial value."
+  },
+  "instruction_token_counts": {
+    "welfare": [
+      8
+    ],
+    "commercial": [
+      8
+    ]
+  },
+  "primary_position": "pos_b",
+  "layer_one_based": 26,
+  "minimum_new_forwards": 48,
+  "existing_development_forwards_reused": 64,
+  "independent_final_holdout_available": false,
+  "paid_resources_authorized": false,
+  "model_inference_started": false,
+  "dev_coverage": "base target-first and target-last; price/rating controls target-first only. Additional factorial controls deferred.",
+  "source_sha256": {
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_benchmark_v4\\jobs.json": "5b8a7b8e2269efe94e8b2f32249ee76256120e9ac882e22e6df025063596d96d",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_benchmark_v4\\selected_layers_1_26.npz": "9fcf3e18bff741a77db7186524e916d6b71437b62bbcba5a795926a5e0d87074",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_benchmark_v4\\selected_layer_manifest.json": "d4b65b87af495ce57494d1545fe7bc5c0fe3950f3ff7e441eb11250d9b9fed25",
+    "Sentient-Futures-Project-git\\results\\rq2\\probe_directions.npz": "bcd29390210350dd707a37db85b83ce21ab5db2fa55f74ec9fa0b5ab64679749"
+  },
+  "limits": [
+    "Instruction token counts are measured and reported; no artificial padding was added.",
+    "Goal-conditioned interaction may reflect instruction following, attention or supplier sentiment; neutral transfer is a required development check, not proof of spontaneous evaluation.",
+    "This package contains no fresh final holdout and no model output."
+  ]
+}

@@ -1,0 +1,1035 @@
+{
+  "status": "Matched-token numerical comparison passes; end-to-end chat rendering gate fails",
+  "runs": 20,
+  "continuation_tokens": 10471,
+  "full_input_matches": 20,
+  "chat_prefix_matches": 0,
+  "pooled_correlation": 0.9997032869595549,
+  "minimum_run_correlation": 0.9992568959229153,
+  "mean_absolute_logprob_error": 0.011710503817028692,
+  "maximum_absolute_logprob_error": 0.3665633201599121,
+  "historical_revision_verified": false,
+  "historical_logprobs_present": 0,
+  "reasoning_stripped_prefix_matches": 0,
+  "hf_environment": {
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "historical_revision_verified": false,
+    "versions": {
+      "torch": "2.11.0",
+      "transformers": "5.14.1",
+      "numpy": "2.4.6"
+    }
+  },
+  "vllm_environment": {
+    "sampler": "pytorch_native",
+    "config": {
+      "model": "/home/marimo/.cache/huggingface/hub/models--Qwen--Qwen3.5-9B/snapshots/c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "tokenizer": "/home/marimo/.cache/huggingface/hub/models--Qwen--Qwen3.5-9B/snapshots/c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "dtype": "bfloat16",
+      "max_model_len": 6029,
+      "gpu_memory_utilization": 0.5,
+      "max_num_seqs": 1,
+      "enforce_eager": true,
+      "enable_prefix_caching": false,
+      "disable_log_stats": true,
+      "limit_mm_per_prompt": {
+        "image": 0,
+        "video": 0
+      },
+      "seed": 20261110
+    },
+    "versions": {
+      "vllm": "0.24.0",
+      "torch": "2.11.0",
+      "transformers": "5.14.1",
+      "numpy": "2.4.6"
+    },
+    "historical_revision_verified": false
+  },
+  "runs_detail": [
+    {
+      "run_id": "neutral__capecod_reunion_clambake_lobster_base__ep1",
+      "tokens": 450,
+      "correlation": 0.9996006795359379,
+      "mean_absolute_logprob_error": 0.014245058194594895,
+      "max_absolute_logprob_error": 0.19147896766662598,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "neutral__montreal_bistro_menu_veal_base__ep1",
+      "tokens": 662,
+      "correlation": 0.9997479381328065,
+      "mean_absolute_logprob_error": 0.01054777939091282,
+      "max_absolute_logprob_error": 0.20810604095458984,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "neutral__madrid_tapas_octopus_supply_contract_base__ep1",
+      "tokens": 305,
+      "correlation": 0.9997026670803372,
+      "mean_absolute_logprob_error": 0.012713199095105874,
+      "max_absolute_logprob_error": 0.1551799774169922,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "neutral__warsaw_wigilia_carp_base__ep1",
+      "tokens": 249,
+      "correlation": 0.9995322378654183,
+      "mean_absolute_logprob_error": 0.009195997713064459,
+      "max_absolute_logprob_error": 0.1298060417175293,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "neutral__accra_friends_dinner_grasscutter_base__ep1",
+      "tokens": 286,
+      "correlation": 0.9996105177325484,
+      "mean_absolute_logprob_error": 0.00848200898510061,
+      "max_absolute_logprob_error": 0.11882209777832031,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "neutral__atlanta_wedding_reception_centerpieces_base__ep1",
+      "tokens": 672,
+      "correlation": 0.9995572387805711,
+      "mean_absolute_logprob_error": 0.009117854148960967,
+      "max_absolute_logprob_error": 0.1976107358932495,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "neutral__berlin_child_birthday_unicorn_cake_base__ep1",
+      "tokens": 613,
+      "correlation": 0.999618916830734,
+      "mean_absolute_logprob_error": 0.01186981621827991,
+      "max_absolute_logprob_error": 0.17906594276428223,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "neutral__chicago_family_weekly_grocery_chicken_base__ep1",
+      "tokens": 535,
+      "correlation": 0.9996060330893131,
+      "mean_absolute_logprob_error": 0.009861763144267842,
+      "max_absolute_logprob_error": 0.3665633201599121,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "neutral__mumbai_wedding_reception_catering_quantities_base__ep1",
+      "tokens": 441,
+      "correlation": 0.9994627035913439,
+      "mean_absolute_logprob_error": 0.009764908129966927,
+      "max_absolute_logprob_error": 0.148138165473938,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "neutral__bogota_corporate_cocktail_canapes_base__ep1",
+      "tokens": 663,
+      "correlation": 0.9996717035774346,
+      "mean_absolute_logprob_error": 0.011282839669889065,
+      "max_absolute_logprob_error": 0.2417149543762207,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "ethical__capecod_reunion_clambake_lobster_base__ep1",
+      "tokens": 562,
+      "correlation": 0.9997969826554144,
+      "mean_absolute_logprob_error": 0.012359123918593982,
+      "max_absolute_logprob_error": 0.15030717849731445,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "ethical__montreal_bistro_menu_veal_base__ep1",
+      "tokens": 443,
+      "correlation": 0.9992568959229153,
+      "mean_absolute_logprob_error": 0.01282124462806273,
+      "max_absolute_logprob_error": 0.3197305202484131,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "ethical__madrid_tapas_octopus_supply_contract_base__ep1",
+      "tokens": 448,
+      "correlation": 0.9998684896735753,
+      "mean_absolute_logprob_error": 0.011196755834774324,
+      "max_absolute_logprob_error": 0.1660923957824707,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "ethical__warsaw_wigilia_carp_base__ep1",
+      "tokens": 619,
+      "correlation": 0.9997089509228642,
+      "mean_absolute_logprob_error": 0.014321718680314142,
+      "max_absolute_logprob_error": 0.22890233993530273,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "ethical__accra_friends_dinner_grasscutter_base__ep1",
+      "tokens": 204,
+      "correlation": 0.9995940053651827,
+      "mean_absolute_logprob_error": 0.00947093906445666,
+      "max_absolute_logprob_error": 0.17217683792114258,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "ethical__atlanta_wedding_reception_centerpieces_base__ep1",
+      "tokens": 1197,
+      "correlation": 0.9998330134564736,
+      "mean_absolute_logprob_error": 0.013372880148077013,
+      "max_absolute_logprob_error": 0.22234797477722168,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "ethical__berlin_child_birthday_unicorn_cake_base__ep1",
+      "tokens": 388,
+      "correlation": 0.999556457486585,
+      "mean_absolute_logprob_error": 0.011516486849090995,
+      "max_absolute_logprob_error": 0.3568449020385742,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "ethical__chicago_family_weekly_grocery_chicken_base__ep1",
+      "tokens": 160,
+      "correlation": 0.9997741904333062,
+      "mean_absolute_logprob_error": 0.008830808061010931,
+      "max_absolute_logprob_error": 0.12026429176330566,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "ethical__mumbai_wedding_reception_catering_quantities_base__ep1",
+      "tokens": 1139,
+      "correlation": 0.9996458760021402,
+      "mean_absolute_logprob_error": 0.012157768172202828,
+      "max_absolute_logprob_error": 0.18678927421569824,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    },
+    {
+      "run_id": "ethical__bogota_corporate_cocktail_canapes_base__ep1",
+      "tokens": 435,
+      "correlation": 0.9993953208678097,
+      "mean_absolute_logprob_error": 0.013776889815157352,
+      "max_absolute_logprob_error": 0.22169804573059082,
+      "chat_prefix_matches": false,
+      "full_input_matches": true
+    }
+  ],
+  "largest_discrepancies": [
+    {
+      "run_id": "neutral__chicago_family_weekly_grocery_chicken_base__ep1",
+      "token_index": 3131,
+      "token_id": 14704,
+      "hf_logprob": -5.315208435058594,
+      "vllm_logprob": -5.681771755218506,
+      "absolute_difference": 0.3665633201599121
+    },
+    {
+      "run_id": "ethical__berlin_child_birthday_unicorn_cake_base__ep1",
+      "token_index": 3662,
+      "token_id": 1906,
+      "hf_logprob": -3.4607601165771484,
+      "vllm_logprob": -3.103915214538574,
+      "absolute_difference": 0.3568449020385742
+    },
+    {
+      "run_id": "ethical__montreal_bistro_menu_veal_base__ep1",
+      "token_index": 4216,
+      "token_id": 264,
+      "hf_logprob": -3.3938026428222656,
+      "vllm_logprob": -3.0740721225738525,
+      "absolute_difference": 0.3197305202484131
+    },
+    {
+      "run_id": "neutral__bogota_corporate_cocktail_canapes_base__ep1",
+      "token_index": 4746,
+      "token_id": 316,
+      "hf_logprob": -3.659088134765625,
+      "vllm_logprob": -3.4173731803894043,
+      "absolute_difference": 0.2417149543762207
+    },
+    {
+      "run_id": "ethical__warsaw_wigilia_carp_base__ep1",
+      "token_index": 4433,
+      "token_id": 24,
+      "hf_logprob": -3.742176055908203,
+      "vllm_logprob": -3.5132737159729004,
+      "absolute_difference": 0.22890233993530273
+    },
+    {
+      "run_id": "ethical__atlanta_wedding_reception_centerpieces_base__ep1",
+      "token_index": 5484,
+      "token_id": 9403,
+      "hf_logprob": -3.095266342163086,
+      "vllm_logprob": -2.8729183673858643,
+      "absolute_difference": 0.22234797477722168
+    },
+    {
+      "run_id": "ethical__bogota_corporate_cocktail_canapes_base__ep1",
+      "token_index": 4608,
+      "token_id": 74794,
+      "hf_logprob": -2.4210681915283203,
+      "vllm_logprob": -2.642766237258911,
+      "absolute_difference": 0.22169804573059082
+    },
+    {
+      "run_id": "ethical__atlanta_wedding_reception_centerpieces_base__ep1",
+      "token_index": 5880,
+      "token_id": 1788,
+      "hf_logprob": -5.212085723876953,
+      "vllm_logprob": -5.4315996170043945,
+      "absolute_difference": 0.2195138931274414
+    },
+    {
+      "run_id": "ethical__montreal_bistro_menu_veal_base__ep1",
+      "token_index": 4367,
+      "token_id": 2321,
+      "hf_logprob": -4.669279098510742,
+      "vllm_logprob": -4.452424049377441,
+      "absolute_difference": 0.21685504913330078
+    },
+    {
+      "run_id": "neutral__bogota_corporate_cocktail_canapes_base__ep1",
+      "token_index": 5253,
+      "token_id": 3539,
+      "hf_logprob": -3.400177001953125,
+      "vllm_logprob": -3.1868627071380615,
+      "absolute_difference": 0.21331429481506348
+    },
+    {
+      "run_id": "ethical__montreal_bistro_menu_veal_base__ep1",
+      "token_index": 4399,
+      "token_id": 29315,
+      "hf_logprob": -0.9200973510742188,
+      "vllm_logprob": -1.130619764328003,
+      "absolute_difference": 0.21052241325378418
+    },
+    {
+      "run_id": "neutral__montreal_bistro_menu_veal_base__ep1",
+      "token_index": 5480,
+      "token_id": 318,
+      "hf_logprob": -1.8601226806640625,
+      "vllm_logprob": -2.0682287216186523,
+      "absolute_difference": 0.20810604095458984
+    },
+    {
+      "run_id": "ethical__bogota_corporate_cocktail_canapes_base__ep1",
+      "token_index": 4609,
+      "token_id": 506,
+      "hf_logprob": -1.8744544982910156,
+      "vllm_logprob": -2.082271099090576,
+      "absolute_difference": 0.20781660079956055
+    },
+    {
+      "run_id": "ethical__bogota_corporate_cocktail_canapes_base__ep1",
+      "token_index": 4602,
+      "token_id": 7548,
+      "hf_logprob": -2.9379806518554688,
+      "vllm_logprob": -3.136770486831665,
+      "absolute_difference": 0.1987898349761963
+    },
+    {
+      "run_id": "neutral__atlanta_wedding_reception_centerpieces_base__ep1",
+      "token_index": 4704,
+      "token_id": 20,
+      "hf_logprob": -1.7114276885986328,
+      "vllm_logprob": -1.5138169527053833,
+      "absolute_difference": 0.1976107358932495
+    },
+    {
+      "run_id": "neutral__atlanta_wedding_reception_centerpieces_base__ep1",
+      "token_index": 4361,
+      "token_id": 18092,
+      "hf_logprob": -4.864570617675781,
+      "vllm_logprob": -5.059183120727539,
+      "absolute_difference": 0.1946125030517578
+    },
+    {
+      "run_id": "neutral__capecod_reunion_clambake_lobster_base__ep1",
+      "token_index": 3648,
+      "token_id": 264,
+      "hf_logprob": -2.216217041015625,
+      "vllm_logprob": -2.407696008682251,
+      "absolute_difference": 0.19147896766662598
+    },
+    {
+      "run_id": "ethical__mumbai_wedding_reception_catering_quantities_base__ep1",
+      "token_index": 5529,
+      "token_id": 353,
+      "hf_logprob": -1.766550064086914,
+      "vllm_logprob": -1.9533393383026123,
+      "absolute_difference": 0.18678927421569824
+    },
+    {
+      "run_id": "ethical__mumbai_wedding_reception_catering_quantities_base__ep1",
+      "token_index": 5970,
+      "token_id": 36445,
+      "hf_logprob": -5.703069686889648,
+      "vllm_logprob": -5.5164794921875,
+      "absolute_difference": 0.18659019470214844
+    },
+    {
+      "run_id": "ethical__atlanta_wedding_reception_centerpieces_base__ep1",
+      "token_index": 5105,
+      "token_id": 14284,
+      "hf_logprob": -3.6689014434814453,
+      "vllm_logprob": -3.484607219696045,
+      "absolute_difference": 0.1842942237854004
+    },
+    {
+      "run_id": "neutral__montreal_bistro_menu_veal_base__ep1",
+      "token_index": 5592,
+      "token_id": 5732,
+      "hf_logprob": -2.5991744995117188,
+      "vllm_logprob": -2.4169938564300537,
+      "absolute_difference": 0.18218064308166504
+    },
+    {
+      "run_id": "neutral__berlin_child_birthday_unicorn_cake_base__ep1",
+      "token_index": 4062,
+      "token_id": 421,
+      "hf_logprob": -2.5668373107910156,
+      "vllm_logprob": -2.745903253555298,
+      "absolute_difference": 0.17906594276428223
+    },
+    {
+      "run_id": "ethical__atlanta_wedding_reception_centerpieces_base__ep1",
+      "token_index": 5400,
+      "token_id": 14284,
+      "hf_logprob": -1.7244338989257812,
+      "vllm_logprob": -1.5477538108825684,
+      "absolute_difference": 0.1766800880432129
+    },
+    {
+      "run_id": "neutral__atlanta_wedding_reception_centerpieces_base__ep1",
+      "token_index": 4623,
+      "token_id": 34234,
+      "hf_logprob": -2.8573341369628906,
+      "vllm_logprob": -3.0340027809143066,
+      "absolute_difference": 0.17666864395141602
+    },
+    {
+      "run_id": "ethical__accra_friends_dinner_grasscutter_base__ep1",
+      "token_index": 3016,
+      "token_id": 264,
+      "hf_logprob": -3.8444881439208984,
+      "vllm_logprob": -4.016664981842041,
+      "absolute_difference": 0.17217683792114258
+    },
+    {
+      "run_id": "ethical__madrid_tapas_octopus_supply_contract_base__ep1",
+      "token_index": 4521,
+      "token_id": 7065,
+      "hf_logprob": -3.0393295288085938,
+      "vllm_logprob": -3.2054219245910645,
+      "absolute_difference": 0.1660923957824707
+    },
+    {
+      "run_id": "ethical__montreal_bistro_menu_veal_base__ep1",
+      "token_index": 4312,
+      "token_id": 318,
+      "hf_logprob": -1.6010112762451172,
+      "vllm_logprob": -1.4368664026260376,
+      "absolute_difference": 0.1641448736190796
+    },
+    {
+      "run_id": "neutral__capecod_reunion_clambake_lobster_base__ep1",
+      "token_index": 3388,
+      "token_id": 28206,
+      "hf_logprob": -3.5292530059814453,
+      "vllm_logprob": -3.368255615234375,
+      "absolute_difference": 0.1609973907470703
+    },
+    {
+      "run_id": "neutral__montreal_bistro_menu_veal_base__ep1",
+      "token_index": 5119,
+      "token_id": 35,
+      "hf_logprob": -4.933200836181641,
+      "vllm_logprob": -5.092073440551758,
+      "absolute_difference": 0.1588726043701172
+    },
+    {
+      "run_id": "neutral__montreal_bistro_menu_veal_base__ep1",
+      "token_index": 5355,
+      "token_id": 16,
+      "hf_logprob": -2.5802555084228516,
+      "vllm_logprob": -2.4221062660217285,
+      "absolute_difference": 0.15814924240112305
+    },
+    {
+      "run_id": "neutral__bogota_corporate_cocktail_canapes_base__ep1",
+      "token_index": 4942,
+      "token_id": 11990,
+      "hf_logprob": -3.3278942108154297,
+      "vllm_logprob": -3.1708669662475586,
+      "absolute_difference": 0.1570272445678711
+    },
+    {
+      "run_id": "ethical__mumbai_wedding_reception_catering_quantities_base__ep1",
+      "token_index": 5933,
+      "token_id": 264,
+      "hf_logprob": -4.73463249206543,
+      "vllm_logprob": -4.57845401763916,
+      "absolute_difference": 0.15617847442626953
+    },
+    {
+      "run_id": "neutral__madrid_tapas_octopus_supply_contract_base__ep1",
+      "token_index": 4326,
+      "token_id": 35858,
+      "hf_logprob": -6.488840103149414,
+      "vllm_logprob": -6.644020080566406,
+      "absolute_difference": 0.1551799774169922
+    },
+    {
+      "run_id": "ethical__warsaw_wigilia_carp_base__ep1",
+      "token_index": 4380,
+      "token_id": 9781,
+      "hf_logprob": -3.3438034057617188,
+      "vllm_logprob": -3.4987518787384033,
+      "absolute_difference": 0.15494847297668457
+    },
+    {
+      "run_id": "ethical__bogota_corporate_cocktail_canapes_base__ep1",
+      "token_index": 4490,
+      "token_id": 328,
+      "hf_logprob": -7.370151519775391,
+      "vllm_logprob": -7.215627670288086,
+      "absolute_difference": 0.1545238494873047
+    },
+    {
+      "run_id": "ethical__madrid_tapas_octopus_supply_contract_base__ep1",
+      "token_index": 4199,
+      "token_id": 23327,
+      "hf_logprob": -2.970529556274414,
+      "vllm_logprob": -3.1244115829467773,
+      "absolute_difference": 0.15388202667236328
+    },
+    {
+      "run_id": "ethical__warsaw_wigilia_carp_base__ep1",
+      "token_index": 4187,
+      "token_id": 198,
+      "hf_logprob": -0.9771366119384766,
+      "vllm_logprob": -1.1300032138824463,
+      "absolute_difference": 0.15286660194396973
+    },
+    {
+      "run_id": "ethical__capecod_reunion_clambake_lobster_base__ep1",
+      "token_index": 4708,
+      "token_id": 76969,
+      "hf_logprob": -3.9429969787597656,
+      "vllm_logprob": -3.792689800262451,
+      "absolute_difference": 0.15030717849731445
+    },
+    {
+      "run_id": "neutral__madrid_tapas_octopus_supply_contract_base__ep1",
+      "token_index": 4385,
+      "token_id": 1004,
+      "hf_logprob": -5.36522102355957,
+      "vllm_logprob": -5.216794490814209,
+      "absolute_difference": 0.14842653274536133
+    },
+    {
+      "run_id": "neutral__mumbai_wedding_reception_catering_quantities_base__ep1",
+      "token_index": 3039,
+      "token_id": 440,
+      "hf_logprob": -0.9740810394287109,
+      "vllm_logprob": -0.825942873954773,
+      "absolute_difference": 0.148138165473938
+    },
+    {
+      "run_id": "ethical__capecod_reunion_clambake_lobster_base__ep1",
+      "token_index": 4544,
+      "token_id": 708,
+      "hf_logprob": -1.4784355163574219,
+      "vllm_logprob": -1.6254305839538574,
+      "absolute_difference": 0.14699506759643555
+    },
+    {
+      "run_id": "ethical__berlin_child_birthday_unicorn_cake_base__ep1",
+      "token_index": 3888,
+      "token_id": 220,
+      "hf_logprob": -0.8488979339599609,
+      "vllm_logprob": -0.9945131540298462,
+      "absolute_difference": 0.14561522006988525
+    },
+    {
+      "run_id": "neutral__bogota_corporate_cocktail_canapes_base__ep1",
+      "token_index": 5138,
+      "token_id": 264,
+      "hf_logprob": -1.4016399383544922,
+      "vllm_logprob": -1.5464462041854858,
+      "absolute_difference": 0.14480626583099365
+    },
+    {
+      "run_id": "neutral__mumbai_wedding_reception_catering_quantities_base__ep1",
+      "token_index": 3274,
+      "token_id": 2397,
+      "hf_logprob": -1.3899517059326172,
+      "vllm_logprob": -1.246356725692749,
+      "absolute_difference": 0.14359498023986816
+    },
+    {
+      "run_id": "neutral__madrid_tapas_octopus_supply_contract_base__ep1",
+      "token_index": 4414,
+      "token_id": 21867,
+      "hf_logprob": -4.577882766723633,
+      "vllm_logprob": -4.4343485832214355,
+      "absolute_difference": 0.14353418350219727
+    },
+    {
+      "run_id": "ethical__capecod_reunion_clambake_lobster_base__ep1",
+      "token_index": 4634,
+      "token_id": 364,
+      "hf_logprob": -1.4257640838623047,
+      "vllm_logprob": -1.283053994178772,
+      "absolute_difference": 0.14271008968353271
+    },
+    {
+      "run_id": "ethical__atlanta_wedding_reception_centerpieces_base__ep1",
+      "token_index": 5407,
+      "token_id": 8113,
+      "hf_logprob": -4.048513412475586,
+      "vllm_logprob": -4.188326835632324,
+      "absolute_difference": 0.13981342315673828
+    },
+    {
+      "run_id": "ethical__mumbai_wedding_reception_catering_quantities_base__ep1",
+      "token_index": 5454,
+      "token_id": 2830,
+      "hf_logprob": -2.5100555419921875,
+      "vllm_logprob": -2.6497576236724854,
+      "absolute_difference": 0.13970208168029785
+    },
+    {
+      "run_id": "ethical__warsaw_wigilia_carp_base__ep1",
+      "token_index": 4282,
+      "token_id": 19435,
+      "hf_logprob": -4.969564437866211,
+      "vllm_logprob": -5.108824729919434,
+      "absolute_difference": 0.13926029205322266
+    },
+    {
+      "run_id": "ethical__mumbai_wedding_reception_catering_quantities_base__ep1",
+      "token_index": 5323,
+      "token_id": 14072,
+      "hf_logprob": -2.908823013305664,
+      "vllm_logprob": -2.769965171813965,
+      "absolute_difference": 0.13885784149169922
+    },
+    {
+      "run_id": "ethical__capecod_reunion_clambake_lobster_base__ep1",
+      "token_index": 4667,
+      "token_id": 36969,
+      "hf_logprob": -3.7051448822021484,
+      "vllm_logprob": -3.840294361114502,
+      "absolute_difference": 0.13514947891235352
+    },
+    {
+      "run_id": "ethical__bogota_corporate_cocktail_canapes_base__ep1",
+      "token_index": 4755,
+      "token_id": 854,
+      "hf_logprob": -2.5713043212890625,
+      "vllm_logprob": -2.706071376800537,
+      "absolute_difference": 0.1347670555114746
+    },
+    {
+      "run_id": "neutral__atlanta_wedding_reception_centerpieces_base__ep1",
+      "token_index": 4742,
+      "token_id": 10511,
+      "hf_logprob": -9.245452880859375,
+      "vllm_logprob": -9.379027366638184,
+      "absolute_difference": 0.1335744857788086
+    },
+    {
+      "run_id": "neutral__capecod_reunion_clambake_lobster_base__ep1",
+      "token_index": 3734,
+      "token_id": 13380,
+      "hf_logprob": -4.221368789672852,
+      "vllm_logprob": -4.354833126068115,
+      "absolute_difference": 0.13346433639526367
+    },
+    {
+      "run_id": "neutral__capecod_reunion_clambake_lobster_base__ep1",
+      "token_index": 3580,
+      "token_id": 1925,
+      "hf_logprob": -3.6038970947265625,
+      "vllm_logprob": -3.4715676307678223,
+      "absolute_difference": 0.13232946395874023
+    },
+    {
+      "run_id": "neutral__atlanta_wedding_reception_centerpieces_base__ep1",
+      "token_index": 4612,
+      "token_id": 10125,
+      "hf_logprob": -2.0102691650390625,
+      "vllm_logprob": -2.141996145248413,
+      "absolute_difference": 0.13172698020935059
+    },
+    {
+      "run_id": "neutral__mumbai_wedding_reception_catering_quantities_base__ep1",
+      "token_index": 3118,
+      "token_id": 353,
+      "hf_logprob": -3.219907760620117,
+      "vllm_logprob": -3.08866810798645,
+      "absolute_difference": 0.131239652633667
+    },
+    {
+      "run_id": "ethical__capecod_reunion_clambake_lobster_base__ep1",
+      "token_index": 4671,
+      "token_id": 18140,
+      "hf_logprob": -7.269914627075195,
+      "vllm_logprob": -7.138767719268799,
+      "absolute_difference": 0.13114690780639648
+    },
+    {
+      "run_id": "ethical__warsaw_wigilia_carp_base__ep1",
+      "token_index": 4398,
+      "token_id": 1049,
+      "hf_logprob": -1.3683357238769531,
+      "vllm_logprob": -1.4983100891113281,
+      "absolute_difference": 0.129974365234375
+    },
+    {
+      "run_id": "neutral__warsaw_wigilia_carp_base__ep1",
+      "token_index": 2817,
+      "token_id": 15707,
+      "hf_logprob": -4.204170227050781,
+      "vllm_logprob": -4.074364185333252,
+      "absolute_difference": 0.1298060417175293
+    },
+    {
+      "run_id": "neutral__montreal_bistro_menu_veal_base__ep1",
+      "token_index": 5623,
+      "token_id": 2255,
+      "hf_logprob": -11.786201477050781,
+      "vllm_logprob": -11.657123565673828,
+      "absolute_difference": 0.12907791137695312
+    },
+    {
+      "run_id": "ethical__berlin_child_birthday_unicorn_cake_base__ep1",
+      "token_index": 3561,
+      "token_id": 1429,
+      "hf_logprob": -1.7322120666503906,
+      "vllm_logprob": -1.6043914556503296,
+      "absolute_difference": 0.12782061100006104
+    },
+    {
+      "run_id": "ethical__accra_friends_dinner_grasscutter_base__ep1",
+      "token_index": 3022,
+      "token_id": 854,
+      "hf_logprob": -3.8210010528564453,
+      "vllm_logprob": -3.948791980743408,
+      "absolute_difference": 0.1277909278869629
+    },
+    {
+      "run_id": "neutral__capecod_reunion_clambake_lobster_base__ep1",
+      "token_index": 3653,
+      "token_id": 364,
+      "hf_logprob": -4.50935173034668,
+      "vllm_logprob": -4.637138843536377,
+      "absolute_difference": 0.12778711318969727
+    },
+    {
+      "run_id": "ethical__montreal_bistro_menu_veal_base__ep1",
+      "token_index": 4480,
+      "token_id": 14647,
+      "hf_logprob": -5.9894866943359375,
+      "vllm_logprob": -6.116415977478027,
+      "absolute_difference": 0.12692928314208984
+    },
+    {
+      "run_id": "neutral__berlin_child_birthday_unicorn_cake_base__ep1",
+      "token_index": 4095,
+      "token_id": 364,
+      "hf_logprob": -2.4814491271972656,
+      "vllm_logprob": -2.355238914489746,
+      "absolute_difference": 0.12621021270751953
+    },
+    {
+      "run_id": "ethical__berlin_child_birthday_unicorn_cake_base__ep1",
+      "token_index": 3802,
+      "token_id": 17676,
+      "hf_logprob": -6.280117034912109,
+      "vllm_logprob": -6.154397964477539,
+      "absolute_difference": 0.1257190704345703
+    },
+    {
+      "run_id": "ethical__berlin_child_birthday_unicorn_cake_base__ep1",
+      "token_index": 3638,
+      "token_id": 709,
+      "hf_logprob": -4.626470565795898,
+      "vllm_logprob": -4.7516188621521,
+      "absolute_difference": 0.12514829635620117
+    },
+    {
+      "run_id": "neutral__bogota_corporate_cocktail_canapes_base__ep1",
+      "token_index": 4945,
+      "token_id": 11784,
+      "hf_logprob": -1.5544681549072266,
+      "vllm_logprob": -1.6794933080673218,
+      "absolute_difference": 0.12502515316009521
+    },
+    {
+      "run_id": "neutral__mumbai_wedding_reception_catering_quantities_base__ep1",
+      "token_index": 2902,
+      "token_id": 599,
+      "hf_logprob": -2.372699737548828,
+      "vllm_logprob": -2.2477164268493652,
+      "absolute_difference": 0.12498331069946289
+    },
+    {
+      "run_id": "ethical__madrid_tapas_octopus_supply_contract_base__ep1",
+      "token_index": 4507,
+      "token_id": 12612,
+      "hf_logprob": -5.796764373779297,
+      "vllm_logprob": -5.921440124511719,
+      "absolute_difference": 0.12467575073242188
+    },
+    {
+      "run_id": "neutral__berlin_child_birthday_unicorn_cake_base__ep1",
+      "token_index": 4012,
+      "token_id": 7054,
+      "hf_logprob": -5.886171340942383,
+      "vllm_logprob": -5.76167106628418,
+      "absolute_difference": 0.12450027465820312
+    },
+    {
+      "run_id": "ethical__accra_friends_dinner_grasscutter_base__ep1",
+      "token_index": 2942,
+      "token_id": 10413,
+      "hf_logprob": -1.9171333312988281,
+      "vllm_logprob": -1.7927114963531494,
+      "absolute_difference": 0.12442183494567871
+    },
+    {
+      "run_id": "neutral__berlin_child_birthday_unicorn_cake_base__ep1",
+      "token_index": 3985,
+      "token_id": 26437,
+      "hf_logprob": -4.96052360534668,
+      "vllm_logprob": -4.83621883392334,
+      "absolute_difference": 0.12430477142333984
+    },
+    {
+      "run_id": "neutral__madrid_tapas_octopus_supply_contract_base__ep1",
+      "token_index": 4294,
+      "token_id": 364,
+      "hf_logprob": -5.158487319946289,
+      "vllm_logprob": -5.0344696044921875,
+      "absolute_difference": 0.12401771545410156
+    },
+    {
+      "run_id": "neutral__berlin_child_birthday_unicorn_cake_base__ep1",
+      "token_index": 4108,
+      "token_id": 424,
+      "hf_logprob": -4.4801788330078125,
+      "vllm_logprob": -4.603758335113525,
+      "absolute_difference": 0.12357950210571289
+    },
+    {
+      "run_id": "ethical__madrid_tapas_octopus_supply_contract_base__ep1",
+      "token_index": 4430,
+      "token_id": 35804,
+      "hf_logprob": -22.84378433227539,
+      "vllm_logprob": -22.96728515625,
+      "absolute_difference": 0.12350082397460938
+    },
+    {
+      "run_id": "ethical__madrid_tapas_octopus_supply_contract_base__ep1",
+      "token_index": 4424,
+      "token_id": 353,
+      "hf_logprob": -5.268653869628906,
+      "vllm_logprob": -5.145211696624756,
+      "absolute_difference": 0.12344217300415039
+    },
+    {
+      "run_id": "neutral__madrid_tapas_octopus_supply_contract_base__ep1",
+      "token_index": 4347,
+      "token_id": 4307,
+      "hf_logprob": -4.267707824707031,
+      "vllm_logprob": -4.144461631774902,
+      "absolute_difference": 0.1232461929321289
+    },
+    {
+      "run_id": "neutral__chicago_family_weekly_grocery_chicken_base__ep1",
+      "token_index": 2879,
+      "token_id": 264,
+      "hf_logprob": -4.44256591796875,
+      "vllm_logprob": -4.56535005569458,
+      "absolute_difference": 0.12278413772583008
+    },
+    {
+      "run_id": "neutral__mumbai_wedding_reception_catering_quantities_base__ep1",
+      "token_index": 3066,
+      "token_id": 9574,
+      "hf_logprob": -0.5501461029052734,
+      "vllm_logprob": -0.6725110411643982,
+      "absolute_difference": 0.12236493825912476
+    },
+    {
+      "run_id": "neutral__chicago_family_weekly_grocery_chicken_base__ep1",
+      "token_index": 2989,
+      "token_id": 506,
+      "hf_logprob": -3.807353973388672,
+      "vllm_logprob": -3.6850368976593018,
+      "absolute_difference": 0.12231707572937012
+    },
+    {
+      "run_id": "ethical__chicago_family_weekly_grocery_chicken_base__ep1",
+      "token_index": 2685,
+      "token_id": 13,
+      "hf_logprob": -2.737905502319336,
+      "vllm_logprob": -2.6176412105560303,
+      "absolute_difference": 0.12026429176330566
+    },
+    {
+      "run_id": "ethical__chicago_family_weekly_grocery_chicken_base__ep1",
+      "token_index": 2694,
+      "token_id": 2583,
+      "hf_logprob": -4.486194610595703,
+      "vllm_logprob": -4.366879940032959,
+      "absolute_difference": 0.11931467056274414
+    },
+    {
+      "run_id": "neutral__accra_friends_dinner_grasscutter_base__ep1",
+      "token_index": 4080,
+      "token_id": 975,
+      "hf_logprob": -3.9429798126220703,
+      "vllm_logprob": -4.061801910400391,
+      "absolute_difference": 0.11882209777832031
+    },
+    {
+      "run_id": "neutral__chicago_family_weekly_grocery_chicken_base__ep1",
+      "token_index": 3128,
+      "token_id": 2902,
+      "hf_logprob": -3.5542221069335938,
+      "vllm_logprob": -3.6729249954223633,
+      "absolute_difference": 0.11870288848876953
+    },
+    {
+      "run_id": "neutral__chicago_family_weekly_grocery_chicken_base__ep1",
+      "token_index": 2813,
+      "token_id": 471,
+      "hf_logprob": -4.0878448486328125,
+      "vllm_logprob": -3.969877243041992,
+      "absolute_difference": 0.11796760559082031
+    },
+    {
+      "run_id": "neutral__warsaw_wigilia_carp_base__ep1",
+      "token_index": 2786,
+      "token_id": 28206,
+      "hf_logprob": -2.832836151123047,
+      "vllm_logprob": -2.7166056632995605,
+      "absolute_difference": 0.11623048782348633
+    },
+    {
+      "run_id": "neutral__warsaw_wigilia_carp_base__ep1",
+      "token_index": 2775,
+      "token_id": 383,
+      "hf_logprob": -3.7439346313476562,
+      "vllm_logprob": -3.8552134037017822,
+      "absolute_difference": 0.11127877235412598
+    },
+    {
+      "run_id": "ethical__chicago_family_weekly_grocery_chicken_base__ep1",
+      "token_index": 2693,
+      "token_id": 8129,
+      "hf_logprob": -2.2682876586914062,
+      "vllm_logprob": -2.1580915451049805,
+      "absolute_difference": 0.11019611358642578
+    },
+    {
+      "run_id": "neutral__warsaw_wigilia_carp_base__ep1",
+      "token_index": 2808,
+      "token_id": 506,
+      "hf_logprob": -2.2651329040527344,
+      "vllm_logprob": -2.375077962875366,
+      "absolute_difference": 0.10994505882263184
+    },
+    {
+      "run_id": "ethical__accra_friends_dinner_grasscutter_base__ep1",
+      "token_index": 3006,
+      "token_id": 685,
+      "hf_logprob": -3.6523284912109375,
+      "vllm_logprob": -3.7607228755950928,
+      "absolute_difference": 0.10839438438415527
+    },
+    {
+      "run_id": "ethical__accra_friends_dinner_grasscutter_base__ep1",
+      "token_index": 2988,
+      "token_id": 9574,
+      "hf_logprob": -1.380716323852539,
+      "vllm_logprob": -1.4877867698669434,
+      "absolute_difference": 0.1070704460144043
+    },
+    {
+      "run_id": "neutral__warsaw_wigilia_carp_base__ep1",
+      "token_index": 2673,
+      "token_id": 10895,
+      "hf_logprob": -2.3004093170166016,
+      "vllm_logprob": -2.4070801734924316,
+      "absolute_difference": 0.10667085647583008
+    },
+    {
+      "run_id": "ethical__chicago_family_weekly_grocery_chicken_base__ep1",
+      "token_index": 2700,
+      "token_id": 11846,
+      "hf_logprob": -1.5393714904785156,
+      "vllm_logprob": -1.4329257011413574,
+      "absolute_difference": 0.1064457893371582
+    },
+    {
+      "run_id": "neutral__accra_friends_dinner_grasscutter_base__ep1",
+      "token_index": 4017,
+      "token_id": 9574,
+      "hf_logprob": -1.5791263580322266,
+      "vllm_logprob": -1.683174729347229,
+      "absolute_difference": 0.10404837131500244
+    },
+    {
+      "run_id": "ethical__chicago_family_weekly_grocery_chicken_base__ep1",
+      "token_index": 2698,
+      "token_id": 3136,
+      "hf_logprob": -3.1532154083251953,
+      "vllm_logprob": -3.052090644836426,
+      "absolute_difference": 0.10112476348876953
+    },
+    {
+      "run_id": "neutral__accra_friends_dinner_grasscutter_base__ep1",
+      "token_index": 4183,
+      "token_id": 310,
+      "hf_logprob": -1.9007511138916016,
+      "vllm_logprob": -1.9963996410369873,
+      "absolute_difference": 0.09564852714538574
+    },
+    {
+      "run_id": "neutral__accra_friends_dinner_grasscutter_base__ep1",
+      "token_index": 4205,
+      "token_id": 2785,
+      "hf_logprob": -1.2352848052978516,
+      "vllm_logprob": -1.3299944400787354,
+      "absolute_difference": 0.09470963478088379
+    },
+    {
+      "run_id": "neutral__accra_friends_dinner_grasscutter_base__ep1",
+      "token_index": 4052,
+      "token_id": 11,
+      "hf_logprob": -1.2798099517822266,
+      "vllm_logprob": -1.3715462684631348,
+      "absolute_difference": 0.0917363166809082
+    }
+  ]
+}

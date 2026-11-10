@@ -1,0 +1,9 @@
+{
+  "extract_training_v8.py": "161c2b23bf31c61e3335ea2924b83f06900eab02bf1c2c7167ec3b2c9b5b9eea",
+  "training_jobs_draft.json": "95c8232f06b6bdc22e8acddbaa8e211f2d9c23b76881c30c2de82881f0ebf569",
+  "review_release_v8.json": "d12459a341282e57ddca881ca89b1e510f3e80aeef6f01693f61f00cddac3b2d",
+  "delegated_remaining_review.json": "b49e00de10ac2b31af804d3b0b688acae1023eead6324a2c97c59110af1df152",
+  "training_preparation_manifest.json": "e126ba428c3e3119e6d491b15a64e7da2007548d0d0d1554ec6664b873f8a89b",
+  "PROTOCOL_DRAFT.txt": "f075037dd08f78a4283188e0efc60de3df2bc932086705ba2a399112f172ac27",
+  "prepare_model_v8.py": "78525dee75f7a29c4f033d443fb2229aa64bbc0d863bfd420d4bcede63e01ec1"
+}

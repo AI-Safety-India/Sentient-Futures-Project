@@ -1,0 +1,61 @@
+Revised E2 development pilot — frozen before inference, 10 November 2026
+
+Purpose
+Test whether a question-based welfare interaction transfers to a welfare-
+unprompted continuation in a reduced version of the benchmark tool context.
+This is a measurement development experiment. It does not replace the original
+RQ2 results or claim that RQ3 is ready.
+
+Frozen inputs
+core_42_jobs.json SHA256:
+e0c6daa264a2d0e768e9a5260b55d621443b6c23206fb8079b9e0149045a502a
+Seven previously approved relative-concern pairs; six inputs per pair:
+higher/lower concern crossed with neutral continuation/welfare/value question.
+Both questions use the same answer-format instruction. No generated answers
+or fabricated binary final-answer labels are used. Metadata/tags are matched.
+Actual benchmark neutral system prompt, four tool schemas, search/details
+renderers are reused. The history is scripted with one candidate, not a live
+benchmark trajectory. All conditions share a neutral continuation message to
+prevent the tokenizer template from changing earlier assistant wrappers.
+Consequently the primary silent condition is neutral-nudged transfer, not the
+original immediate post-tool benchmark boundary.
+
+Compute and identity
+User confirmed this existing Molab runtime is explicitly free and authorized
+experiment execution there. No new resource, upgrade, paid API, subscription
+or trial is authorized. Qwen/Qwen3.5-9B revision
+c202236235762e1c871ad0ccb60c8ee5ba337b9a; BF16, Transformers SDPA.
+Verify rendered text, token IDs and actual forward input tensor. Save two
+positions at all 32 layers with producer identity and payload hashes.
+Primary: final newline of assistant thinking preamble. Sensitivity: final
+tool-response closing token. No generation or order placement.
+
+Analysis fixed before results
+1. Original E2 L26 and content LR L26 at both positions; E1 L1 historical
+   supplied-polarity baseline. Do not change original weights or flip signs.
+2. For each of seven items, fit the mean E2 interaction on the other six
+   items' welfare/value question states at L26, normalize, and score ONLY
+   the omitted item's neutral-continuation pair. No silent states enter fit.
+3. Report the seven pair shifts/count positive. No cross-fold pooled AUROC,
+   because each held-out item has a different fitted direction. No layer
+   search, test-selected sign, or selection using RQ1/order outcomes.
+4. Verify shared causal reading prefixes and report numerical state drift.
+5. No numeric threshold converts this development pilot into scientific
+   validation. Report unfavourable, zero, and unresolved results as observed.
+
+Limitations and minimum next decision
+Previously inspected examples, artificial matching statements, scoped target
+cues, reduced tool history and a neutral continuation limit generalisation.
+Before an interpretable RQ3, a promising frozen candidate still needs fresh
+reviewed examples, price/rating/position controls, and transfer at the original
+benchmark measurement boundary. Include a content comparison. Only then
+project it onto reusable benchmark activations and join existing RQ1 records.
+RQ3 would intervene on the frozen direction with sign/dose/random-direction
+controls and report choices plus task performance. Neither pilot completion
+nor high example separation proves moral recognition or causal influence.
+
+Original artifacts
+Original RQ1/RQ2 outputs and weights remain untouched. Existing 120 diagnostic
+caches can be rescored; original G3 training arrays were not recovered. Changed
+prompts require new activations. The 1,200 archived benchmark caches remain
+available subject to their documented repairs and provenance limitations.

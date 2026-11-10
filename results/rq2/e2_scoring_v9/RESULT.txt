@@ -1,0 +1,27 @@
+RQ2 local scoring test v9
+
+Completed locally: 192 saved training states and 64 cached development states.
+Zero new model passes, network calls or paid resources. Original files unchanged.
+One frozen regularized scorer; no parameter search. Six whole-item holdouts.
+
+Correctly ordered pairs (out of eight):
+Candidate             Base   Price   Rating   Order    Base AUROC
+original_e2             1       2       1       6       0.4062
+v5                      6       7       6       7       0.6250
+v6                      6       7       6       6       0.6875
+v7_corrected_v6         6       5       5       5       0.6719
+v8                      6       6       6       6       0.6562
+v9                      4       5       3       4       0.5312
+
+Absolute score changes / average base welfare gap:
+Candidate             Price     Rating     Order
+v6: price=1.892, rating=0.228, order=0.776
+v7_corrected_v6: price=0.326, rating=0.259, order=0.983
+v8: price=1.718, rating=0.288, order=1.772
+v9: price=1.906, rating=2.249, order=3.065
+
+Clear development improvement under the frozen descriptive rule: False
+This flag is not original H2, independent validation or automatic RQ3 approval.
+Lower concern does not mean harmless. A factual-reading prompt does not prove absent evaluation.
+No directions, signs or parameters were changed after inspecting this comparison.
+Full metrics and paired gaps: comparison.json. Excluded-item checks: excluded_item_diagnostics.json.

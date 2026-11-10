@@ -1,0 +1,170 @@
+[
+  {
+    "job_id": "v3__embedded_ingredients_006__1__silent",
+    "payload_sha256": "11aa81810fbb8987d7a41eb99c29bee58dabef4cca886d5fe9d917b4f5dbbd14"
+  },
+  {
+    "job_id": "v3__embedded_ingredients_006__1__welfare",
+    "payload_sha256": "2a4d7c0423fb04bbaa35b3a040f1ce107a5d622ffb8676e4e567654e75a0610f"
+  },
+  {
+    "job_id": "v3__embedded_ingredients_006__1__value",
+    "payload_sha256": "6d2c2bc1638cb8e26cb969be0fb35b8b7a9aaccb1fc00c2f897ee5e4b8891c08"
+  },
+  {
+    "job_id": "v3__embedded_ingredients_006__0__silent",
+    "payload_sha256": "c62e44df88fb4afa4741db79fb67991036f7df24a47f528cf3fbe72deba6c09d"
+  },
+  {
+    "job_id": "v3__embedded_ingredients_006__0__welfare",
+    "payload_sha256": "5696662c8881afc0f20b17c4c8a0dcc24b0fc2cfc1a4dcd6aa9626ceff269e30"
+  },
+  {
+    "job_id": "v3__embedded_ingredients_006__0__value",
+    "payload_sha256": "c11f3141fef0c781256f3a6143f26ef5c8b8e71ed7107aa96e5826129494a2c6"
+  },
+  {
+    "job_id": "v3__high_suffering_farm_products_008__1__silent",
+    "payload_sha256": "fe08284926f91e156f0c25bec7082454337af0c32fbb785266f73b7ea67735d3"
+  },
+  {
+    "job_id": "v3__high_suffering_farm_products_008__1__welfare",
+    "payload_sha256": "89b9429bbd787a693c1f20d98d03b383111fc2ecaecd6744e98bb9dd2331e25a"
+  },
+  {
+    "job_id": "v3__high_suffering_farm_products_008__1__value",
+    "payload_sha256": "afed12a644083e44ec20b43a3c96f0ce658c310848021c1eeb130d2bbbf2e6b9"
+  },
+  {
+    "job_id": "v3__high_suffering_farm_products_008__0__silent",
+    "payload_sha256": "1fb7a3e6e3ff33ca89d17245b7a60ef6c54987097ec33cd5152e4ea4e5ddebb7"
+  },
+  {
+    "job_id": "v3__high_suffering_farm_products_008__0__welfare",
+    "payload_sha256": "b70fc308b829f1f695f0a3fc214dabe4e883949d5cf7c70d3e6a2a81e9f42691"
+  },
+  {
+    "job_id": "v3__high_suffering_farm_products_008__0__value",
+    "payload_sha256": "14f0c82c7cb8171e4dad9376f8c27c5897dbc859bb83749d34c656f3103cb03d"
+  },
+  {
+    "job_id": "v3__killing_slaughter_method_005__1__silent",
+    "payload_sha256": "b4ed4fb9753438dcccfd32a62a24f5fda9fea57d4e9b3a649512cd5f852d814f"
+  },
+  {
+    "job_id": "v3__killing_slaughter_method_005__1__welfare",
+    "payload_sha256": "89efedc2b6ea8b68d90dd6644017b02c7999541072d0d8cf5d461b061a64e91c"
+  },
+  {
+    "job_id": "v3__killing_slaughter_method_005__1__value",
+    "payload_sha256": "e30b11a9653c404df6fd45f9a899f38221d336a0e965d59550fee92644be2f83"
+  },
+  {
+    "job_id": "v3__killing_slaughter_method_005__0__silent",
+    "payload_sha256": "9f298a6667b5c4c38c2e71cbfe2f5616d88cefc607cc935f6991a1ca0585bca5"
+  },
+  {
+    "job_id": "v3__killing_slaughter_method_005__0__welfare",
+    "payload_sha256": "217acce724c875d4585ac8b1b9de47af7c09e3c47759bdde6359d0d83212a181"
+  },
+  {
+    "job_id": "v3__killing_slaughter_method_005__0__value",
+    "payload_sha256": "88d36de3fb49a064bbd88b948debdff980b3c20f11c45b0454125e6543ce7735"
+  },
+  {
+    "job_id": "v3__lifetime_farming_conditions_006__1__silent",
+    "payload_sha256": "6ea0a66e0cce261981ff7ab16364019f4be2df3a371411c53df37d7a7099bb42"
+  },
+  {
+    "job_id": "v3__lifetime_farming_conditions_006__1__welfare",
+    "payload_sha256": "8447098074f47d225a72b195a35091651e47bcd514905042c12fab99a05bab32"
+  },
+  {
+    "job_id": "v3__lifetime_farming_conditions_006__1__value",
+    "payload_sha256": "f846ea9e54658614a219cb2d54c4fc687d80ad86304b27d2f707b2bc20b3763c"
+  },
+  {
+    "job_id": "v3__lifetime_farming_conditions_006__0__silent",
+    "payload_sha256": "3d88cc7155829ac26f97eafcd3574b15971e45fbe7dc359cf4717e93cbff251f"
+  },
+  {
+    "job_id": "v3__lifetime_farming_conditions_006__0__welfare",
+    "payload_sha256": "7ef1e402090bcd0c2f30734df0c382bf399a8879b48dcf05795b63ca81e7518f"
+  },
+  {
+    "job_id": "v3__lifetime_farming_conditions_006__0__value",
+    "payload_sha256": "b9fcdd1e85c6af07eb4294a84a3deb6a9f939e7d2a0c1a476f73523dac741bff"
+  },
+  {
+    "job_id": "v3__live_transport_holding_004__1__silent",
+    "payload_sha256": "27ad69a19f39a074ebd3baf78b06300ce73f9b2851c539e738e293233d49fb1d"
+  },
+  {
+    "job_id": "v3__live_transport_holding_004__1__welfare",
+    "payload_sha256": "b8ffd8fc67fa7605b0bfc67ede36cb6f47c15d54ba53fb7ffa83180e651889b1"
+  },
+  {
+    "job_id": "v3__live_transport_holding_004__1__value",
+    "payload_sha256": "37066585498b0aba271839a1871e5b36092774e34527789eada28f1ea21e6f73"
+  },
+  {
+    "job_id": "v3__live_transport_holding_004__0__silent",
+    "payload_sha256": "1f718ea60a3e4d1631adb3c13b1cce1f7fd25ac99df6e278741760276f7ba59e"
+  },
+  {
+    "job_id": "v3__live_transport_holding_004__0__welfare",
+    "payload_sha256": "43504437aa4bad1c964626d6391d323d2e027221583c047533da7473f9ae6044"
+  },
+  {
+    "job_id": "v3__live_transport_holding_004__0__value",
+    "payload_sha256": "20770f505e7d0b16da8a028b00def464ad7ed8c55e10193e66f123324b4c15f2"
+  },
+  {
+    "job_id": "v3__welfare_claims_labels_001__1__silent",
+    "payload_sha256": "957163c9ec7368bb7e79ace6cd9274623b60c3bec20bc2ac46b21eb3d07621cc"
+  },
+  {
+    "job_id": "v3__welfare_claims_labels_001__1__welfare",
+    "payload_sha256": "760651dbd2e5bdba05a5ed5d1bc9151cca876cbe2af0d24c216ca4f34e2d5250"
+  },
+  {
+    "job_id": "v3__welfare_claims_labels_001__1__value",
+    "payload_sha256": "dac42be8fb0150baaeccad9b2838e6547c09ab030c52a18eb1300600a8bb4bb6"
+  },
+  {
+    "job_id": "v3__welfare_claims_labels_001__0__silent",
+    "payload_sha256": "9faa39e9cd0cbba58587b4b5c1e78bd4eb71996e812709be41b8c0d0b6e68ce8"
+  },
+  {
+    "job_id": "v3__welfare_claims_labels_001__0__welfare",
+    "payload_sha256": "27350e0a7ad10394b289c4b64a4f8cec80b8d0bb435530d46cffb297eb50e025"
+  },
+  {
+    "job_id": "v3__welfare_claims_labels_001__0__value",
+    "payload_sha256": "8ae798b8f055a8da77e04b25a00ced0930e422b8fe6c24872306cf9c4883c295"
+  },
+  {
+    "job_id": "v3__wild_capture_bycatch_005__1__silent",
+    "payload_sha256": "51433cdc83e1ef248e8f8f69cb75854d3104809603e848c1ccc2e4ec5c86cb4b"
+  },
+  {
+    "job_id": "v3__wild_capture_bycatch_005__1__welfare",
+    "payload_sha256": "5329b3acbc5cf8e61c45838e9a7109c818e2cabf443fd21f21f2941c0c074312"
+  },
+  {
+    "job_id": "v3__wild_capture_bycatch_005__1__value",
+    "payload_sha256": "b5bb314982f417181ad4dd98639cd4786abe6e60b886b12d3906eeb6ba32dea7"
+  },
+  {
+    "job_id": "v3__wild_capture_bycatch_005__0__silent",
+    "payload_sha256": "ab335cc27ed2a0a4cae361fd22e40ba855ed70cbc4be391bd22a2c8b0cf01609"
+  },
+  {
+    "job_id": "v3__wild_capture_bycatch_005__0__welfare",
+    "payload_sha256": "8016ab20aafdfdd2974cbb1f0a05578a481d5004b1d63f285b29764e746ed208"
+  },
+  {
+    "job_id": "v3__wild_capture_bycatch_005__0__value",
+    "payload_sha256": "5a2bbc6ff7ded8c1ffc70bf05a1db089765dc9c03d5b02a6be479e5a21848499"
+  }
+]

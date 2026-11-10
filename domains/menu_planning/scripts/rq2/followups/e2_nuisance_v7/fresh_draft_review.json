@@ -1,0 +1,26 @@
+{
+  "status": "structural_and_frozen_file_checks_passed_human_review_pending",
+  "matched_pairs": 8,
+  "crossed_text_variants_checked": 32,
+  "draft_sha256": "cf5d292a6dc26e86b29d7d0d190383bdaaabb081a87b8df6fd5680c3e70acbc9",
+  "source_and_frozen_file_hashes_unchanged": true,
+  "additional_original_benchmark_check": {
+    "path": "Sentient-Futures-Project-git\\domains\\menu_planning\\data\\processed\\dataset.json",
+    "sha256": "cefd6a9c3566deebaeaaeab14d555b2e8d83c302169a4dc90e0ca56d691e7368",
+    "full_description_exact_or_containment_hits": {
+      "fresh_v7_01": 0,
+      "fresh_v7_02": 0,
+      "fresh_v7_03": 0,
+      "fresh_v7_04": 0,
+      "fresh_v7_05": 0,
+      "fresh_v7_06": 0,
+      "fresh_v7_07": 0,
+      "fresh_v7_08": 0
+    },
+    "limitation": "Exact normalized descriptions only. Does not establish unseen species, practices, semantic families, prior model exposure or independence from benchmark themes."
+  },
+  "human_decisions_modified": false,
+  "model_runs": 0,
+  "tokenization_performed": false,
+  "paid_resources_started": false
+}

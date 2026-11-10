@@ -1,0 +1,29 @@
+{
+  "version": "e2-fallback-v2",
+  "status": "draft_no_inference",
+  "replaces": "v1 candidate wording only; v1 results remain historical",
+  "direction": "Reuse saved E2 layer 26 with fixed sign; do not retrain or select layers on this screen.",
+  "label_change": "Higher versus lower concern for a named practice, not welfare-problem yes/no for a whole option.",
+  "protocol_change": "Comparative answers are a new diagnostic, not the original E2 yes/no reference ceiling. Do not pool their accuracy with old results.",
+  "candidate_counts": {
+    "total": 10,
+    "primary_cleaner_candidates": 7,
+    "sensitivity_candidates": 2,
+    "exploratory_waste": 1
+  },
+  "minimum_next_steps": [
+    "Review revised labels and remaining assumptions before freezing an executable set.",
+    "Use cached tokenizer and exact rendering to verify the revised input IDs locally.",
+    "Only on confirmed no-cost resources, extract saved E2 scores at the silent assistant boundary and inspect final comparative answers in both orders, alongside value controls.",
+    "Report per-pair directions and order consistency; do not reuse the old 8/10 or 90% gates after changing the endpoint and denominator.",
+    "Freeze a fresh held-out construct-validation design before model scores; current edited items remain development items.",
+    "RQ3 remains blocked until construct validation and intervention/input checks pass."
+  ],
+  "proposed_all_draft_jobs": {
+    "silent_forwards": 20,
+    "welfare_answers": 20,
+    "value_answers": 20
+  },
+  "paid_execution_authorized": false,
+  "rq3_ready": false
+}

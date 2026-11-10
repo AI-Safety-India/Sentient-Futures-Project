@@ -1,0 +1,49 @@
+{
+  "status": "completed_192_pass_development_pilot_not_validated",
+  "new_model_forwards": 192,
+  "repeated_forward_attempts": 0,
+  "generation_calls": 0,
+  "old_development_states_reused": 64,
+  "old_development_pairs": 8,
+  "fresh_validation_model_calls": 0,
+  "paid_resources_started": false,
+  "labels": {
+    "explicit_user_approved": 2,
+    "delegated_agent_reviewed": 4,
+    "qualification": "Lower concern does not mean harmless."
+  },
+  "pair_ordering": {
+    "base": 6,
+    "price": 6,
+    "rating": 6,
+    "order": 6
+  },
+  "auroc": {
+    "base": 0.65625,
+    "price": 0.625,
+    "rating": 0.578125,
+    "order": 0.59375
+  },
+  "mean_base_pair_gap": 0.8854314578917588,
+  "mean_absolute_score_shift": {
+    "price": 1.5211314111170737,
+    "rating": 0.25474393162989917,
+    "order": 1.569210518083059
+  },
+  "comparison_v6_base_auroc": 0.6875,
+  "same_two_reversed_pairs": [
+    "Camel daytime water access",
+    "Goose head immersion and preening"
+  ],
+  "all_descriptive_development_flags": false,
+  "measurement_validated": false,
+  "rq3_ready": false,
+  "conclusion": "Runs succeeded; this redesign did not resolve E2 measurement validity. Stop this pilot as planned, with no sign/layer search or fresh-set rescue.",
+  "scope": "These are eight previously inspected development pairs, not independent validation. This result does not refute RQ1 or prove absence of welfare understanding.",
+  "original_sources_unchanged": true,
+  "frozen_draft_unchanged": true,
+  "local_backup": "All192 primary L26/pos_b vectors, input files, review records, producer ledger, model identity and analysis are saved locally.",
+  "remote_additional_cache": "Full32-layer states at pos_b and pos_a remain on Molab. They are additional data beyond the local primary-vector backup.",
+  "analysis_sha256": "b56fd420d268851174a1d33b9d69b6cc7a2bc30c759f2bafc794db49dc216a7a",
+  "producer_review_sha256": "88c811f0257528ae9c21025c1b21a48dbf40473ae12e4b91f11b291047e6c10f"
+}

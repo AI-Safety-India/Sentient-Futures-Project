@@ -1,0 +1,26 @@
+{
+  "status": "prepared_not_run",
+  "jobs_sha256": "40a901b0244a59da12c8554f3ca019d339f3143c58db4a7cab49ced96c33faf0",
+  "development_only": true,
+  "paid_resources_authorized": false,
+  "expected_new_training_forwards": 48,
+  "exact_cached_development_states": 64,
+  "model_runs": 0,
+  "code_and_input_sha256": {
+    "build_jobs.py": "3e6d0ee9966340847eef9effd70106a8a617c6cf94defe9c1075a019da77cbeb",
+    "extract_training.py": "df5a68a267f84e21810fd1ea6995903bb6e510de0f89f785bbd9affe6b7b798e",
+    "fit_direction.py": "96676c69082c6797e70f77cae211799ad28d3fd7267f2315550637ab0ea50188",
+    "analyze_prepared.py": "e7cebae7f38e402be65cfafa809c6081193c76fee3218b35b6feb69f4cf6f966",
+    "validation_helpers.py": "ef7c66e9d28805c2f7d10505e591194a1f4ede014b1d9abaa48077a8fd48fff7",
+    "candidate_pairs.json": "dc402f38bbc53801cb1d6d35140723a10cf461417463f810315f58b607cc389b",
+    "pair_inventory.json": "736a25fe18382919cb9981d15ade2f2f6a77817aa5fd32a3b4d79bf994ef2604",
+    "design_review.txt": "5beb83b78f0c2e402d8b5f2df1b7740f75edde3640baa572f0c955d8030a9575",
+    "protocol.json": "86af1b7a1f198d57e9e1b0d5bd2fe7c8d76b11caa04887cefe5788e43f82ac11"
+  },
+  "prepared_protocol_sha256": "9f5ea820b4b5758c308affab63f9c4ca007cf92f8d576330995c8666a16a1536",
+  "tests_passed": 17,
+  "runtime_execution_condition": "Use only an explicitly free runtime; validate matching model revision, template, backend and producer inputs before any run.",
+  "original_probe_sha256": "bcd29390210350dd707a37db85b83ce21ab5db2fa55f74ec9fa0b5ab64679749",
+  "fresh_final_holdout_available": false,
+  "rq3_ready": false
+}

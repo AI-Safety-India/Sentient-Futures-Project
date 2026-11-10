@@ -1,0 +1,19 @@
+# Preserve frozen scientific artifacts byte-for-byte for recorded SHA-256 checks.
+# These patterns apply only to the new follow-up bundles, not historical results.
+results/rq2/repair_v1/** -text
+results/rq2/repair_v2/** -text
+results/rq2/validation_v1/** -text
+results/rq2/code_audit_v1/** -text
+results/rq2/e2_fallback_v1/** -text
+results/rq2/e2_fallback_v2/** -text
+results/rq2/e2_pilot_v3/** -text
+results/rq2/e2_benchmark_v4/** -text
+results/rq2/e2_redesign_v5/** -text
+results/rq2/e2_factual_v6/** -text
+results/rq2/e2_nuisance_v7/** -text
+results/rq2/e2_training_design_v8/** -text
+results/rq2/e2_scoring_v9/** -text
+results/rq2/ORIGINAL_PLAN_RECONCILIATION.txt -text
+results/rq2/original_plan_reconciliation.json -text
+docs/report_drafts/rq1_rq2_2026-11-10/** -text
+domains/menu_planning/scripts/rq2/followups/** -text

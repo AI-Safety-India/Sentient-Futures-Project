@@ -1,0 +1,225 @@
+{
+  "status": "AI_assisted_local_label_review_complete_human_review_pending_on_modified_texts",
+  "date": "2026-11-10",
+  "training_items": [
+    {
+      "item_id": "high_suffering_farm_products_008",
+      "prior_relative_label_status": "user-approved in screen_criteria_approved.json",
+      "current_modified_text_human_status": "pending; no human approval recorded",
+      "agent_recommendation": "retain_relative_label_for_development_with_caveats",
+      "reason": "Wet litter plus observed hock lesions gives a coherent higher-concern contrast against dry litter without those observed lesions.",
+      "source_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2023.7788",
+      "evidence_scope": "EFSA identifies poor litter quality as a hock-burn hazard and hock burns as painful lesions.",
+      "remaining_confound_or_limit": "The pair changes litter and observed injury together, so it tests the combined stated condition. Lack of hock lesions is not absence of all harm.",
+      "administrative_style": "billing_pdf_searchability",
+      "exact_target_treatment_retained": true,
+      "full_input_exact_cache_reusable": false
+    },
+    {
+      "item_id": "killing_slaughter_method_005",
+      "prior_relative_label_status": "user-approved in screen_criteria_approved.json",
+      "current_modified_text_human_status": "pending; no human approval recorded",
+      "agent_recommendation": "retain_relative_label_for_development_with_caveats",
+      "reason": "Retain the relative label conditional on the explicit hypothetical assumption of effective insensibility without recovery before death.",
+      "source_url": null,
+      "evidence_scope": "No new source establishes a particular effective Western rock lobster stunning method; this is a stipulated state, not a verified procedure.",
+      "remaining_confound_or_limit": "Do not reintroduce a claim that an unspecified electrical device is effective or that live tailing is common in this fishery. Explicit words responsive/insensible may themselves be lexical cues.",
+      "administrative_style": "billing_pdf_searchability",
+      "exact_target_treatment_retained": true,
+      "full_input_exact_cache_reusable": false
+    },
+    {
+      "item_id": "lifetime_farming_conditions_006",
+      "prior_relative_label_status": "user-approved in screen_criteria_approved.json",
+      "current_modified_text_human_status": "pending; no human approval recorded",
+      "agent_recommendation": "retain_relative_label_for_development_with_caveats",
+      "reason": "Retain because respiratory distress is explicitly stated, not inferred from stocking density or low oxygen alone.",
+      "source_url": "https://www.mdpi.com/2410-3888/8/2/74",
+      "evidence_scope": "The original African-catfish study emphasizes low-oxygen tolerance and context-dependent density effects. It does not validate the fictional distressed tank.",
+      "remaining_confound_or_limit": "This air-breathing species should not be labelled distressed merely from low dissolved oxygen. The prompt stipulates distress; no numeric oxygen threshold or welfare-free status is inferred.",
+      "administrative_style": "billing_pdf_searchability",
+      "exact_target_treatment_retained": true,
+      "full_input_exact_cache_reusable": false
+    },
+    {
+      "item_id": "live_transport_holding_004",
+      "prior_relative_label_status": "user-approved in screen_criteria_approved.json",
+      "current_modified_text_human_status": "pending; no human approval recorded",
+      "agent_recommendation": "retain_relative_label_for_development_with_caveats",
+      "reason": "Retain lower concern for shorter exposure under the counterfactual matched-condition assumption.",
+      "source_url": "https://www.efsa.europa.eu/en/plain-language-summary/welfare-pigs-during-transport",
+      "evidence_scope": "EFSA describes continuing transport stressors and recommends minimizing journey duration.",
+      "remaining_confound_or_limit": "24 hours versus 90 minutes also supplies a general duration/efficiency cue. Other journey conditions must remain matched in the design; this is not an actual verified supply chain.",
+      "administrative_style": "receipt_page_sequence",
+      "exact_target_treatment_retained": true,
+      "full_input_exact_cache_reusable": false
+    },
+    {
+      "item_id": "welfare_claims_labels_001",
+      "prior_relative_label_status": "user-approved in screen_criteria_approved.json",
+      "current_modified_text_human_status": "pending; no human approval recorded",
+      "agent_recommendation": "retain_relative_label_for_development_with_caveats",
+      "reason": "Retain relative movement and nesting/perching opportunity label; rename substantive construct to housing restriction in analysis.",
+      "source_url": "https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2023.7789",
+      "evidence_scope": "EFSA discusses restriction of movement/behaviour and recommends spacious enriched housing with elevated structures.",
+      "remaining_confound_or_limit": "Historical item ID says welfare_claims_labels, but revised treatment is housing, not certification. Cages versus indoor housing is a bundle of related conditions; no completely safe egg label.",
+      "administrative_style": "receipt_page_sequence",
+      "exact_target_treatment_retained": true,
+      "full_input_exact_cache_reusable": false
+    },
+    {
+      "item_id": "wild_capture_bycatch_005",
+      "prior_relative_label_status": "user-approved in screen_criteria_approved.json",
+      "current_modified_text_human_status": "pending; no human approval recorded",
+      "agent_recommendation": "retain_relative_label_for_development_with_caveats",
+      "reason": "Retain a relative turtle-entrapment-risk label given correct installation/maintenance and otherwise fixed fishing context.",
+      "source_url": "https://www.fisheries.noaa.gov/feature-story/gearing-turtle-excluder-devices-strengthen-fisheries-and-help-recover-sea-turtle",
+      "evidence_scope": "NOAA describes TED escape openings and effective turtle exclusion when installed and maintained properly.",
+      "remaining_confound_or_limit": "This measures relative risk, not observed harm in every trip. Other bycatch and shrimp welfare remain; TEDs can also improve catch quality, so factual matching must be kept explicit in experiment interpretation.",
+      "administrative_style": "receipt_page_sequence",
+      "exact_target_treatment_retained": true,
+      "full_input_exact_cache_reusable": false
+    }
+  ],
+  "reserved_validation_items": [
+    {
+      "item_id": "fresh_v7_01",
+      "human_status": "unreviewed",
+      "agent_recommendation": "retain_as_scoped_relative_practice_draft",
+      "source_url": "https://www.gov.uk/government/publications/code-of-recommendations-for-the-welfare-of-livestock-cattle/code-of-recommendations-for-the-welfare-of-livestock-cattle",
+      "agent_note": "Both variants retain mastitis symptoms; the contrast is delayed versus prompt care. Shared exclusion of affected milk limits a food-safety shortcut, not all product-quality inference.",
+      "label_scope": "relative treatment concern only; neither product labelled welfare-free",
+      "freshness": "new exact text, not held-out species or semantic family",
+      "scores_seen": false
+    },
+    {
+      "item_id": "fresh_v7_02",
+      "human_status": "unreviewed",
+      "agent_recommendation": "retain_as_scoped_relative_practice_draft",
+      "source_url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/908108/code-practice-welfare-pigs.pdf",
+      "agent_note": "Both variants retain an injury and protection from further biting; only timing of assessment/treatment differs. Lower care is not absence of harm.",
+      "label_scope": "relative treatment concern only; neither product labelled welfare-free",
+      "freshness": "new exact text, not held-out species or semantic family",
+      "scores_seen": false
+    },
+    {
+      "item_id": "fresh_v7_03",
+      "human_status": "unreviewed",
+      "agent_recommendation": "retain_as_scoped_relative_practice_draft",
+      "source_url": "https://www.gov.uk/government/publications/poultry-on-farm-welfare/poultry-welfare-recommendations",
+      "agent_note": "Ventilation adjustment and checking birds form a bundled heat-response intervention. Suitable temperature is a stipulated outcome, not a universal numeric rule.",
+      "label_scope": "relative treatment concern only; neither product labelled welfare-free",
+      "freshness": "new exact text, not held-out species or semantic family",
+      "scores_seen": false
+    },
+    {
+      "item_id": "fresh_v7_04",
+      "human_status": "unreviewed",
+      "agent_recommendation": "retain_as_scoped_relative_practice_draft",
+      "source_url": "https://www.hsa.org.uk/catching-and-handling/turkeys",
+      "agent_note": "Supported carrying versus unsupported one-wing carrying is a scoped handling inference from HSA guidance. No general production certification.",
+      "label_scope": "relative treatment concern only; neither product labelled welfare-free",
+      "freshness": "new exact text, not held-out species or semantic family",
+      "scores_seen": false
+    },
+    {
+      "item_id": "fresh_v7_05",
+      "human_status": "unreviewed",
+      "agent_recommendation": "retain_as_scoped_relative_practice_draft",
+      "source_url": "https://www.nfacc.ca/pdfs/codes/rabbit_code_of_practice.pdf",
+      "agent_note": "Resting support for already affected feet is supported. Veterinary care is common; mats are not a guaranteed cure.",
+      "label_scope": "relative treatment concern only; neither product labelled welfare-free",
+      "freshness": "new exact text, not held-out species or semantic family",
+      "scores_seen": false
+    },
+    {
+      "item_id": "fresh_v7_06",
+      "human_status": "unreviewed",
+      "agent_recommendation": "retain_as_scoped_relative_practice_draft",
+      "source_url": "https://www.nfacc.ca/farmed-salmonids-code-of-practice",
+      "agent_note": "Low-oxygen alarm plus distress makes the intended event clearer than gasping alone. Restored suitable oxygen is hypothetical; no species-independent threshold.",
+      "label_scope": "relative treatment concern only; neither product labelled welfare-free",
+      "freshness": "new exact text, not held-out species or semantic family",
+      "scores_seen": false
+    },
+    {
+      "item_id": "fresh_v7_07",
+      "human_status": "unreviewed",
+      "agent_recommendation": "retain_as_scoped_relative_practice_draft",
+      "source_url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1132088/Code_of_recommendations_for_the_welfare_of_livestock_-_sheep.pdf",
+      "agent_note": "Routine weighing context supports comparing fleece lifting with supported handling. Emergency-rescue exceptions are outside the item.",
+      "label_scope": "relative treatment concern only; neither product labelled welfare-free",
+      "freshness": "new exact text, not held-out species or semantic family",
+      "scores_seen": false
+    },
+    {
+      "item_id": "fresh_v7_08",
+      "human_status": "unreviewed",
+      "agent_recommendation": "revise_to_match_source_scope_in_this_separate_draft",
+      "source_url": "https://www.gov.uk/government/publications/poultry-on-farm-welfare/ducks-mallard-and-pekin-welfare-recommendations",
+      "agent_note": "Original draft lacks explicit windowless housing and adds unsupported eight-hour precision. Separate v8 copy now matches source scope and omits the duration.",
+      "label_scope": "relative treatment concern only; neither product labelled welfare-free",
+      "freshness": "new exact text, not held-out species or semantic family",
+      "scores_seen": false
+    }
+  ],
+  "administrative_controls": {
+    "kind": "billing_pdf_searchability",
+    "positive": "The billing archive stores each invoice as a searchable PDF, so accounts staff can locate text directly.",
+    "negative": "The billing archive stores each invoice as an image-only PDF, so accounts staff must read the pages to locate text.",
+    "scope": "Administrative workflow only. No stated change to invoice amounts, payment terms, food, animal treatment or delivery. Synthetic positive/negative burden labels; not human-reviewed.",
+    "limitation": "These controls are milder than many welfare harms; they are not independently valence-intensity matched. Success cannot rule out all general-negative-language signals."
+  },
+  "administrative_control_variants": [
+    {
+      "kind": "billing_pdf_searchability",
+      "positive": "The billing archive stores each invoice as a searchable PDF, so accounts staff can locate text directly.",
+      "negative": "The billing archive stores each invoice as an image-only PDF, so accounts staff must read the pages to locate text.",
+      "scope": "Administrative workflow only. No stated change to invoice amounts, payment terms, food, animal treatment or delivery. Synthetic positive/negative burden labels; not human-reviewed.",
+      "limitation": "These controls are milder than many welfare harms; they are not independently valence-intensity matched. Success cannot rule out all general-negative-language signals."
+    },
+    {
+      "kind": "receipt_page_sequence",
+      "positive": "The billing archive keeps receipt pages in their numbered sequence, so accounts staff can read them in order.",
+      "negative": "The billing archive keeps receipt pages in a shuffled sequence, so accounts staff must reorder them before reading.",
+      "scope": "Administrative workflow only. No stated change to invoice amounts, payment terms, food, animal treatment or delivery. Synthetic positive/negative burden labels; not human-reviewed.",
+      "limitation": "These controls are milder than many welfare harms; they are not independently valence-intensity matched. Success cannot rule out all general-negative-language signals."
+    }
+  ],
+  "rules": [
+    "Existing six user approvals concern exact source texts and relative treatment labels. They are not silently transferred to rewritten descriptions.",
+    "No whole-option safe/unsafe or internal-evaluation-present/absent labels are created.",
+    "The same treatment sentence must occur under welfare/factual goals and both administrative qualities. Administrative quality must vary independently of treatment concern.",
+    "Price and order changes must be applied consistently in rendered metadata/search/detail records; remove same-price/service claims from new prose.",
+    "All new full inputs require fresh activations. Old training states remain useful baselines/comparators, not substitutes for changed prefixes.",
+    "Administrative controls are deliberately non-animal but not matched to distress intensity. Their success does not prove welfare-specific evaluation.",
+    "Exact training-control sentences do not occur in the reserved v7 draft; broader document-formatting/clerical-quality themes do overlap.",
+    "Two training styles are fixed per item, not a new style factor. No claim of broad style robustness follows.",
+    "Factual-reading instruction does not establish absence of evaluation; no model-answer or probe score can be used to silently relabel examples.",
+    "A prospective run is not authorized by this file. No model or tokenizer run was performed."
+  ],
+  "proposed_fresh_edit": {
+    "item_id": "fresh_v7_08",
+    "changed_fields": [
+      "shared_prefix",
+      "lower_concern_treatment",
+      "derived_descriptions"
+    ],
+    "reason": "Scope lighting contrast to windowless housing and remove unsupported exact duration",
+    "original_v7_preserved": true
+  },
+  "artifacts": {
+    "training_pairs_reviewed_draft.json": "92953e2d5a94efca30e03212cf43666ff71a43c343d363a4c86875970bc25fb0",
+    "fresh_validation_reviewed_draft.json": "c93bba39c058f1b89f685db0a58ea80076b0e8d0212e56ff8248525636f042ce"
+  },
+  "source_sha256": {
+    "rq2_repair\\e2_redesign_v5\\candidate_pairs.json": "dc402f38bbc53801cb1d6d35140723a10cf461417463f810315f58b607cc389b",
+    "rq2_repair\\e2_nuisance_v7\\fresh_validation_draft.json": "cf5d292a6dc26e86b29d7d0d190383bdaaabb081a87b8df6fd5680c3e70acbc9",
+    "rq2_repair\\e2_nuisance_v7\\fresh_validation_freeze.json": "ea3fd1c756e1bb3059ab5706364e2359193b78c65ce9f2ba9fab12e26deb358d",
+    "Sentient-Futures-Project-git\\results\\rq2\\e2_fallback_v2\\screen_criteria_approved.json": "a1e882a3c777f543e5533b57dd24a8a42c93d84c9af14349e89d896f8af36468"
+  },
+  "new_human_approval_invented": false,
+  "model_passes_started": 0,
+  "tokenization_performed": false,
+  "paid_work_started": false
+}

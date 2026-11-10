@@ -1,0 +1,87 @@
+Original E2 at the benchmark boundary — completed 10 November 2026
+
+Outcome
+The original E2 fails this prospective fresh-example screen. It does not yet
+provide a reliable welfare-evaluation measurement for confirmatory RQ3.
+Original weights, prior RQ1/RQ2 results and original source files were preserved.
+The historical classification results still describe their original datasets.
+This follow-up tests transfer to controlled new examples at the benchmark's
+measurement boundary. Failure here does not show that the model lacks welfare
+evaluation, or negate RQ1's behavioural/verbalisation findings.
+
+Completed
+78 forward passes on the user's existing explicitly free Molab runtime:
+64 fresh checks =8 pairs x2 concern variants x4 contexts;14 prior-example bridge
+checks. No generated answers, orders, probe fitting, layer search or sign flip.
+Primary: original E2 layer26, pos_b (final newline after assistant <think>,
+immediately after tool results). Secondary: target option's closing tool token,
+pos_a. Both positions saved from each pass; all32 layers preserved remotely.
+78 input/cache identities and156 saved positions verified. Independent audit
+re-rendered/tokenized all78, verified labels/positions/layer/sign and controls.
+
+Original E2 results at primary benchmark position
+                              Correct paired order       AUROC
+Fresh baseline                1/8                        0.406
+Double target price           2/8                        0.422
+Raise target rating           1/8                        0.391
+Reverse two tool responses    6/8                        0.641
+Previous examples, no nudge    5/7                        0.673
+
+The prospective baseline screen required at least7/8 positive pair shifts.
+This was a rule frozen for this follow-up, not a revision of the original
+research preregistration. The primary and all control robustness flags fail.
+No secondary position or favourable order is used to rescue that result.
+At pos_a, original E2 baseline gives3/8, AUROC0.469.
+
+Paired order compares each higher-concern description against its own lower-
+concern counterpart. AUROC compares every higher score against every lower
+score, so the two statistics need not move together. AUROC0.5 is chance ranking.
+These small, synthetic datasets do not establish a population-wide accuracy.
+
+Matched-control effects
+Base mean E2 higher-minus-lower shift: -0.0704.
+Mean absolute score changes caused by nuisance manipulation alone:
+price0.2651; rating0.1180; order0.5914. These are within-probe score units,
+not calibrated probabilities. Control manipulations are repeated measurements,
+not additional independent examples. Reordering puts the target last instead
+of first. This contextual sensitivity is material to using batch-level pos_b
+as an option-welfare readout.
+
+Comparison and novelty checks
+Original content LR at the same layer and primary position:5/8, AUROC0.563.
+At target-specific pos_a it gives8/8, AUROC0.656. This is a comparison, not
+proof of what either feature psychologically represents.
+All eight descriptions were newly authored and score-unseen at freezing.
+Seven species-product combinations were absent from the audited local corpus;
+reindeer overlaps earlier deer/venison material. The predeclared exclusion of
+reindeer leaves E2 at1/7, AUROC0.449. Thus this novelty concern does not explain
+the poor direction of the result. No family/species-level independence claim
+is made. Both variants remain animal products; labels concern one practice.
+
+Evidence limits
+Labels are source-supported and independently agent-reviewed, not independently
+human-annotated. Supplier records are synthetic. The benchmark system prompt,
+tools, renderers and token boundary are reused, but histories are scripted
+and reduced, not the full original logged trajectories. General sentiment,
+supplier quality and wording remain possible alternative explanations.
+Completion of technical checks does not validate a psychological construct.
+
+Decision before RQ3
+Do not describe an intervention along this E2 direction as established steering
+of welfare evaluation. Do not flip its sign, choose the favourable ordering,
+or replace original results after seeing these scores. Repeating all1200
+benchmark runs is not indicated by this result.
+For a strong mechanistic RQ3, the next research step is a revised measurement
+that transfers in the benchmark context and survives matched controls. Freeze
+and validate that measurement before a confirmatory intervention experiment.
+An intervention using the current direction would be exploratory candidate-
+feature steering, with its limited interpretation stated explicitly.
+
+Artifacts and spending
+Local: jobs.json, frozen manifests, benchmark_validation.json, selected scoring
+layers, evidence/review files and local_reproduction.json.
+Remote full caches: /marimo/e2_benchmark_v4/activations/
+Remote full archive: /marimo/e2_benchmark_v4/full_v4_results.zip (31,815,470 bytes)
+All compute used the already confirmed-free runtime. No paid product, upgrade,
+subscription, API or trial was started. No further model runs were launched
+after observing these results.

@@ -1,0 +1,14 @@
+{
+  "state": "complete",
+  "completed": 42,
+  "total": 42,
+  "generation_calls": 0,
+  "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "backend_versions": {
+    "torch": "2.11.0",
+    "transformers": "5.14.1",
+    "numpy": "2.4.6",
+    "model_dtype": "bfloat16",
+    "attention": "sdpa"
+  }
+}
